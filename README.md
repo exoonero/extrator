@@ -9,17 +9,14 @@ sudo docker pull apache/tika:1.28.4
 ### Executando 
 
 ```sh
-<<<<<<< HEAD
 # Set up do dockerfile do querido diário (versão 1.24.1)
     #sudo docker build -t tika -f Dockerfile_apache_tika .
     #sudo docker run -d -p -p 9998:9998 --rm --name tika tika
 
 # Rodar imagem mais recente do apache/tika
 sudo docker run -d -p 9998:9998 --rm --name tika apache/tika:1.28.4
-=======
 sudo docker build -t tika -f Dockerfile_apache_tika .
 sudo docker run -d -p 9998:9998 --rm --name tika tika
->>>>>>> dbdbcf9734a853b5d982410867af426a4d02d605
 ```
 
 ### Contêiner logs
