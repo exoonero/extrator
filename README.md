@@ -33,11 +33,9 @@ docker exec -it tika bash
 ### Invocando Tika Manualmente
 
 ```sh
-<<<<<<< HEAD
 curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika
 =======
 curl -H "Content-Type: application/pdf" -X PUT -d @diario-completo-2022-08-29.pdf http://localhost:9998/tika
->>>>>>> dbdbcf9734a853b5d982410867af426a4d02d605
 ```
 ### Parando Contêiner
 
