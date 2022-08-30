@@ -6,7 +6,7 @@
 
 ```sh
 sudo docker build -t tika -f Dockerfile_apache_tika .
-sudo docker run -d -p -p 9998:9998 --rm --name tika tika
+sudo docker run -d -p 9998:9998 --rm --name tika tika
 ```
 
 ### Contêiner logs
@@ -24,9 +24,10 @@ docker exec -it tika bash
 
 ```sh
 curl -H "Content-Type: application/pdf" -X PUT -d @diario-completo-2022-08-29.pdf http://localhost:9998/tika
-
+```
 ### Parando Contêiner
 
-```sh
+```
+sh
 sudo docker stop tika
 ```
