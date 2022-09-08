@@ -1,0 +1,25 @@
+----GABARITO---- (GABARITO DO PDF EDITADO COM APENAS UM MUNICÍPIO)
+
+COMO SERIA UMA CONVERSÃO PERFEITA?
+
+Do conteúdo do texto:
+Uma conversão perfeita teria que conter todos os elementos de texto do pdf e seguindo a ordem organizada de leitura. 
+Iniciando a partir do cabeçalho da página (onde contém informações sobre a data do diário). E seguindo com a coluna da esquerda de cima e indo para baixo. 
+E logo após a coluna da direita de cima e indo para baixo. (Todos os textos nesse caminho sendo convertidos). 
+
+De detalhes e especificidades:
+- Os links do site do ama que constam no final de cada página devem ser mantidos.
+
+- Este pdf em específico começa com:
+"Expediente:
+Associação dos Municípios Alagoanos -AMA
+DIRETORIA EXECUTIVA"
+
+- Este pdf em específico termina com 
+"JOSÉ CELINO RIBEIRO DE LIMA
+Prefeito
+Publicado por:
+Lucas Gabriel Vieira Almeida Rocha
+Código Identificador:3AE50C8E"
+
+- Deve conter também os títulos dos blocos, que levam o nome de seus assuntos ou de municípios.
