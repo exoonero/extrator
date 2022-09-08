@@ -8,6 +8,11 @@ Iniciando a partir do cabeçalho da página (onde contém informações sobre a 
 E logo após a coluna da direita de cima e indo para baixo. (Todos os textos nesse caminho sendo convertidos). 
 
 De detalhes e especificidades:
+
+- OS ACENTOS DEVEM SER MANTIDOS!
+
+- Uma conversão perfeita converteria seria com somente o texto, sem tags HTML.
+
 - Os links do site do ama que constam no final de cada página devem ser mantidos.
 
 - Este pdf em específico começa com:
