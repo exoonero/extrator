@@ -35,14 +35,14 @@ sudo docker stop tika
 ```
 ### Extrair texto do pdf e o salvando em um arquivo txt e html
 ```sh
-#Com o apache tika rodando e estando dentro da pasta "extrair-para-arquivo":
+#Com o apache tika rodando
 #Para txt:
 (Está com o problema de o texto ser extraído juntamente de tags html)
-curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika -o index.txt 
+curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika -o diario-completo-2022-08-29-convertido.txt 
 
 #Para html:
 
-curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika -o index.html
+curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika -o diario-completo-2022-08-29-convertido.html
 ```
 
 ### Comandos
