@@ -2,13 +2,9 @@
     
     <head>
         
-        <meta name="date" content="2022-09-09T20:01:04Z"/>
+        <meta name="pdf:PDFVersion" content="1.6"/>
         
-        <meta name="pdf:PDFVersion" content="1.7"/>
-        
-        <meta name="pdf:docinfo:title" content="diario-completo-2022-08-29.cdr"/>
-        
-        <meta name="xmp:CreatorTool" content="CorelDRAW 2022"/>
+        <meta name="xmp:CreatorTool" content="Draw"/>
         
         <meta name="pdf:hasXFA" content="false"/>
         
@@ -16,53 +12,27 @@
         
         <meta name="access_permission:can_print_degraded" content="true"/>
         
-        <meta name="dc:creator" content="Vagner"/>
+        <meta name="dcterms:created" content="2022-09-05T18:54:09Z"/>
         
-        <meta name="dcterms:created" content="2022-09-09T20:01:04Z"/>
+        <meta name="dc:format" content="application/pdf; version=1.6"/>
         
-        <meta name="Last-Modified" content="2022-09-09T20:01:04Z"/>
-        
-        <meta name="dcterms:modified" content="2022-09-09T20:01:04Z"/>
-        
-        <meta name="dc:format" content="application/pdf; version=1.7"/>
-        
-        <meta name="dc:format" content="application/pdf; version=&quot;1.7 Adobe Extension Level 3&quot;"/>
-        
-        <meta name="Last-Save-Date" content="2022-09-09T20:01:04Z"/>
-        
-        <meta name="pdf:docinfo:creator_tool" content="CorelDRAW 2022"/>
+        <meta name="pdf:docinfo:creator_tool" content="Draw"/>
         
         <meta name="access_permission:fill_in_form" content="true"/>
         
-        <meta name="pdf:docinfo:modified" content="2022-09-09T20:01:04Z"/>
-        
-        <meta name="meta:save-date" content="2022-09-09T20:01:04Z"/>
-        
         <meta name="pdf:encrypted" content="false"/>
-        
-        <meta name="dc:title" content="diario-completo-2022-08-29.cdr"/>
-        
-        <meta name="modified" content="2022-09-09T20:01:04Z"/>
         
         <meta name="pdf:hasMarkedContent" content="false"/>
         
         <meta name="Content-Type" content="application/pdf"/>
         
-        <meta name="pdf:docinfo:creator" content="Vagner"/>
-        
         <meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser"/>
         
         <meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser"/>
         
-        <meta name="creator" content="Vagner"/>
+        <meta name="meta:creation-date" content="2022-09-05T18:54:09Z"/>
         
-        <meta name="meta:author" content="Vagner"/>
-        
-        <meta name="meta:creation-date" content="2022-09-09T20:01:04Z"/>
-        
-        <meta name="created" content="2022-09-09T20:01:04Z"/>
-        
-        <meta name="pdf:PDFExtensionVersion" content="1.7 Adobe Extension Level 3"/>
+        <meta name="created" content="2022-09-05T18:54:09Z"/>
         
         <meta name="access_permission:extract_for_accessibility" content="true"/>
         
@@ -70,7 +40,7 @@
         
         <meta name="xmpTPg:NPages" content="2"/>
         
-        <meta name="Creation-Date" content="2022-09-09T20:01:04Z"/>
+        <meta name="Creation-Date" content="2022-09-05T18:54:09Z"/>
         
         <meta name="pdf:hasXMP" content="false"/>
         
@@ -78,17 +48,15 @@
         
         <meta name="access_permission:can_print" content="true"/>
         
-        <meta name="Author" content="Vagner"/>
-        
-        <meta name="producer" content="Corel PDF Engine Version 24.1.0.360"/>
+        <meta name="producer" content="LibreOffice 7.2"/>
         
         <meta name="access_permission:can_modify" content="true"/>
         
-        <meta name="pdf:docinfo:producer" content="Corel PDF Engine Version 24.1.0.360"/>
+        <meta name="pdf:docinfo:producer" content="LibreOffice 7.2"/>
         
-        <meta name="pdf:docinfo:created" content="2022-09-09T20:01:04Z"/>
+        <meta name="pdf:docinfo:created" content="2022-09-05T18:54:09Z"/>
         
-        <title>diario-completo-2022-08-29.cdr</title>
+        <title>&#0;</title>
         
     </head>
     
@@ -107,6 +75,59 @@
             
             <p>www.diariomunicipal.com.br/ama                                                                                1 
  
+</p>
+            
+            <p>Expediente: 
+Associação dos Municípios Alagoanos -AMA 
+</p>
+            
+            <p> 
+DIRETORIA EXECUTIVA 
+  
+Presidente: Hugo Wanderley Cajú - Cacimbinhas 
+Vice-presidente: Fernando Sérgio Lira Neto - Maragogi 
+ 
+Secretário Geral: Angela Vanessa Rocha Pereira Bezerra - São José da 
+Laje 
+ 
+1º Secretário: Júlio Cezar da Silva - Palmeira dos Índios 
+2º Secretário: Amaro Ferreira da Silva Junior - Jacuípe 
+3º Secretário: Geraldo Cícero da Silva - Taquarana 
+1º Tesoureiro: Pedro Henrique de Jesus Pereira - Teotônio Vilela 
+2º Tesoureiro: Jorge Silvio Luengo Galvão - Jundiá 
+3º  Tesoureiro:  José  Luiz  Vasconcellos  dos  Anjos  -  Olho  D’água  das 
+Flores 
+</p>
+            
+            <p>CONSELHO FISCAL 
+ 
+Titular: 
+Vinícius José Mariano de Lima - Canapi 
+André Brandão de Almeida – Mar Vermelho 
+Olavo Calheiros Novais Neto - Murici 
+ 
+Suplente: 
+  
+Manuilson Andrade Santos – Colônia Leopoldina 
+Marcelo Ricardo Vasconcelos Lima - Quebrangulo 
+Adelmo Moreira Calheiros – Capela 
+ 
+COORDENADORIAS REGIONAIS 
+ 
+Coordenador da Região Agreste - Baixo São Francisco: Manuel Lucas 
+Kummer Feitas dos Santos 
+Coordenador da Região do Sertão – Theobaldo Cavalcanti Lins Netto 
+Coordenador da Região Central – João Victor Calheiros Amorim 
+Santos 
+Coordenador da Região Norte: Areski Damara de Omena Feitas Junior 
+Coordenador da Região Metropolitana – Cecília Lima Herrmann Rocha 
+Coordenador Litoral Norte – Fernando Henrique Lima Cavalcante 
+Coordenador Litoral Sul – Carlos Felipe Castro Jatobá Lins 
+ 
+</p>
+            
+            <p>O Diário Oficial dos Municípios do Estado de Alagoas é uma solução voltada à 
+modernização e transparência da gestão municipal. 
 </p>
             
             <p> 
@@ -156,14 +177,14 @@ Lucas Gabriel Vieira Almeida Rocha
 </p>
             
             <p>Código Identificador:8D821A99 
+ 
+</p>
+            
+            <p>SECRETARIA MUNICIPAL DE EDUCAÇÃO 
+AVISO DE LICITAÇÃO 
 </p>
             
             <p> 
-SECRETARIA MUNICIPAL DE EDUCAÇÃO 
-</p>
-            
-            <p>AVISO DE LICITAÇÃO 
- 
 AVISO DE LICITAÇÃO 
 PREGÃO ELETRÔNICO N° 24/2022 
 PARA REGISTRO DE PREÇOS 
@@ -192,10 +213,10 @@ Lucas Gabriel Vieira Almeida Rocha
 </p>
             
             <p>Código Identificador:9AB247D4 
+ 
 </p>
             
-            <p> 
-SECRETARIA MUNICIPAL DE VIAÇÃO E OBRAS 
+            <p>SECRETARIA MUNICIPAL DE VIAÇÃO E OBRAS 
 TERMO DE HOMOLOGAÇÃO E ADJUDICAÇÃO 
 </p>
             
@@ -231,9 +252,7 @@ presente, autorizo a lavratura do contrato e notifico o Licitante </p>
             <p/>
             
             <p>Alagoas , 29 de Agosto de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1869 
-</p>
-            
-            <p> 
+ 
 </p>
             
             <p>www.diariomunicipal.com.br/ama                                                                                2 
@@ -257,9 +276,7 @@ Lucas Gabriel Vieira Almeida Rocha
 </p>
             
             <p>Código Identificador:3AE50C8E 
-</p>
-            
-            <p> 
+ 
 </p>
             
             <p> 
