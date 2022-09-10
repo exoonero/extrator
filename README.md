@@ -45,6 +45,21 @@ curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf htt
 curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika -o diario-completo-2022-08-29-convertido.html
 ```
 
+
+# Remover as tags HTML do diario
+
+```sh
+instalar o pacote BeautifulSoup para poder extrair as tags do texto:
+
+$ apt-get install python3-bs4 
+
+ou 
+
+$ pip install beautifulsoup4
+
+o código necessário para extrair as tags html está presente no arquivo post_proc.py
+```
+
 ### Comandos
 ```sh
 # docker build - constrói uma imagem docker
