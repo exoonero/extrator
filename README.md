@@ -71,3 +71,9 @@ python post_proc.py
 # docker pull - baixa uma imagem já existente
 # docker run - roda uma imagem
 ```
+
+### Como montamos o gabarito
+
+- Remover preâmbulo (parte em azul no diário)
+- O cabeçalho (que contém a data e o nome da AMA) vir no início de cada extração de município **uma vez** -- deve ser repetido para cada município
+- Vamos deixar `www.diariomunicipal.com.br/ama #PAGINA` como separador/marcador de página
