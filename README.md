@@ -74,6 +74,8 @@ python post_proc.py
 
 ### Como montamos o gabarito
 
+- Remover linhas em branco até o cabeçalho
 - Remover preâmbulo (parte em azul no diário)
 - O cabeçalho (que contém a data e o nome da AMA) vir no início de cada extração de município **uma vez** -- deve ser repetido para cada município
-- Vamos deixar `www.diariomunicipal.com.br/ama #PAGINA` como separador/marcador de página
+- Vamos deixar `www.diariomunicipal.com.br/ama` repetir como separador/marcador de página (só não tocar nele, já está certinho)
+- Remover tudo depois do último código identificador
