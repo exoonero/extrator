@@ -1,87 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
-    
-    <head>
-        
-        <meta name="pdf:PDFVersion" content="1.6"/>
-        
-        <meta name="xmp:CreatorTool" content="Draw"/>
-        
-        <meta name="pdf:hasXFA" content="false"/>
-        
-        <meta name="access_permission:modify_annotations" content="true"/>
-        
-        <meta name="access_permission:can_print_degraded" content="true"/>
-        
-        <meta name="dcterms:created" content="2022-09-05T18:54:09Z"/>
-        
-        <meta name="dc:format" content="application/pdf; version=1.6"/>
-        
-        <meta name="pdf:docinfo:creator_tool" content="Draw"/>
-        
-        <meta name="access_permission:fill_in_form" content="true"/>
-        
-        <meta name="pdf:encrypted" content="false"/>
-        
-        <meta name="pdf:hasMarkedContent" content="false"/>
-        
-        <meta name="Content-Type" content="application/pdf"/>
-        
-        <meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser"/>
-        
-        <meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser"/>
-        
-        <meta name="meta:creation-date" content="2022-09-05T18:54:09Z"/>
-        
-        <meta name="created" content="2022-09-05T18:54:09Z"/>
-        
-        <meta name="access_permission:extract_for_accessibility" content="true"/>
-        
-        <meta name="access_permission:assemble_document" content="true"/>
-        
-        <meta name="xmpTPg:NPages" content="2"/>
-        
-        <meta name="Creation-Date" content="2022-09-05T18:54:09Z"/>
-        
-        <meta name="pdf:hasXMP" content="false"/>
-        
-        <meta name="access_permission:extract_content" content="true"/>
-        
-        <meta name="access_permission:can_print" content="true"/>
-        
-        <meta name="producer" content="LibreOffice 7.2"/>
-        
-        <meta name="access_permission:can_modify" content="true"/>
-        
-        <meta name="pdf:docinfo:producer" content="LibreOffice 7.2"/>
-        
-        <meta name="pdf:docinfo:created" content="2022-09-05T18:54:09Z"/>
-        
-        <title>&#0;</title>
-        
-    </head>
-    
-    <body>
-        <div class="page">
-            <p/>
-            
-            <p> 
+
  
  
-</p>
-            
-            <p>Alagoas , 29 de Agosto de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1869 
  
-</p>
-            
-            <p>www.diariomunicipal.com.br/ama                                                                                1 
+
+Alagoas , 29 de Agosto de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1869 
  
-</p>
-            
-            <p>Expediente: 
+
+www.diariomunicipal.com.br/ama                                                                                1 
+ 
+
+Expediente: 
 Associação dos Municípios Alagoanos -AMA 
-</p>
-            
-            <p> 
+
+ 
 DIRETORIA EXECUTIVA 
   
 Presidente: Hugo Wanderley Cajú - Cacimbinhas 
@@ -97,9 +28,8 @@ Laje
 2º Tesoureiro: Jorge Silvio Luengo Galvão - Jundiá 
 3º  Tesoureiro:  José  Luiz  Vasconcellos  dos  Anjos  -  Olho  D’água  das 
 Flores 
-</p>
-            
-            <p>CONSELHO FISCAL 
+
+CONSELHO FISCAL 
  
 Titular: 
 Vinícius José Mariano de Lima - Canapi 
@@ -124,28 +54,22 @@ Coordenador da Região Metropolitana – Cecília Lima Herrmann Rocha
 Coordenador Litoral Norte – Fernando Henrique Lima Cavalcante 
 Coordenador Litoral Sul – Carlos Felipe Castro Jatobá Lins 
  
-</p>
-            
-            <p>O Diário Oficial dos Municípios do Estado de Alagoas é uma solução voltada à 
+
+O Diário Oficial dos Municípios do Estado de Alagoas é uma solução voltada à 
 modernização e transparência da gestão municipal. 
-</p>
-            
-            <p> 
-</p>
-            
-            <p>ESTADO DE ALAGOAS 
+
+ 
+
+ESTADO DE ALAGOAS 
 PREFEITURA MUNICIPAL DE ANADIA 
-</p>
-            
-            <p> 
+
+ 
 SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO E 
-</p>
-            
-            <p>PLANEJAMENTO 
+
+PLANEJAMENTO 
 AVISO DE LICITAÇÃO 
-</p>
-            
-            <p> 
+
+ 
 AVISO DE LICITAÇÃO 
 PREGÃO ELETRÔNICO N° 23/2022 
 PARA REGISTRO DE PREÇOS 
@@ -160,9 +84,8 @@ ABERTURA:  09  de  SETEMBRO  de  2022,  às  10:00  h  (horário
 local). 
 INFORMAÇÕES:  informações  disponíveis  no  gabinete  municipal, 
 localizada na Rua Moreira Lima, 13, Centro, Anadia – AL, de 
-</p>
-            
-            <p>segunda a sexta das 9h às 14h. E-mail: cpl.anadia@gmail.com, edital 
+
+segunda a sexta das 9h às 14h. E-mail: cpl.anadia@gmail.com, edital 
 disponível no site: http://www.anadia.al.gov.br/lai/32/Edital-de-
 Licitacao ou http://bnccompras.cloudapp.net/#/Home 
   
@@ -170,21 +93,17 @@ Anadia/AL, 26 de AGOSTO de 2022
   
 REGINALDO DA CRUZ VASCONCELOS 
 Pregoeiro  
-</p>
-            
-            <p>Publicado por: 
+
+Publicado por: 
 Lucas Gabriel Vieira Almeida Rocha 
-</p>
-            
-            <p>Código Identificador:8D821A99 
+
+Código Identificador:8D821A99 
  
-</p>
-            
-            <p>SECRETARIA MUNICIPAL DE EDUCAÇÃO 
+
+SECRETARIA MUNICIPAL DE EDUCAÇÃO 
 AVISO DE LICITAÇÃO 
-</p>
-            
-            <p> 
+
+ 
 AVISO DE LICITAÇÃO 
 PREGÃO ELETRÔNICO N° 24/2022 
 PARA REGISTRO DE PREÇOS 
@@ -206,21 +125,17 @@ Anadia/AL, 26 de AGOSTO de 2022
   
 REGINALDO DA CRUZ VASCONCELOS 
 Pregoeiro  
-</p>
-            
-            <p>Publicado por: 
+
+Publicado por: 
 Lucas Gabriel Vieira Almeida Rocha 
-</p>
-            
-            <p>Código Identificador:9AB247D4 
+
+Código Identificador:9AB247D4 
  
-</p>
-            
-            <p>SECRETARIA MUNICIPAL DE VIAÇÃO E OBRAS 
+
+SECRETARIA MUNICIPAL DE VIAÇÃO E OBRAS 
 TERMO DE HOMOLOGAÇÃO E ADJUDICAÇÃO 
-</p>
-            
-            <p> 
+
+ 
 TERMO DE HOMOLOGAÇÃO E ADJUDICAÇÃO 
 TOMADA DE PREÇOS 04/2022  
   
@@ -242,24 +157,17 @@ objeto Execução das Obras de Construção do Muro e Ampliação do
 Galpão  do  Centro  de  Referência  de  Assistência  Social  -  CRAS,  em 
 Anadia/AL, que constituem parte desta Tomada de Preços, regido pela 
 Lei  Federal  nº  8.666/93  e  pelas  disposições  contidas  no  edital. Pelo 
-presente, autorizo a lavratura do contrato e notifico o Licitante </p>
-            
-            <p/>
-            
-        </div>
-        
-        <div class="page">
-            <p/>
-            
-            <p>Alagoas , 29 de Agosto de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1869 
+presente, autorizo a lavratura do contrato e notifico o Licitante 
+
+
+
+Alagoas , 29 de Agosto de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1869 
  
-</p>
-            
-            <p>www.diariomunicipal.com.br/ama                                                                                2 
+
+www.diariomunicipal.com.br/ama                                                                                2 
  
-</p>
-            
-            <p>Adjudicado  sobre  o  prazo  máximo  de  05  (cinco)  dias  úteis  para  a 
+
+Adjudicado  sobre  o  prazo  máximo  de  05  (cinco)  dias  úteis  para  a 
 assinatura do mesmo. 
   
 À Comissão Permanente de Licitação para as providências 
@@ -269,54 +177,33 @@ Anadia, 26 de Agosto de 2022
   
 JOSÉ CELINO RIBEIRO DE LIMA 
 Prefeito  
-</p>
-            
-            <p>Publicado por: 
+
+Publicado por: 
 Lucas Gabriel Vieira Almeida Rocha 
-</p>
-            
-            <p>Código Identificador:3AE50C8E 
+
+Código Identificador:3AE50C8E 
  
-</p>
-            
-            <p> 
-</p>
-            
-            <p> 
-</p>
-            
-            <p>  
-</p>
-            
-            <p>  
-</p>
-            
-            <p>  
-</p>
-            
-            <p> 
-</p>
-            
-            <p>  
-</p>
-            
-            <p>  
-</p>
-            
-            <p> 
-  </p>
-            
-            <p/>
-            
-        </div>
-        
-        <ul>
-            	
-            <li>Page 1</li>
-            	
-            <li>Page 2</li>
-            
-        </ul>
-        
-    </body>
-</html>
+
+ 
+
+ 
+
+  
+
+  
+
+  
+
+ 
+
+  
+
+  
+
+ 
+  
+
+
+	Page 1
+	Page 2
+
