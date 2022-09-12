@@ -26,7 +26,7 @@ docker exec -it tika bash
 ### Invocando Tika Manualmente
 
 ```sh
-curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika
+curl -v -H "Accept: text/plain" -H "Content-Type: application/pdf" -T diario-anadia-2022-08-29.pdf http://localhost:9998/tika
 ```
 ### Parando Contêiner
 
@@ -37,12 +37,12 @@ sudo docker stop tika
 ```sh
 #Com o apache tika rodando
 #Para txt:
-(Está com o problema de o texto ser extraído juntamente de tags html)
-curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika -o diario-completo-2022-08-29-convertido.txt 
+
+curl -v -H "Accept: text/plain" -H "Content-Type: application/pdf" -T diario-anadia-2022-08-29.pdf http://localhost:9998/tika -o diario-anadia-2022-08-29-extraido.txt 
 
 #Para html:
 
-curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf http://localhost:9998/tika -o diario-completo-2022-08-29-convertido.html
+curl -v -H "Accept: text/html" -H "Content-Type: application/pdf" -T diario-anadia-2022-08-29.pdf http://localhost:9998/tika -o diario-anadia-2022-08-29-extraido.html
 ```
 
 
