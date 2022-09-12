@@ -48,16 +48,21 @@ curl -v -H "Content-Type: application/pdf" -T diario-completo-2022-08-29.pdf htt
 
 # Remover as tags HTML do diario
 
+Primeiramente é necessário instalar o pacote [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) para poder extrair as tags do texto:
+
 ```sh
-instalar o pacote BeautifulSoup para poder extrair as tags do texto:
-
 $ apt-get install python3-bs4 
-
+```
 ou 
 
+```sh
 $ pip install beautifulsoup4
+```
 
-o código necessário para extrair as tags html está presente no arquivo post_proc.py
+o código necessário para extrair as tags html está presente no arquivo post_proc.py. Para executá-lo, basta rodar:
+
+```sh
+python post_proc.py
 ```
 
 ### Comandos
