@@ -1,4 +1,4 @@
-# Pra remover os espaços em branco, lstript
+# Pra remover os espaços em branco no início, lstrip
 
 in_file = open("diario-anadia-2022-08-29-extraido.txt", "r")
 out_file_text = in_file.read().lstrip()
