@@ -11,7 +11,17 @@ def find_initial_id():
         if "Expediente" in line:
             initial_id = index
 
-    return initial_id             
+    return initial_id        
+
+#Acha o índice da última palavra do preâmbulo
+def find_last_id():
+    last_id = 0
+
+    for index, line in enumerate(in_text):
+        if "gestão municipal" in line:
+            last_id = index
+
+    return last_id        
 
 def generate_text():
     final_text = ""
@@ -31,6 +41,6 @@ def create_file(final_text):
     out_file.close()
 
 #chamadas
-delete_lines(find_initial_id(), 53)
+delete_lines(find_initial_id(), find_last_id())
 create_file(generate_text())
 print(generate_text().splitlines())
