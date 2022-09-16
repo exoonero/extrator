@@ -19,7 +19,6 @@ def create_file(final_text):
     out_file = open("diario-anadia-2022-08-29-proc.txt", "w")
     out_file.write(final_text)
     out_file.close()
-
 #chamadas
 delete_header()
 create_file(generate_text())
