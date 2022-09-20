@@ -1,5 +1,4 @@
 in_file = open("diario-anadia-2022-08-29-extraido.txt", "r")
-# Mudei o nome da variável out_text para in_text, pois ela não será mais usada como texto de saída.
 in_text = in_file.read().lstrip()
 in_text = in_text.splitlines()
 ama_header_words = in_text[0].split()
