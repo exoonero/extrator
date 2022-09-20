@@ -6,10 +6,7 @@ ama_header_id = ama_header_words[0]
 
 
 def generate_text():
-    final_text = ""
-    for linha in range(len(in_text)):
-        final_text += in_text[linha] + "\n"
-    return final_text
+    return "\n".join(in_text)
 
 
 def delete_header():
