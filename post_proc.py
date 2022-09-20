@@ -10,7 +10,6 @@ def generate_text():
     for linha in range(len(in_text)):
         final_text += in_text[linha] + "\n"
     return final_text
-# alterar as outras ocorrências do header do ama
 
 
 def delete_header():
