@@ -17,7 +17,7 @@ def delete_header():
         if linha == 0:
             continue
         if in_text[linha].startswith(ama_header_id):
-            in_text[linha] = in_text[linha].replace(in_text[linha], "")
+            in_text[linha] = ""
 
 
 def create_file(final_text):
