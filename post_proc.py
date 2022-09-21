@@ -7,7 +7,7 @@ ama_header = in_text_slice[0].split()[0]
 ama_header_count = 0
 codigo_count = 0
 codigo_total = in_text.count("Código Identificador")
-print(ama_header)
+
 for num_linha, linha in enumerate(in_text_slice):
     print(linhas_apagar)
     # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
