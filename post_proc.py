@@ -1,28 +1,33 @@
 in_file = open("diario-anadia-2022-08-29-extraido.txt", "r")
 in_text = in_file.read().lstrip()
-in_text = in_text.splitlines()
-ama_header_words = in_text[0].split()
-ama_header_id = ama_header_words[0]
+in_text_slice = in_text.splitlines()
+
+linhas_apagar = []  # slice de linhas a ser apagadas ao final.
+ama_header = in_text[0].split()[0]
+ama_header_count = 0
+codigo_count = 0
+codigo_total = in_text.count("Código Identificador")
+
+for num_linha, linha in enumerate(in_text_slice):
+    # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
+    if linha.startswith(ama_header):
+        ama_header_count += 1
+        if ama_header_count > 1:
+            linhas_apagar.append(num_linha)
+
+    # Remoção das linhas finais
+    if codigo_count == codigo_total:
+        linhas_apagar.append(num_linha)
+    elif linha.startswith("Código Identificador"):
+        codigo_count += 1
 
 
-def generate_text():
-    return "\n".join(in_text)
+# Apagando linhas do slice
+out_text_slice = [l for n, l in enumerate(
+    in_text_slice) if n not in linhas_apagar]
+out_text = '\n'.join(out_text_slice)
 
-
-def delete_header():
-    for linha in range(len(in_text)):
-        if linha == 0:
-            continue
-        if in_text[linha].startswith(ama_header_id):
-            in_text[linha] = ""
-
-
-def create_file(final_text):
-    out_file = open("diario-anadia-2022-08-29-proc.txt", "w")
-    out_file.write(final_text)
-    out_file.close()
-
-
-# chamadas
-delete_header()
-create_file(generate_text())
+# Escrevendo resultado
+out_file = open("diario-anadia-2022-08-29-proc.txt", "w")
+out_file.write(out_text)
+out_file.close()
