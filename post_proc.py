@@ -9,7 +9,7 @@ codigo_count = 0
 codigo_total = in_text.count("Código Identificador")
 conta_linhas = 0
 comeco_preambulo = False
-aux = 0
+expediente_linha = 0
 
 for num_linha, linha in enumerate(in_text_slice):
     # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
