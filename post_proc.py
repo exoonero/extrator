@@ -7,9 +7,9 @@ ama_header = in_text_slice[0].split()[0]
 ama_header_count = 0
 codigo_count = 0
 codigo_total = in_text.count("Código Identificador")
+preambulo = False
 
 for num_linha, linha in enumerate(in_text_slice):
-    print(linhas_apagar)
     # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
     if linha.startswith(ama_header):
         ama_header_count += 1
@@ -21,6 +21,15 @@ for num_linha, linha in enumerate(in_text_slice):
         linhas_apagar.append(num_linha)
     elif linha.startswith("Código Identificador"):
         codigo_count += 1
+    # Remoção das linhas do preâmbulo
+    if "Expediente" in linha:
+        preambulo = True
+
+    if preambulo:
+        linhas_apagar.append(num_linha)
+
+    if "gestão municipal" in linha:
+        preambulo = False
 
 
 # Apagando linhas do slice
