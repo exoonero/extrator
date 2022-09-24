@@ -21,13 +21,12 @@ for num_linha, linha in enumerate(in_text_slice):
         linhas_apagar.append(num_linha)
     elif linha.startswith("Código Identificador"):
         codigo_count += 1
+
     # Remoção das linhas do preâmbulo
     if "Expediente" in linha:
         preambulo = True
-
     if preambulo:
         linhas_apagar.append(num_linha)
-
     if "gestão municipal" in linha:
         preambulo = False
 
