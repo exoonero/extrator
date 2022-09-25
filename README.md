@@ -1,5 +1,8 @@
 # IFAL - Querido Diário (OKBR)
 
+# Fluxo de Processamento
+PDF -> Tika -> Arquivo Extraído -> post_proc.py -> Arquivo(S) Proc <> Arquivo(S) Gabarito
+O post_proc realiza o processamento do texto extraído para textos processados.
 ## Manuseando Contêiner Apache Tika
 
 Observação: Para funcionar, é necessário utilizar a versão mais recente do apache tika. A versão que está no dockerfile do Querido Diário está desatualizado. Para obter a imagem mais recente, fizemos o pull de uma imagem docker.
@@ -33,7 +36,7 @@ curl -v -H "Accept: text/plain" -H "Content-Type: application/pdf" -T diario-ana
 ```sh
 sudo docker stop tika
 ```
-### Extrair texto do pdf e o salvando em um arquivo txt e html
+### Extrair texto do pdf e o salvando em um arquivo txt (sem tags html) e html
 ```sh
 #Com o apache tika rodando
 #Para txt:
@@ -45,25 +48,6 @@ curl -v -H "Accept: text/plain" -H "Content-Type: application/pdf" -T diario-ana
 curl -v -H "Accept: text/html" -H "Content-Type: application/pdf" -T diario-anadia-2022-08-29.pdf http://localhost:9998/tika -o diario-anadia-2022-08-29-extraido.html
 ```
 
-
-# Remover as tags HTML do diario
-
-Primeiramente é necessário instalar o pacote [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) para poder extrair as tags do texto:
-
-```sh
-$ apt-get install python3-bs4 
-```
-ou 
-
-```sh
-$ pip install beautifulsoup4
-```
-
-o código necessário para extrair as tags html está presente no arquivo post_proc.py. Para executá-lo, basta rodar:
-
-```sh
-python post_proc.py
-```
 
 ### Comandos
 ```sh
