@@ -2,6 +2,7 @@
 
 # Fluxo de Processamento
 PDF -> Tika -> Arquivo Extraído -> post_proc.py -> Arquivo(S) Proc <> Arquivo(S) Gabarito
+<br>
 O post_proc realiza o processamento do texto extraído para textos processados.
 ## Manuseando Contêiner Apache Tika
 
