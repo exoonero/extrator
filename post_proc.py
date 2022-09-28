@@ -3,7 +3,7 @@ in_text = in_file.read().lstrip()
 in_text_slice = in_text.splitlines()
 
 linhas_apagar = []  # slice de linhas a ser apagadas ao final.
-ama_header = in_text_slice[0].split()[0]
+ama_header = in_text_slice[0]
 ama_header_count = 0
 codigo_count = 0
 codigo_total = in_text.count("Código Identificador")
