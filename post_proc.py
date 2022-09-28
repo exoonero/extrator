@@ -11,6 +11,7 @@ preambulo = False
 verificaMunicipio = linha.startswith("ESTADO DE ALAGOAS") and in_text_slice[num_linha+1].startswith("PREFEITURA MUNICIPAL")
 for num_linha, linha in enumerate(in_text_slice):
     if verificaMunicipio:
+        #Arrumar uma forma de que para cada município presente no texto extraído, crie-se uma nova lista.
         pass
 
 
