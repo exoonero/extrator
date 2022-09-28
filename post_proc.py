@@ -1,13 +1,18 @@
-in_file = open("diario-anadia-2022-08-29-extraido.txt", "r")
+in_file = open("diario-2-municipios-2022-08-29-extraido.txt", "r")
 in_text = in_file.read().lstrip()
 in_text_slice = in_text.splitlines()
-
+listaMunicipios = []
 linhas_apagar = []  # slice de linhas a ser apagadas ao final.
 ama_header = in_text_slice[0].split()[0]
 ama_header_count = 0
 codigo_count = 0
 codigo_total = in_text.count("Código Identificador")
 preambulo = False
+verificaMunicipio = linha.startswith("ESTADO DE ALAGOAS") and in_text_slice[num_linha+1].startswith("PREFEITURA MUNICIPAL")
+for num_linha, linha in enumerate(in_text_slice):
+    if verificaMunicipio:
+        pass
+
 
 for num_linha, linha in enumerate(in_text_slice):
     # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
