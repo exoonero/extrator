@@ -52,10 +52,7 @@ out_text = '\n'.join(out_text_slice)
 
 qtdArquivos = 0
 # Escrevendo resultado
-for elemento in listaMunicipios:
-    out_text = '\n'.join(elemento)
-    qtdArquivos += 1
-    out_file = open(
-        f"diario-2-municipios-arquivo{qtdArquivos}-2022-08-29-proc.txt", "w")
-    out_file.write(out_text)
-    out_file.close()
+for id,linhas in enumerate(listaMunicipios):
+    fname = f"diario-2-municipios-arquivo{id}-2022-08-29-proc.txt"
+    with open(fname, "w") as out_file:
+        out_file.write('\n'.join(linhas))
