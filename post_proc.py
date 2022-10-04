@@ -22,7 +22,8 @@ codigo_count = 0
 codigo_total = in_text.count("Código Identificador")
 preambulo = False
 
-# O código está desatualizado
+# TODO(alex): O código está desatualizado
+# Precisamos corrigir esse código para lidar com a matriz de conteúdo de arquivos
 for num_linha, linha in enumerate(in_text_slice):
     # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
     if linha.startswith(ama_header):
