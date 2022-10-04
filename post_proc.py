@@ -1,7 +1,20 @@
-in_file = open("diario-anadia-2022-08-29-extraido.txt", "r")
+in_file = open("diario-2-municipios-2022-08-29-extraido.txt", "r")
 in_text = in_file.read().lstrip()
 in_text_slice = in_text.splitlines()
-
+# Montagem da lista municípios
+listaMunicipios = []
+qtdMunicipios = 0
+aux = 0
+municipio = False
+for num_linha, linha in enumerate(in_text_slice):
+    if linha.startswith("ESTADO DE ALAGOAS") and in_text_slice[num_linha+1].startswith("PREFEITURA MUNICIPAL"):
+        listaMunicipios.append([])
+        qtdMunicipios += 1
+        municipio = True
+    if municipio:
+        listaMunicipios[qtdMunicipios-1].append(linha)
+print(listaMunicipios)
+# Processamento
 linhas_apagar = []  # slice de linhas a ser apagadas ao final.
 ama_header = in_text_slice[0]
 ama_header_count = 0
@@ -9,6 +22,8 @@ codigo_count = 0
 codigo_total = in_text.count("Código Identificador")
 preambulo = False
 
+# TODO(alex): O código está desatualizado
+# Precisamos corrigir esse código para lidar com a matriz de conteúdo de arquivos
 for num_linha, linha in enumerate(in_text_slice):
     # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
     if linha.startswith(ama_header):
@@ -35,10 +50,9 @@ for num_linha, linha in enumerate(in_text_slice):
 out_text_slice = [l for n, l in enumerate(
     in_text_slice) if n not in linhas_apagar]
 out_text = '\n'.join(out_text_slice)
-
-
+qtdArquivos = 0
 # Escrevendo resultado
-out_file = open("diario-anadia-2022-08-29-proc.txt", "w")
-
-out_file.write(out_text)
-out_file.close()
+for id, linhas in enumerate(listaMunicipios):
+    fname = f"diario-2-municipios-arquivo{id}-2022-08-29-proc.txt"
+    with open(fname, "w") as out_file:
+        out_file.write('\n'.join(linhas))
