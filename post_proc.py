@@ -50,10 +50,9 @@ for num_linha, linha in enumerate(in_text_slice):
 out_text_slice = [l for n, l in enumerate(
     in_text_slice) if n not in linhas_apagar]
 out_text = '\n'.join(out_text_slice)
-
 qtdArquivos = 0
 # Escrevendo resultado
-for id,linhas in enumerate(listaMunicipios):
+for id, linhas in enumerate(listaMunicipios):
     fname = f"diario-2-municipios-arquivo{id}-2022-08-29-proc.txt"
     with open(fname, "w") as out_file:
         out_file.write('\n'.join(linhas))
