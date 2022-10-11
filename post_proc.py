@@ -1,6 +1,14 @@
+from os import pread
 import unicodedata
+import sys
 
-in_file = open("diario-completo-2022-08-29-extraido.txt", "r")
+# Verificando argumentos passados para o programa.
+if len(sys.argv) < 2:
+    print("Usage: python post_proc.py <caminho para arquivo texto extraído>", file=sys.stderr)
+    sys.exit(1)
+
+in_file_name = sys.argv[1]
+in_file = open(in_file_name, "r")
 in_text = in_file.read().lstrip()
 in_text_slice = in_text.splitlines()
 
@@ -52,11 +60,13 @@ for num_linha, linha in enumerate(in_text_slice):
 
 
 nomes_arquivos = []
+preffix = "-".join(in_file_name.split("-")[:-1])
 for municipio in lista_nomes_municipios:
     municipio_proc = municipio.strip().lower().replace(" ", "-")
-    municipio_proc = unicodedata.normalize('NFKD', municipio_proc).encode('ASCII', 'ignore').decode("utf-8")
+    municipio_proc = unicodedata.normalize(
+        'NFKD', municipio_proc).encode('ASCII', 'ignore').decode("utf-8")
     nomes_arquivos.append(
-        f"diario-completo-2022-08-29-proc-{municipio_proc}.txt")
+        f"{preffix}-proc-{municipio_proc}.txt")
 
 # Inserindo o cabeçalho em cada município
 for municipio in lista_municipios:

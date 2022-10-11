@@ -8,6 +8,26 @@ O post_proc realiza o processamento do texto extraído para textos processados.
 
 Observação: Para funcionar, é necessário utilizar a versão mais recente do apache tika. A versão que está no dockerfile do Querido Diário está desatualizado. Para obter a imagem mais recente, fizemos o pull de uma imagem docker.
 
+## Executando Fluxo Completo com proc.sh
+
+Para executar o script, você precisa ter docker rodando. O script vai pedir a senha de super usuário.
+
+O script recebe como parâmetro o diretório. Dentro deste, é esperado que exista um arquivo com o mesmo nome e extensão PDF.
+
+Exemplo de execução:
+```sh
+./proc.sh diario-completo-2022-08-29
+```
+
+## Executando o post_proc.py
+
+O script recebe como parâmetro o texto extraído do PDF e gera os arquivos processados no mesmo diretório do texto extraído.
+
+Exemplo de execução:
+```sh
+python3 post_proc.py diario-completo-2022-08-29/diario-completo-2022-08-29-extraido.txt
+```
+
 ### Executando Passo a Passo
 ```sh
 # Realizar pull da imagem do apache tika
