@@ -66,6 +66,10 @@ for municipio in lista_nomes_municipios:
     if f"{preffix}-proc-{municipio_proc}.txt" not in nomes_arquivos:
         nomes_arquivos.append(
             f"{preffix}-proc-{municipio_proc}.txt")
+# Inserindo o cabeçalho em cada município
+for municipio in lista_municipios:
+    municipio.insert(0, ama_header + "\n")
+
 dicionario_municipios = {}
 for (nome, municipio) in zip(lista_nomes_municipios, lista_municipios):
     chave = nome.strip().lower().replace(" ", "-")
@@ -77,9 +81,6 @@ for (nome, municipio) in zip(lista_nomes_municipios, lista_municipios):
             chave) + municipio
     else:
         dicionario_municipios[chave] = municipio
-# Inserindo o cabeçalho em cada município
-for municipio in lista_municipios:
-    municipio.insert(0, ama_header + "\n")
 
 # Escrevendo resultado
 for id, chave in zip(nomes_arquivos, dicionario_municipios.keys()):
