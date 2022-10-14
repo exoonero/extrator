@@ -57,8 +57,6 @@ for num_linha, linha in enumerate(in_text_slice):
 
     if municipio:
         lista_municipios[qtd_municipios-1].append(linha)
-
-
 nomes_arquivos = []
 preffix = "-".join(in_file_name.split("-")[:-1])
 for municipio in lista_nomes_municipios:
@@ -67,12 +65,18 @@ for municipio in lista_nomes_municipios:
         'NFKD', municipio_proc).encode('ASCII', 'ignore').decode("utf-8")
     nomes_arquivos.append(
         f"{preffix}-proc-{municipio_proc}.txt")
-
+    
 # Inserindo o cabeçalho em cada município
 for municipio in lista_municipios:
     municipio.insert(0, ama_header + "\n")
+
+lista_nomes_municipios = {chave: '' for chave in nomes_arquivos}
+for (chave, municipio) in zip(nomes_arquivos, lista_municipios):
+    municipio = '\n'.join(municipio)
+    lista_nomes_municipios[chave] = lista_nomes_municipios[chave] + municipio
+
 # Escrevendo resultado
-for id, linhas in enumerate(lista_municipios):
-    fname = nomes_arquivos[id]
+for id in nomes_arquivos:
+    fname = id
     with open(fname, "w") as out_file:
-        out_file.write('\n'.join(linhas))
+        out_file.write(lista_nomes_municipios.get(id))
