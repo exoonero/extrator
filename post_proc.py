@@ -57,26 +57,27 @@ for num_linha, linha in enumerate(in_text_slice):
 
     if municipio:
         lista_municipios[qtd_municipios-1].append(linha)
-nomes_arquivos = []
-preffix = "-".join(in_file_name.split("-")[:-1])
-for municipio in lista_nomes_municipios:
-    municipio_proc = municipio.strip().lower().replace(" ", "-")
-    municipio_proc = unicodedata.normalize(
-        'NFKD', municipio_proc).encode('ASCII', 'ignore').decode("utf-8")
-    nomes_arquivos.append(
-        f"{preffix}-proc-{municipio_proc}.txt")
-    
-# Inserindo o cabeçalho em cada município
-for municipio in lista_municipios:
-    municipio.insert(0, ama_header + "\n")
 
-lista_nomes_municipios = {chave: '' for chave in nomes_arquivos}
-for (chave, municipio) in zip(nomes_arquivos, lista_municipios):
-    municipio = '\n'.join(municipio)
-    lista_nomes_municipios[chave] = lista_nomes_municipios[chave] + municipio
 
-# Escrevendo resultado
-for id in nomes_arquivos:
-    fname = id
-    with open(fname, "w") as out_file:
-        out_file.write(lista_nomes_municipios.get(id))
+# Consolidando partes dos diários onde o texto que faz referência ao município
+# aparece mais de uma vez. 
+# Usando como chave os nomes dos arquivos gerados, que são  baseado no prefixo
+# extraído do arquivo extraído e nos nomes dos municípios.
+nome_arquivo_preffix = "-".join(in_file_name.split("-")[:-1])
+diarios = {}
+for (nome_municipio, diario) in zip(lista_nomes_municipios, lista_municipios):
+    nome_arquivo = nome_municipio.strip().lower().replace(" ", "-")
+    nome_arquivo = unicodedata.normalize('NFKD', nome_arquivo)
+    nome_arquivo = nome_arquivo.encode('ASCII', 'ignore').decode("utf-8")
+    nome_arquivo =  f"{nome_arquivo_preffix}-proc-{nome_arquivo}.txt"
+
+    diarios[nome_arquivo] = diarios.get(nome_arquivo, []) + diario
+
+# Inserindo o cabeçalho no diário de cada município.
+for diario in diarios.values():
+    diario.insert(0, ama_header + "\n")
+
+# Escrevendo resultado.
+for arquivo,diario in diarios.items():
+    with open(arquivo, "w") as out_file:
+        out_file.write('\n'.join(diario))
