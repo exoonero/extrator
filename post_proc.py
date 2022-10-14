@@ -63,27 +63,20 @@ for municipio in lista_nomes_municipios:
     municipio_proc = municipio.strip().lower().replace(" ", "-")
     municipio_proc = unicodedata.normalize(
         'NFKD', municipio_proc).encode('ASCII', 'ignore').decode("utf-8")
-    if f"{preffix}-proc-{municipio_proc}.txt" not in nomes_arquivos:
-        nomes_arquivos.append(
-            f"{preffix}-proc-{municipio_proc}.txt")
+    nomes_arquivos.append(
+        f"{preffix}-proc-{municipio_proc}.txt")
+    
 # Inserindo o cabeçalho em cada município
 for municipio in lista_municipios:
     municipio.insert(0, ama_header + "\n")
 
-dicionario_municipios = {}
-for (nome, municipio) in zip(lista_nomes_municipios, lista_municipios):
-    chave = nome.strip().lower().replace(" ", "-")
-    chave = unicodedata.normalize('NFKD', chave).encode(
-        'ASCII', 'ignore').decode("utf-8")
-
-    if chave in dicionario_municipios.keys():
-        dicionario_municipios[chave] = dicionario_municipios.get(
-            chave) + municipio
-    else:
-        dicionario_municipios[chave] = municipio
+lista_nomes_municipios = {chave: '' for chave in nomes_arquivos}
+for (chave, municipio) in zip(nomes_arquivos, lista_municipios):
+    municipio = '\n'.join(municipio)
+    lista_nomes_municipios[chave] = lista_nomes_municipios[chave] + municipio
 
 # Escrevendo resultado
-for id, chave in zip(nomes_arquivos, dicionario_municipios.keys()):
+for id in nomes_arquivos:
     fname = id
     with open(fname, "w") as out_file:
-        out_file.write('\n'.join(dicionario_municipios.get(chave)))
+        out_file.write(lista_nomes_municipios.get(id))
