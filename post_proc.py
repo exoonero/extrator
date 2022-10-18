@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 
-def processar(path):
+def processar(path, gerarArquivos):
 
     in_file_name = path
     in_file = open(in_file_name, "r")
@@ -78,15 +78,17 @@ def processar(path):
         nome_arquivo = f"{nome_arquivo_preffix}-proc-{nome_arquivo}.txt"
         diarios[nome_arquivo] = diarios.get(nome_arquivo, []) + diario
 
+        
     # Inserindo o cabeçalho no diário de cada município.
-    for diario in diarios.values():
-        diario.insert(0, ama_header + "\n")
-
-    # Escrevendo resultado.
-    for arquivo, diario in diarios.items():
-        with open(arquivo, "w") as out_file:
-            out_file.write('\n'.join(diario))
+    for (diariosElemento, diarioSaidaElemento) in zip(diarios.values(), diarioSaida.values()):
+        diariosElemento.insert(0, ama_header + "\n")
+        diarioSaidaElemento.insert(0, ama_header + "\n")
+    if gerarArquivos == True:
+        # Escrevendo resultado.
+        for arquivo, diario in diarios.items():
+            with open(arquivo, "w") as out_file:
+                out_file.write('\n'.join(diario))
     return diarioSaida
 
 
-processar(sys.argv[1])
+processar(sys.argv[1], True)
