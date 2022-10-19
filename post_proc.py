@@ -1,13 +1,11 @@
 from os import pread
 import unicodedata
 import sys
-# Verificando argumentos passados para o programa.
-if len(sys.argv) < 2:
-    print("Usage: python post_proc.py <caminho para arquivo texto extraído>", file=sys.stderr)
-    sys.exit(1)
 
 
 def extrai_diarios(texto_diario: str):
+    with open(texto_diario, "r") as in_file:
+        texto_diario = in_file.read()
     texto_diario_slice = texto_diario.lstrip().splitlines()
 
     # Processamento
@@ -82,12 +80,13 @@ def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
 
 
 if __name__ == "__main__":
-    path_texto_diario = sys.argv[1]
-    texto_diario = ""
-    with open(path_texto_diario, "r") as in_file:
-        texto_diario = in_file.read()
+    # Verificando argumentos passados para o programa.
+    if len(sys.argv) < 2:
+        print("Usage: python post_proc.py <caminho para arquivo texto extraído>", file=sys.stderr)
+        sys.exit(1)
 
-    diarios = extrai_diarios(texto_diario)
+    path_texto_diario = sys.argv[1]
+    diarios = extrai_diarios(path_texto_diario)
     # Usando como chave os nomes dos arquivos gerados, que são  baseado no prefixo
     # extraído do arquivo extraído e nos nomes dos municípios.
     prefixo = "-".join(path_texto_diario.split("-")[:-1])
