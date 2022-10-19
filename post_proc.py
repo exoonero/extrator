@@ -7,21 +7,17 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 
-def processar(path: str, gerarArquivos: bool):
-
-    in_file_name = path
-    in_file = open(in_file_name, "r")
-    in_text = in_file.read().lstrip()
-    in_text_slice = in_text.splitlines()
+def extrai_diarios(texto_diario: str):
+    texto_diario_slice = texto_diario.lstrip().splitlines()
 
     # Processamento
     linhas_apagar = []  # slice de linhas a ser apagadas ao final.
-    ama_header = in_text_slice[0]
+    ama_header = texto_diario_slice[0]
     ama_header_count = 0
     codigo_count = 0
-    codigo_total = in_text.count("Código Identificador")
+    codigo_total = texto_diario.count("Código Identificador")
 
-    for num_linha, linha in enumerate(in_text_slice):
+    for num_linha, linha in enumerate(texto_diario_slice):
         # Remoção do cabeçalho AMA, porém temos que manter a primeira aparição.
         if linha.startswith(ama_header):
             ama_header_count += 1
@@ -35,27 +31,26 @@ def processar(path: str, gerarArquivos: bool):
             codigo_count += 1
 
     # Apagando linhas do slice
-    in_text_slice = [l for n, l in enumerate(
-        in_text_slice) if n not in linhas_apagar]
-    out_text = '\n'.join(in_text_slice)
+    texto_diario_slice = [l for n, l in enumerate(
+        texto_diario_slice) if n not in linhas_apagar]
 
     # Montagem da lista municípios
     lista_municipios = []
     lista_nomes_municipios = []
     qtd_municipios = 0
     municipio = False
-    for num_linha, linha in enumerate(in_text_slice):
+    for num_linha, linha in enumerate(texto_diario_slice):
         if linha.startswith("ESTADO DE ALAGOAS"):
-            if in_text_slice[num_linha + 1].startswith("PREFEITURA MUNICIPAL"):
+            if texto_diario_slice[num_linha + 1].startswith("PREFEITURA MUNICIPAL"):
                 lista_municipios.append([])
                 lista_nomes_municipios.append(
-                    in_text_slice[num_linha + 1][24::])
+                    texto_diario_slice[num_linha + 1][24::])
                 qtd_municipios += 1
                 municipio = True
-            if in_text_slice[num_linha + 2].startswith("PREFEITURA MUNICIPAL"):
+            if texto_diario_slice[num_linha + 2].startswith("PREFEITURA MUNICIPAL"):
                 lista_municipios.append([])
                 lista_nomes_municipios.append(
-                    in_text_slice[num_linha + 2][24::])
+                    texto_diario_slice[num_linha + 2][24::])
                 qtd_municipios += 1
                 municipio = True
 
@@ -64,30 +59,36 @@ def processar(path: str, gerarArquivos: bool):
 
     # Consolidando partes dos diários onde o texto que faz referência ao município
     # aparece mais de uma vez.
-    # Usando como chave os nomes dos arquivos gerados, que são  baseado no prefixo
-    # extraído do arquivo extraído e nos nomes dos municípios.
-    nome_arquivo_preffix = "-".join(in_file_name.split("-")[:-1])
     diarios = {}
-    # Diário que será retornado a partir dessa função
-    diarioSaida = {}
     for (nome_municipio, diario) in zip(lista_nomes_municipios, lista_municipios):
+        diarios[nome_municipio] = diarios.get(nome_municipio, []) + diario
+
+    # Inserindo o cabeçalho no diário de cada município.
+    for diario in diarios.values():
+        diario.insert(0, ama_header + "\n")
+
+    # Transformando o slice diãrio em texto e retornando.
+    return {nome_municipio: diario for nome_municipio, diario in diarios.items()}
+
+
+def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
+    for nome_municipio, diario in municipios.items():
         nome_arquivo = nome_municipio.strip().lower().replace(" ", "-")
         nome_arquivo = unicodedata.normalize('NFKD', nome_arquivo)
         nome_arquivo = nome_arquivo.encode('ASCII', 'ignore').decode("utf-8")
-        diarioSaida[nome_arquivo] = diarioSaida.get(nome_arquivo, []) + diario
         nome_arquivo = f"{nome_arquivo_preffix}-proc-{nome_arquivo}.txt"
-        diarios[nome_arquivo] = diarios.get(nome_arquivo, []) + diario
-
-    # Inserindo o cabeçalho no diário de cada município.
-    for (diariosElemento, diarioSaidaElemento) in zip(diarios.values(), diarioSaida.values()):
-        diariosElemento.insert(0, ama_header + "\n")
-        diarioSaidaElemento.insert(0, ama_header + "\n")
-    if gerarArquivos == True:
-        # Escrevendo resultado.
-        for arquivo, diario in diarios.items():
-            with open(arquivo, "w") as out_file:
-                out_file.write('\n'.join(diario))
-    return diarioSaida
+        with open(nome_arquivo, "w") as out_file:
+            out_file.write('\n'.join(diario))
 
 
-processar(sys.argv[1], True)
+if __name__ == "__main__":
+    path_texto_diario = sys.argv[1]
+    texto_diario = ""
+    with open(path_texto_diario, "r") as in_file:
+        texto_diario = in_file.read()
+
+    diarios = extrai_diarios(texto_diario)
+    # Usando como chave os nomes dos arquivos gerados, que são  baseado no prefixo
+    # extraído do arquivo extraído e nos nomes dos municípios.
+    prefixo = "-".join(path_texto_diario.split("-")[:-1])
+    cria_arquivos(prefixo, diarios)
