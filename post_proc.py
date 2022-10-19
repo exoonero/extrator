@@ -68,7 +68,7 @@ def extrai_diarios(texto_diario: str):
         diario.insert(0, ama_header + "\n")
 
     # Transformando o slice diãrio em texto e retornando.
-    return {nome_municipio: '\n'.join(diario) for nome_municipio, diario in diarios.items()}
+    return {nome_municipio: '\n'.join(diario).rstrip() for nome_municipio, diario in diarios.items()}
 
 
 def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
