@@ -10,7 +10,6 @@ class PostProcTest(unittest.TestCase):
             texto_diario = in_file.read()
         self.assertEqual(33, len(extrai_diarios(
             texto_diario)))
-        
 
 
 if __name__ == '__main__':
