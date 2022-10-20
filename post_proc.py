@@ -57,6 +57,7 @@ def extrai_diarios(texto_diario: str):
     # aparece mais de uma vez.
     diarios = {}
     for (nome_municipio, diario) in zip(lista_nomes_municipios, lista_municipios):
+        nome_municipio = nome_municipio.strip()
         diarios[nome_municipio] = diarios.get(nome_municipio, []) + diario
 
     # Inserindo o cabeçalho no diário de cada município.

@@ -3,24 +3,35 @@ from post_proc import extrai_diarios
 
 
 class PostProcTest(unittest.TestCase):
-    def setUp(self):
-        global texto_diario_2022_08_29
-        path_2022_08_29 = 'test_data/diario-completo-2022-08-29-extraido.txt'
-        with open(path_2022_08_29, "r") as in_file:
-            texto_diario_2022_08_29 = in_file.read()
 
-    def test_qtd_municipios_2022_08_29(self):
-        self.assertEqual(33, len(extrai_diarios(
-            texto_diario_2022_08_29)))
+    def test_extrai_diarios(self):
+        # Novos casos de teste devem ser adicionados na tupla abaixo.
+        cases = (
+            {
+                'desc': 'diario-completo-2022-08-29-extraido.txt',
+                'path': 'test_data/diario-completo-2022-08-29-extraido.txt',
+                'nomes_municipios': ['ANADIA', 'ARAPIRACA', 'ATALAIA', 'CACIMBINHAS', 'CAJUEIRO', 'CAMPO ALEGRE', 'CANAPI', 'COQUEIRO SECO', 'CRAÍBAS', 'DELMIRO GOUVEIA', 'ESTRELA DE ALAGOAS', 'IBATEGUARA', 'JEQUIÁ DA PRAIA', 'JUNQUEIRO', 'MARAVILHA', 'MARECHAL DEODORO', 'MARIBONDO', 'MESSIAS', 'NOVO LINO', 'OLHO D´AGUA DO CASADO', 'OURO BRANCO', 'PALESTINA', 'PARICONHA', 'PILAR', 'PIRANHAS', 'QUEBRANGULO', 'RIO LARGO', 'SANTANA DO MUNDAÚ', 'SÃO JOSÉ DA LAJE', 'SÃO LUIS DO QUITUNDE', 'TRAIPÚ', 'VIÇOSA', 'MARAGOGI']
+            },
+                        {
+                'desc': 'diario-completo-2022-07-20-extraido.txt',
+                'path': 'test_data/diario-completo-2022-07-20-extraido.txt',
+                'nomes_municipios': ['ARAPIRACA', 'ATALAIA', 'BARRA DE SÃO MIGUEL', 'BRANQUINHA', 'CACIMBINHAS', 'CAMPO ALEGRE', 'CANAPI', 'CARNEIROS', 'COQUEIRO SECO', 'DELMIRO GOUVEIA', 'DOIS RIACHOS', 'FELIZ DESERTO', 'INHAPI', 'JOAQUIM GOMES', 'LAGOA DA CANOA', 'MARAGOGI', 'MARAVILHA', 'MARECHAL DEODORO', 'MATA GRANDE', 'MESSIAS', 'MINADOR DO NEGRÃO', "OLHO D´AGUA DO CASADO", "OLHO D'ÁGUA DAS FLORES", 'PÃO DE AÇÚCAR', 'PARICONHA', 'PILAR', 'PINDOBA', 'PIRANHAS', 'PORTO CALVO', 'PORTO REAL DO COLÉGIO', 'QUEBRANGULO', 'RIO LARGO', 'SANTA LUZIA DO NORTE', 'SANTANA DO MUNDAÚ', 'SÃO JOSÉ DA TAPERA', 'SÃO MIGUEL DOS MILAGRES', "TANQUE D'ARCA", 'TAQUARANA', 'TEOTÔNIO VILELA', 'VIÇOSA']
+            },
+        )
 
-    def test_nomes_municipios_2022_08_29(self):
-        nomes = [
-            'Anadia', 'Arapiraca', 'Atalaia', 'Cacimbinhas', 'Cajueiro', 'Campo Alegre', 'Canapi', 'Coqueiro Seco', 'Craíbas', 'Delmiro Gouveia', 'Estrela de Alagoas', 'Ibateguara', 'Jequiá da Praia', 'Junqueiro', 'Maravilha', 'Marechal Deodoro', 'Maribondo', 'Messias', 'Novo Lino', 'Olho D´agua do Casado', 'Ouro Branco', 'Palestina', 'Pariconha', 'Pilar', 'Piranhas', 'Quebrangulo', 'Rio Largo', 'Santana do Mundaú', 'São José da Laje', 'São Luis do Quitunde', 'Traipú', 'Viçosa', 'Maragogi'
-        ]
-        for nome, chave in zip(nomes, extrai_diarios(texto_diario_2022_08_29).keys()):
-            nome = nome.upper()
-            self.assertEqual(nome, chave.rstrip())
+        for case in cases:
+            case = asobject(case)
+            with self.subTest(case.desc):
+                with open(case.path, "r") as diario:
+                    diarios = extrai_diarios(diario.read())
+                    self.assertEqual(len(case.nomes_municipios), len(diarios))
+                    for municipio in diarios.keys():
+                        self.assertIn(municipio, case.nomes_municipios)
 
+
+class asobject(object):
+    def __init__(self, d):
+        self.__dict__ = d
 
 if __name__ == '__main__':
     unittest.main()
