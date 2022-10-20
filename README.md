@@ -28,6 +28,11 @@ Exemplo de execução:
 python3 post_proc.py diario-completo-2022-08-29/diario-completo-2022-08-29-extraido.txt
 ```
 
+## Executando testes
+```sh
+python3 -m unittest post_proc_test.py
+```
+
 ### Executando Passo a Passo
 ```sh
 # Realizar pull da imagem do apache tika

@@ -1,10 +1,6 @@
 from os import pread
 import unicodedata
 import sys
-# Verificando argumentos passados para o programa.
-if len(sys.argv) < 2:
-    print("Usage: python post_proc.py <caminho para arquivo texto extraído>", file=sys.stderr)
-    sys.exit(1)
 
 
 def extrai_diarios(texto_diario: str):
@@ -82,6 +78,10 @@ def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
 
 
 if __name__ == "__main__":
+    # Verificando argumentos passados para o programa.
+    if len(sys.argv) < 2:
+        print("Usage: python post_proc.py <caminho para arquivo texto extraído>", file=sys.stderr)
+    sys.exit(1)
     path_texto_diario = sys.argv[1]
     texto_diario = ""
     with open(path_texto_diario, "r") as in_file:
