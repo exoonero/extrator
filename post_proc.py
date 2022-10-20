@@ -4,8 +4,6 @@ import sys
 
 
 def extrai_diarios(texto_diario: str):
-    with open(texto_diario, "r") as in_file:
-        texto_diario = in_file.read()
     texto_diario_slice = texto_diario.lstrip().splitlines()
 
     # Processamento
@@ -83,10 +81,13 @@ if __name__ == "__main__":
     # Verificando argumentos passados para o programa.
     if len(sys.argv) < 2:
         print("Usage: python post_proc.py <caminho para arquivo texto extraído>", file=sys.stderr)
-        sys.exit(1)
-
+    sys.exit(1)
     path_texto_diario = sys.argv[1]
-    diarios = extrai_diarios(path_texto_diario)
+    texto_diario = ""
+    with open(path_texto_diario, "r") as in_file:
+        texto_diario = in_file.read()
+
+    diarios = extrai_diarios(texto_diario)
     # Usando como chave os nomes dos arquivos gerados, que são  baseado no prefixo
     # extraído do arquivo extraído e nos nomes dos municípios.
     prefixo = "-".join(path_texto_diario.split("-")[:-1])
