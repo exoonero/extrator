@@ -4,7 +4,7 @@ import sys
 
 
 def extrai_diarios(texto_diario: str):
-    texto_diario_slice = texto_diario.lstrip().splitlines()
+    texto_diario_slice = pegar_texto_diario_slice(texto_diario)
 
     # Processamento
     linhas_apagar = []  # slice de linhas a ser apagadas ao final.
@@ -76,6 +76,17 @@ def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
         nome_arquivo = f"{nome_arquivo_preffix}-proc-{nome_arquivo}.txt"
         with open(nome_arquivo, "w") as out_file:
             out_file.write(diario)
+
+
+def pegar_texto_diario_slice(texto_diario: str):
+    texto_diario_slice = texto_diario.lstrip().splitlines()
+    return texto_diario_slice
+
+
+def pegar_cabecalho(texto_diario: str):
+    texto_diario_slice = pegar_texto_diario_slice(texto_diario)
+    ama_header = texto_diario_slice[0]
+    return ama_header
 
 
 if __name__ == "__main__":
