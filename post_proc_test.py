@@ -16,7 +16,7 @@ class PostProcTest(unittest.TestCase):
             {
                 'desc': 'diario-completo-2022-07-20-extraido.txt',
                 'path': 'test_data/diario-completo-2022-07-20-extraido.txt',
-                'nomes_municipios': ['ARAPIRACA', 'ATALAIA', 'BARRA DE SÃO MIGUEL', 'BRANQUINHA', 'CACIMBINHAS', 'CAMPO ALEGRE', 'CANAPI', 'CARNEIROS', 'COQUEIRO SECO', 'DELMIRO GOUVEIA', 'DOIS RIACHOS', 'FELIZ DESERTO', 'INHAPI', 'JOAQUIM GOMES', 'LAGOA DA CANOA', 'MARAGOGI', 'MARAVILHA', 'MARECHAL DEODORO', 'MATA GRANDE', 'MESSIAS', 'MINADOR DO NEGRÃO', "OLHO D´AGUA DO CASADO", "OLHO D'ÁGUA DAS FLORES", 'PÃO DE AÇÚCAR', 'PARICONHA', 'PILAR', 'PINDOBA', 'PIRANHAS', 'PORTO CALVO', 'PORTO REAL DO COLÉGIO', 'QUEBRANGULO', 'RIO LARGO', 'SANTA LUZIA DO NORTE', 'SANTANA DO MUNDAÚ', 'SÃO JOSÉ DA TAPERA', 'SÃO MIGUEL DOS MILAGRES', "TANQUE D'ARCA", 'TAQUARANA', 'TEOTÔNIO VILELA', 'VIÇOSA'],
+                'nomes_municipios': ['ARAPIRACA', 'ATALAIA', 'BARRA DE SÃO MIGUEL', 'BRANQUINHA', 'CACIMBINHAS', 'CAMPO ALEGRE', 'CANAPI', 'CARNEIROS', 'COQUEIRO SECO', 'DELMIRO GOUVEIA', 'FELIZ DESERTO', 'INHAPI', 'JOAQUIM GOMES', 'LAGOA DA CANOA', 'MARAGOGI', 'MARAVILHA', 'MARECHAL DEODORO', 'MATA GRANDE', 'MESSIAS', 'MINADOR DO NEGRÃO', "OLHO D'ÁGUA DAS FLORES", "OLHO D´AGUA DO CASADO", 'PÃO DE AÇÚCAR', 'PARICONHA', 'PILAR', 'PINDOBA', 'PIRANHAS', 'PORTO CALVO', 'PORTO REAL DO COLÉGIO', 'QUEBRANGULO', 'RIO LARGO', 'SANTA LUZIA DO NORTE', 'SANTANA DO MUNDAÚ', 'SÃO JOSÉ DA TAPERA', 'SÃO MIGUEL DOS MILAGRES', "TANQUE D´ARCA", 'TAQUARANA', 'TEOTONIO VILELA', 'VIÇOSA', 'DOIS RIACHOS'],
                 'cabecalho': 'Alagoas , 20 de Julho de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1841 ',
             },
         )
@@ -28,7 +28,8 @@ class PostProcTest(unittest.TestCase):
                     # Teste Quantidade de Municípios
                     diario_extraido = diario.read()
                     diarios = extrai_diarios(diario_extraido)
-                    self.assertEqual(len(case.nomes_municipios), len(diarios))
+                    self.assertEqual(len(case.nomes_municipios), len(list(diarios.keys())))
+                    self.assertListEqual(case.nomes_municipios, list(diarios.keys()))
 
                     for municipio, diario in diarios.items():
                         # Teste Nome dos Municípios
