@@ -1,5 +1,5 @@
 import unittest
-from post_proc import *
+from post_proc import extrai_diarios
 
 
 class PostProcTest(unittest.TestCase):
@@ -33,9 +33,10 @@ class PostProcTest(unittest.TestCase):
                         self.assertIn(municipio, case.nomes_municipios)
                     # Teste Cabeçalho
                     cabecalho_esperado = case.header.replace(" ", "")
-                    cabecalho_extraido = pegar_cabecalho(
-                        diario_extraido).replace(" ", "")
-                    self.assertIn(cabecalho_esperado, cabecalho_extraido)
+                    for municipio in diarios.values():
+                        cabecalho_extraido = municipio.lstrip().splitlines()[
+                            0].replace(" ", "")
+                        self.assertIn(cabecalho_esperado, cabecalho_extraido)
 
 
 class asobject(object):
