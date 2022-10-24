@@ -24,13 +24,9 @@ class PostProcTest(unittest.TestCase):
                     # Teste Quantidade de Municípios
                     diario_extraido = diario.read()
                     diarios = extrai_diarios(diario_extraido)
-                    self.assertEqual(len(case.nomes_municipios),
-                                     len(list(diarios.keys())))
+                    self.assertListEqual(list(case.cods.keys()), list(diarios.keys()))
 
                     for municipio, diario in diarios.items():
-                        # Teste Nome dos Municípios
-                        self.assertIn(municipio, case.nomes_municipios)
-
                         # Teste Cabeçalho
                         self.assertEqual(
                             case.cabecalho, diario.splitlines()[0])
@@ -39,7 +35,8 @@ class PostProcTest(unittest.TestCase):
                         expected_cods = case.cods.get(municipio, [])
                         cods_in_text = re.findall(
                             r'Código Identificador:(.*)', diario)
-                        self.assertListEqual(expected_cods, cods_in_text, f'Município: {municipio}')
+                        self.assertListEqual(
+                            expected_cods, cods_in_text, f'Município: {municipio}')
 
 
 class asobject(object):
