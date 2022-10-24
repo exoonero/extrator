@@ -35,32 +35,139 @@
             "1F46C28F",
             "213A26A4"
         ],
-        "CANAPI": [],
-        "COQUEIRO SECO": [],
-        "CRAÍBAS": [],
-        "DELMIRO GOUVEIA": [],
-        "ESTRELA DE ALAGOAS": [],
-        "IBATEGUARA": [],
-        "JEQUIÁ DA PRAIA": [],
-        "JUNQUEIRO": [],
-        "MARAVILHA": [],
-        "MARECHAL DEODORO": [],
-        "MARIBONDO": [],
-        "MESSIAS": [],
-        "NOVO LINO": [],
-        "OLHO D´AGUA DO CASADO": [],
-        "OURO BRANCO": [],
-        "PALESTINA": [],
-        "PARICONHA": [],
-        "PILAR": [],
-        "PIRANHAS": [],
-        "QUEBRANGULO": [],
-        "RIO LARGO": [],
-        "SANTANA DO MUNDAÚ": [],
-        "SÃO JOSÉ DA LAJE": [],
-        "SÃO LUIS DO QUITUNDE": [],
-        "TRAIPÚ": [],
-        "VIÇOSA": [],
-        "MARAGOGI": []
+        "CANAPI": [
+            "BE9AB722",
+            "38910A84"
+        ],
+        "COQUEIRO SECO": [
+            "F00689FF",
+            "DF2F8365",
+            "D360D02F"
+        ],
+        "CRAÍBAS": [
+            "CCA5CF41",
+            "2D527978",
+            "736EAA46",
+            "B4E23B2E"
+        ],
+        "DELMIRO GOUVEIA": [
+            "4B195D01",
+            "A5F66E0E",
+            "560BEF18",
+            "81CD5D63"
+        ],
+        "ESTRELA DE ALAGOAS": [
+            "7898A0ED"
+        ],
+        "IBATEGUARA": [
+            "22923EC8"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "64C65AB9",
+            "A7F51F34"
+        ],
+        "JUNQUEIRO": [
+            "CC457CE8"
+        ],
+        "MARAVILHA": [
+            "6CA3BAA7"
+        ],
+        "MARECHAL DEODORO": [
+            "820ED50A",
+            "6B52564E",
+            "0A093798",
+            "765F65A7",
+            "1095A029",
+            "286927E6",
+            "CE7250D9",
+            "FC5285E8"
+        ],
+        "MARIBONDO": [
+            "EE56D33F"
+        ],
+        "MESSIAS": [
+            "326065C3"
+        ],
+        "NOVO LINO": [
+            "E744B459",
+            "B5118E3F"
+        ],
+        "OLHO D´AGUA DO CASADO": [
+            "4CA53E9C",
+            "EA3D17B7",
+            "99E329FB"
+        ],
+        "OURO BRANCO": [
+            "BCD726D7",
+            "BFD76980",
+            "66E9C691",
+            "AD17D60B",
+            "08B25E7F"
+        ],
+        "PALESTINA": [
+            "80658506"
+        ],
+        "PARICONHA": [
+            "CA83DA70",
+            "46E20F8A",
+            "0D2BBC83"
+        ],
+        "PILAR": [
+            "98F1AE7F"
+        ],
+        "PIRANHAS": [
+            "23DA0451",
+            "DE181F7C",
+            "895762B7"
+        ],
+        "QUEBRANGULO": [
+            "36FA4B9C",
+            "DDF3E4D3",
+            "07B14657"
+        ],
+        "RIO LARGO": [
+            "8695F44B",
+            "BAF73148",
+            "B9EF45FF",
+            "CDE475CC",
+            "65644FCB",
+            "E15F1275",
+            "622EDA78",
+            "FC230C2C",
+            "8798FBB6"
+        ],
+        "SANTANA DO MUNDAÚ": [
+            "E1154D4D",
+            "8643EA1C",
+            "217EA39E",
+            "45C68924",
+            "7AACD450"
+        ],
+        "SÃO JOSÉ DA LAJE": [
+            "D9A281C7"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "62766715",
+            "95AD7CE7",
+            "2EE254DA"
+        ],
+        "TRAIPÚ": [
+            "4E20F758"
+        ],
+        "VIÇOSA": [
+            "EBD6C239",
+            "72B0E226",
+            "4309BBDF",
+            "A67B5372",
+            "8380B9FB",
+            "FD99AE4B",
+            "67F573D1",
+            "C345592C",
+            "1A621168",
+            "2DFB3DEF"
+        ],
+        "MARAGOGI": [
+            "B3EA75F9"
+        ]
     }
 }
