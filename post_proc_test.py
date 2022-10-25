@@ -10,8 +10,9 @@ class PostProcTest(unittest.TestCase):
         # Novos casos de teste devem ser adicionados na tupla abaixo.
         # Deve ser adicionado um arquivo -test.json para cada texto extraído (caso de teste)
         cases = (
+            'test_data/diario-completo-2022-01-03-test.json',
             'test_data/diario-completo-2022-08-29-test.json',
-            'test_data/diario-completo-2022-07-20-test.json',
+            'test_data/diario-completo-2022-07-20-test.json'
         )
 
         for case_path in cases:
