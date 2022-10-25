@@ -1,0 +1,281 @@
+{
+    "desc": "diario-completo-2021-04-01-extraido.txt",
+    "path": "test_data/diario-completo-2021-04-01-extraido.txt",
+    "cods": {
+        "ANADIA": [
+            "C96197C3",
+            "F90BD628"
+        ],
+        "ARAPIRACA": [
+            "EB9CBE5D",
+            "B6E21A3F",
+            "8F34FFF6",
+            "41F7E3B9",
+            "2750A943",
+            "7A159F7D",
+            "E15AFABA",
+            "EFA7D8F6",
+            "64E08386",
+            "76017088",
+            "5EC8A45B",
+            "DCA54FE7"
+        ],
+        "BATALHA": [
+            "1A81EF5C"
+        ],
+        "BELÉM": [
+            "31630138",
+            "BE7FDAC2"
+        ],
+        "BELO MONTE": [
+            "8D69B2A7",
+            "0928060C"
+        ],
+        "BRANQUINHA": [
+            "80F2E18D",
+            "95D3FA09"
+        ],
+        "CACIMBINHAS": [
+            "F51DE068"
+        ],
+        "CAMPO ALEGRE": [
+            "B4C729AA",
+            "D0B8AE3E",
+            "44A6513C"
+        ],
+        "COLÔNIA LEOPOLDINA": [
+            "ECB2B299"
+        ],
+        "CORURIPE": [
+            "FE9674D3",
+            "302210D9",
+            "B8CEBD15",
+            "1872042B"
+        ],
+        "DOIS RIACHOS": [
+            "7CB0C1D9",
+            "A87C0254"
+        ],
+        "FEIRA GRANDE": [
+            "4C6487B3"
+        ],
+        "FELIZ DESERTO": [
+            "B94B1818",
+            "5C9CCBB2",
+            "9FF946D1",
+            "F1625070",
+            "F9925C5B",
+            "6D2B7526",
+            "353F0660",
+            "77849F2C"
+        ],
+        "FLEXEIRAS": [
+            "06197DBF"
+        ],
+        "INHAPI": [
+            "EE537F75",
+            "5A7517AB"
+        ],
+        "JAPARATINGA": [
+            "8C0F955F",
+            "1E1DA120"
+        ],
+        "JARAMATAIA": [
+            "63BEAC1E"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "1310B3AE",
+            "EF609833",
+            "33141B11"
+        ],
+        "MAJOR IZIDORO": [
+            "D26BCAB7"
+        ],
+        "MARAVILHA": [
+            "BD2D70F3",
+            "424C3152",
+            "4824D23F",
+            "120E2281"
+        ],
+        "MARECHAL DEODORO": [
+            "DEC0269F",
+            "B18BB1A2",
+            "ED89A85F",
+            "888529DC",
+            "7B1FBB54",
+            "FF52F85F",
+            "A9C5AF1E",
+            "B0C75439",
+            "26F6B95E",
+            "2CDAB483",
+            "C392E8C6",
+            "3E408777",
+            "1F4622E6",
+            "2DAF780B",
+            "5F6FF2C1",
+            "CFF09EE2",
+            "BC54F866"
+        ],
+        "MONTEIRÓPOLIS": [
+            "ED253FBA"
+        ],
+        "OLHO D'ÁGUA DAS FLORES": [
+            "834F5684"
+        ],
+        "OLHO D´AGUA DO CASADO": [
+            "B065A936"
+        ],
+        "OURO BRANCO": [
+            "5B313DA9",
+            "E7388A9C"
+        ],
+        "PAULO JACINTO": [
+            "34B07570",
+            "EFB281D6"
+        ],
+        "PIAÇABUÇU": [
+            "748CE0F7"
+        ],
+        "PILAR": [
+            "F1216DEF",
+            "7AE64038",
+            "495E3342",
+            "9B8696B3",
+            "26AC4F3F",
+            "938665E9",
+            "5027F6E6",
+            "60F6720C"
+        ],
+        "PIRANHAS": [
+            "F12265E5"
+        ],
+        "PORTO REAL DO COLÉGIO": [
+            "82060D7D",
+            "8D788EF7",
+            "BDA4F1D1"
+        ],
+        "QUEBRANGULO": [
+            "098F2C25",
+            "44F36FCB",
+            "B8265EF1",
+            "C41A6E2C",
+            "6D77779C",
+            "1364BFB1",
+            "F3DDAE2F",
+            "28BD5867",
+            "8F91480B"
+        ],
+        "RIO LARGO": [
+            "72B9AABE",
+            "AD051406",
+            "727D752C",
+            "90FD2ADA",
+            "3DEAE915",
+            "417DECE0",
+            "21748BCC"
+        ],
+        "ROTEIRO": [
+            "D3076786",
+            "B39E967B"
+        ],
+        "SANTA LUZIA DO NORTE": [
+            "9E98BEE3",
+            "8D9E57A4"
+        ],
+        "SANTANA DO IPANEMA": [
+            "E3DB445E"
+        ],
+        "SANTANA DO MUNDAÚ": [
+            "94560CF8"
+        ],
+        "SÃO JOSÉ DA LAJE": [
+            "C694B44D",
+            "4AC1EBC1",
+            "9E7D961F",
+            "DFD0978C",
+            "568F372C",
+            "CC9EF4B5",
+            "9AD7A9B5",
+            "DDCF0659",
+            "59A54BF3"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "1A1527D3"
+        ],
+        "SÃO SEBASTIÃO": [
+            "F8EACF9D"
+        ],
+        "SATUBA": [
+            "FB2D3EE4",
+            "BA43B5FA"
+        ],
+        "TAQUARANA": [
+            "2E763B63"
+        ],
+        "TEOTONIO VILELA": [
+            "DF8D1479",
+            "D029CE6E",
+            "A7161DD9",
+            "8B9534DF",
+            "5087902A",
+            "94A29A30",
+            "98B53FCB",
+            "0D1C20B0",
+            "B195CD48",
+            "0F3608FE",
+            "7BF82137",
+            "84946576",
+            "6513C9CF",
+            "A11E3748",
+            "1BAB36E1",
+            "248102BF",
+            "35E72B70",
+            "1D4200B1",
+            "86F1E5EE",
+            "222E4558",
+            "198CE383",
+            "C2E71AB3",
+            "5DE9F4FC",
+            "639B0A8F",
+            "FF327566",
+            "86162BCA",
+            "3806C816",
+            "195B4A90",
+            "0C107AF0",
+            "DE584917",
+            "14CCAA21",
+            "31786A23",
+            "61E15A58",
+            "769762C6",
+            "3AC06D90",
+            "4F5F2B9B",
+            "7830095E",
+            "7182F83C",
+            "25315C77",
+            "2A8D7271",
+            "6D3DFE42",
+            "38CDAC21",
+            "73DD9B57",
+            "90497194",
+            "FAD55B11",
+            "CA6AD3B7",
+            "78B561BA",
+            "8A12FC2D",
+            "6934C51B",
+            "661340F7",
+            "719D37DC",
+            "4F96327D",
+            "6D598337",
+            "B929BB26"
+        ],
+        "TRAIPÚ": [
+            "0713150E"
+        ],
+        "VIÇOSA": [
+            "17371EA9",
+            "627D2EC2",
+            "DBFB4B60"
+        ]
+    },
+    "cabecalho": "Alagoas , 01 de Abril de 2021   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1511 "
+}
