@@ -12,7 +12,8 @@ class PostProcTest(unittest.TestCase):
         cases = (
             'test_data/diario-completo-2022-01-03-test.json',
             'test_data/diario-completo-2022-08-29-test.json',
-            'test_data/diario-completo-2022-07-20-test.json'
+            'test_data/diario-completo-2022-07-20-test.json',
+            'test_data/diario-completo-2022-02-14-test.json',
         )
 
         for case_path in cases:
