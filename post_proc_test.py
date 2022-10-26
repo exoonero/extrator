@@ -14,6 +14,7 @@ class PostProcTest(unittest.TestCase):
             'test_data/diario-completo-2022-08-29-test.json',
             'test_data/diario-completo-2022-07-20-test.json',
             'test_data/diario-completo-2022-02-14-test.json',
+            'test_data/diario-completo-2021-04-01-test.json',
         )
 
         for case_path in cases:
@@ -22,12 +23,11 @@ class PostProcTest(unittest.TestCase):
 
             with self.subTest(case.desc):
                 with open(case.path, "r") as diario:
-
                     # Teste Quantidade de Municípios
                     diario_extraido = diario.read()
                     diarios = extrai_diarios(diario_extraido)
-                    self.assertListEqual(list(case.cods.keys()), list(diarios.keys()))
-
+                    self.assertListEqual(list(case.cods.keys()), list(
+                        diarios.keys()), f'Caso: {case.desc}')
                     for municipio, diario in diarios.items():
                         # Teste Cabeçalho
                         self.assertEqual(
@@ -38,7 +38,7 @@ class PostProcTest(unittest.TestCase):
                         cods_in_text = re.findall(
                             r'Código Identificador:(.*)', diario)
                         self.assertListEqual(
-                            expected_cods, cods_in_text, f'Município: {municipio}')
+                            expected_cods, cods_in_text, f'Município: {municipio}\nDiário:{diario}')
 
 
 class asobject(object):

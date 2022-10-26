@@ -1,7 +1,12 @@
+import re
+import sys
+import unicodedata
 from cgitb import text
 from os import pread
-import unicodedata
-import sys
+
+
+re_nomes_municipios = (
+    r"ESTADO DE ALAGOAS \n{0,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}.*$)\n\s\s")
 
 
 def extrai_diarios(texto_diario: str):
@@ -31,50 +36,33 @@ def extrai_diarios(texto_diario: str):
     texto_diario_slice = [l for n, l in enumerate(
         texto_diario_slice) if n not in linhas_apagar]
 
-    # Montagem da lista municípios
-    lista_municipios = []
-    lista_nomes_municipios = []
+    # Inserindo o cabeçalho no diário de cada município.
+    diarios = {}
+    nomes_municipios = re.findall(
+        re_nomes_municipios, texto_diario, re.MULTILINE)
+    for municipio in nomes_municipios:
+        diarios[municipio.strip().replace('\n', '')] = ama_header + '\n'
+
     num_linha = 0
-    qtd_municipios = -1
+    municipio_atual = None
     while num_linha < len(texto_diario_slice):
         linha = texto_diario_slice[num_linha].rstrip()
 
         if linha.startswith("ESTADO DE ALAGOAS"):
-            nome, num_linhas_nome = extrai_nome(texto_diario_slice, num_linha)
-            if nome != "":
-                qtd_municipios += 1
-                lista_municipios.append([])
-                lista_nomes_municipios.append(nome)
-
-                for i in range(num_linhas_nome):
-                    linha = texto_diario_slice[num_linha].rstrip()
-                    lista_municipios[qtd_municipios].append(linha)
-                    num_linha += 1
-
-                continue
+            nome = nome_municipio(texto_diario_slice, num_linha)
+            if nome is not None:
+                municipio_atual = nome
 
         # Só começa, quando algum muncípio for encontrado.
-        if qtd_municipios < 0:
+        if municipio_atual is None:
             num_linha += 1
             continue
 
         # Conteúdo faz parte de um muncípio
-        lista_municipios[qtd_municipios].append(linha)
+        diarios[municipio_atual] += linha + '\n'
         num_linha += 1
 
-    # Consolidando partes dos diários onde o texto que faz referência ao município
-    # aparece mais de uma vez.
-    diarios = {}
-    for (nome_municipio, diario) in zip(lista_nomes_municipios, lista_municipios):
-        nome_municipio = nome_municipio.strip()
-        diarios[nome_municipio] = diarios.get(nome_municipio, []) + diario
-
-    # Inserindo o cabeçalho no diário de cada município.
-    for diario in diarios.values():
-        diario.insert(0, ama_header + "\n")
-
-    # Transformando o slice diãrio em texto e retornando.
-    return {nome_municipio: '\n'.join(diario).rstrip() for nome_municipio, diario in diarios.items()}
+    return diarios
 
 
 def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
@@ -87,28 +75,12 @@ def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
             out_file.write(diario)
 
 
-def extrai_nome(texto_diario_slice: slice, num_linha: int):
-    nome_municipio = ""
-    num_linhas_nome = 0
-    while True:
-        num_linha += 1
-        num_linhas_nome += 1
-        linha = texto_diario_slice[num_linha].rstrip()
-
-        if linha.startswith("PREFEITURA MUNICIPAL DE") or linha == "": 
-            nome_municipio += linha
-        else:
-            nome_municipio += " " + linha
-
-        # Alarme falso. Não é o início de um diário.
-        if linha.startswith("ESTADO DE ALAGOAS") or num_linhas_nome > 5:
-            return "", num_linha
-
-        if linha == "":
-            proxima = texto_diario_slice[num_linha+1].rstrip()
-            if proxima == "":
-                nome_municipio = " ".join(nome_municipio.split(" ")[3::])
-                return nome_municipio, num_linhas_nome + 2
+def nome_municipio(texto_diario_slice: slice, num_linha: int):
+    texto = '\n'.join(texto_diario_slice[num_linha:num_linha+10])
+    match = re.findall(re_nomes_municipios, texto, re.MULTILINE)
+    if len(match) > 0:
+        return match[0].strip().replace('\n', '')
+    return None
 
 
 if __name__ == "__main__":
