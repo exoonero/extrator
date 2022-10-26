@@ -1,6 +1,6 @@
 {
-    "desc": "",
-    "path": "",
+    "desc": "diario-completo-2021-03-29-test.json",
+    "path": "test_data/diario-completo-2021-03-29-extraido.txt",
     "cods": {
         "ÁGUA BRANCA": [
             "8B8AB9D0",
@@ -76,15 +76,6 @@
             "30AFA2D1", 
             "2AE2209D"
         ],
-        "MAR VERMELHO": [
-            "22ED0133",
-            "5633F5CE",
-            "42F6315E",
-            "E48247E2",
-            "D8C6F114",
-            "1CE5B31C",
-            "F716CB11"
-        ],
         "MARAGOGI": [
             "541A6F8E", 
             "B2E0707B", 
@@ -94,6 +85,15 @@
             "F84D08F4",
             "0B5F2E21",
             "36DF02C2"
+        ],
+        "MAR VERMELHO": [
+            "22ED0133",
+            "5633F5CE",
+            "42F6315E",
+            "E48247E2",
+            "D8C6F114",
+            "1CE5B31C",
+            "F716CB11"
         ],
         "MATA GRANDE": [
             "33D40E76"
@@ -161,7 +161,7 @@
             "5A3EBBA0",
             "26AA66FA"
         ],
-        "TEOTÔNIO VILELA": [
+        "TEOTONIO VILELA": [
             "CA1C4E4C", 
             "BAB7B17F", 
             "891412EB"

@@ -9,14 +9,13 @@ class PostProcTest(unittest.TestCase):
     def test_extrai_diarios(self):
         # Novos casos de teste devem ser adicionados na tupla abaixo.
         # Deve ser adicionado um arquivo -test.json para cada texto extraído (caso de teste)
-        cases = (
-            'test_data/diario-completo-2022-01-03-test.json',
-            'test_data/diario-completo-2022-08-29-test.json',
-            'test_data/diario-completo-2022-07-20-test.json',
-            'test_data/diario-completo-2022-02-14-test.json',
-            'test_data/diario-completo-2021-04-01-test.json',
-        )
-
+        cases = ('test_data/diario-completo-2022-01-03-test.json',
+                 'test_data/diario-completo-2022-08-29-test.json',
+                 'test_data/diario-completo-2022-07-20-test.json',
+                 'test_data/diario-completo-2022-02-14-test.json',
+                 'test_data/diario-completo-2021-04-01-test.json',
+                 'test_data/diario-completo-2021-03-29-test.json',
+                 )
         for case_path in cases:
             with open(case_path, 'r') as f:
                 case = asobject(json.load(f))
@@ -26,8 +25,9 @@ class PostProcTest(unittest.TestCase):
                     # Teste Quantidade de Municípios
                     diario_extraido = diario.read()
                     diarios = extrai_diarios(diario_extraido)
-                    self.assertListEqual(list(case.cods.keys()), list(
-                        diarios.keys()), f'Caso: {case.desc}')
+                    municipios_esperados = list(case.cods.keys())
+                    municipios_obtidos = list(diarios.keys())
+                    self.assertListEqual(municipios_esperados, municipios_obtidos, f'Caso: {case.desc}\nEsperado:{municipios_esperados}\nObtido:{municipios_obtidos}')
                     for municipio, diario in diarios.items():
                         # Teste Cabeçalho
                         self.assertEqual(
