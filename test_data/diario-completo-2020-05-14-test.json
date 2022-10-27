@@ -1,8 +1,147 @@
 {
     "desc": "diario-completo-2020-05-14-extraido.txt",
     "path": "test_data/diario-completo-2020-05-14-extraido.txt",
-    "cabecalho": "Alagoas , 14 de Maio de 2020 • Diário Oficial dos Municípios do Estado de Alagoas • ANO VII | No 1287 ",
+    "cabecalho": "Alagoas , 14 de Maio de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VII | Nº 1287 ",
     "cods": {
+        "ARAPIRACA": [ 
+            "3D5FF2DA", 
+            "A00DF700",
+            "88E88E84", 
+            "164AEDF4", 
+            "65BCF685", 
+            "B34D2B58", 
+            "45128555", 
+            "47780113", 
+            "C1F66D62"
+        ],
+        "ATALAIA": [
+            "A9A07799"
+        ],
+        "BATALHA": [
+            "9D580E75", 
+            "85F01956"
+        ],
+        "CANAPI": [
+            "596A3A1F"
+        ],
+        "COITÉ DO NÓIA": [
+            "CDAEAE5D", 
+            "AF383485",
+            "DACB9774"
+        ],    
+        "COLÔNIA LEOPOLDINA": [
+            "3E1AFF33", 
+            "FA07B822", 
+            "DDEEE7DF", 
+            "917E53BC", 
+            "47739744", 
+            "1BF63C1A", 
+            "2206A001", 
+            "C1A30D1C", 
+            "75A402ED"
+        ], 
+        "DELMIRO GOUVEIA": [
+            "ED2EC80F"
+        ],
+        "DOIS RIACHOS": [
+            "854714BF", 
+            "40BEE478", 
+            "ADE69B69"
+        ], 
+        "IBATEGUARA": [
+            "3761D624"
+        ],
+        "IGREJA NOVA": [
+            "4BD93F2C", 
+            "EA87CD38"
+        ], 
+        "JARAMATAIA": [
+            "CC922E30"
+        ],
+        "JOAQUIM GOMES": [
+            "FCC258FB", 
+            "40D8809A", 
+            "CECBADF6"
+        ], 
+        "LAGOA DA CANOA": [
+            "72F7D8BA", 
+            "24087259"
+        ],
+        "LIMOEIRO DE ANADIA": [
+            "E9AA6311", 
+            "2E7AD4FF", 
+            "2992890C", 
+            "0A5D441E"
+        ], 
+        "MARAGOGI": [
+            "0AB1B77B", 
+            "ED5E9A04", 
+            "DEBE1ACF", 
+            "00D188F4", 
+            "91595DBC"
+        ],
+        "MARAVILHA": [
+            "E0ACA6A3"
+        ], 
+        "MARECHAL DEODORO": [
+            "0DC7DB1E", 
+            "4AC756EE", 
+            "B3002759", 
+            "244DEF80", 
+            "0A65A93F", 
+            "850186CD", 
+            "9D403D61", 
+            "5E232AC6", 
+            "AD5066E1"
+        ], 
+        "MAR VERMELHO": [
+            "F71E9C3D"
+        ], 
+        "MONTEIRÓPOLIS": [
+            "FE7ABD6B"
+        ],
+        "OLHO D´AGUA DO CASADO": [
+            "D5D9A574"
+        ], 
+        "OLIVENÇA": [
+            "04E9DF05"
+        ],
+        "PÃO DE AÇÚCAR": [
+            "83054527", 
+            "C905E54C"
+        ],
+        "PAULO JACINTO": [
+            "67106281"
+        ], 
+        "PILAR": [
+            "CF512E70"
+        ],
+        "PINDOBA": [
+            "4610BF72",
+            "0205CDA1"
+        ],
+        "QUEBRANGULO": [
+            "1874BBCD", 
+            "CAD9E254"
+        ], 
+        "RIO LARGO": [
+            "6FFAB3D0", 
+            "A6BA6B53", 
+            "67F208A5", 
+            "75B28E98", 
+            "F854BF81", 
+            "01272C1A"
+        ], 
+        "SANTA LUZIA DO NORTE": [
+            "597DBD31", 
+            "C9675C7F"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "A851B5ED"
+        ], 
+        "TEOTONIO VILELA": [
+            "AB9BCB1C"
+        ]
 
     }
 
