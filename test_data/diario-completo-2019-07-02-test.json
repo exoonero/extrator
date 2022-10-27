@@ -1,0 +1,130 @@
+{
+    "desc": "diario-completo-2019-07-02.extraido.txt",
+    "path": "test_data/diario-completo-2019-07-02-extraido.txt",
+    "cabecalho": "Alagoas , 02 de Julho de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 1067 ",
+    "cods": {
+        "ARAPIRACA": [
+            "5B096C83", 
+            "D042C26E", 
+            "E471BD8D", 
+            "B4DEBDD6"
+        ],
+        "ATALAIA": [
+            "21BBC9C1", 
+            "FC0F72F9", 
+            "3E64637B"
+        ],
+        "CAMPO ALEGRE": [
+            "10830112",
+            "726946F7",
+            "142F3A62",
+            "21022DC6",
+            "329B29A3"
+        ], 
+        "CAPELA": [
+            "28FD4938", 
+            "63C8A245"
+        ],
+        "CARNEIROS": [
+            "073C3996"
+        ], 
+        "COLÔNIA LEOPOLDINA": [
+            "446F05D2", 
+            "219F3C58", 
+            "F1DB5EC3", 
+            "BA23FBC5", 
+            "FF5A07A6", 
+            "80E4E3E5", 
+            "211AE339", 
+            "CCF771F4"
+        ],
+        "INHAPI": [
+            "F9D5C9AA",
+            "8E6EFF7B"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "5260839D",  
+            "9F41F711", 
+            "891C6052", 
+            "C2818008", 
+            "BDCCA514", 
+            "BB98F9CB"
+        ],
+        "LAGOA DA CANOA": [
+            "62C91D96",
+            "7CCB8C47"
+        ],
+        "MARAGOGI": [
+            "A442388A", 
+            "6B97E753", 
+            "4B5F5DAB", 
+            "74D90EEC", 
+            "2A329B2D", 
+            "495E5AA0", 
+            "9445E591", 
+            "231791CE", 
+            "B2682E9E"
+        ],
+        "MARECHAL DEODORO": [
+            "F29B6E31",
+            "86662C64", 
+            "65407120", 
+            "160B2AD8", 
+            "ADF0A4DD", 
+            "52850561", 
+            "CBC464A5",
+            "8ABFFB82", 
+            "0BFAB1F7", 
+            "FB01F7C7", 
+            "9751CCC9", 
+            "79C50C19", 
+            "FE347DBF",
+            "70D9353E", 
+            "3C5F1295", 
+            "8853BE3D", 
+            "51A03D26", 
+            "1B20A587", 
+            "FD79478A"
+        ],
+        "OLHO D'ÁGUA DAS FLORES": [
+            "667FB6BF"
+        ],
+        "PILAR": [
+            "12640EFA",
+            "69D21CE5",
+            "DB7D8CAF",
+            "DDD3CF13", 
+            "B0338098"
+        ],
+        "PORTO REAL DO COLÉGIO": [
+            "B8A6423D"
+        ],
+        "QUEBRANGULO": [
+            "96D133DD", 
+            "34FAF369"
+        ], 
+        "SANTA LUZIA DO NORTE": [
+            "ADEA7936"
+        ],
+        "SÃO JOSÉ DA LAJE": [
+            "080EF595"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "AD54917C",
+            "69A88AD1", 
+            "F69C047D", 
+            "0DB7477F"
+        ],
+        "SENADOR RUI PALMEIRA": [
+            "AD27884F"
+        ], 
+        "TEOTONIO VILELA": [
+            "17FC132D"
+        ],
+        "VIÇOSA": [
+            "EE3EA96B"
+        ]
+
+    }
+
+}
