@@ -3,6 +3,51 @@
     "path": "test_data/diario-completo-2019-07-02.extraido.txt",
     "cabecalho": "Alagoas , 02 de Julho de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 1067 ",
     "cods": {
+        "ARAPIRACA": [
+            "5B096C83", 
+            "D042C26E", 
+            "E471BD8D", 
+            "B4DEBDD6"
+        ],
+        "ATALAIA": [
+            "21BBC9C1", 
+            "FC0F72F9", 
+            "3E64637B"
+        ],
+        "CAMPO ALEGRE": [
+            "10830112",
+            "726946F7",
+            "142F3A62"
+        ], 
+        "CAPELA": [
+            "28FD4938", 
+            "63C8A245"
+        ],
+        "CARNEIROS": [
+            "073C3996"
+        ], 
+        "COLÔNIA LEOPOLDINA": [
+            "446F05D2", 
+            "219F3C58", 
+            "F1DB5EC3", 
+            "BA23FBC5", 
+            "FF5A07A6", 
+            "80E4E3E5", 
+            "211AE339", 
+            "CCF771F4"
+        ],
+        "INHAPI": [
+            "F9D5C9AA",
+            "8E6EFF7B"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "5260839D",  
+            "9F41F711", 
+            "891C6052", 
+            "C2818008", 
+            "BDCCA514", 
+            "BB98F9CB"
+        ]
 
     }
 
