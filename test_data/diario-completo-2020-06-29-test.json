@@ -1,0 +1,159 @@
+{
+    "desc": "diario-completo-2020-06-29-test.json",
+    "path": "test_data/diario-completo-2020-06-29-extraido.txt",
+    "cods": {
+        "ARAPIRACA": [
+            "FA0DFEBD",
+            "446A303A"
+        ],
+        "ATALAIA": [
+            "33C23253"
+        ],
+        "CAMPESTRE": [
+            "277A8A1B"
+        ],
+        "CAMPO ALEGRE": [
+            "2492D405",
+            "59B80F7C",
+            "4DA4EE24"
+        ],
+        "COITÉ DO NÓIA": [
+            "6D608F0D",
+            "FCA1F2D4",
+            "43910205",
+            "906760D4"
+        ],
+        "COLÔNIA LEOPOLDINA": [
+            "110ABA8D",
+            "03DDD75A",
+            "7922A2BD",
+            "768F3E67"
+        ],
+        "CORURIPE": [
+            "6B53357D"
+        ],
+        "CRAÍBAS": [
+            "44465B35",
+            "9AC912D0"
+        ],
+        "FELIZ DESERTO": [
+            "44EF781B",
+            "279DA15B",
+            "91A3CE18",
+            "5CFE7CF2",
+            "F68560D8",
+            "443780A6",
+            "8BD7FF90"
+        ],
+        "GIRAU DO PONCIANO": [
+            "3FC3810A"
+        ],
+        "INHAPI": [
+            "177276C4",
+            "B81625FC",
+            "31F1080D"
+        ],
+        "JARAMATAIA": [
+            "2773FF93",
+            "B2C97741",
+            "A81C6C9C"
+        ],
+        "JUNQUEIRO": [
+            "BA0AED97",
+            "FED1668A",
+            "88F5D848"
+        ],
+        "LAGOA DA CANOA": [
+            "759039C6",
+            "350C7372"
+        ],
+        "MARAGOGI": [
+            "D3CD8197",
+            "E019BA85"
+        ],
+        "MARAVILHA": [
+            "BA1F99BC"
+        ],
+        "MARECHAL DEODORO": [
+            "E825D5D3",
+            "D208BC15",
+            "66405E47",
+            "AABA2C83",
+            "47B4A34A",
+            "1F99496C",
+            "508B6A50",
+            "07D0906A",
+            "EDC0CBBE",
+            "17FD81A0",
+            "5F2FFED5",
+            "1EEBAB2C",
+            "49505BE1",
+            "00B4A1BB"
+        ],
+        "MATA GRANDE": [
+            "85F7175D",
+            "39FB3FC8",
+            "2C031F03",
+            "70732AFF",
+            "00E71342",
+            "74837A27",
+            "4040004B",
+            "B08FB6E4",
+            "0DCD8D2C",
+            "CE5E778F",
+            "B3C0C26D"
+        ],
+        "OLHO D´AGUA DO CASADO": [
+            "CB9A6805"
+        ],
+        "PAULO JACINTO": [
+            "8EFC15D0",
+            "AF079708",
+            "7C76BEBF"
+        ],
+        "PIRANHAS": [
+            "11B17E89",
+            "96D4CD4C",
+            "ADA82DE3"
+        ],
+        "PORTO REAL DO COLÉGIO": [
+            "62F76EDE"
+        ],
+        "RIO LARGO": [
+            "CE072E98",
+            "B814DE07"
+        ],
+        "SANTANA DO IPANEMA": [
+            "4D1A66E6"
+        ],
+        "SÃO JOSÉ DA LAJE": [
+            "3F0AF54D",
+            "AF0F2C39",
+            "EF4965F1"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "81E0D575"
+        ],
+        "SÃO SEBASTIÃO": [
+            "9C68007A",
+            "39FE652D"
+        ],
+        "SATUBA": [
+            "BF33812B",
+            "B910CFC4",
+            "6F9164B5",
+            "30243E43",
+            "353C2C48",
+            "031B60CB",
+            "DAEFBD67",
+            "4631919E",
+            "C64E2E2B",
+            "E74AF92B",
+            "57266446"
+        ],
+        "TANQUE D´ARCA": [
+            "F1B4827C"
+        ]
+    },
+    "cabecalho": "Alagoas , 29 de Junho de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VII | Nº 1318 "
+}
