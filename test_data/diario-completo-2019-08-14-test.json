@@ -1,0 +1,128 @@
+{
+    "desc": "diario-completo-2019-08-14.extraido.txt",
+    "path": "test_data/diario-completo-2019-08-14-extraido.txt",
+    "cabecalho": "Alagoas , 14 de Agosto de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 1098 ",
+    "cods": {
+        "ARAPIRACA": [
+            "E4CE6C2A",
+            "11A5680E",
+            "2AB0A8F2",
+            "5DAAD9C5",
+            "2C66D7A1",
+            "1B24706E",
+            "75DD30FD",
+            "FFA1062D",
+            "8D24C1E9",
+            "4C228816"
+        ],
+        "ATALAIA": [
+            "535804F9"
+        ],
+        "BATALHA": [
+            "ECB42B8C"
+        ],
+        "CANAPI": [
+            "95051F99"
+        ],
+        "COITÉ DO NÓIA": [
+            "E22498EE"
+        ],
+        "DELMIRO GOUVEIA": [
+            "5EAD861E",
+            "4A777DB0",
+            "C0F19A4A"
+        ],
+        "FELIZ DESERTO": [
+            "A72F8007"
+        ],
+        "IBATEGUARA": [
+            "3A4F0BF3",
+            "22126B8A"
+        ],
+        "IGREJA NOVA": [
+            "ED3F26B1"
+        ],
+        "INHAPI": [
+            "B2E18197",
+            "27F801D3"
+        ],
+        "JARAMATAIA": [
+            "3FAA5A26"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "04BC3FD4"
+        ],
+        "LIMOEIRO DE ANADIA": [
+            "0E407BF8"
+        ],
+        "MARAGOGI": [
+            "4B4B376A",
+            "3887F20E",
+            "D349AE2D",
+            "672857BA",
+            "BBD6E9C2",
+            "E260A329",
+            "4060B95E",
+            "2AD4906C",
+            "87161E63",
+            "01076404"
+        ],
+        "MARECHAL DEODORO": [
+            "1B7839F6",
+            "B2CE824E",
+            "9EA16617",
+            "56393134",
+            "8671BD8B",
+            "E86767A2",
+            "F12136E2",
+            "130E43B8",
+            "264424D8",
+            "291ACEE2",
+            "8E27841D",
+            "09A260B0",
+            "EEA416B1",
+            "EAE05C8D",
+            "EB772D14",
+            "B4BF9E24",
+            "F6FC4ED9",
+            "444A5EB4"
+        ],
+        "OLHO D'ÁGUA DAS FLORES": [
+            "9250FC99",
+            "45FB5148",
+            "33309A1F",
+            "8D20976A",
+            "FFDCC85D"
+        ],
+        "PALESTINA": [
+            "2F1179B5"
+        ],
+        "PAULO JACINTO": [
+            "1DD3B45C",
+            "12C69C87"
+        ],
+        "PILAR": [
+            "BF1359AA",
+            "A5EA83AF"
+        ],
+        "PORTO REAL DO COLÉGIO": [
+            "884B1F6F" 
+        ],
+        "SANTA LUZIA DO NORTE": [
+            "042D34AA",
+            "9900EBEF",
+            "8AF9B2E9",
+            "1BCE33DE",
+            "A2AE2CF6",
+            "EAB4C8F8",
+            "AAE0669B"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "23463276",
+            "602A9058"
+        ],
+        "TEOTONIO VILELA": [
+            "0C341EAC" 
+        ]
+    }
+}
