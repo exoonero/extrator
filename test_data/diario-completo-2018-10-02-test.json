@@ -1,0 +1,86 @@
+{
+    "desc": "diario-completo-2018-10-02.extraido.txt",
+    "path": "test_data/diario-completo-2018-10-02-extraido.txt",
+    "cabecalho": "Alagoas , 02 de Outubro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 0881 ",
+    "cods": {
+        "CANAPI": [
+            "C966FA04"
+        ],
+        "COITÉ DO NÓIA": [
+            "12F7DE15"
+        ],
+        "DELMIRO GOUVEIA": [
+            "1A7BD252"
+        ],
+        "FELIZ DESERTO": [
+            "2C941DBD" 
+        ],
+        "JARAMATAIA": [
+            "6D4471B8",
+            "D37371E5",
+            "F96F9DE1",
+            "9E2360FA",
+            "28BB88D7",
+            "F55FD8EE",
+            "4C2E8C15",
+            "589C1012",
+            "BFD048AB",
+            "72A02EA7",
+            "CD06E209",
+            "5E3B51CB",
+            "BD3ECFFB",
+            "21720E5C"
+        ],
+        "JUNQUEIRO": [
+            "FEF1E773"
+        ],
+        "MARAGOGI": [
+            "1DF1F19F",
+            "0EED1990",
+            "FE58BF8E",
+            "67589C0E",
+            "BA15D992",
+            "CF6E4C44",
+            "4717E0A9",
+            "A61F7EAC",
+            "6C59CFC5",
+            "B124090D",
+            "0A94B49F",
+            "951792DC",
+            "F5AEF4B4",
+            "DE17B4E4",
+            "E52833BA",
+            "5CB680AC",
+            "6420375A",
+            "9063DC61",
+            "6A767124",
+            "E8BF2CA5",
+            "F75067E8",
+            "9877B460",
+            "7C2C6663",
+            "0134D378",
+            "06A2D3E4",
+            "2ED4EF5D",
+            "50E6DB4C",
+            "034BCCFA",
+            "C09D6FD2",
+            "69AB1396"
+        ],
+        "PILAR": [
+            "435E2D6F",
+            "BC43E609"
+        ],
+        "SANTA LUZIA DO NORTE": [
+            "D262E26E",
+            "D9481035",
+            "810FED25"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "369AD9F0",
+            "07A64E21",
+            "24B2E504",
+            "63636036",
+            "A8A5DB8F"
+        ]
+    }
+}
