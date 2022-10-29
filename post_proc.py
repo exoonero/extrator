@@ -6,7 +6,7 @@ from os import pread
 
 
 re_nomes_municipios = (
-    r"ESTADO DE ALAGOAS \n{0,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}.*$)\n\s\s")
+    r"ESTADO DE ALAGOAS \n{0,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}.*$)\n\s(?:\s|SECRETARIA)")
 
 
 def extrai_diarios(texto_diario: str):
