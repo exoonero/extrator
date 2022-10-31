@@ -41,7 +41,7 @@ def extrai_diarios(texto_diario: str):
     nomes_municipios = re.findall(
         re_nomes_municipios, texto_diario, re.MULTILINE)
     for municipio in nomes_municipios:
-        diarios[municipio.strip().replace('\n', '')] = ama_header + '\n'
+        diarios[municipio.strip().replace('\n', '')] = ama_header + '\n\n'
 
     num_linha = 0
     municipio_atual = None
@@ -62,7 +62,7 @@ def extrai_diarios(texto_diario: str):
         diarios[municipio_atual] += linha + '\n'
         num_linha += 1
 
-    return diarios
+    return {municipio: diario.rstrip() for municipio, diario in diarios.items()}
 
 
 def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
