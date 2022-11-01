@@ -1,0 +1,14 @@
+{
+    "desc": "diario-completo-2016-10-14.extraido.txt",
+    "path": "test_data/test_eleitoral/diario-completo-2016-10-14-extraido.txt",
+    "cabecalho": "Alagoas , 14 de Outubro de 2016   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0388 ",
+    "cods": {
+        "PÃO DE AÇÚCAR": [
+            "CF27088A",
+            "8AE6E901",
+            "535DABC1",
+            "F580F6E3",
+            "454A860B"
+        ]
+    }
+}
