@@ -1,0 +1,46 @@
+{
+    "desc": "diario-completo-2017-12-28.extraido.txt",
+    "path": "test_data/diario-completo-2017-12-28-extraido.txt",
+    "cabecalho": "Alagoas , 28 de Dezembro de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0688 ",
+    "cods": {
+        "ARAPIRACA": [
+            "50387C8A",
+            "D446BAE8"
+        ],
+        "CACIMBINHAS": [
+            "84FBD112"
+        ],
+        "CAMPO ALEGRE": [
+            "96ED1565"
+        ],
+        "CARNEIROS": [
+            "0BABB51C"
+        ],
+        "CORURIPE": [
+            "25E5534B",
+            "43A23ECA"
+        ],
+        "JARAMATAIA": [
+            "22BFF9CE"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "95B02135",
+            "CDF99BF3"
+        ],
+        "MARAVILHA": [
+            "3EBEAC58" 
+        ],
+        "PÃO DE AÇÚCAR": [
+            "62976993"
+        ],
+        "PINDOBA": [
+            "445F1248",
+            "EDDB83C1"
+        ],
+        "SANTA LUZIA DO NORTE": [
+            "197B64F9",
+            "804B441D",
+            "7F284A74"
+        ]
+    }
+}
