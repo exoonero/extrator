@@ -1,0 +1,14 @@
+{
+    "desc": "diario-completo-2022-08-15.extraido.txt",
+    "path": "test_data/diario-completo-2022-08-15-extraido.txt",
+    "cabecalho": "Alagoas , 15 de Agosto de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1859 ",
+    "cods": {
+        "ARAPIRACA": [
+            "1809F86F",
+            "5449979E"
+        ],
+        "BARRA DE SANTO ANTONIO": [
+            "4068C0CA"
+        ]
+    }
+}
