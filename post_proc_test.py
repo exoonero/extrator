@@ -11,6 +11,7 @@ class PostProcTest(unittest.TestCase):
         # Deve ser adicionado um arquivo -test.json para cada texto extraído (caso de teste)
         cases = ('test_data/diario-completo-2022-01-03-test.json',
                  'test_data/diario-completo-2022-08-29-test.json',
+                 'test_data/diario-completo-2022-08-15-test.json',
                  'test_data/diario-completo-2022-07-20-test.json',
                  'test_data/diario-completo-2022-02-14-test.json',
                  'test_data/diario-completo-2021-04-01-test.json',
@@ -21,6 +22,10 @@ class PostProcTest(unittest.TestCase):
                  'test_data/diario-completo-2019-07-02-test.json',   
                  'test_data/diario-completo-2018-10-02-test.json',    
                  'test_data/diario-completo-2017-12-28-test.json',          
+                 'test_data/diario-completo-2016-02-15-test.json',             
+                 'test_data/diario-completo-2015-04-02-test.json',          
+                 'test_data/diario-completo-2014-06-23-test.json',          
+                 'test_data/test_eleitoral/diario-completo-2016-10-14-test.json',
                  )
         for case_path in cases:
             with open(case_path, 'r') as f:
