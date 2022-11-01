@@ -1,0 +1,15 @@
+{
+    "desc": "diario-completo-2016-02-15.extraido.txt",
+    "path": "test_data/diario-completo-2016-02-15-extraido.txt",
+    "cabecalho": "Alagoas , 15 de Fevereiro de 2016   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO III | Nº 0225 ",
+    "cods": {
+        "ARAPIRACA": [
+            "9AB283D6",
+            "93C7C544",
+            "B131C8CE"
+        ],
+        "TEOTONIO VILELA": [
+            "D1DB184B"
+        ]
+    }
+}
