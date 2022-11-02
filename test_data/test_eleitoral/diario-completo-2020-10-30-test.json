@@ -1,0 +1,145 @@
+{
+    "desc": "diario-completo-2020-10-30.extraido.txt",
+    "path": "test_data/test_eleitoral/diario-completo-2020-10-30-extraido.txt",
+    "cabecalho": "Alagoas , 30 de Outubro de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1405 ",
+    "cods": {
+        "ATALAIA": [
+            "51A7A9F3"
+        ],
+        "BELÉM": [
+            "500C505C"
+        ],
+        "BRANQUINHA": [
+            "9C52ABD8",
+            "7EE9BCE2"
+        ],
+        "CAPELA": [
+            "AD9EF3A1"
+        ],
+        "COITÉ DO NÓIA": [
+            "BEF23A9C",
+            "254ED172"
+        ],
+        "FEIRA GRANDE": [
+            "BD0BF92E"
+        ],
+        "FLEXEIRAS": [
+            "05F305C5",
+            "70B0B220"
+        ],
+        "GIRAU DO PONCIANO": [
+            "BBB420AB"
+        ],
+        "IGREJA NOVA": [
+            "ECC5C1F4",
+            "D5EFD278"
+        ],
+        "INHAPI": [
+            "33693B69",
+            "6FBFACC3",
+            "24EB4E0C",
+            "6315D443",
+            "67716521",
+            "EFA6AC2C"
+        ],
+        "JACUÍPE": [
+            "C5F47561"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "A242CB2B",
+            "EC7FDFD0"
+        ],
+        "JUNQUEIRO": [
+            "AAF1669D",
+            "BF081635",
+            "58763C3F"
+        ],
+        "MARAGOGI": [
+            "9BEB72AA",
+            "A335A274",
+            "973B0936"
+        ],
+        "MARECHAL DEODORO": [
+            "DAB74579",
+            "75B1BF65",
+            "41F83A2F",
+            "07D529BA"
+        ],
+        "MAR VERMELHO": [
+            "1EFCBA3D"
+        ],
+        "MONTEIRÓPOLIS": [
+            "D98D00BF"
+        ],
+        "OLHO D´AGUA DO CASADO": [
+            "D26DB127"
+        ],
+        "OLIVENÇA": [
+            "264F7129",
+            "12FFE820",
+            "63B0A1B1",
+            "56C9F4BD",
+            "FCC19F2D"
+        ],
+        "PÃO DE AÇÚCAR": [
+            "44FAB30A",
+            "0629C98A",
+            "CE29FB12",
+            "95E3A013",
+            "AC54076B"
+        ],
+        "PAULO JACINTO": [
+            "7161092E",
+            "F11F4A8F"
+        ],
+        "PILAR": [
+            "1FC80763",
+            "EAC53BE5"
+        ],
+        "PIRANHAS": [
+            "AADDE6B4"
+        ],
+        "PORTO DE PEDRAS": [
+            "078923A6"
+        ],
+        "RIO LARGO": [
+            "3F16F22B",
+            "CF43341D",
+            "EC621109"
+        ],
+        "ROTEIRO": [
+            "FF307D14"
+        ],
+        "SANTA LUZIA DO NORTE": [
+            "0398B10B",
+            "2F7BE2FE",
+            "25D2185A",
+            "0D3736D6",
+            "6FF870A2",
+            "06C6D174",
+            "D794A5D4"
+        ],
+        "SANTANA DO IPANEMA": [
+            "DAE4F0FF"
+        ],
+        "SANTANA DO MUNDAÚ": [
+            "CAACCC0E",
+            "83290A49"
+        ],
+        "SÃO JOSÉ DA TAPERA": [
+            "CFBFDEA8"
+        ],
+        "SÃO LUIS DO QUITUNDE": [
+            "477A17C6",
+            "E0E3BA67",
+            "4211BF21",
+            "F227222D"
+        ],
+        "TANQUE D´ARCA": [
+            "0106DE32"
+        ],
+        "TEOTONIO VILELA": [
+            "BDA221A6"
+        ]
+    }
+}

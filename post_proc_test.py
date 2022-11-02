@@ -32,6 +32,7 @@ class PostProcTest(unittest.TestCase):
                  'test_data/diario-completo-2014-05-20-test.json',         
                  'test_data/test_eleitoral/diario-completo-2016-10-14-test.json',
                  'test_data/test_eleitoral/diario-completo-2016-10-28-test.json',
+                 'test_data/test_eleitoral/diario-completo-2020-10-30-test.json',
                  )
         for case_path in cases:
             with open(case_path, 'r') as f:
