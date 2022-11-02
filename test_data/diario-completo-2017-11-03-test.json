@@ -1,0 +1,70 @@
+{
+    "desc": "diario-completo-2017-11-03-extraido.txt",
+    "path": "test_data/diario-completo-2017-11-03-extraido.txt",
+    "cabecalho": "Alagoas , 14 de Novembro de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0658 ",
+    "cods": {
+        "ARAPIRACA": [
+            "111F7E20",
+            "D59A66A7",
+            "EDD8E7A4",
+            "164E7B07"
+        ],
+        "CACIMBINHAS": [
+            "750D3507",
+            "8015BD87"
+        ],
+        "CAMPO ALEGRE": [
+            "98FA54E7"
+        ],
+        "DOIS RIACHOS": [
+            "2FDB1F92"
+        ],
+        "INHAPI": [
+            "26E39A5F"
+        ],
+        "JARAMATAIA": [
+            "7194DB60"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "C46F3A14",
+            "33AF7C64"
+        ],
+        "MARIBONDO": [
+            "FD8BB7DB"
+        ],
+        "OLHO D'ÁGUA DAS FLORES": [
+            "9B8CA681",
+            "7C8277BE",
+            "447096D7",
+            "7A9C27B0",
+            "7A73E265",
+            "ECC64BA9",
+            "4BBDC855",
+            "5D66350A",
+            "7BC047D5",
+            "4F057356",
+            "4562A3DF",
+            "85C40B49",
+            "80A49F32"
+        ],
+        "POÇO DAS TRINCHEIRAS": [
+            "42692694"
+        ],
+        "SÃO JOSÉ DA TAPERA": [
+            "3D29915D"
+        ],
+        "TEOTONIO VILELA": [
+            "EB89D4AB",
+            "8E19035E",
+            "FE601292",
+            "D377AF50",
+            "889EAE95",
+            "D36665C4",
+            "85D60ECE",
+            "C6AFAF6E",
+            "482FBBF3"
+        ]
+    }
+
+
+}
