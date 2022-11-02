@@ -1,0 +1,74 @@
+{
+    "desc": "diario-completo-2018-09-28-extraido.txt",
+    "path": "test_data/diario-completo-2018-09-28-extraido.txt",
+    "cabecalho": "Alagoas , 28 de Setembro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 0879 ",
+    "cods": {
+        "ARAPIRACA": [
+            "1BFF1A6D",
+            "3BBBF1FA",
+            "3CD9A459",
+            "05E071D5",
+            "D57F6F51"
+        ],
+        "CANAPI": [
+            "286867AC",
+            "1AE4DC52"
+        ],
+        "DOIS RIACHOS": [
+            "EDB07555",
+            "5D05F8D4",
+            "DBD2BDBD"
+        ],
+        "IGREJA NOVA": [
+            "3F1BFA98"
+        ],
+        "JUNQUEIRO": [
+            "48A3960E",
+            "EC2E9A9A",
+            "911BC3C8",
+            "7ACA8115",
+            "E5DD1B79"
+        ],
+        "LAGOA DA CANOA": [
+            "8A694DCB"
+        ],
+        "LIMOEIRO DE ANADIA": [
+            "020CE368",
+            "E3D52176"
+        ],
+        "MARAGOGI": [
+            "56D4EDA1",
+            "0F061F87",
+            "B2E85FF0",
+            "1B5CCCB2"
+        ],
+        "MARAVILHA": [
+            "C6F64AE2"
+        ],
+        "MARIBONDO": [
+            "39188787",
+            "04DC4393",
+            "AE24D0E2"
+        ],
+        "MINADOR DO NEGRÃO": [
+            "BCF10DF6"
+        ],
+        "OLHO D'ÁGUA DAS FLORES": [
+            "8FAF1A12"
+        ],
+        "PILAR": [
+            "AFE9B61C",
+            "BE566DEB",
+            "3C374E4C"
+        ],
+        "RIO LARGO": [
+            "4C81F215",
+            "A447B692",
+            "8CB02537",
+            "9537B3A5"
+        ]
+    }
+
+
+
+}
