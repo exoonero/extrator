@@ -1,0 +1,21 @@
+{
+    "desc": "diario-completo-2016-01-04-extraido.txt",
+    "path": "test_data/diario-completo-2016-01-04-extraido.txt",
+    "cabecalho": "Alagoas , 05 de Janeiro de 2016   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO III | Nº 0201 ",
+    "cods": {
+        "JEQUIÁ DA PRAIA": [
+            "174040EB",
+            "706C2006",
+            "C3C89047"
+        ],
+        "MARIBONDO": [
+            "E1C352BB",
+            "5736B841"
+        ],
+        "PÃO DE AÇÚCAR": [
+            "31AE6E94"
+        ]
+    }
+
+
+}
