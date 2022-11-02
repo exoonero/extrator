@@ -1,0 +1,28 @@
+{
+    "desc": "diario-completo-2016-10-28.extraido.txt",
+    "path": "test_data/test_eleitoral/diario-completo-2016-10-28-extraido.txt",
+    "cabecalho": "Alagoas , 28 de Outubro de 2016   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0398  ",
+    "cods": {
+        "ARAPIRACA": [
+            "39A407D6"
+        ],
+        "CORURIPE": [
+            "934AA973"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "3F88AAB4"
+        ],
+        "MARIBONDO": [
+            "14304717"
+        ],
+        "PÃO DE AÇÚCAR": [
+            "B4D955FF",
+            "E6738FDC"
+        ],
+        "TEOTONIO VILELA": [
+            "712BA3E1",
+            "96F13139",
+            "218EAE64"
+        ]
+    }
+}
