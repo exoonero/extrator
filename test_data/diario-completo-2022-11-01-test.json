@@ -1,0 +1,182 @@
+{
+    "desc": "diario-completo-2022-11-01-extraido.txt",
+    "path": "test_data/diario-completo-2022-11-01-extraido.txt",
+    "cabecalho": "Alagoas , 01 de Novembro de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO X | Nº 1913 ",
+    "cods": {
+        "- CONSORCIO REGIONAL DE RESIDUOS SOLIDOS DO AGRESTE ALAGOANO": [
+            "304194F0"
+        ],
+        "- CONSORCIO PARA DESENVOLVIMENTO DA REGIAO DO IPANEMA": [
+            "8C6B33DA"
+        ],
+        "ÁGUA BRANCA": [
+            "24CF6DFC"
+        ],
+        "ANADIA": [
+            "2827F018",
+            "ED298E9A"
+        ],
+        "BARRA DE SÃO MIGUEL": [
+            "0DC0693D",
+            "C9CEBCD9",
+            "D8145835",
+            "E1751118"
+        ],
+        "BELO MONTE": [
+            "C7FCE65D"
+        ],
+        "CAJUEIRO": [
+            "E8877FCB",
+            "D84AC4F0"
+        ],
+        "CAMPESTRE": [
+            "25C05D75"
+        ],
+        "CANAPI": [
+            "AF7B93D4"
+        ],
+        "CARNEIROS": [
+            "F3102B95"
+        ],
+        "COQUEIRO SECO": [
+            "2BAE4433",
+            "59E10E64",
+            "8279ADAB",
+            "6BC8415A",
+            "8EE921C1"
+        ],
+        "CRAÍBAS": [
+            "23C4924A",
+            "66BB010C",
+            "CECB7B10",
+            "713D268D",
+            "C798105B"
+        ],
+        "DELMIRO GOUVEIA": [
+            "6712161D",
+            "2F1B921D",
+            "F5B4BFE3",
+            "17A91046",
+            "591DCD25",
+            "814DAFAB",
+            "A4848389"
+        ],
+        "ESTRELA DE ALAGOAS": [
+            "D2EAB4E8"
+        ],
+        "FEIRA GRANDE": [
+            "9E3BC6FC",
+            "9A369FA9"
+        ],
+        "JACARÉ DOS HOMENS": [
+            "949B4721"
+        ],
+        "JACUÍPE": [
+            "0414DFC1",
+            "BD567E5E"
+        ],
+        "JEQUIÁ DA PRAIA": [
+            "F8B1F0F8"
+        ],
+        "MARAGOGI": [
+            "04174278",
+            "985D53F8",
+            "095B6ADF",
+            "35AC2825"
+        ],
+        "MARECHAL DEODORO": [
+            "F3895BD7",
+            "70CC820D",
+            "83FF85F1"
+        ],
+        "MARIBONDO": [
+            "0C5C5C6C",
+            "85B1D14D"
+        ],
+        "MAR VERMELHO": [
+            "3176535A"
+        ],
+        "MATA GRANDE": [
+            "2156DCB6",
+            "41473232"
+        ],
+        "MINADOR DO NEGRÃO": [
+            "AEB0542D"
+        ],
+        "MONTEIRÓPOLIS": [
+            "DD213C4D",
+            "D2E0B24B"
+        ],
+        "OLHO D'ÁGUA DAS FLORES": [
+            "DF4CCA54"
+        ],
+        "OURO BRANCO": [
+            "AF54ABE9",
+            "7A62FC3A"
+        ],
+        "PAULO JACINTO": [
+            "BAD94F14",
+            "B9ACF6DC"
+        ],
+        "PILAR": [
+            "A9E4D89C",
+            "2C4C666F",
+            "B7D5173A",
+            "1775EDC4",
+            "BAC0A9D5",
+            "F042F915",
+            "F67839DA",
+            "C46FF0B9",
+            "F2DCF92E",
+            "410FFABD",
+            "F7CD3E97",
+            "274FFDB8",
+            "40A620C1",
+            "999AB0B9",
+            "91EE79D7",
+            "3AAA3079",
+            "F3AB3E90",
+            "CA68DB58",
+            "93EFC95E"
+        ],
+        "PIRANHAS": [
+            "8A436B90",
+            "43C3BAFF",
+            "559BF2CB"
+        ],
+        "RIO LARGO": [
+            "E845CB6C",
+            "614E1CD1",
+            "9C7E8558",
+            "319F02D3"
+        ],
+        "SANTANA DO MUNDAÚ": [
+            "054E51D7"
+        ],
+        "SÃO JOSÉ DA LAJE": [
+            "A711E80D",
+            "2283B81E",
+            "3937FD4F",
+            "67534A8C"
+        ],
+        "SÃO JOSÉ DA TAPERA": [
+            "EA94DA9C",
+            "6DE89D7F"
+        ],
+        "TEOTONIO VILELA": [
+            "E67F20F0",
+            "2D64AB33",
+            "9C70F36F",
+            "7860A10A",
+            "CCF82768",
+            "BE9AFF06",
+            "1B07DB70"
+        ],
+        "VIÇOSA": [
+            "7D1E04F3"
+        ],
+        "PARICONHA": [
+            "C86312A2"
+        ]
+    }
+}
