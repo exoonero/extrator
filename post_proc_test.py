@@ -33,6 +33,7 @@ class PostProcTest(unittest.TestCase):
                  'test_data/test_eleitoral/diario-completo-2016-10-14-test.json',
                  'test_data/test_eleitoral/diario-completo-2016-10-28-test.json',
                  'test_data/test_eleitoral/diario-completo-2020-10-30-test.json',
+                 'test_data/test_eleitoral/diario-completo-2020-10-15-test.json',
                  'test_data/test_eleitoral/diario-completo-2020-10-01-test.json'
                  )
         for case_path in cases:
