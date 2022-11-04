@@ -1,0 +1,142 @@
+{
+
+    "desc": "diario-completo-2020-10-01-extraido.txt",
+    "path": "test_data/test_eleitoral/diario-completo-2020-10-01-extraido.txt",
+    "cabecalho": "Alagoas , 01 de Outubro de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1385 ",
+    "cods": {
+        "ARAPIRACA": [
+            "65794DD4",
+            "1D359631",
+            "CCD23FBC"
+        ],
+        "ATALAIA": [
+            "7F8B4BDC"
+        ],
+        "BELO MONTE": [
+            "522D6D51"
+        ],
+        "CAMPO ALEGRE": [
+            "83B6A6BC",
+            "258F4F54"
+        ],
+        "COITÉ DO NÓIA": [
+            "E96032A7"
+        ],
+        "CORURIPE": [
+            "08CD63F2",
+            "4D314BED"
+        ],
+        "CRAÍBAS": [
+            "64F7C1B0"
+        ],
+        "DELMIRO GOUVEIA": [
+            "BFF895A3"
+        ],
+        "GIRAU DO PONCIANO": [
+            "459DB81E"
+        ],
+        "IGREJA NOVA": [
+            "78AB2CD6",
+            "88F2684B",
+            "152DDB27",
+            "E5CB03E7",
+            "17A55476"
+        ],
+        "JACARÉ DOS HOMENS": [
+            "E0CD7B6B"
+        ],
+        "JUNQUEIRO": [
+            "1268038E",
+            "887F9DEF",
+            "52E62855",
+            "9DFFB00C",
+            "70A18233",
+            "2F15B1BF",
+            "1C177E50"
+        ],
+        "LAGOA DA CANOA": [
+            "CB80E642",
+            "82C870EC"
+        ],
+        "MAJOR IZIDORO": [
+            "27B1CC42",
+            "E6F14D03"
+        ],
+        "MARAGOGI": [
+            "D5985B1B",
+            "00772D90",
+            "6E32DFB9",
+            "53237FAA",
+            "6560545A",
+            "CEC4210B",
+            "E43DFC21",
+            "01B9EB47",
+            "62E2A56D",
+            "96893698"
+        ],
+        "MARAVILHA": [
+            "03679F94"
+        ],
+        "MARECHAL DEODORO": [
+            "DF7462EE",
+            "D30D292B",
+            "D11EBE16",
+            "23181682",
+            "F271D471",
+            "F7ADA0F1",
+            "9B799D1E",
+            "59C8F6A0",
+            "6B790EDC"
+        ],
+        "MATA GRANDE": [
+            "12D9A64C",
+            "6304E04B",
+            "00F89241"
+        ],
+        "MONTEIRÓPOLIS": [
+            "E649B2CF"
+        ],
+        "OLHO D´AGUA DO CASADO": [
+            "214AAB2C"
+        ],
+        "PILAR": [
+            "3BED8E9A"
+        ],
+        "PIRANHAS": [
+            "1390C45A",
+            "57639883",
+            "9C65CA7F"
+        ],
+        "POÇO DAS TRINCHEIRAS": [
+            "B09CA172"
+        ],
+        "PORTO DE PEDRAS": [
+            "BC89585C",
+            "2B5A8DF1"
+        ],
+        "PORTO REAL DO COLÉGIO": [
+            "5B8C852B"
+        ],
+        "RIO LARGO": [
+            "9C337931",
+            "CCDC1B81"
+        ],
+        "SANTANA DO MUNDAÚ": [
+            "8AB579A4"
+        ],
+        "SÃO SEBASTIÃO": [
+            "C315979E"
+        ],
+        "TEOTONIO VILELA": [
+            "E226AB3E",
+            "E43BA305",
+            "98D8E44D",
+            "2EBC01FA",
+            "D3DA4A69",
+            "6E51D599",
+            "913D0060"
+        ]
+
+    }
+
+}
