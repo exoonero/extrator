@@ -54,7 +54,8 @@ class Diario:
 
     def _extrai_atos(self, texto: str):
         atos = []
-        matches = re.findall(r"^[\s\S]*?Código Identificador:.*$\n", texto, re.MULTILINE)
+        matches = re.findall(
+            r"^[\s\S]*?Código Identificador:.*$\n", texto, re.MULTILINE)
         for match in matches:
             atos.append(AtoNormativo(match.strip()))
         return atos

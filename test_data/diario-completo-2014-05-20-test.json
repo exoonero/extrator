@@ -2,7 +2,7 @@
     "desc": "diario-completo-2014-05-20-extraido.txt",
     "path": "test_data/diario-completo-2014-05-20-extraido.txt",
     "cabecalho": "Alagoas , 21 de Maio de 2014   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO I | Nº 0002 ",
-    "cods": {
+    "atos": {
         "PÃO DE AÇÚCAR": [
             "A89AC010",
             "22129830",

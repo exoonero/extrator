@@ -1,7 +1,7 @@
 {
     "desc": "diario-completo-2021-03-29-test.json",
     "path": "test_data/diario-completo-2021-03-29-extraido.txt",
-    "cods": {
+    "atos": {
         "ÁGUA BRANCA": [
             "8B8AB9D0",
             "6A461731",

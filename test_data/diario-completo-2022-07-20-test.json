@@ -1,7 +1,7 @@
 {
     "desc": "diario-completo-2022-07-20-extraido.txt",
     "path": "test_data/diario-completo-2022-07-20-extraido.txt",
-    "cods": {
+    "atos": {
         "ARAPIRACA": [
             "0C158AB2",
             "C190BB6E"

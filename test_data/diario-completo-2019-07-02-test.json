@@ -2,7 +2,7 @@
     "desc": "diario-completo-2019-07-02.extraido.txt",
     "path": "test_data/diario-completo-2019-07-02-extraido.txt",
     "cabecalho": "Alagoas , 02 de Julho de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 1067 ",
-    "cods": {
+    "atos": {
         "ARAPIRACA": [
             "5B096C83", 
             "D042C26E", 

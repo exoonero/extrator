@@ -2,7 +2,7 @@
     "desc": "diario-completo-2018-10-02.extraido.txt",
     "path": "test_data/diario-completo-2018-10-02-extraido.txt",
     "cabecalho": "Alagoas , 02 de Outubro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 0881 ",
-    "cods": {
+    "atos": {
         "CANAPI": [
             "C966FA04"
         ],

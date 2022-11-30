@@ -45,13 +45,13 @@ class PostProcTest(unittest.TestCase):
                     # Teste Quantidade de Municípios
                     diario_extraido = diario.read()
                     diarios = extrai_diarios(diario_extraido)
-                    municipios_esperados = list(case.cods.keys())
+                    municipios_esperados = list(case.atos.keys())
                     municipios_obtidos = [
                         diario.municipio for diario in diarios]
                     self.assertListEqual(municipios_esperados, municipios_obtidos,
                                          f'Caso: {case.desc}\nEsperado:{municipios_esperados}\nObtido:{municipios_obtidos}')
 
-                    for municipio, cods in case.cods.items():
+                    for municipio, cods in case.atos.items():
                         diario = get_diario(municipio, diarios)
 
                         # Teste Cabeçalho

@@ -1,7 +1,7 @@
 {
     "desc": "diario-completo-2020-06-29-test.json",
     "path": "test_data/diario-completo-2020-06-29-extraido.txt",
-    "cods": {
+    "atos": {
         "ARAPIRACA": [
             "FA0DFEBD",
             "446A303A"

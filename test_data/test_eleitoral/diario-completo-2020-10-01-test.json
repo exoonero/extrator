@@ -3,7 +3,7 @@
     "desc": "diario-completo-2020-10-01-extraido.txt",
     "path": "test_data/test_eleitoral/diario-completo-2020-10-01-extraido.txt",
     "cabecalho": "Alagoas , 01 de Outubro de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1385 ",
-    "cods": {
+    "atos": {
         "ARAPIRACA": [
             "65794DD4",
             "1D359631",

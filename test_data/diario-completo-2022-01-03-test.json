@@ -2,7 +2,7 @@
     "desc": "diario-completo-2022-01-03-extraido.txt",
     "path": "test_data/diario-completo-2022-01-03-extraido.txt",
     "cabecalho": "Alagoas , 03 de Janeiro de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1701 ",
-    "cods": {
+    "atos": {
         "ARAPIRACA": [
             "F3D5B35A", 
             "250CC927"

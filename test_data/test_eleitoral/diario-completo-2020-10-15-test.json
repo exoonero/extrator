@@ -2,7 +2,7 @@
     "desc": "diario-completo-2020-10-15-extraido.txt",
     "path": "test_data/test_eleitoral/diario-completo-2020-10-15-extraido.txt",
     "cabecalho": "Alagoas , 15 de Outubro de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1394 ",
-    "cods": {
+    "atos": {
         "ÁGUA BRANCA": [
             "AE9F742D",
             "6554E404",

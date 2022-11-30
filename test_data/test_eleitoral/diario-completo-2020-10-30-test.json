@@ -2,7 +2,7 @@
     "desc": "diario-completo-2020-10-30.extraido.txt",
     "path": "test_data/test_eleitoral/diario-completo-2020-10-30-extraido.txt",
     "cabecalho": "Alagoas , 30 de Outubro de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1405 ",
-    "cods": {
+    "atos": {
         "ATALAIA": [
             "51A7A9F3"
         ],
