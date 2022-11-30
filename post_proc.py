@@ -3,10 +3,61 @@ import sys
 import unicodedata
 from cgitb import text
 from os import pread
+from datetime import date
 
 # No final do regex, existe uma estrutura condicional que verifica se o próximo match é um \s ou SECRETARIA. Isso foi feito para resolver um problema no diário de 2018-10-02, em que o município de Coité do Nóia não foi percebido pelo código. Para resolver isso, utilizamos a próxima palavra (SECRETARIA) para tratar esse caso.
 re_nomes_municipios = (
-    r"ESTADO DE ALAGOAS \n{1,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}.*$)\n\s(?:\s|SECRETARIA)")
+    r"ESTADO DE ALAGOAS \n{1,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}.*$)\n\s(?:\s|SECRETARIA)")\
+
+
+
+class AtoNormativo:
+
+    def __init__(self, texto: str):
+        self.texto = texto
+        self.cod = self._extrai_cod(texto)
+
+    def _extrai_cod(self, texto: str):
+        matches = re.findall(r'Código Identificador:(.*)', texto)
+        return matches[0]
+
+
+class Diario:
+
+    _mapa_meses = {
+        "Janeiro": 1,
+        "Fevereiro": 2,
+        "Março": 3,
+        "Abril": 4,
+        "Maio": 5,
+        "Junho": 6,
+        "Julho": 7,
+        "Agosto": 8,
+        "Setembro": 9,
+        "Outubro": 10,
+        "Novembro": 11,
+        "Dezembro": 12,
+    }
+
+    def __init__(self, municipio: str, cabecalho: str, texto: str):
+        self.municipio = municipio
+        self.cabecalho = cabecalho
+        self.texto = texto.rstrip()
+        self.data_publicacao = self._extrai_data_publicacao(cabecalho)
+        self.atos = self._extrai_atos(texto)
+
+    def _extrai_data_publicacao(self, ama_header: str):
+        match = re.findall(
+            r".*(\d{2}) de (\w*) de (\d{4})", ama_header, re.MULTILINE)[0]
+        mes = Diario._mapa_meses[match[1]]
+        return date(year=int(match[2]), month=mes, day=int(match[0]))
+
+    def _extrai_atos(self, texto: str):
+        atos = []
+        matches = re.findall(r"^[\s\S]*?Código Identificador:.*$\n", texto, re.MULTILINE)
+        for match in matches:
+            atos.append(AtoNormativo(match.strip()))
+        return atos
 
 
 def extrai_diarios(texto_diario: str):
@@ -37,11 +88,11 @@ def extrai_diarios(texto_diario: str):
         texto_diario_slice) if n not in linhas_apagar]
 
     # Inserindo o cabeçalho no diário de cada município.
-    diarios = {}
+    texo_diarios = {}
     nomes_municipios = re.findall(
         re_nomes_municipios, texto_diario, re.MULTILINE)
     for municipio in nomes_municipios:
-        diarios[municipio.strip().replace('\n', '')] = ama_header + '\n\n'
+        texo_diarios[municipio.strip().replace('\n', '')] = ama_header + '\n\n'
 
     num_linha = 0
     municipio_atual = None
@@ -59,20 +110,24 @@ def extrai_diarios(texto_diario: str):
             continue
 
         # Conteúdo faz parte de um muncípio
-        diarios[municipio_atual] += linha + '\n'
+        texo_diarios[municipio_atual] += linha + '\n'
         num_linha += 1
 
-    return {municipio: diario.rstrip() for municipio, diario in diarios.items()}
+    diarios = []
+    for municipio, diario in texo_diarios.items():
+        diarios.append(Diario(municipio, ama_header, diario))
+
+    return diarios
 
 
-def cria_arquivos(nome_arquivo_preffix: str, municipios: dict):
-    for nome_municipio, diario in municipios.items():
-        nome_arquivo = nome_municipio.strip().lower().replace(" ", "-")
+def cria_arquivos(nome_arquivo_preffix: str, diarios: dict):
+    for diario in diarios:
+        nome_arquivo = diario.municipio.strip().lower().replace(" ", "-")
         nome_arquivo = unicodedata.normalize('NFKD', nome_arquivo)
         nome_arquivo = nome_arquivo.encode('ASCII', 'ignore').decode("utf-8")
         nome_arquivo = f"{nome_arquivo_preffix}-proc-{nome_arquivo}.txt"
         with open(nome_arquivo, "w") as out_file:
-            out_file.write(diario)
+            out_file.write(diario.texto)
 
 
 def nome_municipio(texto_diario_slice: slice, num_linha: int):

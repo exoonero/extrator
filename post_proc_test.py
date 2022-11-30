@@ -20,16 +20,16 @@ class PostProcTest(unittest.TestCase):
                  'test_data/diario-completo-2020-05-14-test.json',
                  'test_data/diario-completo-2019-08-14-test.json',
                  'test_data/diario-completo-2019-07-02-test.json',
-                 'test_data/diario-completo-2018-09-28-test.json',   
-                 'test_data/diario-completo-2018-10-02-test.json',    
+                 'test_data/diario-completo-2018-09-28-test.json',
+                 'test_data/diario-completo-2018-10-02-test.json',
                  'test_data/diario-completo-2017-12-28-test.json',
-                 'test_data/diario-completo-2017-11-13-test.json',          
+                 'test_data/diario-completo-2017-11-13-test.json',
                  'test_data/diario-completo-2016-02-15-test.json',
-                 'test_data/diario-completo-2016-01-04-test.json',           
+                 'test_data/diario-completo-2016-01-04-test.json',
                  'test_data/diario-completo-2015-04-02-test.json',
-                 'test_data/diario-completo-2015-03-26-test.json',          
-                 'test_data/diario-completo-2014-06-23-test.json', 
-                 'test_data/diario-completo-2014-05-20-test.json',         
+                 'test_data/diario-completo-2015-03-26-test.json',
+                 'test_data/diario-completo-2014-06-23-test.json',
+                 'test_data/diario-completo-2014-05-20-test.json',
                  'test_data/test_eleitoral/diario-completo-2016-10-14-test.json',
                  'test_data/test_eleitoral/diario-completo-2016-10-28-test.json',
                  'test_data/test_eleitoral/diario-completo-2020-10-30-test.json',
@@ -46,19 +46,27 @@ class PostProcTest(unittest.TestCase):
                     diario_extraido = diario.read()
                     diarios = extrai_diarios(diario_extraido)
                     municipios_esperados = list(case.cods.keys())
-                    municipios_obtidos = list(diarios.keys())
-                    self.assertListEqual(municipios_esperados, municipios_obtidos, f'Caso: {case.desc}\nEsperado:{municipios_esperados}\nObtido:{municipios_obtidos}')
-                    for municipio, diario in diarios.items():
+                    municipios_obtidos = [
+                        diario.municipio for diario in diarios]
+                    self.assertListEqual(municipios_esperados, municipios_obtidos,
+                                         f'Caso: {case.desc}\nEsperado:{municipios_esperados}\nObtido:{municipios_obtidos}')
+
+                    for municipio, cods in case.cods.items():
+                        diario = get_diario(municipio, diarios)
+
                         # Teste Cabeçalho
-                        self.assertEqual(
-                            case.cabecalho, diario.splitlines()[0])
+                        self.assertEqual(case.cabecalho, diario.cabecalho)
 
                         # Verifica se todos os atos foram corretamente extraídos
-                        expected_cods = case.cods.get(municipio, [])
-                        cods_in_text = re.findall(
-                            r'Código Identificador:(.*)', diario)
                         self.assertListEqual(
-                            expected_cods, cods_in_text, f'Município: {municipio}\nDiário:{diario}')
+                            cods, [ato.cod for ato in diario.atos], f'Caso: {case.desc}\nMunicípio: {diario.municipio}')
+
+
+def get_diario(municipio: str, diarios: slice):
+    for diario in diarios:
+        if diario.municipio == municipio:
+            return diario
+    return None
 
 
 class asobject(object):
