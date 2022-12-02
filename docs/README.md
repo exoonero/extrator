@@ -1,6 +1,6 @@
 # Monitoramento de atos do executivo municipal de Alagoas a partir dos diários oficiais
 
-Este projeto é financiado pelo [Instituto Federal de Alagas (IFAL)](https://www2.ifal.edu.br/) através do projeto de pesquisa PVA328-2022. Além do financiamento, o projeto com apoio da [Open Knowledge Brasil (OKBR)](https://ok.org.br/), no âmbito de uma [parceria com foco no projeto Querido Diário](https://ok.org.br/noticia/querido-diario-nas-universidades-okbr-lanca-chamada-para-parcerias-em-projetos-de-ciencia-de-dados/). O projeto teve início em agosto 2022 e terá até 12 meses de duração.
+Este projeto é financiado pelo [Instituto Federal de Alagoas (IFAL)](https://www2.ifal.edu.br/) através do projeto de pesquisa PVA328-2022. Além do financiamento, o projeto conta com apoio da [Open Knowledge Brasil (OKBR)](https://ok.org.br/), no âmbito de uma [parceria com foco no projeto Querido Diário](https://ok.org.br/noticia/querido-diario-nas-universidades-okbr-lanca-chamada-para-parcerias-em-projetos-de-ciencia-de-dados/). O projeto teve início em agosto 2022 e terá até 12 meses de duração.
 
 O projeto conta com os seguintes integrantes:
 - Alex Custódio (discente)
