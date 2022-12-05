@@ -9,18 +9,20 @@ O projeto conta com os seguintes integrantes:
 - [Felipe Alencar](https://github.com/felipealencar): professor do IFAL campus Arapirac
 - [Luisa Coelho](https://github.com/luisa-coelho): bolsita PCDaS
 
-O sucesso na execução da primeira etapada deste projeto reforça que o potencial da inclusão de instituições de nível técnico na parceria IFAL-OKBR. Todo o código produzido é aberto e distribuído de forma livre no repositório [danielfireman/ifal-qd](https://github.com/danielfireman/ifal-qd).
+O projeto tem como principal objetivo coletar, transformar em texto e separar em municípios os diários oficiais municipais da [Associação dos Municípios Alagoanos (AMA)](https://www.diariomunicipal.com.br/ama/). Além da separação do conteúdo por município, o texto do diário de cada ente estadual é separado em atos normativos. Também iremos utilizar algoritmos computacionais para classificar e extrair informações dos atos normativos dos diários de cada município. Mais especificamente, o nosso foco será em nomeações e exonerações.
+
+Também buscamos alguns requisitos não-funcionais:
+- **Simplicidade**: ela se traduziu em uma análise de diversos casos, onde chegamos a conclusão que poderíamos utilizar expressões regulares (ao invés de inteligência computacional, por exemplo);
+- **Facilidade de utilização do código pelo QD**: com a ajuda da busca pela simplicidade, o objetivo é depender o mínimo possível de bibliotecas de terceiros e focar numa API de clara e com boa documentação;
+- **Replicabilidade do código para outros estados/associações de municípios**: prevemos que a solução possa ser utilizada em outros contextos apenas modificando as expressões regulares.
+
+Além destes, todo o código produzido é aberto e distribuído de forma livre no repositório [danielfireman/ifal-qd](https://github.com/danielfireman/ifal-qd).
 
 Para tornar mais fácil o acompanhamento, o projeto foi dividido em duas fases. A primeira fase tem como principal objetivo propor e avaliar um algoritmo que permita a separação do conteúdo do diário oficial da [Associação dos Municípios Alagoanos (AMA)](https://www.diariomunicipal.com.br/ama/) por município. A segunda fase diz respeito a extração e monitoramento de informações relevantes, por exemplo, nomeações e exonerações.
 
 ## Fase 1: Separação do conteúdo diários oficiais da AMA em municípios
 
 Essa fase foi executada com sucesso entre agosto e dezembro de 2022. Seu objetivo foi coletar, transformar em texto e separar em municípios os diários oficiais municipais da [Associação dos Municípios Alagoanos (AMA)](https://www.diariomunicipal.com.br/ama/). Além da separação do conteúdo por município, o texto do diário de cada ente estadual é separado em atos normativos.
-
-Também buscamos alguns requisitos não-funcionais:
-- **Simplicidade**: ela se traduziu em uma análise de diversos casos, onde chegamos a conclusão que poderíamos utilizar expressões regulares (ao invés de inteligência computacional, por exemplo);
-- **Facilidade de utilização do código pelo QD**: com a ajuda da busca pela simplicidade, o objetivo é depender o mínimo possível de bibliotecas de terceiros e focar numa API de clara e com boa documentação;
-- **Replicabilidade do código para outros estados/associações de municípios**: prevemos que a solução possa ser utilizada em outros contextos apenas modificando as expressões regulares.
 
 Esse foi objetivo foi atingido com a execuão das seguintes etapas:
 
@@ -34,6 +36,8 @@ Para aumentar a confiança na solução proposta, testamos com sucesso 25 diári
 - Atos dos diários de cada município.
 
 A OKBR planeja integrar esses algoritmos ao projeto Querido Diário a partir de janeiro de 2023. Dessa forma será possível coletar continuamente os diários dos 102 municípios alagoanos e disponibilizá-los na plataforma, permitindo consultas e habilitando análises mais ricas.
+
+O sucesso na execução da primeira etapada deste projeto reforça que o potencial da inclusão de instituições de nível técnico na parceria IFAL-OKBR. 
 
 ## Fase 2: Classificação dos atos normativos -- nomeações e exonerações
 
