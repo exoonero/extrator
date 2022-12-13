@@ -2,27 +2,79 @@
     "desc": "diario-completo-2022-01-03-extraido.txt",
     "path": "test_data/diario-completo-2022-01-03-extraido.txt",
     "cabecalho": "Alagoas , 03 de Janeiro de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1701 ",
-    "atos": {
-        "ARAPIRACA": [
-            "F3D5B35A", 
-            "250CC927"
-        ],
-        "BRANQUINHA": [
-            "29B6802A"
-        ],
-        "MAR VERMELHO": [
-            "F976D351"
-        ],
-        "QUEBRANGULO": [
-            "38B75B68", 
-            "E29CDB22", 
-            "D959DD66", 
-            "816A6539"
-        ],
-        "SANTANA DO MUNDAÚ": [
-            "005433BF"
-        ]
+    "diarios" : [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "F3D5B35A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "250CC927",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
 
-    }
+                }
+            ]
+        },
+        {
+            "municipio": "BRANQUINHA",
+            "atos": [
+                {
+                    "cod": "29B6802A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MAR VERMELHO",
+            "atos": [
+                {
+                    "cod": "F976D351",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "QUEBRANGULO",
+            "atos": [
+                {
+                    "cod": "38B75B68",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E29CDB22",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D959DD66",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "816A6539",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO MUNDAÚ",
+            "atos": [
+                {
+                    "cod": "005433BF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+
+    ]  
     
 }
