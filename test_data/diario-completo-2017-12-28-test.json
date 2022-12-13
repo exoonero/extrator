@@ -2,45 +2,146 @@
     "desc": "diario-completo-2017-12-28.extraido.txt",
     "path": "test_data/diario-completo-2017-12-28-extraido.txt",
     "cabecalho": "Alagoas , 28 de Dezembro de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0688 ",
-    "atos": {
-        "ARAPIRACA": [
-            "50387C8A",
-            "D446BAE8"
-        ],
-        "CACIMBINHAS": [
-            "84FBD112"
-        ],
-        "CAMPO ALEGRE": [
-            "96ED1565"
-        ],
-        "CARNEIROS": [
-            "0BABB51C"
-        ],
-        "CORURIPE": [
-            "25E5534B",
-            "43A23ECA"
-        ],
-        "JARAMATAIA": [
-            "22BFF9CE"
-        ],
-        "JEQUIÁ DA PRAIA": [
-            "95B02135",
-            "CDF99BF3"
-        ],
-        "MARAVILHA": [
-            "3EBEAC58" 
-        ],
-        "PÃO DE AÇÚCAR": [
-            "62976993"
-        ],
-        "PINDOBA": [
-            "445F1248",
-            "EDDB83C1"
-        ],
-        "SANTA LUZIA DO NORTE": [
-            "197B64F9",
-            "804B441D",
-            "7F284A74"
-        ]
-    }
+    "diarios": [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "50387C8A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D446BAE8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CACIMBINHAS",
+            "atos": [
+                {
+                    "cod": "84FBD112",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CAMPO ALEGRE",
+            "atos": [
+                {
+                    "cod": "96ED1565",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CARNEIROS",
+            "atos": [
+                {
+                    "cod": "0BABB51C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CORURIPE",
+            "atos": [
+                {
+                    "cod": "25E5534B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "43A23ECA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JARAMATAIA",
+            "atos": [
+                {
+                    "cod": "22BFF9CE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JEQUIÁ DA PRAIA",
+            "atos": [
+                {
+                    "cod": "95B02135",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CDF99BF3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAVILHA",
+            "atos": [
+                {
+                    "cod": "3EBEAC58",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PÃO DE AÇÚCAR",
+            "atos": [
+                {
+                    "cod": "62976993",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PINDOBA",
+            "atos": [
+                {
+                    "cod": "445F1248",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EDDB83C1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTA LUZIA DO NORTE",
+            "atos": [
+                {
+                    "cod": "197B64F9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "804B441D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7F284A74",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
 }
