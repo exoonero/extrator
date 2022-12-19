@@ -2,27 +2,81 @@
     "desc": "diario-completo-2016-10-28.extraido.txt",
     "path": "test_data/diario-completo-2016-10-28-extraido.txt",
     "cabecalho": "Alagoas , 28 de Outubro de 2016   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0398  ",
-    "atos": {
-        "ARAPIRACA": [
-            "39A407D6"
-        ],
-        "CORURIPE": [
-            "934AA973"
-        ],
-        "JEQUIÁ DA PRAIA": [
-            "3F88AAB4"
-        ],
-        "MARIBONDO": [
-            "14304717"
-        ],
-        "PÃO DE AÇÚCAR": [
-            "B4D955FF",
-            "E6738FDC"
-        ],
-        "TEOTONIO VILELA": [
-            "712BA3E1",
-            "96F13139",
-            "218EAE64"
-        ]
-    }
+    "diarios": [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "39A407D6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CORURIPE",
+            "atos": [
+                {
+                    "cod": "934AA973",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JEQUIÁ DA PRAIA",
+            "atos": [
+                {
+                    "cod": "3F88AAB4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARIBONDO",
+            "atos": [
+                {
+                    "cod": "14304717",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PÃO DE AÇÚCAR",
+            "atos": [
+                {
+                    "cod": "B4D955FF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E6738FDC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TEOTONIO VILELA",
+            "atos": [
+                {
+                    "cod": "712BA3E1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "96F13139",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "218EAE64",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
 }
