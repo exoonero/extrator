@@ -13,7 +13,7 @@ class PostProcTest(unittest.TestCase):
             'test_data/diario-completo-2022-01-03-test.json',
             # 'test_data/diario-completo-2022-08-29-test.json',
             # 'test_data/diario-completo-2022-08-15-test.json',
-            # 'test_data/diario-completo-2022-07-20-test.json',
+            'test_data/diario-completo-2022-07-20-test.json',
             # 'test_data/diario-completo-2022-02-14-test.json',
             # 'test_data/diario-completo-2021-04-01-test.json',
             # 'test_data/diario-completo-2021-03-29-test.json',
