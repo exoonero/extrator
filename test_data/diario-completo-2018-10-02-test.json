@@ -2,85 +2,351 @@
     "desc": "diario-completo-2018-10-02.extraido.txt",
     "path": "test_data/diario-completo-2018-10-02-extraido.txt",
     "cabecalho": "Alagoas , 02 de Outubro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 0881 ",
-    "atos": {
-        "CANAPI": [
-            "C966FA04"
-        ],
-        "COITÉ DO NÓIA": [
-            "12F7DE15"
-        ],
-        "DELMIRO GOUVEIA": [
-            "1A7BD252"
-        ],
-        "FELIZ DESERTO": [
-            "2C941DBD" 
-        ],
-        "JARAMATAIA": [
-            "6D4471B8",
-            "D37371E5",
-            "F96F9DE1",
-            "9E2360FA",
-            "28BB88D7",
-            "F55FD8EE",
-            "4C2E8C15",
-            "589C1012",
-            "BFD048AB",
-            "72A02EA7",
-            "CD06E209",
-            "5E3B51CB",
-            "BD3ECFFB",
-            "21720E5C"
-        ],
-        "JUNQUEIRO": [
-            "FEF1E773"
-        ],
-        "MARAGOGI": [
-            "1DF1F19F",
-            "0EED1990",
-            "FE58BF8E",
-            "67589C0E",
-            "BA15D992",
-            "CF6E4C44",
-            "4717E0A9",
-            "A61F7EAC",
-            "6C59CFC5",
-            "B124090D",
-            "0A94B49F",
-            "951792DC",
-            "F5AEF4B4",
-            "DE17B4E4",
-            "E52833BA",
-            "5CB680AC",
-            "6420375A",
-            "9063DC61",
-            "6A767124",
-            "E8BF2CA5",
-            "F75067E8",
-            "9877B460",
-            "7C2C6663",
-            "0134D378",
-            "06A2D3E4",
-            "2ED4EF5D",
-            "50E6DB4C",
-            "034BCCFA",
-            "C09D6FD2",
-            "69AB1396"
-        ],
-        "PILAR": [
-            "435E2D6F",
-            "BC43E609"
-        ],
-        "SANTA LUZIA DO NORTE": [
-            "D262E26E",
-            "D9481035",
-            "810FED25"
-        ],
-        "SÃO LUIS DO QUITUNDE": [
-            "369AD9F0",
-            "07A64E21",
-            "24B2E504",
-            "63636036",
-            "A8A5DB8F"
-        ]
-    }
+    "diarios": [
+        {
+            "municipio": "CANAPI",
+            "atos": [
+                {
+                    "cod": "C966FA04",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "COITÉ DO NÓIA",
+            "atos": [
+                {
+                    "cod": "12F7DE15",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "DELMIRO GOUVEIA",
+            "atos": [
+                {
+                    "cod": "1A7BD252",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "FELIZ DESERTO",
+            "atos": [
+                {
+                    "cod": "2C941DBD",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JARAMATAIA",
+            "atos": [
+                {
+                    "cod": "6D4471B8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D37371E5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F96F9DE1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9E2360FA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "28BB88D7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F55FD8EE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4C2E8C15",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "589C1012",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BFD048AB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "72A02EA7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CD06E209",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5E3B51CB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BD3ECFFB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "21720E5C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JUNQUEIRO",
+            "atos": [
+                {
+                    "cod": "FEF1E773",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAGOGI",
+            "atos": [
+                {
+                    "cod": "1DF1F19F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0EED1990",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FE58BF8E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "67589C0E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BA15D992",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CF6E4C44",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4717E0A9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A61F7EAC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6C59CFC5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B124090D",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0A94B49F",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "951792DC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "F5AEF4B4",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DE17B4E4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "E52833BA",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5CB680AC",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6420375A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9063DC61",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "6A767124",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E8BF2CA5",
+                    "nomeacoes": 7,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F75067E8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "9877B460",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "7C2C6663",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "0134D378",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "06A2D3E4",
+                    "nomeacoes": 4,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2ED4EF5D",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "50E6DB4C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "034BCCFA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C09D6FD2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "69AB1396",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PILAR",
+            "atos": [
+                {
+                    "cod": "435E2D6F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BC43E609",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTA LUZIA DO NORTE",
+            "atos": [
+                {
+                    "cod": "D262E26E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D9481035",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "810FED25",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO LUIS DO QUITUNDE",
+            "atos": [
+                {
+                    "cod": "369AD9F0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "07A64E21",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "24B2E504",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "63636036",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A8A5DB8F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
 }
