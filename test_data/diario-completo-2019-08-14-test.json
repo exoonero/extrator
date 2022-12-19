@@ -2,127 +2,491 @@
     "desc": "diario-completo-2019-08-14.extraido.txt",
     "path": "test_data/diario-completo-2019-08-14-extraido.txt",
     "cabecalho": "Alagoas , 14 de Agosto de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 1098 ",
-    "atos": {
-        "ARAPIRACA": [
-            "E4CE6C2A",
-            "11A5680E",
-            "2AB0A8F2",
-            "5DAAD9C5",
-            "2C66D7A1",
-            "1B24706E",
-            "75DD30FD",
-            "FFA1062D",
-            "8D24C1E9",
-            "4C228816"
-        ],
-        "ATALAIA": [
-            "535804F9"
-        ],
-        "BATALHA": [
-            "ECB42B8C"
-        ],
-        "CANAPI": [
-            "95051F99"
-        ],
-        "COITÉ DO NÓIA": [
-            "E22498EE"
-        ],
-        "DELMIRO GOUVEIA": [
-            "5EAD861E",
-            "4A777DB0",
-            "C0F19A4A"
-        ],
-        "FELIZ DESERTO": [
-            "A72F8007"
-        ],
-        "IBATEGUARA": [
-            "3A4F0BF3",
-            "22126B8A"
-        ],
-        "IGREJA NOVA": [
-            "ED3F26B1"
-        ],
-        "INHAPI": [
-            "B2E18197",
-            "27F801D3"
-        ],
-        "JARAMATAIA": [
-            "3FAA5A26"
-        ],
-        "JEQUIÁ DA PRAIA": [
-            "04BC3FD4"
-        ],
-        "LIMOEIRO DE ANADIA": [
-            "0E407BF8"
-        ],
-        "MARAGOGI": [
-            "4B4B376A",
-            "3887F20E",
-            "D349AE2D",
-            "672857BA",
-            "BBD6E9C2",
-            "E260A329",
-            "4060B95E",
-            "2AD4906C",
-            "87161E63",
-            "01076404"
-        ],
-        "MARECHAL DEODORO": [
-            "1B7839F6",
-            "B2CE824E",
-            "9EA16617",
-            "56393134",
-            "8671BD8B",
-            "E86767A2",
-            "F12136E2",
-            "130E43B8",
-            "264424D8",
-            "291ACEE2",
-            "8E27841D",
-            "09A260B0",
-            "EEA416B1",
-            "EAE05C8D",
-            "EB772D14",
-            "B4BF9E24",
-            "F6FC4ED9",
-            "444A5EB4"
-        ],
-        "OLHO D'ÁGUA DAS FLORES": [
-            "9250FC99",
-            "45FB5148",
-            "33309A1F",
-            "8D20976A",
-            "FFDCC85D"
-        ],
-        "PALESTINA": [
-            "2F1179B5"
-        ],
-        "PAULO JACINTO": [
-            "1DD3B45C",
-            "12C69C87"
-        ],
-        "PILAR": [
-            "BF1359AA",
-            "A5EA83AF"
-        ],
-        "PORTO REAL DO COLÉGIO": [
-            "884B1F6F" 
-        ],
-        "SANTA LUZIA DO NORTE": [
-            "042D34AA",
-            "9900EBEF",
-            "8AF9B2E9",
-            "1BCE33DE",
-            "A2AE2CF6",
-            "EAB4C8F8",
-            "AAE0669B"
-        ],
-        "SÃO LUIS DO QUITUNDE": [
-            "23463276",
-            "602A9058"
-        ],
-        "TEOTONIO VILELA": [
-            "0C341EAC" 
-        ]
-    }
+    "diarios": [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "E4CE6C2A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "11A5680E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2AB0A8F2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5DAAD9C5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2C66D7A1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1B24706E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "75DD30FD",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FFA1062D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8D24C1E9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4C228816",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ATALAIA",
+            "atos": [
+                {
+                    "cod": "535804F9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "BATALHA",
+            "atos": [
+                {
+                    "cod": "ECB42B8C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CANAPI",
+            "atos": [
+                {
+                    "cod": "95051F99",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "COITÉ DO NÓIA",
+            "atos": [
+                {
+                    "cod": "E22498EE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "DELMIRO GOUVEIA",
+            "atos": [
+                {
+                    "cod": "5EAD861E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4A777DB0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C0F19A4A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "FELIZ DESERTO",
+            "atos": [
+                {
+                    "cod": "A72F8007",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "IBATEGUARA",
+            "atos": [
+                {
+                    "cod": "3A4F0BF3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "22126B8A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "IGREJA NOVA",
+            "atos": [
+                {
+                    "cod": "ED3F26B1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "INHAPI",
+            "atos": [
+                {
+                    "cod": "B2E18197",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "27F801D3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JARAMATAIA",
+            "atos": [
+                {
+                    "cod": "3FAA5A26",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JEQUIÁ DA PRAIA",
+            "atos": [
+                {
+                    "cod": "04BC3FD4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "LIMOEIRO DE ANADIA",
+            "atos": [
+                {
+                    "cod": "0E407BF8",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAGOGI",
+            "atos": [
+                {
+                    "cod": "4B4B376A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3887F20E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D349AE2D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "672857BA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BBD6E9C2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E260A329",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4060B95E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2AD4906C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "87161E63",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "01076404",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARECHAL DEODORO",
+            "atos": [
+                {
+                    "cod": "1B7839F6",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B2CE824E",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9EA16617",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "56393134",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8671BD8B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E86767A2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F12136E2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "130E43B8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "264424D8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "291ACEE2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8E27841D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "09A260B0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EEA416B1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EAE05C8D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EB772D14",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B4BF9E24",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F6FC4ED9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "444A5EB4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D'ÁGUA DAS FLORES",
+            "atos": [
+                {
+                    "cod": "9250FC99",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "45FB5148",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "33309A1F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FFDCC85D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PALESTINA",
+            "atos": [
+                {
+                    "cod": "2F1179B5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PAULO JACINTO",
+            "atos": [
+                {
+                    "cod": "1DD3B45C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "12C69C87",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PILAR",
+            "atos": [
+                {
+                    "cod": "BF1359AA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A5EA83AF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PORTO REAL DO COLÉGIO",
+            "atos": [
+                {
+                    "cod": "884B1F6F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTA LUZIA DO NORTE",
+            "atos": [
+                {
+                    "cod": "042D34AA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9900EBEF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8AF9B2E9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1BCE33DE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A2AE2CF6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EAB4C8F8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "AAE0669B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO LUIS DO QUITUNDE",
+            "atos": [
+                {
+                    "cod": "23463276",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "602A9058",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TEOTONIO VILELA",
+            "atos": [
+                {
+                    "cod": "0C341EAC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
 }
