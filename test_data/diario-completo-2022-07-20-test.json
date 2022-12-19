@@ -238,7 +238,7 @@
                 {
                     "cod": "604A97BB",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 1
                 },
                 {
                     "cod": "51C66CE8",
@@ -372,13 +372,13 @@
             "atos": [
                 {
                     "cod": "1D1E0969",
-                    "nomeacoes": 0,
+                    "nomeacoes": 1,
                     "exoneracoes": 0
                 },
                 {
                     "cod": "4335B866",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 1
                 }
             ]
         },
@@ -903,227 +903,5 @@
             ]
         }
     ],
-    "atos": {
-        "ARAPIRACA": [
-            "0C158AB2",
-            "C190BB6E"
-        ],
-        "ATALAIA": [
-            "05983BF1"
-        ],
-        "BARRA DE SÃO MIGUEL": [
-            "EED76B88"
-        ],
-        "BRANQUINHA": [
-            "F6488DD6",
-            "BD745E50",
-            "B95A1332",
-            "81A1F74D"
-        ],
-        "CACIMBINHAS": [
-            "3C2660A9",
-            "56213819",
-            "614B761D"
-        ],
-        "CAMPO ALEGRE": [
-            "E835D665",
-            "0307EC31",
-            "6D208836"
-        ],
-        "CANAPI": [
-            "66831D18",
-            "3CCA3168",
-            "2BB86E99",
-            "55DFBE10",
-            "9468F57C"
-        ],
-        "CARNEIROS": [
-            "42BC8D8F"
-        ],
-        "COQUEIRO SECO": [
-            "DC9F2381",
-            "D3C77E4E"
-        ],
-        "DELMIRO GOUVEIA": [
-            "6E40D25C",
-            "6BECBF90",
-            "00BBEA7E",
-            "12F6DD12",
-            "4274EAE3",
-            "3D88B988",
-            "DE7FE49D",
-            "F0673D62",
-            "A1C78859",
-            "F12D71B3",
-            "C16ABF70",
-            "87F7815B",
-            "F0CB7AF7",
-            "2984B2C3",
-            "22E0450F",
-            "604A97BB",
-            "51C66CE8",
-            "707CE7EE",
-            "9443882A"
-        ],
-        "FELIZ DESERTO": [
-            "1F37D5B4",
-            "B1FFFA14"
-        ],
-        "INHAPI": [
-            "D9B70F32",
-            "9782CC7D",
-            "D504F853",
-            "996B6833",
-            "E7029FAF",
-            "2C968D86",
-            "76DE50D6"
-        ],
-        "JOAQUIM GOMES": [
-            "5E57D2DE",
-            "B8935313",
-            "2593EE25",
-            "DD45F75A",
-            "E1EDBC7E"
-        ],
-        "LAGOA DA CANOA": [
-            "B5F3B7DF",
-            "95324BFC",
-            "BDA0B046",
-            "66FF496A"
-        ],
-        "MARAGOGI": [
-            "1D1E0969",
-            "4335B866"
-        ],
-        "MARAVILHA": [
-            "F6010E26",
-            "FFFAAD68",
-            "6BE9A18A",
-            "468B7CB2"
-        ],
-        "MARECHAL DEODORO": [
-            "165ED33D",
-            "47FB549C",
-            "11A60F1D",
-            "D3179886",
-            "A960E7CB",
-            "C3106B8A",
-            "A2849C30",
-            "9F5FDF4A"
-        ],
-        "MATA GRANDE": [
-            "616B89C7",
-            "1D037167"
-        ],
-        "MESSIAS": [
-            "9948E854",
-            "A38F69E1"
-        ],
-        "MINADOR DO NEGRÃO": [
-            "6F615D47",
-            "9F19062A"
-        ],
-        "OLHO D'ÁGUA DAS FLORES": [
-            "B9388A88",
-            "B67E3417",
-            "F22F69A5",
-            "D1C28269"
-        ],
-        "OLHO D´AGUA DO CASADO": [
-            "501A5430",
-            "C92E7607"
-        ],
-        "PÃO DE AÇÚCAR": [
-            "8430FFEA",
-            "65FA1E2A"
-        ],
-        "PARICONHA": [
-            "F46C792B"
-        ],
-        "PILAR": [
-            "D2E28E15",
-            "3CA116A4",
-            "CE5BE525"
-        ],
-        "PINDOBA": [
-            "CFB8F5D7"
-        ],
-        "PIRANHAS": [
-            "54B9D73C",
-            "6FC13F12",
-            "63CA3E0B"
-        ],
-        "PORTO CALVO": [
-            "AE050FE2",
-            "29B93233",
-            "8CAE25B8",
-            "39833460",
-            "8C67696D"
-        ],
-        "PORTO REAL DO COLÉGIO": [
-            "FA673901"
-        ],
-        "QUEBRANGULO": [
-            "E5606EE3",
-            "7A2D714E"
-        ],
-        "RIO LARGO": [
-            "EBE98472",
-            "DEFAB4A0",
-            "BAE56AC4",
-            "7F79D483",
-            "9EFF1D84",
-            "A3654859"
-        ],
-        "SANTA LUZIA DO NORTE": [
-            "1467EF09",
-            "F60107DB",
-            "29546E78",
-            "90F41405",
-            "1A06469D",
-            "BFF3D0D4",
-            "D9E2F2E7",
-            "6175B83E",
-            "E37E4ED4"
-        ],
-        "SANTANA DO MUNDAÚ": [
-            "81144410",
-            "2C27441F",
-            "074E8495"
-        ],
-        "SÃO JOSÉ DA TAPERA": [
-            "853C66CF",
-            "DD057881",
-            "A35561F7",
-            "ABF47BBF"
-        ],
-        "SÃO MIGUEL DOS MILAGRES": [
-            "2CC99CBD",
-            "1BC6A757",
-            "B64F6441",
-            "A2E9C0E2"
-        ],
-        "TANQUE D´ARCA": [
-            "8AB1ACBB",
-            "81077412",
-            "A090DE30"
-        ],
-        "TAQUARANA": [
-            "6DF27988",
-            "5378364B",
-            "97B8F36A",
-            "E8878168",
-            "022C9F12"
-        ],
-        "TEOTONIO VILELA": [
-            "2CCBF9EE"
-        ],
-        "VIÇOSA": [
-            "E4A302DF"
-        ],
-        "DOIS RIACHOS": [
-            "D53F66CD"
-        ]
-    },
     "cabecalho": "Alagoas , 20 de Julho de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1841 "
 }
