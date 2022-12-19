@@ -2,172 +2,667 @@
     "desc": "diario-completo-2022-08-29-extraido.txt",
     "path": "test_data/diario-completo-2022-08-29-extraido.txt",
     "cabecalho": "Alagoas , 29 de Agosto de 2022   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IX | Nº 1869 ",
-    "atos": {
-        "ANADIA": [
-            "8D821A99",
-            "9AB247D4",
-            "3AE50C8E"
-        ],
-        "ARAPIRACA": [
-            "3731993F",
-            "64A3F55C",
-            "D784B299"
-        ],
-        "ATALAIA": [
-            "E03D1FD1"
-        ],
-        "CACIMBINHAS": [
-            "E6F5EDF8",
-            "078D352E"
-        ],
-        "CAJUEIRO": [
-            "C51B4AA5"
-        ],
-        "CAMPO ALEGRE": [
-            "A9F1CC02",
-            "812AF7A3",
-            "46C01B82",
-            "7BB0DCCD",
-            "84C8A919",
-            "5426CF94",
-            "ADADC4D8",
-            "ADFAE3F4",
-            "1F46C28F",
-            "213A26A4"
-        ],
-        "CANAPI": [
-            "BE9AB722",
-            "38910A84"
-        ],
-        "COQUEIRO SECO": [
-            "F00689FF",
-            "DF2F8365",
-            "D360D02F"
-        ],
-        "CRAÍBAS": [
-            "CCA5CF41",
-            "2D527978",
-            "736EAA46",
-            "B4E23B2E"
-        ],
-        "DELMIRO GOUVEIA": [
-            "4B195D01",
-            "A5F66E0E",
-            "560BEF18",
-            "81CD5D63"
-        ],
-        "ESTRELA DE ALAGOAS": [
-            "7898A0ED"
-        ],
-        "IBATEGUARA": [
-            "22923EC8"
-        ],
-        "JEQUIÁ DA PRAIA": [
-            "64C65AB9",
-            "A7F51F34"
-        ],
-        "JUNQUEIRO": [
-            "CC457CE8"
-        ],
-        "MARAVILHA": [
-            "6CA3BAA7"
-        ],
-        "MARECHAL DEODORO": [
-            "820ED50A",
-            "6B52564E",
-            "0A093798",
-            "765F65A7",
-            "1095A029",
-            "286927E6",
-            "CE7250D9",
-            "FC5285E8"
-        ],
-        "MARIBONDO": [
-            "EE56D33F"
-        ],
-        "MESSIAS": [
-            "326065C3"
-        ],
-        "NOVO LINO": [
-            "E744B459",
-            "B5118E3F"
-        ],
-        "OLHO D´AGUA DO CASADO": [
-            "4CA53E9C",
-            "EA3D17B7",
-            "99E329FB"
-        ],
-        "OURO BRANCO": [
-            "BCD726D7",
-            "BFD76980",
-            "66E9C691",
-            "AD17D60B",
-            "08B25E7F"
-        ],
-        "PALESTINA": [
-            "80658506"
-        ],
-        "PARICONHA": [
-            "CA83DA70",
-            "46E20F8A",
-            "0D2BBC83"
-        ],
-        "PILAR": [
-            "98F1AE7F"
-        ],
-        "PIRANHAS": [
-            "23DA0451",
-            "DE181F7C",
-            "895762B7"
-        ],
-        "QUEBRANGULO": [
-            "36FA4B9C",
-            "DDF3E4D3",
-            "07B14657"
-        ],
-        "RIO LARGO": [
-            "8695F44B",
-            "BAF73148",
-            "B9EF45FF",
-            "CDE475CC",
-            "65644FCB",
-            "E15F1275",
-            "622EDA78",
-            "FC230C2C",
-            "8798FBB6"
-        ],
-        "SANTANA DO MUNDAÚ": [
-            "E1154D4D",
-            "8643EA1C",
-            "217EA39E",
-            "45C68924",
-            "7AACD450"
-        ],
-        "SÃO JOSÉ DA LAJE": [
-            "D9A281C7"
-        ],
-        "SÃO LUIS DO QUITUNDE": [
-            "62766715",
-            "95AD7CE7",
-            "2EE254DA"
-        ],
-        "TRAIPÚ": [
-            "4E20F758"
-        ],
-        "VIÇOSA": [
-            "EBD6C239",
-            "72B0E226",
-            "4309BBDF",
-            "A67B5372",
-            "8380B9FB",
-            "FD99AE4B",
-            "67F573D1",
-            "C345592C",
-            "1A621168",
-            "2DFB3DEF"
-        ],
-        "MARAGOGI": [
-            "B3EA75F9"
-        ]
-    }
+    "diarios": [
+        {
+            "municipio": "ANADIA",
+            "atos": [
+                {
+                    "cod": "8D821A99",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9AB247D4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3AE50C8E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "3731993F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "64A3F55C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D784B299",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ATALAIA",
+            "atos": [
+                {
+                    "cod": "E03D1FD1",
+                    "nomeacoes": 6,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CACIMBINHAS",
+            "atos": [
+                {
+                    "cod": "E6F5EDF8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "078D352E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CAJUEIRO",
+            "atos": [
+                {
+                    "cod": "C51B4AA5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CAMPO ALEGRE",
+            "atos": [
+                {
+                    "cod": "A9F1CC02",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "812AF7A3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "46C01B82",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7BB0DCCD",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "84C8A919",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5426CF94",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },                {
+                    "cod": "ADADC4D8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "ADFAE3F4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1F46C28F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "213A26A4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CANAPI",
+            "atos": [
+                {
+                    "cod": "BE9AB722",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "38910A84",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "COQUEIRO SECO",
+            "atos": [
+                {
+                    "cod": "F00689FF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DF2F8365",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },                {
+                    "cod": "D360D02F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CRAÍBAS",
+            "atos": [
+                {
+                    "cod": "CCA5CF41",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2D527978",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },                {
+                    "cod": "736EAA46",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B4E23B2E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "DELMIRO GOUVEIA",
+            "atos": [
+                {
+                    "cod": "4B195D01",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A5F66E0E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },                {
+                    "cod": "560BEF18",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "81CD5D63",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ESTRELA DE ALAGOAS",
+            "atos": [
+                {
+                    "cod": "7898A0ED",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "IBATEGUARA",
+            "atos": [
+                {
+                    "cod": "22923EC8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JEQUIÁ DA PRAIA",
+            "atos": [
+                {
+                    "cod": "64C65AB9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A7F51F34",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JUNQUEIRO",
+            "atos": [
+                {
+                    "cod": "CC457CE8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAVILHA",
+            "atos": [
+                {
+                    "cod": "6CA3BAA7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARECHAL DEODORO",
+            "atos": [
+                {
+                    "cod": "820ED50A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6B52564E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0A093798",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "765F65A7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1095A029",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "286927E6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CE7250D9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FC5285E8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARIBONDO",
+            "atos": [
+                {
+                    "cod": "EE56D33F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MESSIAS",
+            "atos": [
+                {
+                    "cod": "326065C3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "NOVO LINO",
+            "atos": [
+                {
+                    "cod": "E744B459",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B5118E3F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D´AGUA DO CASADO",
+            "atos": [
+                {
+                    "cod": "4CA53E9C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EA3D17B7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "99E329FB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OURO BRANCO",
+            "atos": [
+                {
+                    "cod": "BCD726D7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BFD76980",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "66E9C691",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "AD17D60B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "08B25E7F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PALESTINA",
+            "atos": [
+                {
+                    "cod": "80658506",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PARICONHA",
+            "atos": [
+                {
+                    "cod": "CA83DA70",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "46E20F8A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0D2BBC83",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PILAR",
+            "atos": [
+                {
+                    "cod": "98F1AE7F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PIRANHAS",
+            "atos": [
+                {
+                    "cod": "23DA0451",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "DE181F7C",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "895762B7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "QUEBRANGULO",
+            "atos": [
+                {
+                    "cod": "36FA4B9C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DDF3E4D3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "07B14657",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "RIO LARGO",
+            "atos": [
+                {
+                    "cod": "8695F44B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BAF73148",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B9EF45FF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CDE475CC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "65644FCB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E15F1275",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "622EDA78",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FC230C2C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8798FBB6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO MUNDAÚ",
+            "atos": [
+                {
+                    "cod": "E1154D4D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8643EA1C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "217EA39E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "45C68924",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7AACD450",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO JOSÉ DA LAJE",
+            "atos": [
+                {
+                    "cod": "D9A281C7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO LUIS DO QUITUNDE",
+            "atos": [
+                {
+                    "cod": "62766715",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "95AD7CE7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2EE254DA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TRAIPÚ",
+            "atos": [
+                {
+                    "cod": "4E20F758",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "VIÇOSA",
+            "atos": [
+                {
+                    "cod": "EBD6C239",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "72B0E226",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4309BBDF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A67B5372",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8380B9FB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FD99AE4B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "67F573D1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C345592C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1A621168",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2DFB3DEF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAGOGI",
+            "atos": [
+                {
+                    "cod": "B3EA75F9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
 }
