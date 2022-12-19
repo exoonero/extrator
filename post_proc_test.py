@@ -11,8 +11,8 @@ class PostProcTest(unittest.TestCase):
         # Deve ser adicionado um arquivo -test.json para cada texto extraído (caso de teste)
         cases = (
             'test_data/diario-completo-2022-01-03-test.json',
+            'test_data/diario-completo-2022-08-15-test.json',
             'test_data/diario-completo-2022-08-29-test.json',
-            # 'test_data/diario-completo-2022-08-15-test.json',
             # 'test_data/diario-completo-2022-07-20-test.json',
             # 'test_data/diario-completo-2022-02-14-test.json',
             # 'test_data/diario-completo-2021-04-01-test.json',
