@@ -3,140 +3,522 @@
     "desc": "diario-completo-2020-10-01-extraido.txt",
     "path": "test_data/diario-completo-2020-10-01-extraido.txt",
     "cabecalho": "Alagoas , 01 de Outubro de 2020   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1385 ",
-    "atos": {
-        "ARAPIRACA": [
-            "65794DD4",
-            "1D359631",
-            "CCD23FBC"
-        ],
-        "ATALAIA": [
-            "7F8B4BDC"
-        ],
-        "BELO MONTE": [
-            "522D6D51"
-        ],
-        "CAMPO ALEGRE": [
-            "83B6A6BC",
-            "258F4F54"
-        ],
-        "COITÉ DO NÓIA": [
-            "E96032A7"
-        ],
-        "CORURIPE": [
-            "08CD63F2",
-            "4D314BED"
-        ],
-        "CRAÍBAS": [
-            "64F7C1B0"
-        ],
-        "DELMIRO GOUVEIA": [
-            "BFF895A3"
-        ],
-        "GIRAU DO PONCIANO": [
-            "459DB81E"
-        ],
-        "IGREJA NOVA": [
-            "78AB2CD6",
-            "88F2684B",
-            "152DDB27",
-            "E5CB03E7",
-            "17A55476"
-        ],
-        "JACARÉ DOS HOMENS": [
-            "E0CD7B6B"
-        ],
-        "JUNQUEIRO": [
-            "1268038E",
-            "887F9DEF",
-            "52E62855",
-            "9DFFB00C",
-            "70A18233",
-            "2F15B1BF",
-            "1C177E50"
-        ],
-        "LAGOA DA CANOA": [
-            "CB80E642",
-            "82C870EC"
-        ],
-        "MAJOR IZIDORO": [
-            "27B1CC42",
-            "E6F14D03"
-        ],
-        "MARAGOGI": [
-            "D5985B1B",
-            "00772D90",
-            "6E32DFB9",
-            "53237FAA",
-            "6560545A",
-            "CEC4210B",
-            "E43DFC21",
-            "01B9EB47",
-            "62E2A56D",
-            "96893698"
-        ],
-        "MARAVILHA": [
-            "03679F94"
-        ],
-        "MARECHAL DEODORO": [
-            "DF7462EE",
-            "D30D292B",
-            "D11EBE16",
-            "23181682",
-            "F271D471",
-            "F7ADA0F1",
-            "9B799D1E",
-            "59C8F6A0",
-            "6B790EDC"
-        ],
-        "MATA GRANDE": [
-            "12D9A64C",
-            "6304E04B",
-            "00F89241"
-        ],
-        "MONTEIRÓPOLIS": [
-            "E649B2CF"
-        ],
-        "OLHO D´AGUA DO CASADO": [
-            "214AAB2C"
-        ],
-        "PILAR": [
-            "3BED8E9A"
-        ],
-        "PIRANHAS": [
-            "1390C45A",
-            "57639883",
-            "9C65CA7F"
-        ],
-        "POÇO DAS TRINCHEIRAS": [
-            "B09CA172"
-        ],
-        "PORTO DE PEDRAS": [
-            "BC89585C",
-            "2B5A8DF1"
-        ],
-        "PORTO REAL DO COLÉGIO": [
-            "5B8C852B"
-        ],
-        "RIO LARGO": [
-            "9C337931",
-            "CCDC1B81"
-        ],
-        "SANTANA DO MUNDAÚ": [
-            "8AB579A4"
-        ],
-        "SÃO SEBASTIÃO": [
-            "C315979E"
-        ],
-        "TEOTONIO VILELA": [
-            "E226AB3E",
-            "E43BA305",
-            "98D8E44D",
-            "2EBC01FA",
-            "D3DA4A69",
-            "6E51D599",
-            "913D0060"
-        ]
-
-    }
-
+    "diarios": [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "65794DD4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1D359631",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CCD23FBC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ATALAIA",
+            "atos": [
+                {
+                    "cod": "7F8B4BDC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "BELO MONTE",
+            "atos": [
+                {
+                    "cod": "522D6D51",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CAMPO ALEGRE",
+            "atos": [
+                {
+                    "cod": "83B6A6BC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "258F4F54",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "COITÉ DO NÓIA",
+            "atos": [
+                {
+                    "cod": "E96032A7",
+                    "nomeacoes": 3,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CORURIPE",
+            "atos": [
+                {
+                    "cod": "08CD63F2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4D314BED",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CRAÍBAS",
+            "atos": [
+                {
+                    "cod": "64F7C1B0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "DELMIRO GOUVEIA",
+            "atos": [
+                {
+                    "cod": "BFF895A3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "GIRAU DO PONCIANO",
+            "atos": [
+                {
+                    "cod": "459DB81E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "IGREJA NOVA",
+            "atos": [
+                {
+                    "cod": "78AB2CD6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "88F2684B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "152DDB27",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E5CB03E7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "17A55476",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+                
+            ]
+        },
+        {
+            "municipio": "JACARÉ DOS HOMENS",
+            "atos": [
+                {
+                    "cod": "E0CD7B6B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JUNQUEIRO",
+            "atos": [
+                {
+                    "cod": "1268038E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "887F9DEF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "52E62855",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9DFFB00C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "70A18233",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2F15B1BF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1C177E50",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "LAGOA DA CANOA",
+            "atos": [
+                {
+                    "cod": "CB80E642",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "82C870EC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MAJOR IZIDORO",
+            "atos": [
+                {
+                    "cod": "27B1CC42",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E6F14D03",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAGOGI",
+            "atos": [
+                {
+                    "cod": "D5985B1B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "00772D90",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6E32DFB9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "53237FAA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6560545A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CEC4210B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E43DFC21",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "01B9EB47",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "62E2A56D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "96893698",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAVILHA",
+            "atos": [
+                {
+                    "cod": "03679F94",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARECHAL DEODORO",
+            "atos": [
+                {
+                    "cod": "DF7462EE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D30D292B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D11EBE16",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "23181682",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F271D471",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F7ADA0F1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9B799D1E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "59C8F6A0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6B790EDC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MATA GRANDE",
+            "atos": [
+                {
+                    "cod": "12D9A64C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6304E04B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "00F89241",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MONTEIRÓPOLIS",
+            "atos": [
+                {
+                    "cod": "E649B2CF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D´AGUA DO CASADO",
+            "atos": [
+                {
+                    "cod": "214AAB2C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PILAR",
+            "atos": [
+                {
+                    "cod": "3BED8E9A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PIRANHAS",
+            "atos": [
+                {
+                    "cod": "1390C45A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "57639883",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9C65CA7F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "POÇO DAS TRINCHEIRAS",
+            "atos": [
+                {
+                    "cod": "B09CA172",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PORTO DE PEDRAS",
+            "atos": [
+                {
+                    "cod": "BC89585C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2B5A8DF1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]           
+        },
+        {
+            "municipio": "PORTO REAL DO COLÉGIO",
+            "atos": [
+                {
+                    "cod": "5B8C852B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "RIO LARGO",
+            "atos": [
+                {
+                    "cod": "9C337931",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CCDC1B81",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO MUNDAÚ",
+            "atos": [
+                {
+                    "cod": "8AB579A4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO SEBASTIÃO",
+            "atos": [
+                {
+                    "cod": "C315979E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TEOTONIO VILELA",
+            "atos": [
+                {
+                    "cod": "E226AB3E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E43BA305",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "98D8E44D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2EBC01FA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D3DA4A69",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6E51D599",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "913D0060",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
 }
