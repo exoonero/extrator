@@ -1,281 +1,1157 @@
 {
     "desc": "diario-completo-2021-04-01-extraido.txt",
     "path": "test_data/diario-completo-2021-04-01-extraido.txt",
-    "atos": {
-        "ANADIA": [
-            "C96197C3",
-            "F90BD628"
-        ],
-        "ARAPIRACA": [
-            "EB9CBE5D",
-            "B6E21A3F",
-            "8F34FFF6",
-            "41F7E3B9",
-            "2750A943",
-            "7A159F7D",
-            "E15AFABA",
-            "EFA7D8F6",
-            "64E08386",
-            "76017088",
-            "5EC8A45B",
-            "DCA54FE7"
-        ],
-        "BATALHA": [
-            "1A81EF5C"
-        ],
-        "BELÉM": [
-            "31630138",
-            "BE7FDAC2"
-        ],
-        "BELO MONTE": [
-            "8D69B2A7",
-            "0928060C"
-        ],
-        "BRANQUINHA": [
-            "80F2E18D",
-            "95D3FA09"
-        ],
-        "CACIMBINHAS": [
-            "F51DE068"
-        ],
-        "CAMPO ALEGRE": [
-            "B4C729AA",
-            "D0B8AE3E",
-            "44A6513C"
-        ],
-        "COLÔNIA LEOPOLDINA": [
-            "ECB2B299"
-        ],
-        "CORURIPE": [
-            "FE9674D3",
-            "302210D9",
-            "B8CEBD15",
-            "1872042B"
-        ],
-        "DOIS RIACHOS": [
-            "7CB0C1D9",
-            "A87C0254"
-        ],
-        "FEIRA GRANDE": [
-            "4C6487B3"
-        ],
-        "FELIZ DESERTO": [
-            "B94B1818",
-            "5C9CCBB2",
-            "9FF946D1",
-            "F1625070",
-            "F9925C5B",
-            "6D2B7526",
-            "353F0660",
-            "77849F2C"
-        ],
-        "FLEXEIRAS": [
-            "06197DBF"
-        ],
-        "INHAPI": [
-            "EE537F75",
-            "5A7517AB"
-        ],
-        "JAPARATINGA": [
-            "8C0F955F",
-            "1E1DA120"
-        ],
-        "JARAMATAIA": [
-            "63BEAC1E"
-        ],
-        "JEQUIÁ DA PRAIA": [
-            "1310B3AE",
-            "EF609833",
-            "33141B11"
-        ],
-        "MAJOR IZIDORO": [
-            "D26BCAB7"
-        ],
-        "MARAVILHA": [
-            "BD2D70F3",
-            "424C3152",
-            "4824D23F",
-            "120E2281"
-        ],
-        "MARECHAL DEODORO": [
-            "DEC0269F",
-            "B18BB1A2",
-            "ED89A85F",
-            "888529DC",
-            "7B1FBB54",
-            "FF52F85F",
-            "A9C5AF1E",
-            "B0C75439",
-            "26F6B95E",
-            "2CDAB483",
-            "C392E8C6",
-            "3E408777",
-            "1F4622E6",
-            "2DAF780B",
-            "5F6FF2C1",
-            "CFF09EE2",
-            "BC54F866"
-        ],
-        "MONTEIRÓPOLIS": [
-            "ED253FBA"
-        ],
-        "OLHO D'ÁGUA DAS FLORES": [
-            "834F5684"
-        ],
-        "OLHO D´AGUA DO CASADO": [
-            "B065A936"
-        ],
-        "OURO BRANCO": [
-            "5B313DA9",
-            "E7388A9C"
-        ],
-        "PAULO JACINTO": [
-            "34B07570",
-            "EFB281D6"
-        ],
-        "PIAÇABUÇU": [
-            "748CE0F7"
-        ],
-        "PILAR": [
-            "F1216DEF",
-            "7AE64038",
-            "495E3342",
-            "9B8696B3",
-            "26AC4F3F",
-            "938665E9",
-            "5027F6E6",
-            "60F6720C"
-        ],
-        "PIRANHAS": [
-            "F12265E5"
-        ],
-        "PORTO REAL DO COLÉGIO": [
-            "82060D7D",
-            "8D788EF7",
-            "BDA4F1D1"
-        ],
-        "QUEBRANGULO": [
-            "098F2C25",
-            "44F36FCB",
-            "B8265EF1",
-            "C41A6E2C",
-            "6D77779C",
-            "1364BFB1",
-            "F3DDAE2F",
-            "28BD5867",
-            "8F91480B"
-        ],
-        "RIO LARGO": [
-            "72B9AABE",
-            "AD051406",
-            "727D752C",
-            "90FD2ADA",
-            "3DEAE915",
-            "417DECE0",
-            "21748BCC"
-        ],
-        "ROTEIRO": [
-            "D3076786",
-            "B39E967B"
-        ],
-        "SANTA LUZIA DO NORTE": [
-            "9E98BEE3",
-            "8D9E57A4"
-        ],
-        "SANTANA DO IPANEMA": [
-            "E3DB445E"
-        ],
-        "SANTANA DO MUNDAÚ": [
-            "94560CF8"
-        ],
-        "SÃO JOSÉ DA LAJE": [
-            "C694B44D",
-            "4AC1EBC1",
-            "9E7D961F",
-            "DFD0978C",
-            "568F372C",
-            "CC9EF4B5",
-            "9AD7A9B5",
-            "DDCF0659",
-            "59A54BF3"
-        ],
-        "SÃO LUIS DO QUITUNDE": [
-            "1A1527D3"
-        ],
-        "SÃO SEBASTIÃO": [
-            "F8EACF9D"
-        ],
-        "SATUBA": [
-            "FB2D3EE4",
-            "BA43B5FA"
-        ],
-        "TAQUARANA": [
-            "2E763B63"
-        ],
-        "TEOTONIO VILELA": [
-            "DF8D1479",
-            "D029CE6E",
-            "A7161DD9",
-            "8B9534DF",
-            "5087902A",
-            "94A29A30",
-            "98B53FCB",
-            "0D1C20B0",
-            "B195CD48",
-            "0F3608FE",
-            "7BF82137",
-            "84946576",
-            "6513C9CF",
-            "A11E3748",
-            "1BAB36E1",
-            "248102BF",
-            "35E72B70",
-            "1D4200B1",
-            "86F1E5EE",
-            "222E4558",
-            "198CE383",
-            "C2E71AB3",
-            "5DE9F4FC",
-            "639B0A8F",
-            "FF327566",
-            "86162BCA",
-            "3806C816",
-            "195B4A90",
-            "0C107AF0",
-            "DE584917",
-            "14CCAA21",
-            "31786A23",
-            "61E15A58",
-            "769762C6",
-            "3AC06D90",
-            "4F5F2B9B",
-            "7830095E",
-            "7182F83C",
-            "25315C77",
-            "2A8D7271",
-            "6D3DFE42",
-            "38CDAC21",
-            "73DD9B57",
-            "90497194",
-            "FAD55B11",
-            "CA6AD3B7",
-            "78B561BA",
-            "8A12FC2D",
-            "6934C51B",
-            "661340F7",
-            "719D37DC",
-            "4F96327D",
-            "6D598337",
-            "B929BB26"
-        ],
-        "TRAIPÚ": [
-            "0713150E"
-        ],
-        "VIÇOSA": [
-            "17371EA9",
-            "627D2EC2",
-            "DBFB4B60"
-        ]
-    },
-    "cabecalho": "Alagoas , 01 de Abril de 2021   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1511 "
+    "cabecalho": "Alagoas , 01 de Abril de 2021   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VIII | Nº 1511 ",
+    "diarios": [
+        {
+            "municipio": "ANADIA",
+            "atos": [
+                {
+                    "cod": "C96197C3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F90BD628",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "EB9CBE5D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B6E21A3F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8F34FFF6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "41F7E3B9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2750A943",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7A159F7D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E15AFABA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EFA7D8F6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "64E08386",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "76017088",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5EC8A45B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DCA54FE7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "BATALHA",
+            "atos": [
+                {
+                    "cod": "1A81EF5C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "BELÉM",
+            "atos": [
+                {
+                    "cod": "31630138",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BE7FDAC2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "BELO MONTE",
+            "atos": [
+                {
+                    "cod": "8D69B2A7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0928060C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "BRANQUINHA",
+            "atos": [
+                {
+                    "cod": "80F2E18D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "95D3FA09",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CACIMBINHAS",
+            "atos": [
+                {
+                    "cod": "F51DE068",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CAMPO ALEGRE",
+            "atos": [
+                {
+                    "cod": "B4C729AA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D0B8AE3E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "44A6513C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "COLÔNIA LEOPOLDINA",
+            "atos": [
+                {
+                    "cod": "ECB2B299",
+                    "nomeacoes": 4,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CORURIPE",
+            "atos": [
+                {
+                    "cod": "FE9674D3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "302210D9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B8CEBD15",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1872042B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "DOIS RIACHOS",
+            "atos": [
+                {
+                    "cod": "7CB0C1D9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A87C0254",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "FEIRA GRANDE",
+            "atos": [
+                {
+                    "cod": "4C6487B3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "FELIZ DESERTO",
+            "atos": [
+                {
+                    "cod": "B94B1818",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5C9CCBB2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9FF946D1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F1625070",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F9925C5B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6D2B7526",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "353F0660",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "77849F2C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "FLEXEIRAS",
+            "atos": [
+                {
+                    "cod": "06197DBF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "INHAPI",
+            "atos": [
+                {
+                    "cod": "EE537F75",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5A7517AB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JAPARATINGA",
+            "atos": [
+                {
+                    "cod": "8C0F955F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1E1DA120",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JARAMATAIA",
+            "atos": [
+                {
+                    "cod": "63BEAC1E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JEQUIÁ DA PRAIA",
+            "atos": [
+                {
+                    "cod": "1310B3AE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EF609833",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "33141B11",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MAJOR IZIDORO",
+            "atos": [
+                {
+                    "cod": "D26BCAB7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAVILHA",
+            "atos": [
+                {
+                    "cod": "BD2D70F3",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "424C3152",
+                    "nomeacoes": 10,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4824D23F",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "120E2281",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARECHAL DEODORO",
+            "atos": [
+                {
+                    "cod": "DEC0269F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B18BB1A2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "ED89A85F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "888529DC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7B1FBB54",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FF52F85F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A9C5AF1E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B0C75439",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "26F6B95E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2CDAB483",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C392E8C6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3E408777",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1F4622E6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2DAF780B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5F6FF2C1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CFF09EE2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BC54F866",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MONTEIRÓPOLIS",
+            "atos": [
+                {
+                    "cod": "ED253FBA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D'ÁGUA DAS FLORES",
+            "atos": [
+                {
+                    "cod": "834F5684",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D´AGUA DO CASADO",
+            "atos": [
+                {
+                    "cod": "B065A936",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OURO BRANCO",
+            "atos": [
+                {
+                    "cod": "5B313DA9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E7388A9C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PAULO JACINTO",
+            "atos": [
+                {
+                    "cod": "34B07570",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "EFB281D6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PIAÇABUÇU",
+            "atos": [
+                {
+                    "cod": "748CE0F7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PILAR",
+            "atos": [
+                {
+                    "cod": "F1216DEF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7AE64038",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "495E3342",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9B8696B3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "26AC4F3F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "938665E9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5027F6E6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "60F6720C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PIRANHAS",
+            "atos": [
+                {
+                    "cod": "F12265E5",
+                    "nomeacoes": 24,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PORTO REAL DO COLÉGIO",
+            "atos": [
+                {
+                    "cod": "82060D7D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8D788EF7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BDA4F1D1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "QUEBRANGULO",
+            "atos": [
+                {
+                    "cod": "098F2C25",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "44F36FCB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B8265EF1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C41A6E2C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6D77779C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1364BFB1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F3DDAE2F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "28BD5867",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8F91480B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "RIO LARGO",
+            "atos": [
+                {
+                    "cod": "72B9AABE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "AD051406",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "727D752C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "90FD2ADA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3DEAE915",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "417DECE0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "21748BCC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ROTEIRO",
+            "atos": [
+                {
+                    "cod": "D3076786",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B39E967B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTA LUZIA DO NORTE",
+            "atos": [
+                {
+                    "cod": "9E98BEE3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8D9E57A4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO IPANEMA",
+            "atos": [
+                {
+                    "cod": "E3DB445E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO MUNDAÚ",
+            "atos": [
+                {
+                    "cod": "94560CF8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO JOSÉ DA LAJE",
+            "atos": [
+                {
+                    "cod": "C694B44D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4AC1EBC1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9E7D961F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DFD0978C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "568F372C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CC9EF4B5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9AD7A9B5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DDCF0659",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "59A54BF3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO LUIS DO QUITUNDE",
+            "atos": [
+                {
+                    "cod": "1A1527D3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO SEBASTIÃO",
+            "atos": [
+                {
+                    "cod": "F8EACF9D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SATUBA",
+            "atos": [
+                {
+                    "cod": "FB2D3EE4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BA43B5FA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TAQUARANA",
+            "atos": [
+                {
+                    "cod": "2E763B63",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TEOTONIO VILELA",
+            "atos": [
+                {
+                    "cod": "DF8D1479",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D029CE6E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A7161DD9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8B9534DF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5087902A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "94A29A30",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "98B53FCB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0D1C20B0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B195CD48",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0F3608FE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7BF82137",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "84946576",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6513C9CF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A11E3748",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1BAB36E1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "248102BF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "35E72B70",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1D4200B1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "86F1E5EE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "222E4558",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "198CE383",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C2E71AB3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5DE9F4FC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "639B0A8F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FF327566",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "86162BCA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3806C816",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "195B4A90",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0C107AF0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DE584917",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "14CCAA21",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "31786A23",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "61E15A58",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "769762C6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3AC06D90",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4F5F2B9B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7830095E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7182F83C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "25315C77",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2A8D7271",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6D3DFE42",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "38CDAC21",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "73DD9B57",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "90497194",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FAD55B11",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CA6AD3B7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "78B561BA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8A12FC2D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6934C51B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "661340F7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "719D37DC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4F96327D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6D598337",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B929BB26",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }    
+            ]
+        },
+        {
+            "municipio": "TRAIPÚ",
+            "atos": [
+                {
+                    "cod": "0713150E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "VIÇOSA",
+            "atos": [
+                {
+                    "cod": "17371EA9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "627D2EC2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DBFB4B60",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
 }
