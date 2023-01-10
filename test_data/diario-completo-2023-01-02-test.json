@@ -522,16 +522,6 @@
             "municipio": "TRAIPÚ",
             "atos": [
                 {
-                    "cod": "",
-                    "nomeacoes": 0,
-                    "exoneracoes": 0
-                }
-            ]
-        },
-        {
-            "municipio": "TRAIPU",
-            "atos": [
-                {
                     "cod": "527D65C4",
                     "nomeacoes": 0,
                     "exoneracoes": 0
