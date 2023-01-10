@@ -1,0 +1,222 @@
+{
+    "desc": "diario-completo-2017-10-25.extraido.txt",
+    "path": "test_data/diario-completo-2017-10-25-extraido.txt",
+    "cabecalho": "Alagoas , 25 de Outubro de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0645 ",
+    "diarios": [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "C9E1103F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "032F4198",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FA271401",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CORURIPE",
+            "atos": [
+                {
+                    "cod": "AC0C7BFF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E347F2DE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "INHAPI",
+            "atos": [
+                {
+                    "cod": "DA7924EB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "76C604F2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "20921F8E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "51BF8456",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JEQUIÁ DA PRAIA",
+            "atos": [
+                {
+                    "cod": "08E24DD2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "97897BE7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "15AB87EE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "LAGOA DA CANOA",
+            "atos": [
+                {
+                    "cod": "6A153EA6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DFBF46CA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "POÇO DAS TRINCHEIRAS",
+            "atos": [
+                {
+                    "cod": "45D8989E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTA LUZIA DO NORTE",
+            "atos": [
+                {
+                    "cod": "003A76C5",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1349AB20",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7B030A0E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "E9BED88D",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D634E6E6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "B8539920",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "96D2A46D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "7C40DAC4",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "31679AB0",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1F23FE25",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E0BC1014",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DE666CB6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9B2F869F",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8F158F24",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C88FF5D3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "6C274CAB",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9477093C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A2573F74",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B8EB80D4",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "34BE3D40",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "DE51A7C6",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
+}
