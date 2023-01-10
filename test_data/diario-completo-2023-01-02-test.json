@@ -274,7 +274,7 @@
                 {
                     "cod": "CE94CC86",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 1
                 }
             ]
         },
@@ -398,7 +398,7 @@
             "atos": [
                 {
                     "cod": "C7917E25",
-                    "nomeacoes": 0,
+                    "nomeacoes": 28,
                     "exoneracoes": 0
                 }
             ]
@@ -488,7 +488,7 @@
                 },
                 {
                     "cod": "49D56711",
-                    "nomeacoes": 0,
+                    "nomeacoes": 82,
                     "exoneracoes": 0
                 }
             ]
@@ -513,13 +513,23 @@
             "atos": [
                 {
                     "cod": "99658F02",
-                    "nomeacoes": 0,
+                    "nomeacoes": 56,
                     "exoneracoes": 0
                 }
             ]
         },
         {
             "municipio": "TRAIPÚ",
+            "atos": [
+                {
+                    "cod": "",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TRAIPU",
             "atos": [
                 {
                     "cod": "527D65C4",
@@ -529,6 +539,4 @@
             ]
         }
     ]
-
-
 }
