@@ -7,7 +7,67 @@
             "municipio": "ARAPIRACA",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "FA5D4BC4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "86BBE44C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "26F407D0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FEE70949",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C55DFFAF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "021F83C7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "26F6E888",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4EA41944",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "384D7B95",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "41B70396",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "835373BB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FE62FC07",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F95ED959",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -17,7 +77,7 @@
             "municipio": "CACIMBINHAS",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "48302148",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -27,7 +87,7 @@
             "municipio": "CAMPO ALEGRE",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "A8F4BBC3",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -37,7 +97,12 @@
             "municipio": "CANAPI",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "A20BB13C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "64311290",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -47,7 +112,12 @@
             "municipio": "DOIS RIACHOS",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "34DD146F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3F1241CF",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -57,7 +127,7 @@
             "municipio": "INHAPI",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "8F958C9C",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -67,7 +137,17 @@
             "municipio": "JACUÍPE",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "B8718636",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "E3FB6598",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0718371F",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -77,7 +157,7 @@
             "municipio": "JUNQUEIRO",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "4E457695",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -87,7 +167,12 @@
             "municipio": "LIMOEIRO DE ANADIA",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "87BC2385",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FC48F3E6",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -97,7 +182,82 @@
             "municipio": "MARECHAL DEODORO",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "83B28328",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "13B80EB5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F6478E9F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1696AB26",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9AACD136",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "08794296",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C1F08FF6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A20F8D89",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A0C88B3F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6ED46829",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "0EC2DCD6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "850448EA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6BBDF339",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6BCB5DFE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A68467F9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A81E7D71",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -107,7 +267,12 @@
             "municipio": "MARIBONDO",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "4EC51813",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5D6A98CE",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -117,7 +282,12 @@
             "municipio": "OLHO D'ÁGUA DAS FLORES",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "8AFB4413",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "44EF8B86",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -127,7 +297,27 @@
             "municipio": "PILAR",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "4B0CBDEC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "82EB4100",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6AA00F2E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "ED846289",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "414F273A",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -137,7 +327,12 @@
             "municipio": "PIRANHAS",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "3B479F8E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1DAA63E6",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -147,7 +342,7 @@
             "municipio": "PORTO REAL DO COLÉGIO",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "B2B99BB8",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -157,7 +352,7 @@
             "municipio": "QUEBRANGULO",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "B04BC304",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -167,7 +362,7 @@
             "municipio": "RIO LARGO",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "D36D92F2",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -177,7 +372,27 @@
             "municipio": "SANTANA DO IPANEMA",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "3C919267",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7581F238",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A6C304CE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7057891D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "99F766D4",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
@@ -187,7 +402,12 @@
             "municipio": "SÃO JOSÉ DA LAJE",
             "atos": [
                 {
-                    "cod": "",
+                    "cod": "7EF59E7F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "580542C4",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }

@@ -25,6 +25,7 @@ class PostProcTest(unittest.TestCase):
             'test_data/diario-completo-2020-05-14-test.json',
             'test_data/diario-completo-2020-04-27-test.json',
             'test_data/diario-completo-2019-08-14-test.json',
+            'test_data/diario-completo-2019-07-05-test.json',
             'test_data/diario-completo-2019-07-02-test.json',
             'test_data/diario-completo-2018-09-28-test.json',
             'test_data/diario-completo-2018-10-02-test.json',
