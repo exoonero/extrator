@@ -1,6 +1,6 @@
 {
     "desc": "diario-completo-2019-07-05.extraido.txt",
-    "path": "test_data/diario-completo-2019-07-05.extraido.txt",
+    "path": "test_data/diario-completo-2019-07-05-extraido.txt",
     "cabecalho": "Alagoas , 05 de Julho de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VI | Nº 1070 ",
     "diarios": [
         {
@@ -70,7 +70,13 @@
                     "cod": "F95ED959",
                     "nomeacoes": 0,
                     "exoneracoes": 0
+                },
+                {
+                    "cod": "580542C4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
                 }
+                
             ]
         },
         {
@@ -183,17 +189,17 @@
             "atos": [
                 {
                     "cod": "83B28328",
-                    "nomeacoes": 0,
+                    "nomeacoes": 1,
                     "exoneracoes": 0
                 },
                 {
                     "cod": "13B80EB5",
-                    "nomeacoes": 0,
+                    "nomeacoes": 1,
                     "exoneracoes": 0
                 },
                 {
                     "cod": "F6478E9F",
-                    "nomeacoes": 0,
+                    "nomeacoes": 1,
                     "exoneracoes": 0
                 },
                 {
@@ -373,7 +379,7 @@
             "atos": [
                 {
                     "cod": "3C919267",
-                    "nomeacoes": 0,
+                    "nomeacoes": 5,
                     "exoneracoes": 0
                 },
                 {
@@ -403,11 +409,6 @@
             "atos": [
                 {
                     "cod": "7EF59E7F",
-                    "nomeacoes": 0,
-                    "exoneracoes": 0
-                },
-                {
-                    "cod": "580542C4",
                     "nomeacoes": 0,
                     "exoneracoes": 0
                 }
