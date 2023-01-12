@@ -22,6 +22,26 @@ class AtoNormativo:
         return matches[0]
 
 
+class Municipio:
+
+    def __init__(self, municipio):
+        municipio = municipio.rstrip().replace('\n', '')  # limpeza inicial
+        self.id = self._computa_id(municipio)
+        self.nome = municipio
+
+    def _computa_id(self, nome_municipio):
+        ret = nome_municipio.strip().lower().replace(" ", "-")
+        ret = unicodedata.normalize('NFKD', ret)
+        ret = ret.encode('ASCII', 'ignore').decode("utf-8")
+        return ret
+
+    def __hash__(self):
+        return hash(self.id)
+
+    def __eq__(self, other):
+        return self.id == other.id
+
+
 class Diario:
 
     _mapa_meses = {
@@ -39,8 +59,9 @@ class Diario:
         "Dezembro": 12,
     }
 
-    def __init__(self, municipio: str, cabecalho: str, texto: str):
-        self.municipio = municipio
+    def __init__(self, municipio: Municipio, cabecalho: str, texto: str):
+        self.municipio = municipio.nome
+        self.id = municipio.id
         self.cabecalho = cabecalho
         self.texto = texto.rstrip()
         self.data_publicacao = self._extrai_data_publicacao(cabecalho)
@@ -59,6 +80,12 @@ class Diario:
         for match in matches:
             atos.append(AtoNormativo(match.strip()))
         return atos
+
+    def __hash__(self):
+        return hash(self.id)
+
+    def __eq__(self, other):
+        return self.id == other.id
 
 
 def extrai_diarios(texto_diario: str):
@@ -93,7 +120,8 @@ def extrai_diarios(texto_diario: str):
     nomes_municipios = re.findall(
         re_nomes_municipios, texto_diario, re.MULTILINE)
     for municipio in nomes_municipios:
-        texo_diarios[municipio.strip().replace('\n', '')] = ama_header + '\n\n'
+        municipio = Municipio(municipio)
+        texo_diarios[municipio] = ama_header + '\n\n'
 
     num_linha = 0
     municipio_atual = None
@@ -103,7 +131,7 @@ def extrai_diarios(texto_diario: str):
         if linha.startswith("ESTADO DE ALAGOAS"):
             nome = nome_municipio(texto_diario_slice, num_linha)
             if nome is not None:
-                municipio_atual = nome
+                municipio_atual = Municipio(nome)
 
         # Só começa, quando algum muncípio for encontrado.
         if municipio_atual is None:
@@ -123,10 +151,7 @@ def extrai_diarios(texto_diario: str):
 
 def cria_arquivos(nome_arquivo_preffix: str, diarios: dict):
     for diario in diarios:
-        nome_arquivo = diario.municipio.strip().lower().replace(" ", "-")
-        nome_arquivo = unicodedata.normalize('NFKD', nome_arquivo)
-        nome_arquivo = nome_arquivo.encode('ASCII', 'ignore').decode("utf-8")
-        nome_arquivo = f"{nome_arquivo_preffix}-proc-{nome_arquivo}.txt"
+        nome_arquivo = f"{nome_arquivo_preffix}-proc-{diario.id}.txt"
         with open(nome_arquivo, "w") as out_file:
             out_file.write(diario.texto)
 
