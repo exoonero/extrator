@@ -1,0 +1,593 @@
+{
+    "desc": "diario-completo-2019-11-28-extraido.txt",
+    "path": "test_data/diario-completo-2019-11-28-extraido.txt",
+    "cabecalho": "Alagoas , 28 de Novembro de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VII | Nº 1173 ",
+    "diarios": [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "A6D0FFF1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "60BE639B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "ATALAIA",
+            "atos": [
+                {
+                    "cod": "232A6B0B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                },
+                {
+                    "cod": "00A9441E",
+                    "nomeacoes": 24,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "FFFF5AA5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "D0ABBAC5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "838E9304",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7E961454",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2B355121",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "101210BF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "781AD220",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C70937E6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4FBDB86C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C24DC06F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4890F2C1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1180582A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "36E9C5CF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "38DF7D7F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "38E2CF91",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "B63ED0C2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "BATALHA",
+            "atos": [
+                {
+                    "cod": "60E5BA46",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "CORURIPE",
+            "atos": [
+                {
+                    "cod": "C0AC3715",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "DOIS RIACHOS",
+            "atos": [
+                {
+                    "cod": "41DFC860",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "GIRAU DO PONCIANO",
+            "atos": [
+                {
+                    "cod": "51881935",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JARAMATAIA",
+            "atos": [
+                {
+                    "cod": "A6B818CB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "DDA1E233",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "AB667BCB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "JOAQUIM GOMES",
+            "atos": [
+                {
+                    "cod": "539790FF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "023DDC30",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "LIMOEIRO DE ANADIA",
+            "atos": [
+                {
+                    "cod": "B9FF563A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "775DE8E9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARAGOGI",
+            "atos": [
+                {
+                    "cod": "3BA64428",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1F29DC0F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "40C0933B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CF7F0AA6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1A4FDA59",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F13C1CE9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "67C1DFB0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F701442C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "81CF950D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "1576B664",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "F5C56C86",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A745718D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C244345B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARECHAL DEODORO",
+            "atos": [
+                {
+                    "cod": "A76CCDA1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2A78A6B8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8AD0605A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "2AD8BC17",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CFEBBF99",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "8AB796C5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9953DD18",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "3CA47603",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A99BC1F4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6095063F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MAR VERMELHO",
+            "atos": [
+                {
+                    "cod": "32C569CB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D'ÁGUA DAS FLORES",
+            "atos": [
+                {
+                    "cod": "73D5DBC1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D´AGUA DO CASADO",
+            "atos": [
+                {
+                    "cod": "73CA5D65",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "PÃO DE AÇÚCAR",
+            "atos": [
+                {
+                    "cod": "FB8EB0AF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "26D616C8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "AC7F1E47",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "12363A60",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+                
+            ]
+        },
+        {
+            "municipio": "PILAR",
+            "atos": [
+                {
+                    "cod": "D9F6E4F3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "6390F246",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "AD2E6090",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "24AF0D96",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "43F9EA55",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
+                }
+            ]
+        },
+        {
+            "municipio": "PINDOBA",
+            "atos": [
+                {
+                    "cod": "83BED334",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "POÇO DAS TRINCHEIRAS",
+            "atos": [
+                {
+                    "cod": "3C0FFC84",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "402CEC9E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "9CBFED62",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "QUEBRANGULO",
+            "atos": [
+                {
+                    "cod": "75A187E9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "A482C93F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "33D8C8C4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BD37203E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "75D00465",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "99E3E7E4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "47EE74B8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "4A16BE93",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "5818DFB9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "CA963376",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO MUNDAÚ",
+            "atos": [
+                {
+                    "cod": "0F8D0FF2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "BE9C6751",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO JOSÉ DA LAJE",
+            "atos": [
+                {
+                    "cod": "E2728361",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "08780FA3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "C95B2D60",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO LUIS DO QUITUNDE",
+            "atos": [
+                {
+                    "cod": "7B145321",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "TEOTONIO VILELA",
+            "atos": [
+                {
+                    "cod": "CCA92EE4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                },
+                {
+                    "cod": "7607F8E6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "VIÇOSA",
+            "atos": [
+                {
+                    "cod": "8721A803",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "MARIBONDO",
+            "atos": [
+                {
+                    "cod": "5D0C1B22",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        },
+        {
+            "municipio": "SANTA LUZIA DO NORTE",
+            "atos": [
+                {
+                    "cod": "BF91D8AC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0
+                }
+            ]
+        }
+    ]
+}
