@@ -72,10 +72,9 @@ class PostProcTest(unittest.TestCase):
                     self.assertEqual(case.cabecalho, diario_obtido.cabecalho)
 
                     # Verifica se todos os atos foram corretamente extraídos
-                    self.assertListEqual(
-                        [ato.cod for ato in diario_esperado.atos],
-                        [ato.cod for ato in diario_obtido.atos],
-                        f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}')
+                    for ato_esperado,ato_obtido in zip(diario_esperado.atos, diario_obtido.atos):
+                        self.assertEqual(ato_esperado.cod, ato_obtido.cod, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}')
+                        self.assertEqual(ato_esperado.nomeacoes > 0, ato_obtido.possui_nomeacoes, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nTexto:{ato_obtido.texto}')
 
 
 def get_diario(municipio: str, diarios: slice):
