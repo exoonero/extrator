@@ -75,6 +75,7 @@ class PostProcTest(unittest.TestCase):
                     for ato_esperado,ato_obtido in zip(diario_esperado.atos, diario_obtido.atos):
                         self.assertEqual(ato_esperado.cod, ato_obtido.cod, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}')
                         self.assertEqual(ato_esperado.nomeacoes > 0, ato_obtido.possui_nomeacoes, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nTexto:{ato_obtido.texto}')
+                        self.assertEqual(ato_esperado.exoneracoes > 0, ato_obtido.possui_exoneracoes, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nTexto:{ato_obtido.texto}')
 
 
 def get_diario(municipio: str, diarios: slice):
