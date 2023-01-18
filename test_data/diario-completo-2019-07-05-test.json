@@ -189,13 +189,13 @@
             "atos": [
                 {
                     "cod": "83B28328",
-                    "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
                 },
                 {
                     "cod": "13B80EB5",
-                    "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "nomeacoes": 0,
+                    "exoneracoes": 1
                 },
                 {
                     "cod": "F6478E9F",
