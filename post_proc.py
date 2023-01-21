@@ -12,16 +12,22 @@ re_nomes_municipios = (
 
 
 class AtoNormativo:
-    # Exceções notáveis:
+    # Exceções notáveis (nomeações):
     # String: "Ficam nomeados", município Santa Luzia do Norte, 04/01/2021, ato 8D9E57A4
     # String: "nomeação do Conselho", município Piranhas, 04/01/2021, ato F12265E5
     # String: "^nomear", município Coruripe, 15/01/2021, ato EC041157
     re_nomeacoes = r".*(Nomear|NOMEAR|^nomear|nomeação do Conselho|Ficam nomeados)( |,).*"
 
+    # Exceções notáveis (exonerações):
+    # String: "Ficam exonerados", município São José da Taoera, 02/01/2023, ato 49D56711
+    # String: "^Exonera", município Inhapi, 27/04/2020, ato 1BFBFDDB
+    re_exoneracoes = r".*(Exonerar|EXONERAR|Exonera|Ficam exonerados|RESOLVE EXONERAR)( |,|).*"
+
     def __init__(self, texto: str):
         self.texto = texto
         self.cod = self._extrai_cod(texto)
         self.possui_nomeacoes = self._extrai_nomeacoes()
+        self.possui_exoneracoes = self._extrai_exoneracoes()
 
     def _extrai_cod(self, texto: str):
         matches = re.findall(r'Código Identificador:(.*)', texto)
@@ -31,6 +37,11 @@ class AtoNormativo:
         nomeacoes = re.findall(
             self.re_nomeacoes, self.texto, re.MULTILINE)
         return len(nomeacoes) > 0
+
+    def _extrai_exoneracoes(self):
+        exoneracoes = re.findall(
+            self.re_exoneracoes, self.texto, re.MULTILINE)
+        return len(exoneracoes) > 0
 
 
 class Municipio:
