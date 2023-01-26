@@ -200,7 +200,8 @@
                 {
                     "cod": "4369B40F",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["888.982.454-91"]
                 },
                 {
                     "cod": "E3141E4A",
@@ -267,7 +268,8 @@
                 {
                     "cod": "396CB962",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["075.385.834-75"]
                 }
             ]
         },
@@ -542,7 +544,8 @@
                 {
                     "cod": "161D5A2D",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["494.697.384-20"]
                 }
             ]
         },

@@ -134,7 +134,8 @@
                 {
                     "cod": "804B441D",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["871.974.304-10"]
                 },
                 {
                     "cod": "7F284A74",

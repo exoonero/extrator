@@ -424,7 +424,8 @@
                 {
                     "cod": "B353D934",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["240.840.504-15"]
                 },
                 {
                     "cod": "6F4BD5FE",
@@ -439,7 +440,8 @@
                 {
                     "cod": "AEFA663E",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["139.829.744-53"]
                 }
             ]
         },

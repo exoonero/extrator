@@ -179,12 +179,14 @@
                 {
                     "cod": "B124090D",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["054.611.254-41"]
                 },
                 {
                     "cod": "0A94B49F",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["381.649.898-19"]
                 },
                 {
                     "cod": "951792DC",
@@ -194,7 +196,8 @@
                 {
                     "cod": "F5AEF4B4",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["103.283.384-00"]
                 },
                 {
                     "cod": "DE17B4E4",
@@ -204,12 +207,14 @@
                 {
                     "cod": "E52833BA",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["069.020.314-44"]
                 },
                 {
                     "cod": "5CB680AC",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["866.763.344-53"]
                 },
                 {
                     "cod": "6420375A",
@@ -224,12 +229,14 @@
                 {
                     "cod": "6A767124",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["177.197.634-91"]
                 },
                 {
                     "cod": "E8BF2CA5",
                     "nomeacoes": 7,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["669.279.604-06"]
                 },
                 {
                     "cod": "F75067E8",
@@ -254,12 +261,14 @@
                 {
                     "cod": "06A2D3E4",
                     "nomeacoes": 4,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["075.668.314-96"]
                 },
                 {
                     "cod": "2ED4EF5D",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "50E6DB4C",
@@ -314,7 +323,8 @@
                 {
                     "cod": "810FED25",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["066.465.694-36"]
                 }
             ]
         },

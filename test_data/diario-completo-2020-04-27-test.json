@@ -289,7 +289,8 @@
                 {
                     "cod": "4349C446",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["127.059.874-01"]
                 }
             ]
         },

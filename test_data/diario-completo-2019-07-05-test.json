@@ -200,7 +200,8 @@
                 {
                     "cod": "F6478E9F",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["014.449.424-84"]
                 },
                 {
                     "cod": "1696AB26",
@@ -380,7 +381,8 @@
                 {
                     "cod": "3C919267",
                     "nomeacoes": 5,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "7581F238",

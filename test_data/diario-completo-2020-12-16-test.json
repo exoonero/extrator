@@ -209,7 +209,8 @@
                 {
                     "cod": "C688DB26",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["686.376.754-68"]
                 }
             ]
         },
@@ -359,17 +360,20 @@
                 {
                     "cod": "CFDD0224",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes":["888.627.984-15"]
                 },
                 {
                     "cod": "CA28DE03",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["060.911.644-49"]
                 },
                 {
                     "cod": "51E9D598",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["055.262.194-37"]
                 },
                 {
                     "cod": "66B549C8",

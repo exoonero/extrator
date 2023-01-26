@@ -451,7 +451,8 @@
                 {
                     "cod": "9C337931",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["000.981.234-24"]
                 },
                 {
                     "cod": "CCDC1B81",

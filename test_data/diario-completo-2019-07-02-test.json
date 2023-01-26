@@ -159,7 +159,8 @@
                 {
                     "cod": "8E6EFF7B",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["363.044.368-07"]
                 }
             ]
         },
@@ -274,7 +275,8 @@
                 {
                     "cod": "86662C64",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["035.831.564-63"]
                 },
                 {
                     "cod": "65407120",
@@ -289,17 +291,20 @@
                 {
                     "cod": "ADF0A4DD",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["105.271.814-04"]
                 },
                 {
                     "cod": "52850561",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["053.178.894-64"]
                 },
                 {
                     "cod": "CBC464A5",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["940.754.094-49"]
                 },
                 {
                     "cod": "8ABFFB82",
@@ -339,22 +344,26 @@
                 {
                     "cod": "3C5F1295",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["107.671.844-24"]
                 },
                 {
                     "cod": "8853BE3D",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["778.592.274-87"]
                 },
                 {
                     "cod": "51A03D26",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["068.360.354-08"]
                 },
                 {
                     "cod": "1B20A587",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["032.198.714-45"]
                 },
                 {
                     "cod": "FD79478A",

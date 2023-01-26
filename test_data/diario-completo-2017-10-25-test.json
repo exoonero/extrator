@@ -114,12 +114,14 @@
                 {
                     "cod": "003A76C5",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["099.481.754-17"]
                 },
                 {
                     "cod": "1349AB20",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["057.376.394-10"]
                 },
                 {
                     "cod": "7B030A0E",
@@ -129,7 +131,8 @@
                 {
                     "cod": "E9BED88D",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["177.580.924-20"]
                 },
                 {
                     "cod": "D634E6E6",
@@ -139,7 +142,8 @@
                 {
                     "cod": "B8539920",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["091.297.684-54"]
                 },
                 {
                     "cod": "96D2A46D",
@@ -149,12 +153,14 @@
                 {
                     "cod": "7C40DAC4",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["038.956.544-00"]
                 },
                 {
                     "cod": "31679AB0",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["041.413.124-01"]
                 },
                 {
                     "cod": "1F23FE25",
@@ -164,7 +170,8 @@
                 {
                     "cod": "E0BC1014",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["177.595.794-20"]
                 },
                 {
                     "cod": "DE666CB6",
@@ -174,12 +181,14 @@
                 {
                     "cod": "9B2F869F",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["047.686.584-07"]
                 },
                 {
                     "cod": "8F158F24",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["926.065.204-91"]
                 },
                 {
                     "cod": "C88FF5D3",
@@ -189,7 +198,8 @@
                 {
                     "cod": "6C274CAB",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["088.583.504-21"]
                 },
                 {
                     "cod": "9477093C",
@@ -204,7 +214,8 @@
                 {
                     "cod": "B8EB80D4",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["062.969.784-13"]
                 },
                 {
                     "cod": "34BE3D40",
@@ -214,7 +225,8 @@
                 {
                     "cod": "DE51A7C6",
                     "nomeacoes": 1,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["033.612.614-06"]
                 }
             ]
         }
