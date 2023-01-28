@@ -9,7 +9,8 @@
                 {
                     "cod": "16AA58AA",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -19,7 +20,8 @@
                 {
                     "cod": "1D96428A",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -29,17 +31,20 @@
                 {
                     "cod": "D7C75E4B",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "74842720",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "92990F5E",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -49,7 +54,8 @@
                 {
                     "cod": "CCFD0E51",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -59,7 +65,8 @@
                 {
                     "cod": "EC8C46F1",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -75,12 +82,14 @@
                 {
                     "cod": "FC1940C5",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "3FCA3781",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -120,12 +129,14 @@
                 {
                     "cod": "91A45FD2",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "70B69627",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "F1059B83",
@@ -153,17 +164,20 @@
                 {
                     "cod": "A28B2335",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "80A19DCE",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "6921951F",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "CDCE2713",
@@ -287,7 +301,8 @@
                 {
                     "cod": "F62DCC2B",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -320,17 +335,20 @@
                 {
                     "cod": "2C5305E1",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "D069CF1C",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "5C0EBD75",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -387,7 +405,8 @@
                 {
                     "cod": "483623E3",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "E525BF03",
@@ -446,7 +465,8 @@
                 {
                     "cod": "CCE796E0",
                     "nomeacoes": 0,
-                    "exoneracoes": 1
+                    "exoneracoes": 1,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "1C43BB05",
@@ -457,12 +477,14 @@
                 {
                     "cod": "A13E84F3",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "0D8B92D2",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -478,7 +500,8 @@
                 {
                     "cod": "196F4558",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "26E6CDB7",
@@ -494,17 +517,20 @@
                 {
                     "cod": "09441360",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "5ABEB9A4",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "481CEA78",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -514,12 +540,14 @@
                 {
                     "cod": "E9226219",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "7CDB0C92",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -529,12 +557,14 @@
                 {
                     "cod": "8DC73166",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "2E2588D0",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -544,37 +574,44 @@
                 {
                     "cod": "74A3F44A",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "95D8E3C0",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "1FFD1AB3",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "40AE5DE6",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "93897333",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "09E2BA3A",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "D3A99D5C",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -584,7 +621,8 @@
                 {
                     "cod": "1FAF35CF",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -594,7 +632,8 @@
                 {
                     "cod": "9B58EB01",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "E9087808",
@@ -617,7 +656,8 @@
                 {
                     "cod": "D16CF53B",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -627,27 +667,32 @@
                 {
                     "cod": "526D1AFF",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "F3CEEA84",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "BD6565B1",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "9AFBAC13",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "3057EF21",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -657,7 +702,8 @@
                 {
                     "cod": "DE91F9D5",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -667,47 +713,56 @@
                 {
                     "cod": "2F67DA54",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "728DA1D4",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "D5EB24BF",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "86F503C3",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "BE40C7FC",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "57E9B820",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "715C211A",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "7D299E02",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "13991F3E",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -717,17 +772,20 @@
                 {
                     "cod": "3DA171B1",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "FEB8AD01",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "73B7B345",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -743,7 +801,8 @@
                 {
                     "cod": "FB5017C8",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         }

@@ -9,7 +9,8 @@
                 {
                     "cod": "51A7A9F3",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -19,7 +20,8 @@
                 {
                     "cod": "500C505C",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -29,12 +31,14 @@
                 {
                     "cod": "9C52ABD8",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "7EE9BCE2",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -44,7 +48,8 @@
                 {
                     "cod": "AD9EF3A1",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -54,12 +59,14 @@
                 {
                     "cod": "BEF23A9C",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "254ED172",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -69,7 +76,8 @@
                 {
                     "cod": "BD0BF92E",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -79,12 +87,14 @@
                 {
                     "cod": "05F305C5",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "70B0B220",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -94,7 +104,8 @@
                 {
                     "cod": "BBB420AB",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -104,12 +115,14 @@
                 {
                     "cod": "ECC5C1F4",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "D5EFD278",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -119,32 +132,38 @@
                 {
                     "cod": "33693B69",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "6FBFACC3",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "24EB4E0C",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "6315D443",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "67716521",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "EFA6AC2C",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -154,7 +173,8 @@
                 {
                     "cod": "C5F47561",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -164,12 +184,14 @@
                 {
                     "cod": "A242CB2B",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "EC7FDFD0",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -179,17 +201,20 @@
                 {
                     "cod": "AAF1669D",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "BF081635",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "58763C3F",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -199,17 +224,20 @@
                 {
                     "cod": "9BEB72AA",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "A335A274",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "973B0936",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -219,22 +247,26 @@
                 {
                     "cod": "DAB74579",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "75B1BF65",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "41F83A2F",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "07D529BA",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -244,7 +276,8 @@
                 {
                     "cod": "1EFCBA3D",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -254,7 +287,8 @@
                 {
                     "cod": "D98D00BF",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -264,7 +298,8 @@
                 {
                     "cod": "D26DB127",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -274,27 +309,32 @@
                 {
                     "cod": "264F7129",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "12FFE820",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "63B0A1B1",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "56C9F4BD",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "FCC19F2D",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -304,27 +344,32 @@
                 {
                     "cod": "44FAB30A",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "0629C98A",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "CE29FB12",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "95E3A013",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "AC54076B",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -334,12 +379,14 @@
                 {
                     "cod": "7161092E",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "F11F4A8F",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -349,12 +396,14 @@
                 {
                     "cod": "1FC80763",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "EAC53BE5",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -364,7 +413,8 @@
                 {
                     "cod": "AADDE6B4",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -374,7 +424,8 @@
                 {
                     "cod": "078923A6",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -384,17 +435,20 @@
                 {
                     "cod": "3F16F22B",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "CF43341D",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "EC621109",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -404,7 +458,8 @@
                 {
                     "cod": "FF307D14",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -414,37 +469,44 @@
                 {
                     "cod": "0398B10B",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "2F7BE2FE",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "25D2185A",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "0D3736D6",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "6FF870A2",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "06C6D174",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "D794A5D4",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -454,7 +516,8 @@
                 {
                     "cod": "DAE4F0FF",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -464,12 +527,14 @@
                 {
                     "cod": "CAACCC0E",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "83290A49",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -479,7 +544,8 @@
                 {
                     "cod": "CFBFDEA8",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -489,22 +555,26 @@
                 {
                     "cod": "477A17C6",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "E0E3BA67",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "4211BF21",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "F227222D",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -514,7 +584,8 @@
                 {
                     "cod": "0106DE32",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -524,7 +595,8 @@
                 {
                     "cod": "BDA221A6",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         }

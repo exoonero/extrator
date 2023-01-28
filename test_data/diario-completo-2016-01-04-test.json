@@ -9,17 +9,20 @@
                 {
                     "cod": "174040EB",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "706C2006",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "C3C89047",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -29,12 +32,14 @@
                 {
                     "cod": "E1C352BB",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 },
                 {
                     "cod": "5736B841",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         },
@@ -44,7 +49,8 @@
                 {
                     "cod": "31AE6E94",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         }
