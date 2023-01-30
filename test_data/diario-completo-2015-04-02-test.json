@@ -9,7 +9,8 @@
                 {
                     "cod": "39773E50",
                     "nomeacoes": 0,
-                    "exoneracoes": 0
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": []
                 }
             ]
         }
