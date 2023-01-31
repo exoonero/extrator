@@ -15,13 +15,13 @@ class AtoNormativo:
     # Exceções notáveis (nomeações):
     # String: "Ficam nomeados", município Santa Luzia do Norte, 04/01/2021, ato 8D9E57A4
     # String: "nomeação do Conselho", município Piranhas, 04/01/2021, ato F12265E5
-    # String: "^nomear", município Coruripe, 15/01/2021, ato EC041157
-    re_nomeacoes = r".*(Nomear|NOMEAR|^nomear|nomeação do Conselho|Ficam nomeados)( |,).*"
+    # String: "nomear,", município Coruripe, 15/01/2021, ato EC041157
+    re_nomeacoes = r"(Nomear|NOMEAR|nomear,|nomeação do Conselho|Ficam nomeados)( |,)"
 
     # Exceções notáveis (exonerações):
     # String: "Ficam exonerados", município São José da Taoera, 02/01/2023, ato 49D56711
     # String: "^Exonera", município Inhapi, 27/04/2020, ato 1BFBFDDB
-    re_exoneracoes = r".*(Exonerar|EXONERAR|Exonera|Ficam exonerados|RESOLVE EXONERAR)( |,|).*"
+    re_exoneracoes = r"(Exonerar|EXONERAR|Exonera|Ficam exonerados|RESOLVE EXONERAR)( |,|)"
     
     # Exceções notáveis:
     # Possui um CPF inválido, município Maragogi, 10/02/2018, ato 7C2C6663
@@ -49,14 +49,11 @@ class AtoNormativo:
         return matches[0]
 
     def _possui_nomeacoes(self):
-        nomeacoes = re.findall(
-            self.re_nomeacoes, self.texto, re.MULTILINE)
-        return len(nomeacoes) > 0
+        return re.search(self.re_nomeacoes, self.texto) is not None
+        
 
     def _possui_exoneracoes(self):
-        exoneracoes = re.findall(
-            self.re_exoneracoes, self.texto, re.MULTILINE)
-        return len(exoneracoes) > 0
+        return re.search(self.re_exoneracoes, self.texto) is not None
     
     def _extrai_cpf(self):
         novo_texto = re.sub("\n|\s|\.", "", self.texto)
