@@ -10,31 +10,36 @@
                     "cod": "A89AC010",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "22129830",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "D3B87E2B",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "B3C945BF",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "A618423D",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         }

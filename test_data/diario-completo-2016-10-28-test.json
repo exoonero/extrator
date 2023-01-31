@@ -10,7 +10,8 @@
                     "cod": "39A407D6",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         },
@@ -21,7 +22,8 @@
                     "cod": "934AA973",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         },
@@ -32,7 +34,8 @@
                     "cod": "3F88AAB4",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         },
@@ -43,7 +46,8 @@
                     "cod": "14304717",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         },
@@ -54,13 +58,15 @@
                     "cod": "B4D955FF",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "E6738FDC",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         },
@@ -71,19 +77,22 @@
                     "cod": "712BA3E1",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "96F13139",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "218EAE64",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         }

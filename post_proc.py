@@ -15,58 +15,54 @@ class AtoNormativo:
     # Exceções notáveis (nomeações):
     # String: "Ficam nomeados", município Santa Luzia do Norte, 04/01/2021, ato 8D9E57A4
     # String: "nomeação do Conselho", município Piranhas, 04/01/2021, ato F12265E5
-    # String: "^nomear", município Coruripe, 15/01/2021, ato EC041157
-    re_nomeacoes = r".*(Nomear|NOMEAR|^nomear|nomeação do Conselho|Ficam nomeados)( |,).*"
+    # String: "nomear,", município Coruripe, 15/01/2021, ato EC041157
+    re_nomeacoes = r"(Nomear|NOMEAR|nomear,|nomeação do Conselho|Ficam nomeados)( |,)"
 
     # Exceções notáveis (exonerações):
     # String: "Ficam exonerados", município São José da Taoera, 02/01/2023, ato 49D56711
     # String: "^Exonera", município Inhapi, 27/04/2020, ato 1BFBFDDB
-    re_exoneracoes = r".*(Exonerar|EXONERAR|Exonera|Ficam exonerados|RESOLVE EXONERAR)( |,|).*"
+    re_exoneracoes = r"(Exonerar|EXONERAR|Exonera|Ficam exonerados|RESOLVE EXONERAR)( |,|)"
     
     # Exceções notáveis:
-    # Quebra de linha ou espaço em branco (\s) e (\s\s), município Maragogi, 02/10/2018, ato B124090D; município INHAPI, 15/01/2021, ato 0E5005F9. Exemplo 1:
-    # CPF nº 054.611.254-
-    # 41
-    # Exemplo 2:
-    #CPF 126.849.564-
-    # 
-    # 64
+    # Possui um CPF inválido, município Maragogi, 10/02/2018, ato 7C2C6663
+    # Possui um CPF inválido, 060-478.934-30, município Maragogi, 02/01/2023, ato 99658F02
     # String: \*\*\*, município Maragogi, 15/08/2022, ato 2E57C952
     # String: –, município Pão de Açúcar, 02/01/2023, ato C7917E25
     # Erro de digitação do padrão cpf: 616.676668 – 00, município Pão de Açúcar, 02/01/2023, ato C7917E25. Solução na regex: (?:.|)
-    re_cpf = r".*((?:\*\*\*|\d{3})(?:.|)\d{3}(?:.|)(?:\*\*\*|\d{3})(?:-| – )(?:\s|\s\s|)\d{2}).*"
+    re_cpf = r"((?:\*{3}|\d{3})\d{3}(?:\*{3}|\d{3})-\d{2})"
 
     def __init__(self, texto: str):
         self.texto = texto
         self.cod = self._extrai_cod(texto)
-        self.possui_nomeacoes = self._extrai_nomeacoes()
-        self.possui_exoneracoes = self._extrai_exoneracoes()
+        self.possui_nomeacoes = self._possui_nomeacoes()
         self.cpf_nomeacoes = []
         if (self.possui_nomeacoes):
             self.cpf_nomeacoes = self._extrai_cpf()
+        
+        self.cpf_exoneracoes = []
+        self.possui_exoneracoes = self._possui_exoneracoes()
+        if (self.possui_exoneracoes):
+            self.cpf_exoneracoes = self._extrai_cpf()
 
     def _extrai_cod(self, texto: str):
         matches = re.findall(r'Código Identificador:(.*)', texto)
         return matches[0]
 
-    def _extrai_nomeacoes(self):
-        nomeacoes = re.findall(
-            self.re_nomeacoes, self.texto, re.MULTILINE)
-        return len(nomeacoes) > 0
+    def _possui_nomeacoes(self):
+        return re.search(self.re_nomeacoes, self.texto) is not None
+        
 
-    def _extrai_exoneracoes(self):
-        exoneracoes = re.findall(
-            self.re_exoneracoes, self.texto, re.MULTILINE)
-        return len(exoneracoes) > 0
+    def _possui_exoneracoes(self):
+        return re.search(self.re_exoneracoes, self.texto) is not None
     
     def _extrai_cpf(self):
-        slice_cpf = re.findall(
-            self.re_cpf, self.texto, re.MULTILINE)
-        # Tratar erro de cpf estar dividido em linhas diferentes
-        for index in range(len(slice_cpf)):
-            slice_cpf[index] = slice_cpf[index].replace("\n", "")
-        return slice_cpf
-
+        novo_texto = re.sub("\n|\s|\.", "", self.texto)
+        # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
+        novo_texto = novo_texto.replace("–", "-")
+        cpfs = re.findall(self.re_cpf, novo_texto)
+        for i in range(len(cpfs)):
+            cpfs[i] = f"{cpfs[i][0:3]}.{cpfs[i][3:6]}.{cpfs[i][6:8]}{cpfs[i][8:12]}"
+        return cpfs
 
 
 

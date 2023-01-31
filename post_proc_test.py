@@ -47,7 +47,10 @@ class PostProcTest(unittest.TestCase):
         )
         for case_path in cases:
             with open(case_path, 'r') as f:
-                case = json.load(f, object_hook=asobject)
+                try:
+                    case = json.load(f, object_hook=asobject)
+                except json.decoder.JSONDecodeError as err:
+                    self.fail(f'Erro ao carregar o arquivo {case_path}: {err}')
 
             with self.subTest(case.desc):
                 with open(case.path, "r") as diario_ama:
@@ -72,12 +75,20 @@ class PostProcTest(unittest.TestCase):
                     self.assertEqual(case.cabecalho, diario_obtido.cabecalho)
 
                     # Verifica se todos os atos foram corretamente extraídos
-                    for ato_esperado,ato_obtido in zip(diario_esperado.atos, diario_obtido.atos):
-                        self.assertEqual(ato_esperado.cod, ato_obtido.cod, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}')
-                        self.assertEqual(ato_esperado.nomeacoes > 0, ato_obtido.possui_nomeacoes, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nTexto:{ato_obtido.texto}')
-                        self.assertEqual(ato_esperado.cpf_nomeacoes, ato_obtido.cpf_nomeacoes,
-                        f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nTexto:{ato_obtido.texto}')
-                        self.assertEqual(ato_esperado.exoneracoes > 0, ato_obtido.possui_exoneracoes, f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nTexto:{ato_obtido.texto}')
+                    for ato_esperado, ato_obtido in zip(diario_esperado.atos, diario_obtido.atos):
+                        try:
+                            self.assertEqual(ato_esperado.cod, ato_obtido.cod,
+                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}')
+                            self.assertEqual(ato_esperado.nomeacoes > 0, ato_obtido.possui_nomeacoes,
+                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                            self.assertEqual(ato_esperado.cpf_nomeacoes, ato_obtido.cpf_nomeacoes,
+                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                            self.assertEqual(ato_esperado.exoneracoes > 0, ato_obtido.possui_exoneracoes,
+                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                            self.assertEqual(ato_esperado.cpf_exoneracoes, ato_obtido.cpf_exoneracoes,
+                                        f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                        except AttributeError as err:
+                            self.fail(f'Erro ao acessar objeto {case_path} ato {ato_obtido.cod}: {err}')
 
 
 def get_diario(municipio: str, diarios: slice):
