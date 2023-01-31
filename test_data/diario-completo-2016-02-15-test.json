@@ -10,19 +10,22 @@
                     "cod": "9AB283D6",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "93C7C544",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 },
                 {
                     "cod": "B131C8CE",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         },
@@ -33,7 +36,8 @@
                     "cod": "D1DB184B",
                     "nomeacoes": 0,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": []
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
                 }
             ]
         }
