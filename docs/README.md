@@ -24,10 +24,10 @@ Para tornar mais fácil o acompanhamento, o projeto foi dividido em duas fases. 
 
 Essa fase foi executada com sucesso entre agosto e dezembro de 2022. Seu objetivo foi coletar, transformar em texto e separar em municípios os diários oficiais municipais da [Associação dos Municípios Alagoanos (AMA)](https://www.diariomunicipal.com.br/ama/). Além da separação do conteúdo por município, o texto do diário de cada ente estadual é separado em atos normativos.
 
-Esse foi objetivo foi atingido com a execuão das seguintes etapas:
+Esse foi objetivo foi atingido com a execução das seguintes etapas:
 
 1. Através do software Apache Tika é possível transformar o diário que está em formato PDF em texto ASCII e então é possível ter o primeiro conjunto de dados;
-1. A partir do texto completo do diário, utilizamos um algoritmo baseado em expressão regular para separar o conteúdo por muncípios. A partir daí temos o texto dos diários oficiais de cada município;
+1. A partir do texto completo do diário, utilizamos um algoritmo baseado em expressão regular para separar o conteúdo por municípios. A partir daí temos o texto dos diários oficiais de cada município;
 1. O texto de cada diário é então processado e separado em atos normativos. Essa etapa também é realizada utilizando um algoritmo baseado em expressões regulares.
 
 Para aumentar a confiança na solução proposta, testamos com sucesso 25 diários, com amostra todos os anos entre 2014 e 2022. Os testes realizam as seguintes checagens:
@@ -37,7 +37,7 @@ Para aumentar a confiança na solução proposta, testamos com sucesso 25 diári
 
 A OKBR planeja integrar esses algoritmos ao projeto Querido Diário a partir de janeiro de 2023. Dessa forma será possível coletar continuamente os diários dos 102 municípios alagoanos e disponibilizá-los na plataforma, permitindo consultas e habilitando análises mais ricas.
 
-O sucesso na execução da primeira etapada deste projeto reforça que o potencial da inclusão de instituições de nível técnico na parceria IFAL-OKBR. 
+O sucesso na execução da primeira etapa da deste projeto reforça que o potencial da inclusão de instituições de nível técnico na parceria IFAL-OKBR. 
 
 ## Fase 2: Classificação dos atos normativos -- nomeações e exonerações
 
