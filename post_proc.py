@@ -22,7 +22,7 @@ class AtoNormativo:
     # String: "Ficam exonerados", município São José da Taoera, 02/01/2023, ato 49D56711
     # String: "^Exonera", município Inhapi, 27/04/2020, ato 1BFBFDDB
     re_exoneracoes = r"(Exonerar|EXONERAR|Exonera|Ficam exonerados|RESOLVE EXONERAR)( |,|)"
-    
+
     # Exceções notáveis:
     # Possui um CPF inválido, município Maragogi, 10/02/2018, ato 7C2C6663
     # Possui um CPF inválido, 060-478.934-30, município Maragogi, 02/01/2023, ato 99658F02
@@ -38,7 +38,7 @@ class AtoNormativo:
         self.cpf_nomeacoes = []
         if (self.possui_nomeacoes):
             self.cpf_nomeacoes = self._extrai_cpf()
-        
+
         self.cpf_exoneracoes = []
         self.possui_exoneracoes = self._possui_exoneracoes()
         if (self.possui_exoneracoes):
@@ -50,20 +50,20 @@ class AtoNormativo:
 
     def _possui_nomeacoes(self):
         return re.search(self.re_nomeacoes, self.texto) is not None
-        
 
     def _possui_exoneracoes(self):
         return re.search(self.re_exoneracoes, self.texto) is not None
-    
+
     def _extrai_cpf(self):
-        novo_texto = re.sub("\n|\s|\.", "", self.texto)
+
+        novo_texto = re.sub(
+            "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
         # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
         novo_texto = novo_texto.replace("–", "-")
         cpfs = re.findall(self.re_cpf, novo_texto)
         for i in range(len(cpfs)):
             cpfs[i] = f"{cpfs[i][0:3]}.{cpfs[i][3:6]}.{cpfs[i][6:8]}{cpfs[i][8:12]}"
         return cpfs
-
 
 
 class Municipio:
