@@ -56,7 +56,8 @@ class AtoNormativo:
 
     def _extrai_cpf(self):
 
-        novo_texto = re.sub("\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
+        novo_texto = re.sub(
+            "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
         # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
         novo_texto = novo_texto.replace("–", "-")
         cpfs = re.findall(self.re_cpf, novo_texto)
