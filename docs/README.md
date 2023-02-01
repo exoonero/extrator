@@ -6,8 +6,8 @@ O projeto conta com os seguintes integrantes:
 - [Alex Custódio](https://github.com/alex-custodio): discente do curso técnico de Informática do IFAL campus Arapiraca
 - [Emanuel Lucas da Silva](https://github.com/emanuelucas04): discente do curso técnico de Informática do IFAL campus Arapiraca
 - [Daniel Fireman](https://github.com/danielfireman): professor do IFAL campus Arapiraca
-- [Felipe Alencar](https://github.com/felipealencar): professor do IFAL campus Arapirac
-- [Luisa Coelho](https://github.com/luisa-coelho): bolsita PCDaS
+- [Felipe Alencar](https://github.com/felipealencar): professor do IFAL campus Arapiraca
+- [Luisa Coelho](https://github.com/luisa-coelho): bolsista PCDaS
 
 O projeto tem como principal objetivo coletar, transformar em texto e separar em municípios os diários oficiais municipais da [Associação dos Municípios Alagoanos (AMA)](https://www.diariomunicipal.com.br/ama/). Além da separação do conteúdo por município, o texto do diário de cada ente estadual é separado em atos normativos. Também iremos utilizar algoritmos computacionais para classificar e extrair informações dos atos normativos dos diários de cada município. Mais especificamente, o nosso foco será em nomeações e exonerações.
 
