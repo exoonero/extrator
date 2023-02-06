@@ -16,7 +16,7 @@ class AtoNormativo:
     # String: "Ficam nomeados", município Santa Luzia do Norte, 04/01/2021, ato 8D9E57A4
     # String: "nomeação do Conselho", município Piranhas, 04/01/2021, ato F12265E5
     # String: "nomear,", município Coruripe, 15/01/2021, ato EC041157
-    re_nomeacoes = r"(Nomear|NOMEAR|nomear,|nomeação do Conselho|Ficam nomeados)( |,)"
+    re_nomeacoes = r"(Nomear|NOMEAR|nomear,|nomeação do Conselho|Ficam nomeados)( |,|)"
 
     # Exceções notáveis (exonerações):
     # String: "Ficam exonerados", município São José da Taoera, 02/01/2023, ato 49D56711
@@ -62,10 +62,10 @@ class AtoNormativo:
                 cpfs[i] = f"{cpfs[i][0:3]}.{cpfs[i][3:6]}.{cpfs[i][6:8]}{cpfs[i][8:12]}"
             if self.possui_nomeacoes:
                 self.cpf_nomeacoes = cpfs
-            if self.possui_exoneracoes:
+            elif self.possui_exoneracoes:
                 self.cpf_exoneracoes = cpfs
             if self.possui_nomeacoes and self.possui_exoneracoes:
-                texto_dividido = re.split(self.re_nomeacoes, self.texto)
+                texto_dividido = re.split(self.re_nomeacoes, novo_texto)
                 texto_nomeacoes = ""
                 texto_exoneracoes = ""
                 #for texto in texto_dividido:
@@ -79,16 +79,13 @@ class AtoNormativo:
                         texto_exoneracoes = texto
                     else:
                         texto_nomeacoes = texto
-                texto_nomeacoes = re.sub(
-                "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", texto_nomeacoes).replace("–", "-")
-                texto_exoneracoes = re.sub(
-                "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", texto_exoneracoes).replace("–", "-")
                 self.cpf_nomeacoes = re.findall(self.re_cpf, texto_nomeacoes)
                 self.cpf_exoneracoes = re.findall(self.re_cpf, texto_exoneracoes)
                 for i in range(len(self.cpf_nomeacoes)):
                     self.cpf_nomeacoes[i] = f"{self.cpf_nomeacoes[i][0:3]}.{self.cpf_nomeacoes[i][3:6]}.{self.cpf_nomeacoes[i][6:8]}{self.cpf_nomeacoes[i][8:12]}"
                 for i in range(len(self.cpf_exoneracoes)):
                     self.cpf_exoneracoes[i] = f"{self.cpf_exoneracoes[i][0:3]}.{self.cpf_exoneracoes[i][3:6]}.{self.cpf_exoneracoes[i][6:8]}{self.cpf_exoneracoes[i][8:12]}"
+                print(texto_exoneracoes)
                 
                 
                         
