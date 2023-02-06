@@ -40,7 +40,6 @@ class AtoNormativo:
         self.possui_exoneracoes = self._possui_exoneracoes()
         if self.possui_exoneracoes or self.possui_nomeacoes:
             self._extrai_cpf()
-            
 
     def _extrai_cod(self, texto: str):
         matches = re.findall(r'Código Identificador:(.*)', texto)
@@ -53,42 +52,32 @@ class AtoNormativo:
         return re.search(self.re_exoneracoes, self.texto) is not None
 
     def _extrai_cpf(self):
-            novo_texto = re.sub(
-                "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
-            # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
-            novo_texto = novo_texto.replace("–", "-")
-            cpfs = re.findall(self.re_cpf, novo_texto)
-            for i in range(len(cpfs)):
-                cpfs[i] = f"{cpfs[i][0:3]}.{cpfs[i][3:6]}.{cpfs[i][6:8]}{cpfs[i][8:12]}"
-            if self.possui_nomeacoes:
-                self.cpf_nomeacoes = cpfs
-            elif self.possui_exoneracoes:
-                self.cpf_exoneracoes = cpfs
-            if self.possui_nomeacoes and self.possui_exoneracoes:
-                texto_dividido = re.split(self.re_nomeacoes, novo_texto)
-                texto_nomeacoes = ""
-                texto_exoneracoes = ""
-                #for texto in texto_dividido:
-                #    if re.search(self.re_exoneracoes, texto) is not None:
-                #        texto_exoneracoes = texto
-                #    else:
-                #        texto_nomeacoes = texto
-                
-                for texto in texto_dividido:
-                    if re.search(self.re_exoneracoes, texto) is not None:
-                        texto_exoneracoes = texto
-                    else:
-                        texto_nomeacoes = texto
-                self.cpf_nomeacoes = re.findall(self.re_cpf, texto_nomeacoes)
-                self.cpf_exoneracoes = re.findall(self.re_cpf, texto_exoneracoes)
-                for i in range(len(self.cpf_nomeacoes)):
-                    self.cpf_nomeacoes[i] = f"{self.cpf_nomeacoes[i][0:3]}.{self.cpf_nomeacoes[i][3:6]}.{self.cpf_nomeacoes[i][6:8]}{self.cpf_nomeacoes[i][8:12]}"
-                for i in range(len(self.cpf_exoneracoes)):
-                    self.cpf_exoneracoes[i] = f"{self.cpf_exoneracoes[i][0:3]}.{self.cpf_exoneracoes[i][3:6]}.{self.cpf_exoneracoes[i][6:8]}{self.cpf_exoneracoes[i][8:12]}"
-                print(texto_exoneracoes)
-                
-                
-                        
+        novo_texto = re.sub(
+            "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
+        # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
+        novo_texto = novo_texto.replace("–", "-")
+        cpfs = re.findall(self.re_cpf, novo_texto)
+        for i in range(len(cpfs)):
+            cpfs[i] = f"{cpfs[i][0:3]}.{cpfs[i][3:6]}.{cpfs[i][6:8]}{cpfs[i][8:12]}"
+        if self.possui_nomeacoes:
+            self.cpf_nomeacoes = cpfs
+        elif self.possui_exoneracoes:
+            self.cpf_exoneracoes = cpfs
+        if self.possui_nomeacoes and self.possui_exoneracoes:
+            texto_dividido = re.split(self.re_nomeacoes, novo_texto)
+            texto_nomeacoes = ""
+            texto_exoneracoes = ""
+            for texto in texto_dividido:
+                if re.search(self.re_exoneracoes, texto) is not None:
+                    texto_exoneracoes = texto
+                else:
+                    texto_nomeacoes = texto
+            self.cpf_nomeacoes = re.findall(self.re_cpf, texto_nomeacoes)
+            self.cpf_exoneracoes = re.findall(self.re_cpf, texto_exoneracoes)
+            for i in range(len(self.cpf_nomeacoes)):
+                self.cpf_nomeacoes[i] = f"{self.cpf_nomeacoes[i][0:3]}.{self.cpf_nomeacoes[i][3:6]}.{self.cpf_nomeacoes[i][6:8]}{self.cpf_nomeacoes[i][8:12]}"
+            for i in range(len(self.cpf_exoneracoes)):
+                self.cpf_exoneracoes[i] = f"{self.cpf_exoneracoes[i][0:3]}.{self.cpf_exoneracoes[i][3:6]}.{self.cpf_exoneracoes[i][6:8]}{self.cpf_exoneracoes[i][8:12]}"
 
 
 class Municipio:
