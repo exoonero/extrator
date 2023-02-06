@@ -65,13 +65,15 @@ class AtoNormativo:
             self.cpf_exoneracoes = cpfs
         if self.possui_nomeacoes and self.possui_exoneracoes:
             texto_dividido = re.split(self.re_nomeacoes, novo_texto)
-            texto_nomeacoes = ""
-            texto_exoneracoes = ""
+            texto_nomeacoes = []
+            texto_exoneracoes = []
             for texto in texto_dividido:
                 if re.search(self.re_exoneracoes, texto) is not None:
-                    texto_exoneracoes = texto
+                    texto_exoneracoes.append(texto)
                 else:
-                    texto_nomeacoes = texto
+                    texto_nomeacoes.append(texto)
+            texto_nomeacoes = ''.join(texto_nomeacoes)
+            texto_exoneracoes = ''.join(texto_exoneracoes)
             self.cpf_nomeacoes = re.findall(self.re_cpf, texto_nomeacoes)
             self.cpf_exoneracoes = re.findall(self.re_cpf, texto_exoneracoes)
             for i in range(len(self.cpf_nomeacoes)):
