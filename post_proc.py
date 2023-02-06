@@ -52,15 +52,17 @@ class AtoNormativo:
         return re.search(self.re_exoneracoes, self.texto) is not None
 
     def _extrai_cpf(self):
-
-        novo_texto = re.sub(
-            "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
-        # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
-        novo_texto = novo_texto.replace("–", "-")
-        cpfs = re.findall(self.re_cpf, novo_texto)
-        for i in range(len(cpfs)):
-            cpfs[i] = f"{cpfs[i][0:3]}.{cpfs[i][3:6]}.{cpfs[i][6:8]}{cpfs[i][8:12]}"
-        return cpfs
+            novo_texto = re.sub(
+                "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
+            # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
+            novo_texto = novo_texto.replace("–", "-")
+            cpfs = re.findall(self.re_cpf, novo_texto)
+            for i in range(len(cpfs)):
+                cpfs[i] = f"{cpfs[i][0:3]}.{cpfs[i][3:6]}.{cpfs[i][6:8]}{cpfs[i][8:12]}"
+            if self.possui_nomeacoes:
+                self.cpf_nomeacoes = cpfs
+            if self.possui_exoneracoes:
+                self.cpf_exoneracoes = cpfs
 
 
 class Municipio:
