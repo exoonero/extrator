@@ -36,13 +36,10 @@ class AtoNormativo:
         self.cod = self._extrai_cod(texto)
         self.possui_nomeacoes = self._possui_nomeacoes()
         self.cpf_nomeacoes = []
-        if (self.possui_nomeacoes):
-            self.cpf_nomeacoes = self._extrai_cpf()
-
         self.cpf_exoneracoes = []
         self.possui_exoneracoes = self._possui_exoneracoes()
-        if (self.possui_exoneracoes):
-            self.cpf_exoneracoes = self._extrai_cpf()
+        if self.possui_exoneracoes or self.possui_nomeacoes:
+            self._extrai_cpf()
 
     def _extrai_cod(self, texto: str):
         matches = re.findall(r'Código Identificador:(.*)', texto)
