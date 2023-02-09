@@ -12,7 +12,7 @@ def cria_arquivos(nome_arquivo_preffix: str, diarios: dict):
 if __name__ == "__main__":
     # Verificando argumentos passados para o programa.
     if len(sys.argv) < 2:
-        print("Usage: python post_proc.py <caminho para arquivo texto extraído>", file=sys.stderr)
+        print("Usage: python extrair_diarios.py <caminho para arquivo texto extraído>", file=sys.stderr)
         sys.exit(1)
 
     path_texto_diario = sys.argv[1]

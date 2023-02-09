@@ -1,3 +1,4 @@
+import json
 import re
 
 
@@ -75,3 +76,6 @@ class AtoNormativo:
             self.cpf_nomeacoes[i] = f"{self.cpf_nomeacoes[i][0:3]}.{self.cpf_nomeacoes[i][3:6]}.{self.cpf_nomeacoes[i][6:8]}{self.cpf_nomeacoes[i][8:12]}"
         for i in range(len(self.cpf_exoneracoes)):
             self.cpf_exoneracoes[i] = f"{self.cpf_exoneracoes[i][0:3]}.{self.cpf_exoneracoes[i][3:6]}.{self.cpf_exoneracoes[i][6:8]}{self.cpf_exoneracoes[i][8:12]}"
+
+    def __str__(self):
+        return json.dumps(self.__dict__, indent=2, ensure_ascii=False)
