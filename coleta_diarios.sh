@@ -49,9 +49,13 @@ do
         -T ${pdf} \
         http://localhost:9998/tika > ${extraido}
         python3 ${ROOT_DIR}/extrair_diarios.py ${extraido}
-    zip -q ${fname}.zip ${fname}* 
+    
+    for diario in `ls -a ${fname}-proc*.txt`
+    do
+        python3 ${ROOT_DIR}/extrair_atos.py ${diario}
+    done
     rm -f ${pdf}
-    rm -f ${fname}*.txt
+    rm -f ${fname}-proc*.txt
 done
 
 
