@@ -815,8 +815,8 @@
                     "cod": "9E42D4A1",
                     "nomeacoes": 1,
                     "exoneracoes": 1,
-                    "cpf_nomeacoes": ["021.219.374-04", "050.085.864-08"],
-                    "cpf_exoneracoes": ["021.219.374-04", "050.085.864-08"]
+                    "cpf_nomeacoes": ["050.085.864-08"],
+                    "cpf_exoneracoes": ["021.219.374-04"]
                 },
                 {
                     "cod": "17112898",
