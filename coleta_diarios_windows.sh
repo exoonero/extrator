@@ -20,9 +20,9 @@ mkdir -p ${OUT_DIR}
 
 # Preparando ambiente para coleta.
 cd ${REPO_DIR} || (git clone https://github.com/okfn-brasil/querido-diario qd && cd ${REPO_DIR})
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r ${DATA_COLLECTION_DIR}/requirements-dev.txt
+python -m venv .venv
+.venv/Scripts/activate.bat
+py -m pip install -r ${DATA_COLLECTION_DIR}/requirements-dev.txt
 pre-commit install
 
 # Coletando diários e movendo para a pasta diários.
@@ -38,11 +38,11 @@ done
 # Extraindo texto dos diários.
 cd ${DOWNLOAD_DIR}
 
-sudo docker pull apache/tika:1.28.4
-sudo docker run -d -p 9998:9998 --rm --name tika apache/tika:1.28.4
-trap 'sudo docker stop tika' EXIT
+docker pull apache/tika:1.28.4
+docker run -d -p 9998:9998 --rm --name tika apache/tika:1.28.4
+trap 'docker stop tika' EXIT
 sleep 10
-for pdf in `ls -a *.pdf`
+for pdf in `dir -a *.pdf`
 do
     fname=`basename -s .pdf ${pdf}`  # removendo extensão
     extraido="${fname}-extraido.txt"
@@ -50,11 +50,11 @@ do
         -H "Accept: text/plain" -H "Content-Type: application/pdf" \
         -T ${pdf} \
         http://localhost:9998/tika > ${extraido}
-        python3 ${ROOT_DIR}/extrair_diarios.py ${extraido}
+        python ${ROOT_DIR}/extrair_diarios.py ${extraido}
     
-    for diario in `ls -a ${fname}-proc*.txt`
+    for diario in `dir -a ${fname}-proc*.txt`
     do
-        python3 ${ROOT_DIR}/extrair_atos.py ${diario}
+        python ${ROOT_DIR}/extrair_atos.py ${diario}
     done
     rm -f ${pdf}
     rm -f ${fname}-proc*.txt
