@@ -1,10 +1,15 @@
 import json
-import unittest
 import re
-from post_proc import extrai_diarios
+import unittest
+
+from diario_ama import extrair_diarios_municipais
+
+# Combinando duas partes importantes desse projeto em apenas um teste para
+# simplificar as coisas. Nesse teste checamos se os diários municipais são
+# extraídos corretamente e se os atos são extraídos de cada diário corretamente.
 
 
-class PostProcTest(unittest.TestCase):
+class IntegracaoTest(unittest.TestCase):
 
     def test_extrai_diarios(self):
         # Novos casos de teste devem ser adicionados na tupla abaixo.
@@ -54,7 +59,8 @@ class PostProcTest(unittest.TestCase):
 
             with self.subTest(case.desc):
                 with open(case.path, "r") as diario_ama:
-                    diarios_extraidos = extrai_diarios(diario_ama.read())
+                    diarios_extraidos = extrair_diarios_municipais(
+                        diario_ama.read())
 
                 # Verifica se os municípios foram extraídos corretamente.
                 municipios_esperados = [
@@ -71,6 +77,8 @@ class PostProcTest(unittest.TestCase):
                     diario_obtido = get_diario(
                         diario_esperado.municipio, diarios_extraidos)
 
+                    diario_obtido.extrai_atos()
+
                     # Teste Cabeçalho
                     self.assertEqual(case.cabecalho, diario_obtido.cabecalho)
 
@@ -78,17 +86,18 @@ class PostProcTest(unittest.TestCase):
                     for ato_esperado, ato_obtido in zip(diario_esperado.atos, diario_obtido.atos):
                         try:
                             self.assertEqual(ato_esperado.cod, ato_obtido.cod,
-                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}')
+                                             f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}')
                             self.assertEqual(ato_esperado.nomeacoes > 0, ato_obtido.possui_nomeacoes,
-                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                                             f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
                             self.assertEqual(ato_esperado.cpf_nomeacoes, ato_obtido.cpf_nomeacoes,
-                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                                             f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
                             self.assertEqual(ato_esperado.exoneracoes > 0, ato_obtido.possui_exoneracoes,
-                                            f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                                             f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
                             self.assertEqual(ato_esperado.cpf_exoneracoes, ato_obtido.cpf_exoneracoes,
-                                        f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
+                                             f'Caso: {case.desc}\nMunicípio: {diario_esperado.municipio}\nAto: {ato_obtido.cod}\nTexto:{ato_obtido.texto}')
                         except AttributeError as err:
-                            self.fail(f'Erro ao acessar objeto {case_path} ato {ato_obtido.cod}: {err}')
+                            self.fail(
+                                f'Erro ao acessar objeto {case_path} ato {ato_obtido.cod}: {err}')
 
 
 def get_diario(municipio: str, diarios: slice):
