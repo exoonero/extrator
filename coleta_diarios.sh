@@ -48,7 +48,7 @@ do
         -H "Accept: text/plain" -H "Content-Type: application/pdf" \
         -T ${pdf} \
         http://localhost:9998/tika > ${extraido}
-        python3 ${ROOT_DIR}/post_proc.py ${extraido}
+        python3 ${ROOT_DIR}/extrair_diarios.py ${extraido}
     zip -q ${fname}.zip ${fname}* 
     rm -f ${pdf}
     rm -f ${fname}*.txt

@@ -19,18 +19,18 @@ Exemplo de execução:
 ./proc.sh diario-completo-2022-08-29
 ```
 
-## Executando o post_proc.py
+## Executando o extrair_diarios.py
 
 O script recebe como parâmetro o texto extraído do PDF e gera os arquivos processados no mesmo diretório do texto extraído.
 
 Exemplo de execução:
 ```sh
-python3 post_proc.py diario-completo-2022-08-29/diario-completo-2022-08-29-extraido.txt
+python3 extrair_diarios.py diario-completo-2022-08-29/diario-completo-2022-08-29-extraido.txt
 ```
 
 ## Executando testes
 ```sh
-python3 -m unittest post_proc_test.py
+python3 -m unittest integracao_test.py
 ```
 
 ### Executando Passo a Passo
