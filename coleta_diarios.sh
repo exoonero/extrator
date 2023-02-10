@@ -50,12 +50,8 @@ do
         -H "Accept: text/plain" -H "Content-Type: application/pdf" \
         -T ${pdf} \
         http://localhost:9998/tika > ${extraido}
-        python3 ${ROOT_DIR}/extrair_diarios.py ${extraido}
-    
-    for diario in `ls -a ${fname}-proc*.txt`
-    do
-        python3 ${ROOT_DIR}/extrair_atos.py ${diario}
-    done
+
+    python3 ${ROOT_DIR}/extrair_diarios.py ${extraido}
     rm -f ${pdf}
     rm -f ${fname}-proc*.txt
 done

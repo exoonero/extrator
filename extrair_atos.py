@@ -3,27 +3,28 @@
 import sys
 import json
 
+import atos
 import diario_municipal
 
+class asobject(object):
+    def __init__(self, d):
+        self.__dict__.update(d)
 
 if __name__ == "__main__":
     # Verificando argumentos passados para o programa.
     if len(sys.argv) < 2:
-        print("Usage: python extrair_atos.py <caminho para arquivo texto com diário municipal>", file=sys.stderr)
+        print("Usage: python extrair_atos.py <caminho para arquivo com resultado de extração>", file=sys.stderr)
         sys.exit(1)
 
-    path_texto_diario = sys.argv[1]
-    with open(path_texto_diario, "r") as in_file:
-        texto_diario = in_file.read()
+    path_resultado = sys.argv[1]
+    with open(path_resultado, "r", encoding="utf8") as in_file:
+        resultados = json.load(in_file)
 
-    diario = diario_municipal.Diario.do_texto(texto_diario)
-    diario.extrai_atos()
-    diario_serializado = json.dumps(diario.__dict__, indent=2, ensure_ascii=False, default=str)
+    for res in resultados:
+        res = json.loads(res, object_hook=asobject)
+        diario = diario_municipal.Diario(diario_municipal.Municipio(res.municipio), res.cabecalho, res.texto)
+        diario.atos = atos.extrair(res.texto)
+        nome_arquivo = path_resultado.replace("-resumo-extracao.json", f"-atos-{diario.id}.json")
+        with open(nome_arquivo, "w", encoding="utf8") as out_file:
+            json.dump(diario, out_file, indent=2, default=str, ensure_ascii=False)
 
-    # Usando como chave os nomes dos arquivos gerados, que são  baseado no prefixo
-    # extraído do arquivo extraído e nos nomes dos municípios.
-    prefixo = "-".join(path_texto_diario.split("-")[:-1])
-    prefixo = prefixo.replace("-proc", "") # removendo sufixo "-proc" do nome do arquivo.
-    nome_arquivo = f"{prefixo}-atos-{diario.id}.txt"
-    with open(nome_arquivo, "w") as out_file:
-        out_file.write(diario_serializado)
