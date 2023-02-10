@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     path_texto_diario = sys.argv[1]
     texto_diario = ""
-    with open(path_texto_diario, "r") as in_file:
+    with open(path_texto_diario, "r", encoding="utf8") as in_file:
         texto_diario = in_file.read()
 
     diarios = extrair_diarios_municipais(texto_diario)
