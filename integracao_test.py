@@ -3,6 +3,7 @@ import re
 import unittest
 
 from diario_ama import extrair_diarios_municipais
+import atos
 
 # Combinando duas partes importantes desse projeto em apenas um teste para
 # simplificar as coisas. Nesse teste checamos se os diários municipais são
@@ -77,7 +78,7 @@ class IntegracaoTest(unittest.TestCase):
                     diario_obtido = get_diario(
                         diario_esperado.municipio, diarios_extraidos)
 
-                    diario_obtido.extrai_atos()
+                    diario_obtido.atos = atos.extrair(diario_obtido.texto)
 
                     # Teste Cabeçalho
                     self.assertEqual(case.cabecalho, diario_obtido.cabecalho)
