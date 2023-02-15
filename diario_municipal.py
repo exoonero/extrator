@@ -8,6 +8,8 @@ class Municipio:
 
     def __init__(self, municipio):
         municipio = municipio.rstrip().replace('\n', '')  # limpeza inicial
+        # Alguns nomes de municípios possuem um /AL no final, exemplo: Viçosa no diário 2022-01-17, ato 8496EC0A. Para evitar erros como "vicosa-/al-secretaria-municipal...", a linha seguir remove isso. 
+        municipio = re.sub("(\/AL.*)", "", municipio)
         self.id = self._computa_id(municipio)
         self.nome = municipio
 
@@ -22,7 +24,7 @@ class Municipio:
 
     def __eq__(self, other):
         return self.id == other.id
-    
+
     def __str__(self):
         return json.dumps(self.__dict__, indent=2, default=str, ensure_ascii=False)
 

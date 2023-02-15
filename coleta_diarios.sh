@@ -4,7 +4,7 @@ set -x  # debug
 set -e  # exit on error
 
 START_DATE="2022-01-01"
-END_DATE="2022-01-10"
+END_DATE="2022-01-31"
 ROOT_DIR=${PWD}
 DATA_DIR=${ROOT_DIR}/data
 OUT_DIR=${DATA_DIR}/out

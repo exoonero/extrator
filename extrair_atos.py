@@ -6,9 +6,11 @@ import json
 import atos
 import diario_municipal
 
+
 class asobject(object):
     def __init__(self, d):
         self.__dict__.update(d)
+
 
 if __name__ == "__main__":
     # Verificando argumentos passados para o programa.
@@ -22,9 +24,11 @@ if __name__ == "__main__":
 
     for res in resultados:
         res = json.loads(res, object_hook=asobject)
-        diario = diario_municipal.Diario(diario_municipal.Municipio(res.municipio), res.cabecalho, res.texto)
+        diario = diario_municipal.Diario(diario_municipal.Municipio(
+            res.municipio), res.cabecalho, res.texto)
         diario.atos = atos.extrair(res.texto)
-        nome_arquivo = path_resultado.replace("-resumo-extracao.json", f"-atos-{diario.id}.json")
+        nome_arquivo = path_resultado.replace(
+            "-resumo-extracao.json", f"-atos-{diario.id}.json")
         with open(nome_arquivo, "w", encoding="utf8") as out_file:
-            json.dump(diario, out_file, indent=2, default=str, ensure_ascii=False)
-
+            json.dump(diario, out_file, indent=2,
+                      default=str, ensure_ascii=False)

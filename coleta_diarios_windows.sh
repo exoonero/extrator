@@ -4,7 +4,7 @@ set -x  # debug
 set -e  # exit on error
 
 START_DATE="2022-01-01"
-END_DATE="2022-01-10"
+END_DATE="2022-01-31"
 ROOT_DIR=${PWD}
 DATA_DIR=${ROOT_DIR}/data
 OUT_DIR=${DATA_DIR}/out
@@ -28,9 +28,9 @@ pre-commit install
 # Coletando diários e movendo para a pasta diários.
 cd ${DATA_COLLECTION_DIR}
 scrapy crawl al_associacao_municipios -a start_date=${START_DATE} -a end_date=${END_DATE} > ${OUT_DIR}/scrapy.out 2> ${OUT_DIR}/scrapy.err
-for dir in `ls -da ${QD_DOWNLOAD_DIR}/*`
+for dir in `dir -da ${QD_DOWNLOAD_DIR}/*`
 do
-    fpath=`ls -a ${dir}/*`
+    fpath=`dir -a ${dir}/*`
     newname=`basename ${dir}.pdf`
     mv ${fpath} ${DOWNLOAD_DIR}/${newname}
 done
@@ -50,12 +50,8 @@ do
         -H "Accept: text/plain" -H "Content-Type: application/pdf" \
         -T ${pdf} \
         http://localhost:9998/tika > ${extraido}
-        python ${ROOT_DIR}/extrair_diarios.py ${extraido}
-    
-    for diario in `dir -a ${fname}-proc*.txt`
-    do
-        python ${ROOT_DIR}/extrair_atos.py ${diario}
-    done
+        
+    python ${ROOT_DIR}/extrair_diarios.py ${extraido}
     rm -f ${pdf}
     rm -f ${fname}-proc*.txt
 done
