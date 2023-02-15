@@ -6,7 +6,7 @@ import diario_municipal
 #Exceções Notáveis
 # String: VAMOS, município Poço das Trincheiras, 06/01/2022, ato CCB3A6AB
 re_nomes_municipios = (
-    r"ESTADO DE ALAGOAS \n{1,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}(?!VAMOS).*$)\n\s(?:\s|SECRETARIA)")
+    r"ESTADO DE ALAGOAS(?:| )\n{1,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}(?!VAMOS).*$)\n\s(?:\s|SECRETARIA)")
 
 
 def extrair_diarios_municipais(texto_diario: str):
@@ -37,12 +37,12 @@ def extrair_diarios_municipais(texto_diario: str):
         texto_diario_slice) if n not in linhas_apagar]
 
     # Inserindo o cabeçalho no diário de cada município.
-    texo_diarios = {}
+    texto_diarios = {}
     nomes_municipios = re.findall(
         re_nomes_municipios, texto_diario, re.MULTILINE)
     for municipio in nomes_municipios:
         municipio = diario_municipal.Municipio(municipio)
-        texo_diarios[municipio] = ama_header + '\n\n'
+        texto_diarios[municipio] = ama_header + '\n\n'
 
     num_linha = 0
     municipio_atual = None
@@ -60,11 +60,11 @@ def extrair_diarios_municipais(texto_diario: str):
             continue
 
         # Conteúdo faz parte de um muncípio
-        texo_diarios[municipio_atual] += linha + '\n'
+        texto_diarios[municipio_atual] += linha + '\n'
         num_linha += 1
 
     diarios = []
-    for municipio, diario in texo_diarios.items():
+    for municipio, diario in texto_diarios.items():
         diarios.append(diario_municipal.Diario(municipio, ama_header, diario))
 
     return diarios

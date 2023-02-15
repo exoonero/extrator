@@ -8,6 +8,7 @@ class Municipio:
 
     def __init__(self, municipio):
         municipio = municipio.rstrip().replace('\n', '')  # limpeza inicial
+        municipio = re.sub("(\/AL.*)", "", municipio)
         self.id = self._computa_id(municipio)
         self.nome = municipio
 
