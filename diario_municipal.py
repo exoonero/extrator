@@ -8,6 +8,7 @@ class Municipio:
 
     def __init__(self, municipio):
         municipio = municipio.rstrip().replace('\n', '')  # limpeza inicial
+        # Alguns nomes de municípios possuem um /AL no final, como acontece em Viçosa no diário 2022-01-17, para evitar erros, estou removendo isso do id.
         municipio = re.sub("(\/AL.*)", "", municipio)
         self.id = self._computa_id(municipio)
         self.nome = municipio
