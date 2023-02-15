@@ -24,7 +24,7 @@ class Municipio:
 
     def __eq__(self, other):
         return self.id == other.id
-    
+
     def __str__(self):
         return json.dumps(self.__dict__, indent=2, default=str, ensure_ascii=False)
 
