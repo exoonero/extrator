@@ -22,13 +22,19 @@ if __name__ == "__main__":
     with open(path_resultado, "r", encoding="utf8") as in_file:
         resultados = json.load(in_file)
 
+    res_atos = []
     for res in resultados:
         res = json.loads(res, object_hook=asobject)
         diario = diario_municipal.Diario(diario_municipal.Municipio(
             res.municipio), res.cabecalho, res.texto)
         diario.atos = atos.extrair(res.texto)
-        nome_arquivo = path_resultado.replace(
-            "-resumo-extracao.json", f"-atos-{diario.id}.json")
-        with open(nome_arquivo, "w", encoding="utf8") as out_file:
-            json.dump(diario, out_file, indent=2,
-                      default=str, ensure_ascii=False)
+        # Removendo o texto para não deixar o arquivo muito grande.
+        # Essa informação continua existindo no arquivo resumo-extração.json.
+        del diario.texto
+        res_atos.append(diario)
+
+    nome_arquivo = path_resultado.replace(
+        "-resumo-extracao.json", f"-atos.json")
+    with open(nome_arquivo, "w", encoding="utf8") as out_file:
+        json.dump(res_atos, out_file, indent=2,
+                  default=str, ensure_ascii=False)
