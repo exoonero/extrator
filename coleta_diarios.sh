@@ -3,8 +3,8 @@
 set -x  # debug
 set -e  # exit on error
 
-START_DATE="2022-01-01"
-END_DATE="2022-01-31"
+START_DATE="2022-03-01"
+END_DATE="2022-05-31"
 ROOT_DIR=${PWD}
 DATA_DIR=${ROOT_DIR}/data
 OUT_DIR=${DATA_DIR}/out
@@ -30,9 +30,14 @@ cd ${DATA_COLLECTION_DIR}
 scrapy crawl al_associacao_municipios -a start_date=${START_DATE} -a end_date=${END_DATE} > ${OUT_DIR}/scrapy.out 2> ${OUT_DIR}/scrapy.err
 for dir in `ls -da ${QD_DOWNLOAD_DIR}/*`
 do
-    fpath=`ls -a ${dir}/*`
-    newname=`basename ${dir}.pdf`
-    mv ${fpath} ${DOWNLOAD_DIR}/${newname}
+    # Importante pois algumas datas possuem mais de um diário (tem os extras).
+    i=1
+    for fpath in `ls -da ${dir}/*`
+    do
+        newname=`basename ${dir}-${i}.pdf`
+        mv ${fpath} ${DOWNLOAD_DIR}/${newname}
+        i=$((i+1))
+    done
 done
 
 # Extraindo texto dos diários.
