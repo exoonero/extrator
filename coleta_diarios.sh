@@ -3,8 +3,8 @@
 set -x  # debug
 set -e  # exit on error
 
-START_DATE="2022-03-01"
-END_DATE="2022-05-31"
+START_DATE=${START_DATE:="2022-01-06"}
+END_DATE=${END_DATE:="2022-12-31"}
 ROOT_DIR=${PWD}
 DATA_DIR=${ROOT_DIR}/data
 OUT_DIR=${DATA_DIR}/out
@@ -40,13 +40,18 @@ do
     done
 done
 
-# Extraindo texto dos diários.
+# Finalizando e saindo do ambiente virtual.
+cd ${REPO_DIR}
+pre-commit uninstall
+deactivate
+
+# Extraindo texto dos diários e segmentando diários.
 cd ${DOWNLOAD_DIR}
 
-sudo docker pull apache/tika:1.28.4
-sudo docker run -d -p 9998:9998 --rm --name tika apache/tika:1.28.4
-trap 'sudo docker stop tika' EXIT
-sleep 10
+docker pull apache/tika:1.28.4
+docker run -d -p 9998:9998 --rm --name tika apache/tika:1.28.4
+sleep 5
+
 for pdf in `ls -a *.pdf`
 do
     fname=`basename -s .pdf ${pdf}`  # removendo extensão
@@ -61,4 +66,4 @@ do
     rm -f ${fname}-proc*.txt
 done
 
-
+docker stop tika
