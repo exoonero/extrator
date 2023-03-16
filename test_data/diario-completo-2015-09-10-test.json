@@ -1,0 +1,40 @@
+{
+    "desc": "diario-completo-2015-09-10.extraido.txt",
+    "path": "test_data/diario-completo-2015-09-10-extraido.txt",
+    "cabecalho": "Alagoas , 10 de Setembro de 2015   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO II | Nº 0128 ",
+    "diarios": [
+        {
+            "municipio": "MARIBONDO",
+            "atos": [
+                {
+                    "cod": "CE047815",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "ED561897",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "38B672CD",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "7761AC89",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        }
+    ]
+}
