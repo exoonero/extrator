@@ -43,7 +43,7 @@ class AtoNormativo:
 
     def _extrai_cod(self, texto: str):
         matches = re.findall(r'Código Identificador:(.*)', texto)
-        return matches[0]
+        return matches[0].strip()
 
     def _possui_nomeacoes(self):
         return re.search(self.re_nomeacoes, self.texto) is not None
