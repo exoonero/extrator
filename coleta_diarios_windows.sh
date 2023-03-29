@@ -3,8 +3,8 @@
 set -x  # debug
 set -e  # exit on error
 
-START_DATE="2022-01-01"
-END_DATE="2022-01-31"
+START_DATE=${START_DATE:="2022-01-06"}
+END_DATE=${END_DATE:="2022-12-31"}
 ROOT_DIR=${PWD}
 DATA_DIR=${ROOT_DIR}/data
 OUT_DIR=${DATA_DIR}/out
@@ -18,6 +18,9 @@ cd ${DATA_DIR}
 mkdir -p ${DOWNLOAD_DIR}
 mkdir -p ${OUT_DIR}
 
+# Checando se o docker está rodando antes de iniciar a coleta.
+docker ps > /dev/null
+
 # Preparando ambiente para coleta.
 cd ${REPO_DIR} || (git clone https://github.com/okfn-brasil/querido-diario qd && cd ${REPO_DIR})
 python -m venv .venv
@@ -30,18 +33,27 @@ cd ${DATA_COLLECTION_DIR}
 scrapy crawl al_associacao_municipios -a start_date=${START_DATE} -a end_date=${END_DATE} > ${OUT_DIR}/scrapy.out 2> ${OUT_DIR}/scrapy.err
 for dir in `dir -da ${QD_DOWNLOAD_DIR}/*`
 do
-    fpath=`dir -a ${dir}/*`
-    newname=`basename ${dir}.pdf`
-    mv ${fpath} ${DOWNLOAD_DIR}/${newname}
+    # Importante pois algumas datas possuem mais de um diário (tem os extras).
+    i=1
+    for fpath in `dir -da ${dir}/*`
+    do
+        newname=`basename ${dir}-${i}.pdf`
+        mv ${fpath} ${DOWNLOAD_DIR}/${newname}
+        i=$((i+1))
+    done
 done
 
-# Extraindo texto dos diários.
+# Finalizando e saindo do ambiente virtual.
+cd ${REPO_DIR}
+pre-commit uninstall
+
+# Extraindo texto dos diários e segmentando diários.
 cd ${DOWNLOAD_DIR}
 
-docker pull apache/tika:1.28.4
+# docker pull apache/tika:1.28.4
 docker run -d -p 9998:9998 --rm --name tika apache/tika:1.28.4
-trap 'docker stop tika' EXIT
 sleep 10
+
 for pdf in `dir -a *.pdf`
 do
     fname=`basename -s .pdf ${pdf}`  # removendo extensão
@@ -50,10 +62,10 @@ do
         -H "Accept: text/plain" -H "Content-Type: application/pdf" \
         -T ${pdf} \
         http://localhost:9998/tika > ${extraido}
-        
+
     python ${ROOT_DIR}/extrair_diarios.py ${extraido}
     rm -f ${pdf}
     rm -f ${fname}-proc*.txt
 done
 
-
+docker stop tika
