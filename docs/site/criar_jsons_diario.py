@@ -41,7 +41,7 @@ for diario in lista_diarios:
         diarios_por_nome[municipio] = []
     diarios_por_nome[municipio].append(diario)
 
-os.makedirs('./docs/site/diarios', exist_ok=True)
+os.makedirs('./docs/site/diarios/2023', exist_ok=True)
 for nome, diarios in diarios_por_nome.items():
     total_ano = sum(
         [contagem for _, contagem in contagem_diarios[nome].items()])
@@ -51,6 +51,6 @@ for nome, diarios in diarios_por_nome.items():
         "total_ano": total_ano,
         "total_meses": total_meses
     }
-    with open(f"./docs/site/diarios/{nome}.json", "w", encoding="utf-8") as json_file:
+    with open(f"./docs/site/diarios/2023/{nome}.json", "w", encoding="utf-8") as json_file:
         json.dump(diarios + [info_total], json_file, indent=2,
                   default=str, ensure_ascii=False)
