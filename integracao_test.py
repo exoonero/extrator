@@ -18,6 +18,7 @@ class IntegracaoTest(unittest.TestCase):
         cases = (
             'test_data/diario-completo-2023-03-17-test.json',
             'test_data/diario-completo-2023-03-16-test.json',
+            'test_data/diario-completo-2023-01-26-test.json',
             'test_data/diario-completo-2023-01-02-test.json',
             'test_data/diario-completo-2022-01-03-test.json',
             'test_data/diario-completo-2022-08-15-test.json',
