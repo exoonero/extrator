@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diários Oficiais Municipais de Alagoas</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js" defer></script>
 </head>
 <body>
     <nav>
@@ -16,18 +17,19 @@
           <li><a href="#">Querido Diário</a></li>
         </ul>
       </nav>
-    <select>
+    <select id="municipio-select">
         <option selected>Arapiraca</option>
         <option>Rio Largo</option>
         <option>Maragogi</option>
     </select>
     <hr>
     <button>2023</button>
-    <div class="card">
+    <div class="card" id="ano-2023">
         <div>
             <h2>* Dados sobre os diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <p id="media-diarios-mes">Média de diários por mês: </p>
+            <p id="total-diarios-ano">Total de diários no ano: </p>
         </div>
         <div>
             <h2>* Dados sobre os atos</h2>
@@ -52,11 +54,12 @@
         </div>
     </div>
     <button>2022</button>
-    <div class="card">
+    <div class="card" id="ano-2022">
         <div>
             <h2>* Dados sobre os diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <p id="media-diarios-mes">Média de diários por mês: </p>
+            <p id="total-diarios-ano">Total de diários no ano: </p>
         </div>
         <div>
             <h2>* Dados sobre os atos</h2>
