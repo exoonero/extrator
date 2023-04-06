@@ -1,0 +1,228 @@
+{
+  "nome": "OLHO D´ÁGUA GRANDE",
+  "detalhe": [
+    {
+      "ano": 2022,
+      "mes": 2,
+      "dia": 10,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 2,
+      "dia": 23,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 5,
+      "dia": 2,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 5,
+      "dia": 6,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 7,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 23,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "dia": 3,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "dia": 31,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "dia": 14,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "dia": 20,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "dia": 13,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "dia": 24,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "dia": 27,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "dia": 31,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "dia": 10,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "dia": 16,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "dia": 18,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "dia": 22,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "dia": 6,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ],
+  "resumo": {
+    "total_ano": 19,
+    "total_meses": {
+      "2": 2,
+      "5": 2,
+      "6": 2,
+      "8": 2,
+      "9": 2,
+      "10": 4,
+      "11": 4,
+      "12": 1
+    },
+    "media_diarios_mes": 2.375
+  }
+}

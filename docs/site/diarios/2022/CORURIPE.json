@@ -1,0 +1,70 @@
+{
+  "nome": "CORURIPE",
+  "detalhe": [
+    {
+      "ano": 2022,
+      "mes": 2,
+      "dia": 8,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "dia": 22,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "dia": 2,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "dia": 31,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "dia": 23,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ],
+  "resumo": {
+    "total_ano": 5,
+    "total_meses": {
+      "2": 1,
+      "7": 1,
+      "8": 2,
+      "11": 1
+    },
+    "media_diarios_mes": 1.25
+  }
+}

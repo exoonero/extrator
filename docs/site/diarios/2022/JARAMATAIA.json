@@ -1,0 +1,474 @@
+{
+  "nome": "JARAMATAIA",
+  "detalhe": [
+    {
+      "ano": 2022,
+      "mes": 1,
+      "dia": 25,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 1,
+      "dia": 26,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 1,
+      "dia": 27,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 1,
+      "dia": 28,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 2,
+      "dia": 1,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 2,
+      "dia": 21,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 3,
+      "dia": 4,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 3,
+      "dia": 11,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 3,
+      "dia": 14,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 3,
+      "dia": 17,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 3,
+      "dia": 28,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 4,
+      "dia": 4,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 4,
+      "dia": 7,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 4,
+      "dia": 13,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 4,
+      "dia": 14,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 5,
+      "dia": 6,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 5,
+      "dia": 13,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 5,
+      "dia": 16,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 5,
+      "dia": 25,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 6,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 13,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 16,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 20,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 23,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 6,
+      "dia": 29,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "dia": 4,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 7,
+      "dia": 12,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 8,
+      "dia": 8,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "dia": 5,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "dia": 8,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "dia": 15,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "dia": 28,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 9,
+      "dia": 29,
+      "diarios": {
+        "qtd-diarios": 5
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "dia": 13,
+      "diarios": {
+        "qtd-diarios": 3
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "dia": 20,
+      "diarios": {
+        "qtd-diarios": 3
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 10,
+      "dia": 25,
+      "diarios": {
+        "qtd-diarios": 3
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 11,
+      "dia": 23,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "dia": 7,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "dia": 16,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "dia": 26,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2022,
+      "mes": 12,
+      "dia": 27,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ],
+  "resumo": {
+    "total_ano": 41,
+    "total_meses": {
+      "1": 4,
+      "2": 2,
+      "3": 5,
+      "4": 4,
+      "5": 4,
+      "6": 6,
+      "7": 2,
+      "8": 1,
+      "9": 5,
+      "10": 3,
+      "11": 1,
+      "12": 4
+    },
+    "media_diarios_mes": 3.4166666666666665
+  }
+}
