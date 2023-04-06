@@ -1,7 +1,7 @@
-[
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+{
+  "nome": "PÃO DE AÇÚCAR",
+  "detalhe": [
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 2,
@@ -11,11 +11,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 4,
@@ -25,11 +22,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 5,
@@ -39,11 +33,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 6,
@@ -53,11 +44,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 9,
@@ -67,11 +55,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 13,
@@ -81,11 +66,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 16,
@@ -95,11 +77,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 17,
@@ -109,11 +88,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 18,
@@ -123,11 +99,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 26,
@@ -137,11 +110,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 27,
@@ -151,11 +121,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 30,
@@ -165,11 +132,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 31,
@@ -179,11 +143,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 1,
@@ -193,11 +154,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 2,
@@ -207,11 +165,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 9,
@@ -221,11 +176,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 10,
@@ -235,11 +187,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 16,
@@ -249,11 +198,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 17,
@@ -263,11 +209,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 24,
@@ -277,11 +220,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 27,
@@ -291,11 +231,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 28,
@@ -305,11 +242,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 1,
@@ -319,11 +253,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 2,
@@ -333,11 +264,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 3,
@@ -347,11 +275,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 7,
@@ -361,11 +286,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 9,
@@ -375,11 +297,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 10,
@@ -389,11 +308,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 14,
@@ -403,11 +319,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 16,
@@ -417,11 +330,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 17,
@@ -431,11 +341,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 22,
@@ -445,11 +352,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 24,
@@ -459,11 +363,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 27,
@@ -473,11 +374,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 28,
@@ -487,11 +385,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 29,
@@ -501,29 +396,49 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "PÃO DE AÇÚCAR",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 4,
       "dia": 3,
       "diarios": {
-        "qtd-diarios": 1
+        "qtd-diarios": 3
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 4,
+      "dia": 4,
+      "diarios": {
+        "qtd-diarios": 3
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 4,
+      "dia": 5,
+      "diarios": {
+        "qtd-diarios": 3
       },
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  },
-  {
-    "total_ano": 37,
+  ],
+  "resumo": {
+    "total_ano": 39,
     "total_meses": {
       "1": 13,
       "2": 9,
       "3": 14,
-      "4": 1
-    }
+      "4": 3
+    },
+    "media_diarios_mes": 9.75
   }
-]
+}

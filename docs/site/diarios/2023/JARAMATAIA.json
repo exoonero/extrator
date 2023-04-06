@@ -1,7 +1,7 @@
-[
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+{
+  "nome": "JARAMATAIA",
+  "detalhe": [
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 9,
@@ -11,11 +11,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 11,
@@ -25,11 +22,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 6,
@@ -39,11 +33,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 8,
@@ -53,11 +44,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 10,
@@ -67,11 +55,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 13,
@@ -81,11 +66,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 29,
@@ -95,11 +77,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "JARAMATAIA",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 30,
@@ -110,12 +89,13 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  },
-  {
+  ],
+  "resumo": {
     "total_ano": 8,
     "total_meses": {
       "1": 2,
       "3": 6
-    }
+    },
+    "media_diarios_mes": 4.0
   }
-]
+}

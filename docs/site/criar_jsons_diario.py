@@ -1,6 +1,7 @@
 import json
 import glob
 import os
+
 lista_diarios = []
 contagem_diarios = {}
 for path in glob.glob("data/diarios/*-resumo-extracao.json"):
@@ -38,19 +39,24 @@ for diario in lista_diarios:
     diario["detalhe"]["diarios"]["qtd-diarios"] = contagem_diarios[municipio][(
         ano, mes)]
     if municipio not in diarios_por_nome:
-        diarios_por_nome[municipio] = []
-    diarios_por_nome[municipio].append(diario)
+        diarios_por_nome[municipio] = {"nome": municipio, "detalhe": []}
+    diarios_por_nome[municipio]["detalhe"].append(diario["detalhe"])
 
 os.makedirs('./docs/site/diarios/2023', exist_ok=True)
+
 for nome, diarios in diarios_por_nome.items():
     total_ano = sum(
         [contagem for _, contagem in contagem_diarios[nome].items()])
     total_meses = {mes: contagem for (
         _, mes), contagem in contagem_diarios[nome].items()}
+    media_diarios_mes = total_ano / len(total_meses)
     info_total = {
-        "total_ano": total_ano,
-        "total_meses": total_meses
+        "resumo": {
+            "total_ano": total_ano,
+            "total_meses": total_meses,
+            "media_diarios_mes": media_diarios_mes
+        }
     }
     with open(f"./docs/site/diarios/2023/{nome}.json", "w", encoding="utf-8") as json_file:
-        json.dump(diarios + [info_total], json_file, indent=2,
-                  default=str, ensure_ascii=False)
+        json.dump({**diarios, **info_total}, json_file,
+                  indent=2, default=str, ensure_ascii=False)

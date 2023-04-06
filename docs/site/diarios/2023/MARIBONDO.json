@@ -1,7 +1,7 @@
-[
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+{
+  "nome": "MARIBONDO",
+  "detalhe": [
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 2,
@@ -11,11 +11,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 4,
@@ -25,11 +22,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 10,
@@ -39,11 +33,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 11,
@@ -53,11 +44,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 20,
@@ -67,11 +55,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 26,
@@ -81,11 +66,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 1,
       "dia": 31,
@@ -95,11 +77,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 2,
@@ -109,11 +88,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 7,
@@ -123,11 +99,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 8,
@@ -137,11 +110,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 10,
@@ -151,11 +121,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 13,
@@ -165,11 +132,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 15,
@@ -179,11 +143,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 24,
@@ -193,11 +154,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 28,
@@ -207,11 +165,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 1,
@@ -221,11 +176,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 7,
@@ -235,11 +187,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 8,
@@ -249,11 +198,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 10,
@@ -263,11 +209,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 13,
@@ -277,11 +220,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 17,
@@ -291,11 +231,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 20,
@@ -305,11 +242,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 22,
@@ -319,11 +253,8 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
-    }
-  },
-  {
-    "nome": "MARIBONDO",
-    "detalhe": {
+    },
+    {
       "ano": 2023,
       "mes": 3,
       "dia": 27,
@@ -333,14 +264,27 @@
       "atos": {},
       "nomeacoes": {},
       "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 4,
+      "dia": 4,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
     }
-  },
-  {
-    "total_ano": 24,
+  ],
+  "resumo": {
+    "total_ano": 25,
     "total_meses": {
       "1": 7,
       "2": 8,
-      "3": 9
-    }
+      "3": 9,
+      "4": 1
+    },
+    "media_diarios_mes": 6.25
   }
-]
+}

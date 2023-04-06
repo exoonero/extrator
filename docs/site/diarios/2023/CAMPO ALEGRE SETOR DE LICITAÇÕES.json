@@ -1,7 +1,7 @@
-[
-  {
-    "nome": "CAMPO ALEGRE SETOR DE LICITAÇÕES",
-    "detalhe": {
+{
+  "nome": "CAMPO ALEGRE SETOR DE LICITAÇÕES",
+  "detalhe": [
+    {
       "ano": 2023,
       "mes": 2,
       "dia": 28,
@@ -12,11 +12,12 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  },
-  {
+  ],
+  "resumo": {
     "total_ano": 1,
     "total_meses": {
       "2": 1
-    }
+    },
+    "media_diarios_mes": 1.0
   }
-]
+}
