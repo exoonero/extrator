@@ -24,9 +24,8 @@ docker ps > /dev/null
 # Preparando ambiente para coleta.
 cd ${REPO_DIR} || (git clone https://github.com/okfn-brasil/querido-diario qd && cd ${REPO_DIR})
 python -m venv .venv
-.venv/Scripts/activate.bat
-py -m pip install -r ${DATA_COLLECTION_DIR}/requirements-dev.txt
-pre-commit install
+.venv/Scripts/activate
+py -m pip install -r ${DATA_COLLECTION_DIR}/requirements-dev.txt --no-deps
 
 # Coletando diários e movendo para a pasta diários.
 cd ${DATA_COLLECTION_DIR}
@@ -45,7 +44,6 @@ done
 
 # Finalizando e saindo do ambiente virtual.
 cd ${REPO_DIR}
-pre-commit uninstall
 
 # Extraindo texto dos diários e segmentando diários.
 cd ${DOWNLOAD_DIR}

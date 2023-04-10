@@ -26,7 +26,6 @@ cd ${REPO_DIR} || (git clone https://github.com/okfn-brasil/querido-diario qd &&
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r ${DATA_COLLECTION_DIR}/requirements-dev.txt
-pre-commit install
 
 # Coletando diários e movendo para a pasta diários.
 cd ${DATA_COLLECTION_DIR}
@@ -45,7 +44,6 @@ done
 
 # Finalizando e saindo do ambiente virtual.
 cd ${REPO_DIR}
-pre-commit uninstall
 deactivate
 
 # Extraindo texto dos diários e segmentando diários.
