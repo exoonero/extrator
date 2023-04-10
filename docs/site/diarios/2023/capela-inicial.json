@@ -1,132 +1,14 @@
 {
   "id": "capela",
   "nome": "CAPELA",
+  "resumo": {
+    "total_diarios_ano": 20,
+    "media_diarios_mes": 5.0
+  },
   "detalhe": [
     {
       "ano": 2023,
       "mes": 1,
-      "dia": 3,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 11,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 12,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 16,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 17,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 18,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 19,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 23,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 24,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 26,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 30,
-      "diarios": {
-        "qtd-diarios": 12
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 31,
       "diarios": {
         "qtd-diarios": 12
       },
@@ -137,40 +19,6 @@
     {
       "ano": 2023,
       "mes": 2,
-      "dia": 1,
-      "diarios": {
-        "qtd-diarios": 4
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 3,
-      "diarios": {
-        "qtd-diarios": 4
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 9,
-      "diarios": {
-        "qtd-diarios": 4
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 10,
       "diarios": {
         "qtd-diarios": 4
       },
@@ -181,29 +29,6 @@
     {
       "ano": 2023,
       "mes": 3,
-      "dia": 6,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 7,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 24,
       "diarios": {
         "qtd-diarios": 3
       },
@@ -214,7 +39,6 @@
     {
       "ano": 2023,
       "mes": 4,
-      "dia": 3,
       "diarios": {
         "qtd-diarios": 1
       },
@@ -222,15 +46,5 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  ],
-  "resumo": {
-    "total_diarios_ano": 20,
-    "total_diarios_meses": {
-      "1": 12,
-      "2": 4,
-      "3": 3,
-      "4": 1
-    },
-    "media_diarios_mes": 5.0
-  }
+  ]
 }

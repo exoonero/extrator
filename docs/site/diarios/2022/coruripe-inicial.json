@@ -1,11 +1,14 @@
 {
   "id": "coruripe",
   "nome": "CORURIPE",
+  "resumo": {
+    "total_diarios_ano": 5,
+    "media_diarios_mes": 1.25
+  },
   "detalhe": [
     {
       "ano": 2022,
       "mes": 2,
-      "dia": 8,
       "diarios": {
         "qtd-diarios": 1
       },
@@ -16,7 +19,6 @@
     {
       "ano": 2022,
       "mes": 7,
-      "dia": 22,
       "diarios": {
         "qtd-diarios": 1
       },
@@ -27,18 +29,6 @@
     {
       "ano": 2022,
       "mes": 8,
-      "dia": 2,
-      "diarios": {
-        "qtd-diarios": 2
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2022,
-      "mes": 8,
-      "dia": 31,
       "diarios": {
         "qtd-diarios": 2
       },
@@ -49,7 +39,6 @@
     {
       "ano": 2022,
       "mes": 11,
-      "dia": 23,
       "diarios": {
         "qtd-diarios": 1
       },
@@ -57,15 +46,5 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  ],
-  "resumo": {
-    "total_diarios_ano": 5,
-    "total_diarios_meses": {
-      "2": 1,
-      "7": 1,
-      "8": 2,
-      "11": 1
-    },
-    "media_diarios_mes": 1.25
-  }
+  ]
 }

@@ -1,33 +1,14 @@
 {
   "id": "olho-d agua-grande",
   "nome": "OLHO D´ÁGUA GRANDE",
+  "resumo": {
+    "total_diarios_ano": 7,
+    "media_diarios_mes": 2.3333333333333335
+  },
   "detalhe": [
     {
       "ano": 2023,
       "mes": 1,
-      "dia": 17,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 18,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 30,
       "diarios": {
         "qtd-diarios": 3
       },
@@ -38,7 +19,6 @@
     {
       "ano": 2023,
       "mes": 2,
-      "dia": 3,
       "diarios": {
         "qtd-diarios": 1
       },
@@ -49,29 +29,6 @@
     {
       "ano": 2023,
       "mes": 3,
-      "dia": 7,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 16,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 31,
       "diarios": {
         "qtd-diarios": 3
       },
@@ -79,14 +36,5 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  ],
-  "resumo": {
-    "total_diarios_ano": 7,
-    "total_diarios_meses": {
-      "1": 3,
-      "2": 1,
-      "3": 3
-    },
-    "media_diarios_mes": 2.3333333333333335
-  }
+  ]
 }

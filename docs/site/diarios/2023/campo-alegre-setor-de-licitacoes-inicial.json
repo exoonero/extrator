@@ -1,11 +1,14 @@
 {
   "id": "campo-alegre-setor-de-licitacoes",
   "nome": "CAMPO ALEGRE SETOR DE LICITAÇÕES",
+  "resumo": {
+    "total_diarios_ano": 1,
+    "media_diarios_mes": 1.0
+  },
   "detalhe": [
     {
       "ano": 2023,
       "mes": 2,
-      "dia": 28,
       "diarios": {
         "qtd-diarios": 1
       },
@@ -13,12 +16,5 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  ],
-  "resumo": {
-    "total_diarios_ano": 1,
-    "total_diarios_meses": {
-      "2": 1
-    },
-    "media_diarios_mes": 1.0
-  }
+  ]
 }

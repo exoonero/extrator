@@ -1,88 +1,14 @@
 {
   "id": "senador-rui-palmeira",
   "nome": "SENADOR RUI PALMEIRA",
+  "resumo": {
+    "total_diarios_ano": 30,
+    "media_diarios_mes": 7.5
+  },
   "detalhe": [
     {
       "ano": 2023,
       "mes": 1,
-      "dia": 4,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 10,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 16,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 20,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 25,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 26,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 27,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 1,
-      "dia": 31,
       "diarios": {
         "qtd-diarios": 8
       },
@@ -93,84 +19,6 @@
     {
       "ano": 2023,
       "mes": 2,
-      "dia": 7,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 8,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 9,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 10,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 13,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 14,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 15,
-      "diarios": {
-        "qtd-diarios": 8
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 2,
-      "dia": 17,
       "diarios": {
         "qtd-diarios": 8
       },
@@ -181,117 +29,6 @@
     {
       "ano": 2023,
       "mes": 3,
-      "dia": 10,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 13,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 14,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 17,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 20,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 21,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 27,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 28,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 29,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 30,
-      "diarios": {
-        "qtd-diarios": 11
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 3,
-      "dia": 31,
       "diarios": {
         "qtd-diarios": 11
       },
@@ -302,29 +39,6 @@
     {
       "ano": 2023,
       "mes": 4,
-      "dia": 3,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 4,
-      "dia": 4,
-      "diarios": {
-        "qtd-diarios": 3
-      },
-      "atos": {},
-      "nomeacoes": {},
-      "exoneracoes": {}
-    },
-    {
-      "ano": 2023,
-      "mes": 4,
-      "dia": 5,
       "diarios": {
         "qtd-diarios": 3
       },
@@ -332,15 +46,5 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  ],
-  "resumo": {
-    "total_diarios_ano": 30,
-    "total_diarios_meses": {
-      "1": 8,
-      "2": 8,
-      "3": 11,
-      "4": 3
-    },
-    "media_diarios_mes": 7.5
-  }
+  ]
 }

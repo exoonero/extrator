@@ -1,11 +1,14 @@
 {
   "id": "campo-alegre-fundo-de-aposentadoria-e-pensao--fapen",
   "nome": "CAMPO ALEGRE Fundo de Aposentadoria e Pensão – FAPEN",
+  "resumo": {
+    "total_diarios_ano": 1,
+    "media_diarios_mes": 1.0
+  },
   "detalhe": [
     {
       "ano": 2022,
       "mes": 12,
-      "dia": 29,
       "diarios": {
         "qtd-diarios": 1
       },
@@ -13,12 +16,5 @@
       "nomeacoes": {},
       "exoneracoes": {}
     }
-  ],
-  "resumo": {
-    "total_diarios_ano": 1,
-    "total_diarios_meses": {
-      "12": 1
-    },
-    "media_diarios_mes": 1.0
-  }
+  ]
 }
