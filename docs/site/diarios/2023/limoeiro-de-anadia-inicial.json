@@ -1,0 +1,50 @@
+{
+  "id": "limoeiro-de-anadia",
+  "nome": "LIMOEIRO DE ANADIA",
+  "resumo": {
+    "total_diarios_ano": 45,
+    "media_diarios_mes": 11.25
+  },
+  "detalhe": [
+    {
+      "ano": 2023,
+      "mes": 1,
+      "diarios": {
+        "qtd-diarios": 10
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 2,
+      "diarios": {
+        "qtd-diarios": 13
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 3,
+      "diarios": {
+        "qtd-diarios": 21
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 4,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ]
+}

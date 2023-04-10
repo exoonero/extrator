@@ -1,0 +1,50 @@
+{
+  "id": "inhapi",
+  "nome": "INHAPI",
+  "resumo": {
+    "total_diarios_ano": 59,
+    "media_diarios_mes": 14.75
+  },
+  "detalhe": [
+    {
+      "ano": 2023,
+      "mes": 1,
+      "diarios": {
+        "qtd-diarios": 18
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 2,
+      "diarios": {
+        "qtd-diarios": 16
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 3,
+      "diarios": {
+        "qtd-diarios": 21
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 4,
+      "diarios": {
+        "qtd-diarios": 4
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ]
+}

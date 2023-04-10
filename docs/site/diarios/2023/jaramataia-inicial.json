@@ -1,0 +1,30 @@
+{
+  "id": "jaramataia",
+  "nome": "JARAMATAIA",
+  "resumo": {
+    "total_diarios_ano": 8,
+    "media_diarios_mes": 4.0
+  },
+  "detalhe": [
+    {
+      "ano": 2023,
+      "mes": 1,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 3,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "santana-do-ipanema",
+  "nome": "SANTANA DO IPANEMA",
+  "resumo": {
+    "total_diarios_ano": 30,
+    "media_diarios_mes": 7.5
+  },
+  "detalhe": [
+    {
+      "ano": 2023,
+      "mes": 1,
+      "diarios": {
+        "qtd-diarios": 3
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 2,
+      "diarios": {
+        "qtd-diarios": 11
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 3,
+      "diarios": {
+        "qtd-diarios": 14
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 4,
+      "diarios": {
+        "qtd-diarios": 2
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ]
+}

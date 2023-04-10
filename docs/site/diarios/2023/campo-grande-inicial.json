@@ -1,0 +1,40 @@
+{
+  "id": "campo-grande",
+  "nome": "CAMPO GRANDE",
+  "resumo": {
+    "total_diarios_ano": 8,
+    "media_diarios_mes": 2.6666666666666665
+  },
+  "detalhe": [
+    {
+      "ano": 2023,
+      "mes": 1,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 2,
+      "diarios": {
+        "qtd-diarios": 1
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    },
+    {
+      "ano": 2023,
+      "mes": 3,
+      "diarios": {
+        "qtd-diarios": 6
+      },
+      "atos": {},
+      "nomeacoes": {},
+      "exoneracoes": {}
+    }
+  ]
+}

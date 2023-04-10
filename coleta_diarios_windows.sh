@@ -3,8 +3,8 @@
 set -x  # debug
 set -e  # exit on error
 
-START_DATE=${START_DATE:="2022-01-06"}
-END_DATE=${END_DATE:="2022-12-31"}
+START_DATE=${START_DATE:="2023-01-01"}
+END_DATE=${END_DATE:="2023-12-31"}
 ROOT_DIR=${PWD}
 DATA_DIR=${ROOT_DIR}/data
 OUT_DIR=${DATA_DIR}/out
