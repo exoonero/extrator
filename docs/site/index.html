@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diários Oficiais Municipais de Alagoas</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js" defer></script>
 </head>
 <body>
     <nav>
@@ -16,35 +17,36 @@
           <li><a href="#">Querido Diário</a></li>
         </ul>
       </nav>
-    <select>
+    <select id="municipio-select">
         <option selected>Arapiraca</option>
         <option>Rio Largo</option>
         <option>Maragogi</option>
     </select>
     <hr>
     <button>2023</button>
-    <div class="card">
+    <div class="card" id="ano-2023">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -52,28 +54,29 @@
         </div>
     </div>
     <button>2022</button>
-    <div class="card">
+    <div class="card" id="ano-2022">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -81,28 +84,29 @@
         </div>
     </div>
     <button>2021</button>
-    <div class="card">
+    <div class="card" id="ano-2021">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -110,28 +114,29 @@
         </div>
     </div>
     <button>2020</button>
-    <div class="card">
+    <div class="card" id="ano-2020">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -139,28 +144,29 @@
         </div>
     </div>
     <button>2019</button>
-    <div class="card">
+    <div class="card" id="ano-2019">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -168,28 +174,29 @@
         </div>
     </div>
     <button>2018</button>
-    <div class="card">
+    <div class="card" id="ano-2018">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -197,28 +204,29 @@
         </div>
     </div>
     <button>2017</button>
-    <div class="card">
+    <div class="card" id="ano-2017">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -226,28 +234,29 @@
         </div>
     </div>
     <button>2016</button>
-    <div class="card">
+    <div class="card" id="ano-2016">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -255,28 +264,29 @@
         </div>
     </div>
     <button>2015</button>
-    <div class="card">
+    <div class="card" id="ano-2015">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
@@ -284,28 +294,29 @@
         </div>
     </div>
     <button>2014</button>
-    <div class="card">
+    <div class="card" id="ano-2014">
         <div>
-            <h2>* Dados sobre os diários</h2>
+            <h2>Diários</h2>
             <p># diários</p>
-            <p>Média de diários por mês</p>
+            <div>Média de diários por mês: <div id="media-diarios-mes"></div></div>
+            <div>Total de diários no ano: <div id="total-diarios-ano"></div></div>
         </div>
         <div>
-            <h2>* Dados sobre os atos</h2>
+            <h2>Atos</h2>
             <p># diários</p>
             <p>Média de atos por mês</p>
             <p>Média de atos por diário</p>
             <p>Média de atos por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as nomeações</h2>
+            <h2>Nomeações</h2>
             <p># diários</p>
             <p>Média de nomeações por mês</p>
             <p>Média de nomeações por diário</p>
             <p>Média de nomeações por dia</p>
         </div>
         <div>
-            <h2>* Dados sobre as exonerações</h2>
+            <h2>Exonerações</h2>
             <p># diários</p>
             <p>Média de exonerações por mês</p>
             <p>Média de exonerações por diário</p>
