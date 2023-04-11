@@ -4,13 +4,15 @@ selectElement.addEventListener('change', updateData);
 
 function updateData() {
     var municipio = selectElement.value;
+    console.log(municipio)
+
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => {
-        const ano = card.id;
+        const ano = card.id.replace('ano-', '');
         fetch(`./dados/inicial/${municipio}-inicial.json`)
             .then(response => response.json())
             .then(data => {
-                const numDiariosAnoValueElement = document.querySelector(`#${ano} #num-diarios`);
+                const numDiariosAnoValueElement = document.querySelector(`#ano-${ano} #num-diarios`);
                 const detalhe_ano = data.detalhe[ano]
                 const numDiariosAno = detalhe_ano.num_diarios;
                 numDiariosAnoValueElement.textContent = numDiariosAno;
