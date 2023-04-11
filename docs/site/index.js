@@ -17,11 +17,11 @@ function updateData() {
                 const numDiarios = document.querySelector(`#ano-${ano} #num-diarios`);
                 numDiarios.textContent = detalhe_ano.num_diarios;
 
-                const numExoneracoes = document.querySelector(`#ano-${ano} #num-diarios`);
-                numExoneracoes.textContent = detalhe_ano.num_diarios;
+                const numExoneracoes = document.querySelector(`#ano-${ano} #num-exoneracoes`);
+                numExoneracoes.textContent = detalhe_ano.num_exoneracoes;
 
                 const numNomeacoes = document.querySelector(`#ano-${ano} #num-nomeacoes`);
-                numNomeacoes.textContent = detalhe_ano.num_diarios;
+                numNomeacoes.textContent = detalhe_ano.num_nomeacoes;
             });
     });
 }
