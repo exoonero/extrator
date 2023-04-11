@@ -1,0 +1,21 @@
+{
+  "id": "rio-largo",
+  "nome": "RIO LARGO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 234,
+      "num_nomeacoes": 127,
+      "num_exoneracoes": 44
+    },
+    "2021": {
+      "num_diarios": 226,
+      "num_nomeacoes": 99,
+      "num_exoneracoes": 21
+    }
+  },
+  "resumo": {
+    "num_diarios": 460,
+    "num_exoneracoes": 65,
+    "num_nomeacoes": 226
+  }
+}

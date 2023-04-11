@@ -1,0 +1,21 @@
+{
+  "id": "sao-jose-da-tapera",
+  "nome": "SÃO JOSÉ DA TAPERA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 215,
+      "num_nomeacoes": 96,
+      "num_exoneracoes": 21
+    },
+    "2021": {
+      "num_diarios": 141,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 356,
+    "num_exoneracoes": 21,
+    "num_nomeacoes": 96
+  }
+}

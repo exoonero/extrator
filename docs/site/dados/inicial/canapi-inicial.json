@@ -1,0 +1,21 @@
+{
+  "id": "canapi",
+  "nome": "CANAPI",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 181,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 155,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 336,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

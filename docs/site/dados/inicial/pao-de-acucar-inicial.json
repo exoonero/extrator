@@ -1,0 +1,21 @@
+{
+  "id": "pao-de-acucar",
+  "nome": "PÃO DE AÇÚCAR",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 147,
+      "num_nomeacoes": 60,
+      "num_exoneracoes": 16
+    },
+    "2021": {
+      "num_diarios": 111,
+      "num_nomeacoes": 59,
+      "num_exoneracoes": 5
+    }
+  },
+  "resumo": {
+    "num_diarios": 258,
+    "num_exoneracoes": 21,
+    "num_nomeacoes": 119
+  }
+}

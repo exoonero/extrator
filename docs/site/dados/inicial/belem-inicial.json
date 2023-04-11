@@ -1,0 +1,21 @@
+{
+  "id": "belem",
+  "nome": "BELÉM",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 71,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 82,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 153,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

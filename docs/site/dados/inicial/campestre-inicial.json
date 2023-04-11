@@ -1,0 +1,21 @@
+{
+  "id": "campestre",
+  "nome": "CAMPESTRE",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 110,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 63,
+      "num_nomeacoes": 14,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 173,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 14
+  }
+}

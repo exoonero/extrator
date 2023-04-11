@@ -1,0 +1,21 @@
+{
+  "id": "quebrangulo",
+  "nome": "QUEBRANGULO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 215,
+      "num_nomeacoes": 3,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 177,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 392,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 3
+  }
+}

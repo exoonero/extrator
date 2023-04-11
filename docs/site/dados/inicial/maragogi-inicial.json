@@ -1,0 +1,21 @@
+{
+  "id": "maragogi",
+  "nome": "MARAGOGI",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 199,
+      "num_nomeacoes": 386,
+      "num_exoneracoes": 56
+    },
+    "2021": {
+      "num_diarios": 172,
+      "num_nomeacoes": 406,
+      "num_exoneracoes": 80
+    }
+  },
+  "resumo": {
+    "num_diarios": 371,
+    "num_exoneracoes": 136,
+    "num_nomeacoes": 792
+  }
+}

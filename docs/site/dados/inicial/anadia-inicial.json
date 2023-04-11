@@ -1,0 +1,21 @@
+{
+  "id": "anadia",
+  "nome": "ANADIA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 164,
+      "num_nomeacoes": 10,
+      "num_exoneracoes": 3
+    },
+    "2021": {
+      "num_diarios": 130,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 294,
+    "num_exoneracoes": 3,
+    "num_nomeacoes": 10
+  }
+}

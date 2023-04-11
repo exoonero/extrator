@@ -1,0 +1,21 @@
+{
+  "id": "santana-do-ipanema",
+  "nome": "SANTANA DO IPANEMA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 122,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 112,
+      "num_nomeacoes": 12,
+      "num_exoneracoes": 2
+    }
+  },
+  "resumo": {
+    "num_diarios": 234,
+    "num_exoneracoes": 2,
+    "num_nomeacoes": 12
+  }
+}

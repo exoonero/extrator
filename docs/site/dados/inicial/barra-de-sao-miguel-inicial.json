@@ -1,0 +1,21 @@
+{
+  "id": "barra-de-sao-miguel",
+  "nome": "BARRA DE SÃO MIGUEL",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 161,
+      "num_nomeacoes": 28,
+      "num_exoneracoes": 1
+    },
+    "2021": {
+      "num_diarios": 110,
+      "num_nomeacoes": 6,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 271,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 34
+  }
+}

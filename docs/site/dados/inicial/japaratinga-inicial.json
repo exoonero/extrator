@@ -1,0 +1,21 @@
+{
+  "id": "japaratinga",
+  "nome": "JAPARATINGA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 75,
+      "num_nomeacoes": 17,
+      "num_exoneracoes": 1
+    },
+    "2021": {
+      "num_diarios": 68,
+      "num_nomeacoes": 79,
+      "num_exoneracoes": 9
+    }
+  },
+  "resumo": {
+    "num_diarios": 143,
+    "num_exoneracoes": 10,
+    "num_nomeacoes": 96
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "geral",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 11481,
+      "num_nomeacoes": 231734,
+      "num_exoneracoes": 50388
+    },
+    "2021": {
+      "num_diarios": 9600,
+      "num_nomeacoes": 202481,
+      "num_exoneracoes": 26851
+    }
+  },
+  "resumo": {
+    "num_diarios": 21081,
+    "num_exoneracoes": 77239,
+    "num_nomeacoes": 434215
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "maravilha",
+  "nome": "MARAVILHA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 167,
+      "num_nomeacoes": 71,
+      "num_exoneracoes": 10
+    },
+    "2021": {
+      "num_diarios": 106,
+      "num_nomeacoes": 36,
+      "num_exoneracoes": 3
+    }
+  },
+  "resumo": {
+    "num_diarios": 273,
+    "num_exoneracoes": 13,
+    "num_nomeacoes": 107
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "campo-grande",
+  "nome": "CAMPO GRANDE",
+  "detalhe": {
+    "2021": {
+      "num_diarios": 28,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 33,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 61,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

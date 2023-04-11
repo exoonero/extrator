@@ -1,0 +1,21 @@
+{
+  "id": "senador-rui-palmeira",
+  "nome": "SENADOR RUI PALMEIRA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 85,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 57,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 142,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

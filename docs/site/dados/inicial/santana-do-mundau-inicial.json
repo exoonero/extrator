@@ -1,0 +1,21 @@
+{
+  "id": "santana-do-mundau",
+  "nome": "SANTANA DO MUNDAÚ",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 184,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 164,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 348,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 0
+  }
+}

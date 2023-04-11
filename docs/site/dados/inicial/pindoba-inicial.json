@@ -1,0 +1,21 @@
+{
+  "id": "pindoba",
+  "nome": "PINDOBA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 68,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 81,
+      "num_nomeacoes": 49,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 149,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 49
+  }
+}

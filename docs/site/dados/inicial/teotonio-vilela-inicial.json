@@ -1,0 +1,21 @@
+{
+  "id": "teotonio-vilela",
+  "nome": "TEOTONIO VILELA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 219,
+      "num_nomeacoes": 100,
+      "num_exoneracoes": 3
+    },
+    "2021": {
+      "num_diarios": 227,
+      "num_nomeacoes": 267,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 446,
+    "num_exoneracoes": 4,
+    "num_nomeacoes": 367
+  }
+}

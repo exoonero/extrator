@@ -1,0 +1,21 @@
+{
+  "id": "maribondo",
+  "nome": "MARIBONDO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 96,
+      "num_nomeacoes": 18,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 102,
+      "num_nomeacoes": 51,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 198,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 69
+  }
+}

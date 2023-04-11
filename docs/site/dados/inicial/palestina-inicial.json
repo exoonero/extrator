@@ -1,0 +1,21 @@
+{
+  "id": "palestina",
+  "nome": "PALESTINA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 95,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 2
+    },
+    "2021": {
+      "num_diarios": 89,
+      "num_nomeacoes": 2,
+      "num_exoneracoes": 7
+    }
+  },
+  "resumo": {
+    "num_diarios": 184,
+    "num_exoneracoes": 9,
+    "num_nomeacoes": 2
+  }
+}

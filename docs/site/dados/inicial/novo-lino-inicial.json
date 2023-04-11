@@ -1,0 +1,21 @@
+{
+  "id": "novo-lino",
+  "nome": "NOVO LINO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 147,
+      "num_nomeacoes": 9,
+      "num_exoneracoes": 1
+    },
+    "2021": {
+      "num_diarios": 80,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 227,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 9
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "sao-luis-do-quitunde",
+  "nome": "SÃO LUIS DO QUITUNDE",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 127,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 115,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 242,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

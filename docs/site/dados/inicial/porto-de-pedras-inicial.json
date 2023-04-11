@@ -1,0 +1,21 @@
+{
+  "id": "porto-de-pedras",
+  "nome": "PORTO DE PEDRAS",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 66,
+      "num_nomeacoes": 2,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 72,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 138,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 3
+  }
+}

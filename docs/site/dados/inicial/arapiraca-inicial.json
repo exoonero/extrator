@@ -1,0 +1,21 @@
+{
+  "id": "arapiraca",
+  "nome": "ARAPIRACA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 232,
+      "num_nomeacoes": 118,
+      "num_exoneracoes": 10
+    },
+    "2021": {
+      "num_diarios": 221,
+      "num_nomeacoes": 36,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 453,
+    "num_exoneracoes": 11,
+    "num_nomeacoes": 154
+  }
+}

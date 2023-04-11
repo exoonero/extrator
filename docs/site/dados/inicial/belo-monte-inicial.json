@@ -1,0 +1,21 @@
+{
+  "id": "belo-monte",
+  "nome": "BELO MONTE",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 97,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 3
+    },
+    "2021": {
+      "num_diarios": 72,
+      "num_nomeacoes": 20,
+      "num_exoneracoes": 3
+    }
+  },
+  "resumo": {
+    "num_diarios": 169,
+    "num_exoneracoes": 6,
+    "num_nomeacoes": 20
+  }
+}

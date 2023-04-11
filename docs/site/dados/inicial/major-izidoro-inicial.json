@@ -1,0 +1,21 @@
+{
+  "id": "major-izidoro",
+  "nome": "MAJOR IZIDORO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 115,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 117,
+      "num_nomeacoes": 6,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 232,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 7
+  }
+}

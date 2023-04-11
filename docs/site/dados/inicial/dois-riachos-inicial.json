@@ -1,0 +1,21 @@
+{
+  "id": "dois-riachos",
+  "nome": "DOIS RIACHOS",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 129,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 101,
+      "num_nomeacoes": 3,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 230,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 3
+  }
+}

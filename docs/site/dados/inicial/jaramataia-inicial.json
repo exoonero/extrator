@@ -1,0 +1,21 @@
+{
+  "id": "jaramataia",
+  "nome": "JARAMATAIA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 41,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 37,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 78,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

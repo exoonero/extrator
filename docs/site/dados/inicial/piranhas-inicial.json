@@ -1,0 +1,21 @@
+{
+  "id": "piranhas",
+  "nome": "PIRANHAS",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 153,
+      "num_nomeacoes": 24,
+      "num_exoneracoes": 18
+    },
+    "2021": {
+      "num_diarios": 142,
+      "num_nomeacoes": 180,
+      "num_exoneracoes": 3
+    }
+  },
+  "resumo": {
+    "num_diarios": 295,
+    "num_exoneracoes": 21,
+    "num_nomeacoes": 204
+  }
+}

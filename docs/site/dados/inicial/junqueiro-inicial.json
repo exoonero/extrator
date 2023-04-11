@@ -1,0 +1,21 @@
+{
+  "id": "junqueiro",
+  "nome": "JUNQUEIRO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 199,
+      "num_nomeacoes": 41,
+      "num_exoneracoes": 6
+    },
+    "2021": {
+      "num_diarios": 179,
+      "num_nomeacoes": 149,
+      "num_exoneracoes": 6
+    }
+  },
+  "resumo": {
+    "num_diarios": 378,
+    "num_exoneracoes": 12,
+    "num_nomeacoes": 190
+  }
+}

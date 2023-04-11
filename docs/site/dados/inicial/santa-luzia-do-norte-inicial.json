@@ -1,0 +1,21 @@
+{
+  "id": "santa-luzia-do-norte",
+  "nome": "SANTA LUZIA DO NORTE",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 136,
+      "num_nomeacoes": 17,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 81,
+      "num_nomeacoes": 55,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 217,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 72
+  }
+}

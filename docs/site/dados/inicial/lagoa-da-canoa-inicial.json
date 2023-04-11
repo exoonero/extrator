@@ -1,0 +1,21 @@
+{
+  "id": "lagoa-da-canoa",
+  "nome": "LAGOA DA CANOA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 121,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 120,
+      "num_nomeacoes": 43,
+      "num_exoneracoes": 3
+    }
+  },
+  "resumo": {
+    "num_diarios": 241,
+    "num_exoneracoes": 3,
+    "num_nomeacoes": 43
+  }
+}

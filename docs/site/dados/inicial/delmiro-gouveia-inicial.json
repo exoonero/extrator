@@ -1,0 +1,21 @@
+{
+  "id": "delmiro-gouveia",
+  "nome": "DELMIRO GOUVEIA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 241,
+      "num_nomeacoes": 456,
+      "num_exoneracoes": 107
+    },
+    "2021": {
+      "num_diarios": 196,
+      "num_nomeacoes": 3,
+      "num_exoneracoes": 15
+    }
+  },
+  "resumo": {
+    "num_diarios": 437,
+    "num_exoneracoes": 122,
+    "num_nomeacoes": 459
+  }
+}

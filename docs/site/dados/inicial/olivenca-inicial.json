@@ -1,0 +1,21 @@
+{
+  "id": "olivenca",
+  "nome": "OLIVENÇA",
+  "detalhe": {
+    "2021": {
+      "num_diarios": 96,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 118,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 5
+    }
+  },
+  "resumo": {
+    "num_diarios": 214,
+    "num_exoneracoes": 5,
+    "num_nomeacoes": 2
+  }
+}

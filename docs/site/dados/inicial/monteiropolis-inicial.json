@@ -1,0 +1,21 @@
+{
+  "id": "monteiropolis",
+  "nome": "MONTEIRÓPOLIS",
+  "detalhe": {
+    "2021": {
+      "num_diarios": 61,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 3
+    },
+    "2022": {
+      "num_diarios": 56,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 117,
+    "num_exoneracoes": 3,
+    "num_nomeacoes": 0
+  }
+}

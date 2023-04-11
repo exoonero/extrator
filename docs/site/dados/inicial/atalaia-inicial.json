@@ -1,0 +1,21 @@
+{
+  "id": "atalaia",
+  "nome": "ATALAIA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 164,
+      "num_nomeacoes": 45,
+      "num_exoneracoes": 6
+    },
+    "2021": {
+      "num_diarios": 126,
+      "num_nomeacoes": 31,
+      "num_exoneracoes": 6
+    }
+  },
+  "resumo": {
+    "num_diarios": 290,
+    "num_exoneracoes": 12,
+    "num_nomeacoes": 76
+  }
+}

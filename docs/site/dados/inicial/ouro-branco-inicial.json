@@ -1,0 +1,21 @@
+{
+  "id": "ouro-branco",
+  "nome": "OURO BRANCO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 161,
+      "num_nomeacoes": 15,
+      "num_exoneracoes": 5
+    },
+    "2021": {
+      "num_diarios": 128,
+      "num_nomeacoes": 40,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 289,
+    "num_exoneracoes": 6,
+    "num_nomeacoes": 55
+  }
+}

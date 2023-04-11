@@ -1,0 +1,21 @@
+{
+  "id": "mata-grande",
+  "nome": "MATA GRANDE",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 137,
+      "num_nomeacoes": 283,
+      "num_exoneracoes": 16
+    },
+    "2021": {
+      "num_diarios": 84,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 221,
+    "num_exoneracoes": 16,
+    "num_nomeacoes": 283
+  }
+}

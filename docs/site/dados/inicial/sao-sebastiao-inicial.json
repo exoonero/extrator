@@ -1,0 +1,21 @@
+{
+  "id": "sao-sebastiao",
+  "nome": "SÃO SEBASTIÃO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 120,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 102,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 222,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 0
+  }
+}

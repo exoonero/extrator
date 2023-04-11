@@ -1,0 +1,21 @@
+{
+  "id": "barra-de-santo-antonio",
+  "nome": "BARRA DE SANTO ANTONIO",
+  "detalhe": {
+    "2021": {
+      "num_diarios": 46,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 101,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 147,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

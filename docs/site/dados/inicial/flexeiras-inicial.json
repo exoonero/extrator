@@ -1,0 +1,21 @@
+{
+  "id": "flexeiras",
+  "nome": "FLEXEIRAS",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 95,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 55,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 150,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

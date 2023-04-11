@@ -1,0 +1,21 @@
+{
+  "id": "sao-miguel-dos-milagres",
+  "nome": "SÃO MIGUEL DOS MILAGRES",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 116,
+      "num_nomeacoes": 5,
+      "num_exoneracoes": 2
+    },
+    "2021": {
+      "num_diarios": 80,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 196,
+    "num_exoneracoes": 2,
+    "num_nomeacoes": 5
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "carneiros",
+  "nome": "CARNEIROS",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 98,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 84,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 182,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pariconha",
+  "nome": "PARICONHA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 137,
+      "num_nomeacoes": 130,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 64,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 201,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 130
+  }
+}

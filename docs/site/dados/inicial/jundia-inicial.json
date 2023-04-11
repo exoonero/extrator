@@ -1,0 +1,21 @@
+{
+  "id": "jundia",
+  "nome": "JUNDIÁ",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 57,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 32,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 89,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

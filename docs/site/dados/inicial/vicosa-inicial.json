@@ -1,0 +1,21 @@
+{
+  "id": "vicosa",
+  "nome": "VIÇOSA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 213,
+      "num_nomeacoes": 12,
+      "num_exoneracoes": 1
+    },
+    "2021": {
+      "num_diarios": 175,
+      "num_nomeacoes": 10,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 388,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 22
+  }
+}

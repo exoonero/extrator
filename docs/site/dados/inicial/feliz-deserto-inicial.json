@@ -1,0 +1,21 @@
+{
+  "id": "feliz-deserto",
+  "nome": "FELIZ DESERTO",
+  "detalhe": {
+    "2021": {
+      "num_diarios": 59,
+      "num_nomeacoes": 37,
+      "num_exoneracoes": 1
+    },
+    "2022": {
+      "num_diarios": 73,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 132,
+    "num_exoneracoes": 2,
+    "num_nomeacoes": 37
+  }
+}

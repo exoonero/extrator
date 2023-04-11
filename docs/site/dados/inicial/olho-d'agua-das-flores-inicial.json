@@ -1,0 +1,21 @@
+{
+  "id": "olho-d'agua-das-flores",
+  "nome": "OLHO D'ÁGUA DAS FLORES",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 175,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 11
+    },
+    "2021": {
+      "num_diarios": 106,
+      "num_nomeacoes": 16,
+      "num_exoneracoes": 4
+    }
+  },
+  "resumo": {
+    "num_diarios": 281,
+    "num_exoneracoes": 15,
+    "num_nomeacoes": 16
+  }
+}

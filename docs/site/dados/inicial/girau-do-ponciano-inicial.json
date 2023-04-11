@@ -1,0 +1,16 @@
+{
+  "id": "girau-do-ponciano",
+  "nome": "GIRAU DO PONCIANO",
+  "detalhe": {
+    "2021": {
+      "num_diarios": 18,
+      "num_nomeacoes": 17,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 18,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 17
+  }
+}

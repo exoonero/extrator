@@ -1,0 +1,21 @@
+{
+  "id": "estrela-de-alagoas",
+  "nome": "ESTRELA DE ALAGOAS",
+  "detalhe": {
+    "2021": {
+      "num_diarios": 63,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 88,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    }
+  },
+  "resumo": {
+    "num_diarios": 151,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 0
+  }
+}

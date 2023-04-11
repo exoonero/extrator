@@ -1,0 +1,21 @@
+{
+  "id": "porto-real-do-colegio",
+  "nome": "PORTO REAL DO COLÉGIO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 90,
+      "num_nomeacoes": 10,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 72,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 162,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 10
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "batalha",
+  "nome": "BATALHA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 95,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 95,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 190,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

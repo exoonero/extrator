@@ -1,0 +1,21 @@
+{
+  "id": "marechal-deodoro",
+  "nome": "MARECHAL DEODORO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 242,
+      "num_nomeacoes": 102,
+      "num_exoneracoes": 15
+    },
+    "2021": {
+      "num_diarios": 238,
+      "num_nomeacoes": 413,
+      "num_exoneracoes": 36
+    }
+  },
+  "resumo": {
+    "num_diarios": 480,
+    "num_exoneracoes": 51,
+    "num_nomeacoes": 515
+  }
+}

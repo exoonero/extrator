@@ -1,0 +1,21 @@
+{
+  "id": "paulo-jacinto",
+  "nome": "PAULO JACINTO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 63,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2021": {
+      "num_diarios": 42,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 105,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}

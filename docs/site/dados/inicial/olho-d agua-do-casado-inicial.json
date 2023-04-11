@@ -1,0 +1,21 @@
+{
+  "id": "olho-d agua-do-casado",
+  "nome": "OLHO D´AGUA DO CASADO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 157,
+      "num_nomeacoes": 8,
+      "num_exoneracoes": 3
+    },
+    "2021": {
+      "num_diarios": 89,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 246,
+    "num_exoneracoes": 3,
+    "num_nomeacoes": 8
+  }
+}

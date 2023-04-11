@@ -1,0 +1,21 @@
+{
+  "id": "satuba",
+  "nome": "SATUBA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 120,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    },
+    "2021": {
+      "num_diarios": 130,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 10
+    }
+  },
+  "resumo": {
+    "num_diarios": 250,
+    "num_exoneracoes": 11,
+    "num_nomeacoes": 1
+  }
+}

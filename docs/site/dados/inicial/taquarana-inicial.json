@@ -1,0 +1,21 @@
+{
+  "id": "taquarana",
+  "nome": "TAQUARANA",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 153,
+      "num_nomeacoes": 4,
+      "num_exoneracoes": 2
+    },
+    "2021": {
+      "num_diarios": 139,
+      "num_nomeacoes": 25,
+      "num_exoneracoes": 3
+    }
+  },
+  "resumo": {
+    "num_diarios": 292,
+    "num_exoneracoes": 5,
+    "num_nomeacoes": 29
+  }
+}

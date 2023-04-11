@@ -1,0 +1,21 @@
+{
+  "id": "poco-das-trincheiras",
+  "nome": "POÇO DAS TRINCHEIRAS",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 121,
+      "num_nomeacoes": 64,
+      "num_exoneracoes": 15
+    },
+    "2021": {
+      "num_diarios": 94,
+      "num_nomeacoes": 2,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 215,
+    "num_exoneracoes": 15,
+    "num_nomeacoes": 66
+  }
+}

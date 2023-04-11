@@ -1,0 +1,21 @@
+{
+  "id": "inhapi",
+  "nome": "INHAPI",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 202,
+      "num_nomeacoes": 46,
+      "num_exoneracoes": 18
+    },
+    "2021": {
+      "num_diarios": 192,
+      "num_nomeacoes": 85,
+      "num_exoneracoes": 20
+    }
+  },
+  "resumo": {
+    "num_diarios": 394,
+    "num_exoneracoes": 38,
+    "num_nomeacoes": 131
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "minador-do-negrao",
+  "nome": "MINADOR DO NEGRÃO",
+  "detalhe": {
+    "2022": {
+      "num_diarios": 161,
+      "num_nomeacoes": 35,
+      "num_exoneracoes": 50
+    },
+    "2021": {
+      "num_diarios": 146,
+      "num_nomeacoes": 88,
+      "num_exoneracoes": 8
+    }
+  },
+  "resumo": {
+    "num_diarios": 307,
+    "num_exoneracoes": 58,
+    "num_nomeacoes": 123
+  }
+}
