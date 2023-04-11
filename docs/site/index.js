@@ -12,10 +12,16 @@ function updateData() {
         fetch(`./dados/inicial/${municipio}-inicial.json`)
             .then(response => response.json())
             .then(data => {
-                const numDiariosAnoValueElement = document.querySelector(`#ano-${ano} #num-diarios`);
                 const detalhe_ano = data.detalhe[ano]
-                const numDiariosAno = detalhe_ano.num_diarios;
-                numDiariosAnoValueElement.textContent = numDiariosAno;
+
+                const numDiarios = document.querySelector(`#ano-${ano} #num-diarios`);
+                numDiarios.textContent = detalhe_ano.num_diarios;
+
+                const numExoneracoes = document.querySelector(`#ano-${ano} #num-diarios`);
+                numExoneracoes.textContent = detalhe_ano.num_diarios;
+
+                const numNomeacoes = document.querySelector(`#ano-${ano} #num-nomeacoes`);
+                numNomeacoes.textContent = detalhe_ano.num_diarios;
             });
     });
 }
