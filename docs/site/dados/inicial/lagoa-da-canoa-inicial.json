@@ -2,20 +2,35 @@
   "id": "lagoa-da-canoa",
   "nome": "LAGOA DA CANOA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 121,
-      "num_nomeacoes": 0,
+    "2017": {
+      "num_diarios": 73,
+      "num_nomeacoes": 3,
       "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 102,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 2
     },
     "2021": {
       "num_diarios": 120,
       "num_nomeacoes": 43,
       "num_exoneracoes": 3
+    },
+    "2022": {
+      "num_diarios": 121,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 50,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 1
     }
   },
   "resumo": {
-    "num_diarios": 241,
-    "num_exoneracoes": 3,
-    "num_nomeacoes": 43
+    "num_diarios": 466,
+    "num_exoneracoes": 6,
+    "num_nomeacoes": 47
   }
 }

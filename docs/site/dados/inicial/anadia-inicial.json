@@ -2,19 +2,29 @@
   "id": "anadia",
   "nome": "ANADIA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 164,
-      "num_nomeacoes": 10,
-      "num_exoneracoes": 3
+    "2020": {
+      "num_diarios": 16,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 130,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 164,
+      "num_nomeacoes": 10,
+      "num_exoneracoes": 3
+    },
+    "2023": {
+      "num_diarios": 46,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 294,
+    "num_diarios": 356,
     "num_exoneracoes": 3,
     "num_nomeacoes": 10
   }

@@ -2,6 +2,16 @@
   "id": "mar-vermelho",
   "nome": "MAR VERMELHO",
   "detalhe": {
+    "2017": {
+      "num_diarios": 23,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 60,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2021": {
       "num_diarios": 90,
       "num_nomeacoes": 0,
@@ -11,10 +21,15 @@
       "num_diarios": 101,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 31,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 191,
+    "num_diarios": 305,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

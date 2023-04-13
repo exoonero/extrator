@@ -2,20 +2,30 @@
   "id": "novo-lino",
   "nome": "NOVO LINO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 147,
-      "num_nomeacoes": 9,
-      "num_exoneracoes": 1
+    "2020": {
+      "num_diarios": 36,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 80,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 147,
+      "num_nomeacoes": 9,
+      "num_exoneracoes": 1
+    },
+    "2023": {
+      "num_diarios": 46,
+      "num_nomeacoes": 66,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 227,
+    "num_diarios": 309,
     "num_exoneracoes": 1,
-    "num_nomeacoes": 9
+    "num_nomeacoes": 75
   }
 }

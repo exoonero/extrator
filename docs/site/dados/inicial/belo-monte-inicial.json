@@ -2,8 +2,13 @@
   "id": "belo-monte",
   "nome": "BELO MONTE",
   "detalhe": {
-    "2022": {
-      "num_diarios": 97,
+    "2017": {
+      "num_diarios": 34,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 46,
       "num_nomeacoes": 0,
       "num_exoneracoes": 3
     },
@@ -11,11 +16,21 @@
       "num_diarios": 72,
       "num_nomeacoes": 20,
       "num_exoneracoes": 3
+    },
+    "2022": {
+      "num_diarios": 97,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 3
+    },
+    "2023": {
+      "num_diarios": 44,
+      "num_nomeacoes": 2,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 169,
-    "num_exoneracoes": 6,
-    "num_nomeacoes": 20
+    "num_diarios": 293,
+    "num_exoneracoes": 9,
+    "num_nomeacoes": 22
   }
 }

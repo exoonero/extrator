@@ -1,20 +1,50 @@
 {
   "id": "geral",
   "detalhe": {
-    "2022": {
-      "num_diarios": 11481,
-      "num_nomeacoes": 231734,
-      "num_exoneracoes": 50388
+    "2014": {
+      "num_diarios": 24,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2015": {
+      "num_diarios": 357,
+      "num_nomeacoes": 304,
+      "num_exoneracoes": 187
+    },
+    "2016": {
+      "num_diarios": 834,
+      "num_nomeacoes": 1848,
+      "num_exoneracoes": 1031
+    },
+    "2017": {
+      "num_diarios": 1963,
+      "num_nomeacoes": 18263,
+      "num_exoneracoes": 2369
+    },
+    "2020": {
+      "num_diarios": 6957,
+      "num_nomeacoes": 83423,
+      "num_exoneracoes": 43714
     },
     "2021": {
       "num_diarios": 9600,
-      "num_nomeacoes": 202481,
-      "num_exoneracoes": 26851
+      "num_nomeacoes": 286324,
+      "num_exoneracoes": 23549
+    },
+    "2022": {
+      "num_diarios": 11480,
+      "num_nomeacoes": 289384,
+      "num_exoneracoes": 50559
+    },
+    "2023": {
+      "num_diarios": 3603,
+      "num_nomeacoes": 44279,
+      "num_exoneracoes": 6905
     }
   },
   "resumo": {
-    "num_diarios": 21081,
-    "num_exoneracoes": 77239,
-    "num_nomeacoes": 434215
+    "num_diarios": 34818,
+    "num_exoneracoes": 128314,
+    "num_nomeacoes": 723825
   }
 }

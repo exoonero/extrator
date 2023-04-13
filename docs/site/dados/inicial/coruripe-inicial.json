@@ -2,6 +2,26 @@
   "id": "coruripe",
   "nome": "CORURIPE",
   "detalhe": {
+    "2015": {
+      "num_diarios": 27,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2016": {
+      "num_diarios": 73,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2017": {
+      "num_diarios": 102,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 102,
+      "num_nomeacoes": 3,
+      "num_exoneracoes": 0
+    },
     "2021": {
       "num_diarios": 150,
       "num_nomeacoes": 6,
@@ -11,11 +31,14 @@
       "num_diarios": 5,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 2
     }
   },
   "resumo": {
-    "num_diarios": 155,
+    "num_diarios": 461,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 6
+    "num_nomeacoes": 9
   }
 }

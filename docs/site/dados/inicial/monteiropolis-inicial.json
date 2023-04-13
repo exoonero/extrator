@@ -2,6 +2,16 @@
   "id": "monteiropolis",
   "nome": "MONTEIRÓPOLIS",
   "detalhe": {
+    "2017": {
+      "num_diarios": 4,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 41,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2021": {
       "num_diarios": 61,
       "num_nomeacoes": 0,
@@ -11,10 +21,15 @@
       "num_diarios": 56,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 17,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 117,
+    "num_diarios": 179,
     "num_exoneracoes": 3,
     "num_nomeacoes": 0
   }

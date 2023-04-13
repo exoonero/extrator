@@ -2,20 +2,35 @@
   "id": "santa-luzia-do-norte",
   "nome": "SANTA LUZIA DO NORTE",
   "detalhe": {
-    "2022": {
-      "num_diarios": 136,
-      "num_nomeacoes": 17,
+    "2017": {
+      "num_diarios": 53,
+      "num_nomeacoes": 114,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 93,
+      "num_nomeacoes": 5,
       "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 81,
       "num_nomeacoes": 55,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 136,
+      "num_nomeacoes": 17,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 30,
+      "num_nomeacoes": 4,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 217,
+    "num_diarios": 393,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 72
+    "num_nomeacoes": 195
   }
 }

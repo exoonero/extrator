@@ -2,6 +2,16 @@
   "id": "olivenca",
   "nome": "OLIVENÇA",
   "detalhe": {
+    "2017": {
+      "num_diarios": 31,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 48,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    },
     "2021": {
       "num_diarios": 96,
       "num_nomeacoes": 1,
@@ -11,11 +21,16 @@
       "num_diarios": 118,
       "num_nomeacoes": 1,
       "num_exoneracoes": 5
+    },
+    "2023": {
+      "num_diarios": 37,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 214,
-    "num_exoneracoes": 5,
+    "num_diarios": 330,
+    "num_exoneracoes": 6,
     "num_nomeacoes": 2
   }
 }

@@ -2,20 +2,30 @@
   "id": "marechal-deodoro",
   "nome": "MARECHAL DEODORO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 242,
-      "num_nomeacoes": 102,
-      "num_exoneracoes": 15
+    "2020": {
+      "num_diarios": 238,
+      "num_nomeacoes": 122,
+      "num_exoneracoes": 130
     },
     "2021": {
       "num_diarios": 238,
       "num_nomeacoes": 413,
       "num_exoneracoes": 36
+    },
+    "2022": {
+      "num_diarios": 242,
+      "num_nomeacoes": 102,
+      "num_exoneracoes": 15
+    },
+    "2023": {
+      "num_diarios": 66,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 480,
-    "num_exoneracoes": 51,
-    "num_nomeacoes": 515
+    "num_diarios": 784,
+    "num_exoneracoes": 181,
+    "num_nomeacoes": 637
   }
 }

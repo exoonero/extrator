@@ -2,8 +2,13 @@
   "id": "santana-do-mundau",
   "nome": "SANTANA DO MUNDAÚ",
   "detalhe": {
-    "2022": {
-      "num_diarios": 184,
+    "2017": {
+      "num_diarios": 6,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 118,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +16,20 @@
       "num_diarios": 164,
       "num_nomeacoes": 0,
       "num_exoneracoes": 1
+    },
+    "2022": {
+      "num_diarios": 184,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 53,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 348,
+    "num_diarios": 525,
     "num_exoneracoes": 1,
     "num_nomeacoes": 0
   }

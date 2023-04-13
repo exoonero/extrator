@@ -2,8 +2,8 @@
   "id": "flexeiras",
   "nome": "FLEXEIRAS",
   "detalhe": {
-    "2022": {
-      "num_diarios": 95,
+    "2020": {
+      "num_diarios": 20,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,11 +11,21 @@
       "num_diarios": 55,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 95,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 40,
+      "num_nomeacoes": 18,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 150,
+    "num_diarios": 210,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 0
+    "num_nomeacoes": 18
   }
 }

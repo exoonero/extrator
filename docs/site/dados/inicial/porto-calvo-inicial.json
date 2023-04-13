@@ -2,20 +2,30 @@
   "id": "porto-calvo",
   "nome": "PORTO CALVO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 132,
-      "num_nomeacoes": 0,
-      "num_exoneracoes": 0
+    "2020": {
+      "num_diarios": 50,
+      "num_nomeacoes": 29,
+      "num_exoneracoes": 4
     },
     "2021": {
       "num_diarios": 107,
       "num_nomeacoes": 1,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 132,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 49,
+      "num_nomeacoes": 29,
+      "num_exoneracoes": 3
     }
   },
   "resumo": {
-    "num_diarios": 239,
-    "num_exoneracoes": 0,
-    "num_nomeacoes": 1
+    "num_diarios": 338,
+    "num_exoneracoes": 7,
+    "num_nomeacoes": 59
   }
 }

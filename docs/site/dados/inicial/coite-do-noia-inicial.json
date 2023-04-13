@@ -2,19 +2,34 @@
   "id": "coite-do-noia",
   "nome": "COITÉ DO NÓIA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 128,
-      "num_nomeacoes": 6,
+    "2017": {
+      "num_diarios": 16,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 121,
+      "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 81,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 128,
+      "num_nomeacoes": 6,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 43,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 209,
+    "num_diarios": 389,
     "num_exoneracoes": 0,
     "num_nomeacoes": 6
   }

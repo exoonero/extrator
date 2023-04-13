@@ -2,8 +2,8 @@
   "id": "branquinha",
   "nome": "BRANQUINHA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 189,
+    "2020": {
+      "num_diarios": 25,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,11 +11,21 @@
       "num_diarios": 183,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 189,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 55,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 372,
+    "num_diarios": 452,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 0
+    "num_nomeacoes": 1
   }
 }

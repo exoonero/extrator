@@ -2,8 +2,13 @@
   "id": "sao-luis-do-quitunde",
   "nome": "SÃO LUIS DO QUITUNDE",
   "detalhe": {
-    "2022": {
-      "num_diarios": 127,
+    "2017": {
+      "num_diarios": 75,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 143,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +16,20 @@
       "num_diarios": 115,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 127,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 46,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 242,
+    "num_diarios": 506,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

@@ -2,20 +2,30 @@
   "id": "pariconha",
   "nome": "PARICONHA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 137,
-      "num_nomeacoes": 130,
-      "num_exoneracoes": 0
+    "2020": {
+      "num_diarios": 56,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 4
     },
     "2021": {
       "num_diarios": 64,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 137,
+      "num_nomeacoes": 130,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 50,
+      "num_nomeacoes": 26,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 201,
-    "num_exoneracoes": 0,
-    "num_nomeacoes": 130
+    "num_diarios": 307,
+    "num_exoneracoes": 4,
+    "num_nomeacoes": 156
   }
 }

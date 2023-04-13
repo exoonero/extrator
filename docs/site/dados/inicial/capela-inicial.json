@@ -2,8 +2,8 @@
   "id": "capela",
   "nome": "CAPELA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 52,
+    "2020": {
+      "num_diarios": 26,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +11,20 @@
       "num_diarios": 50,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 52,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 21,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 102,
+    "num_diarios": 149,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

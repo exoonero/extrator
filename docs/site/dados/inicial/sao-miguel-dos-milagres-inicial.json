@@ -2,20 +2,25 @@
   "id": "sao-miguel-dos-milagres",
   "nome": "SÃO MIGUEL DOS MILAGRES",
   "detalhe": {
+    "2021": {
+      "num_diarios": 80,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2022": {
       "num_diarios": 116,
       "num_nomeacoes": 5,
       "num_exoneracoes": 2
     },
-    "2021": {
-      "num_diarios": 80,
-      "num_nomeacoes": 0,
-      "num_exoneracoes": 0
+    "2023": {
+      "num_diarios": 45,
+      "num_nomeacoes": 6,
+      "num_exoneracoes": 1
     }
   },
   "resumo": {
-    "num_diarios": 196,
-    "num_exoneracoes": 2,
-    "num_nomeacoes": 5
+    "num_diarios": 241,
+    "num_exoneracoes": 3,
+    "num_nomeacoes": 11
   }
 }

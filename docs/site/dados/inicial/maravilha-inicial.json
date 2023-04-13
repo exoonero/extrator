@@ -2,20 +2,35 @@
   "id": "maravilha",
   "nome": "MARAVILHA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 167,
-      "num_nomeacoes": 71,
-      "num_exoneracoes": 10
+    "2017": {
+      "num_diarios": 44,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 97,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 2
     },
     "2021": {
       "num_diarios": 106,
       "num_nomeacoes": 36,
       "num_exoneracoes": 3
+    },
+    "2022": {
+      "num_diarios": 167,
+      "num_nomeacoes": 71,
+      "num_exoneracoes": 10
+    },
+    "2023": {
+      "num_diarios": 49,
+      "num_nomeacoes": 30,
+      "num_exoneracoes": 3
     }
   },
   "resumo": {
-    "num_diarios": 273,
-    "num_exoneracoes": 13,
-    "num_nomeacoes": 107
+    "num_diarios": 463,
+    "num_exoneracoes": 18,
+    "num_nomeacoes": 138
   }
 }

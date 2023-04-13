@@ -2,20 +2,45 @@
   "id": "teotonio-vilela",
   "nome": "TEOTONIO VILELA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 219,
-      "num_nomeacoes": 100,
-      "num_exoneracoes": 3
+    "2015": {
+      "num_diarios": 31,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2016": {
+      "num_diarios": 79,
+      "num_nomeacoes": 34,
+      "num_exoneracoes": 35
+    },
+    "2017": {
+      "num_diarios": 136,
+      "num_nomeacoes": 20,
+      "num_exoneracoes": 1
+    },
+    "2020": {
+      "num_diarios": 199,
+      "num_nomeacoes": 165,
+      "num_exoneracoes": 46
     },
     "2021": {
       "num_diarios": 227,
       "num_nomeacoes": 267,
       "num_exoneracoes": 1
+    },
+    "2022": {
+      "num_diarios": 219,
+      "num_nomeacoes": 100,
+      "num_exoneracoes": 3
+    },
+    "2023": {
+      "num_diarios": 65,
+      "num_nomeacoes": 16,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 446,
-    "num_exoneracoes": 4,
-    "num_nomeacoes": 367
+    "num_diarios": 956,
+    "num_exoneracoes": 86,
+    "num_nomeacoes": 602
   }
 }

@@ -2,6 +2,11 @@
   "id": "jacuipe",
   "nome": "JACUÍPE",
   "detalhe": {
+    "2020": {
+      "num_diarios": 24,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2021": {
       "num_diarios": 42,
       "num_nomeacoes": 0,
@@ -11,10 +16,15 @@
       "num_diarios": 68,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 16,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 110,
+    "num_diarios": 150,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

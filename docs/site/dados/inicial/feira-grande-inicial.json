@@ -2,8 +2,8 @@
   "id": "feira-grande",
   "nome": "FEIRA GRANDE",
   "detalhe": {
-    "2022": {
-      "num_diarios": 103,
+    "2020": {
+      "num_diarios": 92,
       "num_nomeacoes": 0,
       "num_exoneracoes": 1
     },
@@ -11,11 +11,21 @@
       "num_diarios": 72,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 103,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    },
+    "2023": {
+      "num_diarios": 34,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 175,
-    "num_exoneracoes": 1,
+    "num_diarios": 301,
+    "num_exoneracoes": 2,
     "num_nomeacoes": 0
   }
 }

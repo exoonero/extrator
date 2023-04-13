@@ -2,20 +2,30 @@
   "id": "joaquim-gomes",
   "nome": "JOAQUIM GOMES",
   "detalhe": {
-    "2022": {
-      "num_diarios": 109,
-      "num_nomeacoes": 44,
-      "num_exoneracoes": 1
+    "2020": {
+      "num_diarios": 78,
+      "num_nomeacoes": 108,
+      "num_exoneracoes": 5
     },
     "2021": {
       "num_diarios": 82,
       "num_nomeacoes": 33,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 109,
+      "num_nomeacoes": 44,
+      "num_exoneracoes": 1
+    },
+    "2023": {
+      "num_diarios": 36,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 1
     }
   },
   "resumo": {
-    "num_diarios": 191,
-    "num_exoneracoes": 1,
-    "num_nomeacoes": 77
+    "num_diarios": 305,
+    "num_exoneracoes": 7,
+    "num_nomeacoes": 186
   }
 }

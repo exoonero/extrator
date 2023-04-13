@@ -2,6 +2,11 @@
   "id": "roteiro",
   "nome": "ROTEIRO",
   "detalhe": {
+    "2020": {
+      "num_diarios": 90,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2021": {
       "num_diarios": 70,
       "num_nomeacoes": 0,
@@ -11,10 +16,15 @@
       "num_diarios": 87,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 23,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 157,
+    "num_diarios": 270,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

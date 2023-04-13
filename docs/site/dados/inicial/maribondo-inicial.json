@@ -2,20 +2,45 @@
   "id": "maribondo",
   "nome": "MARIBONDO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 96,
-      "num_nomeacoes": 18,
+    "2015": {
+      "num_diarios": 38,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2016": {
+      "num_diarios": 39,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2017": {
+      "num_diarios": 7,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 36,
+      "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 102,
       "num_nomeacoes": 51,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 96,
+      "num_nomeacoes": 18,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 26,
+      "num_nomeacoes": 7,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 198,
+    "num_diarios": 344,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 69
+    "num_nomeacoes": 76
   }
 }

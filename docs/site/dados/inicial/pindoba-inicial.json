@@ -2,7 +2,12 @@
   "id": "pindoba",
   "nome": "PINDOBA",
   "detalhe": {
-    "2022": {
+    "2017": {
+      "num_diarios": 38,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
       "num_diarios": 68,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
@@ -11,10 +16,20 @@
       "num_diarios": 81,
       "num_nomeacoes": 49,
       "num_exoneracoes": 1
+    },
+    "2022": {
+      "num_diarios": 68,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 30,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 149,
+    "num_diarios": 285,
     "num_exoneracoes": 1,
     "num_nomeacoes": 49
   }

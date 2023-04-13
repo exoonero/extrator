@@ -2,8 +2,13 @@
   "id": "jaramataia",
   "nome": "JARAMATAIA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 41,
+    "2017": {
+      "num_diarios": 17,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 115,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +16,20 @@
       "num_diarios": 37,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 41,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 8,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 78,
+    "num_diarios": 218,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

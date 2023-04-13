@@ -2,20 +2,30 @@
   "id": "santana-do-ipanema",
   "nome": "SANTANA DO IPANEMA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 122,
+    "2020": {
+      "num_diarios": 109,
       "num_nomeacoes": 0,
-      "num_exoneracoes": 0
+      "num_exoneracoes": 16
     },
     "2021": {
       "num_diarios": 112,
       "num_nomeacoes": 12,
       "num_exoneracoes": 2
+    },
+    "2022": {
+      "num_diarios": 122,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 32,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 234,
-    "num_exoneracoes": 2,
+    "num_diarios": 375,
+    "num_exoneracoes": 18,
     "num_nomeacoes": 12
   }
 }

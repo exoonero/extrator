@@ -2,19 +2,24 @@
   "id": "cha-preta",
   "nome": "CHÃ PRETA",
   "detalhe": {
+    "2021": {
+      "num_diarios": 45,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2022": {
       "num_diarios": 105,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
-    "2021": {
-      "num_diarios": 45,
+    "2023": {
+      "num_diarios": 36,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 150,
+    "num_diarios": 186,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

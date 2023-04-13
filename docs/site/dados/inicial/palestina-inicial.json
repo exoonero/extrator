@@ -2,19 +2,39 @@
   "id": "palestina",
   "nome": "PALESTINA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 95,
+    "2016": {
+      "num_diarios": 23,
       "num_nomeacoes": 0,
-      "num_exoneracoes": 2
+      "num_exoneracoes": 0
+    },
+    "2017": {
+      "num_diarios": 36,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 41,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 89,
       "num_nomeacoes": 2,
       "num_exoneracoes": 7
+    },
+    "2022": {
+      "num_diarios": 95,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 2
+    },
+    "2023": {
+      "num_diarios": 30,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 184,
+    "num_diarios": 314,
     "num_exoneracoes": 9,
     "num_nomeacoes": 2
   }

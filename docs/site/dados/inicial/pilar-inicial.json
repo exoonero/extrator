@@ -2,20 +2,30 @@
   "id": "pilar",
   "nome": "PILAR",
   "detalhe": {
-    "2022": {
-      "num_diarios": 231,
-      "num_nomeacoes": 3,
-      "num_exoneracoes": 11
+    "2020": {
+      "num_diarios": 187,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 6
     },
     "2021": {
       "num_diarios": 210,
       "num_nomeacoes": 0,
       "num_exoneracoes": 15
+    },
+    "2022": {
+      "num_diarios": 231,
+      "num_nomeacoes": 3,
+      "num_exoneracoes": 11
+    },
+    "2023": {
+      "num_diarios": 60,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 7
     }
   },
   "resumo": {
-    "num_diarios": 441,
-    "num_exoneracoes": 26,
+    "num_diarios": 688,
+    "num_exoneracoes": 39,
     "num_nomeacoes": 3
   }
 }

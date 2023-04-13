@@ -2,20 +2,35 @@
   "id": "olho-d'agua-das-flores",
   "nome": "OLHO D'ÁGUA DAS FLORES",
   "detalhe": {
-    "2022": {
-      "num_diarios": 175,
+    "2017": {
+      "num_diarios": 16,
       "num_nomeacoes": 0,
-      "num_exoneracoes": 11
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 90,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
     },
     "2021": {
       "num_diarios": 106,
       "num_nomeacoes": 16,
       "num_exoneracoes": 4
+    },
+    "2022": {
+      "num_diarios": 175,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 11
+    },
+    "2023": {
+      "num_diarios": 51,
+      "num_nomeacoes": 16,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 281,
-    "num_exoneracoes": 15,
-    "num_nomeacoes": 16
+    "num_diarios": 438,
+    "num_exoneracoes": 16,
+    "num_nomeacoes": 32
   }
 }

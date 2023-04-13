@@ -2,19 +2,29 @@
   "id": "igreja-nova",
   "nome": "IGREJA NOVA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 126,
-      "num_nomeacoes": 9,
+    "2020": {
+      "num_diarios": 86,
+      "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 106,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 126,
+      "num_nomeacoes": 9,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 44,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 232,
+    "num_diarios": 362,
     "num_exoneracoes": 0,
     "num_nomeacoes": 9
   }
