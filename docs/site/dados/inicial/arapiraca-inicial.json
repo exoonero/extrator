@@ -2,20 +2,40 @@
   "id": "arapiraca",
   "nome": "ARAPIRACA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 232,
-      "num_nomeacoes": 118,
-      "num_exoneracoes": 10
+    "2016": {
+      "num_diarios": 183,
+      "num_nomeacoes": 6,
+      "num_exoneracoes": 1
+    },
+    "2017": {
+      "num_diarios": 174,
+      "num_nomeacoes": 4,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 219,
+      "num_nomeacoes": 69,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 221,
       "num_nomeacoes": 36,
       "num_exoneracoes": 1
+    },
+    "2022": {
+      "num_diarios": 232,
+      "num_nomeacoes": 118,
+      "num_exoneracoes": 10
+    },
+    "2023": {
+      "num_diarios": 65,
+      "num_nomeacoes": 55,
+      "num_exoneracoes": 12
     }
   },
   "resumo": {
-    "num_diarios": 453,
-    "num_exoneracoes": 11,
-    "num_nomeacoes": 154
+    "num_diarios": 1094,
+    "num_exoneracoes": 24,
+    "num_nomeacoes": 288
   }
 }

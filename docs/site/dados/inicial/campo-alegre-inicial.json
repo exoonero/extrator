@@ -2,20 +2,45 @@
   "id": "campo-alegre",
   "nome": "CAMPO ALEGRE",
   "detalhe": {
-    "2022": {
-      "num_diarios": 213,
+    "2015": {
+      "num_diarios": 34,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2016": {
+      "num_diarios": 54,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2017": {
+      "num_diarios": 105,
       "num_nomeacoes": 25,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 186,
+      "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 190,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 213,
+      "num_nomeacoes": 25,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 63,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 403,
+    "num_diarios": 845,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 25
+    "num_nomeacoes": 50
   }
 }

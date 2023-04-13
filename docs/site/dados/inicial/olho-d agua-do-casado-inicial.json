@@ -2,20 +2,30 @@
   "id": "olho-d agua-do-casado",
   "nome": "OLHO D´AGUA DO CASADO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 157,
-      "num_nomeacoes": 8,
-      "num_exoneracoes": 3
+    "2020": {
+      "num_diarios": 99,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 89,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 157,
+      "num_nomeacoes": 8,
+      "num_exoneracoes": 3
+    },
+    "2023": {
+      "num_diarios": 45,
+      "num_nomeacoes": 9,
+      "num_exoneracoes": 3
     }
   },
   "resumo": {
-    "num_diarios": 246,
-    "num_exoneracoes": 3,
-    "num_nomeacoes": 8
+    "num_diarios": 390,
+    "num_exoneracoes": 6,
+    "num_nomeacoes": 17
   }
 }

@@ -2,20 +2,35 @@
   "id": "sao-jose-da-tapera",
   "nome": "SÃO JOSÉ DA TAPERA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 215,
-      "num_nomeacoes": 96,
-      "num_exoneracoes": 21
+    "2017": {
+      "num_diarios": 31,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 91,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 141,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 215,
+      "num_nomeacoes": 96,
+      "num_exoneracoes": 21
+    },
+    "2023": {
+      "num_diarios": 60,
+      "num_nomeacoes": 114,
+      "num_exoneracoes": 7
     }
   },
   "resumo": {
-    "num_diarios": 356,
-    "num_exoneracoes": 21,
-    "num_nomeacoes": 96
+    "num_diarios": 538,
+    "num_exoneracoes": 28,
+    "num_nomeacoes": 210
   }
 }

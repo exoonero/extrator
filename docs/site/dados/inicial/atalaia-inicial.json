@@ -2,20 +2,35 @@
   "id": "atalaia",
   "nome": "ATALAIA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 164,
-      "num_nomeacoes": 45,
-      "num_exoneracoes": 6
+    "2017": {
+      "num_diarios": 13,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 150,
+      "num_nomeacoes": 82,
+      "num_exoneracoes": 10
     },
     "2021": {
       "num_diarios": 126,
       "num_nomeacoes": 31,
       "num_exoneracoes": 6
+    },
+    "2022": {
+      "num_diarios": 164,
+      "num_nomeacoes": 45,
+      "num_exoneracoes": 6
+    },
+    "2023": {
+      "num_diarios": 49,
+      "num_nomeacoes": 32,
+      "num_exoneracoes": 3
     }
   },
   "resumo": {
-    "num_diarios": 290,
-    "num_exoneracoes": 12,
-    "num_nomeacoes": 76
+    "num_diarios": 502,
+    "num_exoneracoes": 25,
+    "num_nomeacoes": 190
   }
 }

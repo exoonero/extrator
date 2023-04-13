@@ -2,20 +2,30 @@
   "id": "major-izidoro",
   "nome": "MAJOR IZIDORO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 115,
-      "num_nomeacoes": 1,
+    "2020": {
+      "num_diarios": 95,
+      "num_nomeacoes": 12,
       "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 117,
       "num_nomeacoes": 6,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 115,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 36,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 232,
+    "num_diarios": 363,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 7
+    "num_nomeacoes": 19
   }
 }

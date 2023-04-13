@@ -2,20 +2,30 @@
   "id": "vicosa",
   "nome": "VIÇOSA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 213,
-      "num_nomeacoes": 12,
-      "num_exoneracoes": 1
+    "2020": {
+      "num_diarios": 119,
+      "num_nomeacoes": 74,
+      "num_exoneracoes": 8
     },
     "2021": {
       "num_diarios": 175,
       "num_nomeacoes": 10,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 213,
+      "num_nomeacoes": 12,
+      "num_exoneracoes": 1
+    },
+    "2023": {
+      "num_diarios": 61,
+      "num_nomeacoes": 22,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 388,
-    "num_exoneracoes": 1,
-    "num_nomeacoes": 22
+    "num_diarios": 568,
+    "num_exoneracoes": 9,
+    "num_nomeacoes": 118
   }
 }

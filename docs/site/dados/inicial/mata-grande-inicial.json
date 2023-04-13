@@ -2,20 +2,30 @@
   "id": "mata-grande",
   "nome": "MATA GRANDE",
   "detalhe": {
-    "2022": {
-      "num_diarios": 137,
-      "num_nomeacoes": 283,
-      "num_exoneracoes": 16
+    "2020": {
+      "num_diarios": 96,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 84,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 137,
+      "num_nomeacoes": 283,
+      "num_exoneracoes": 16
+    },
+    "2023": {
+      "num_diarios": 41,
+      "num_nomeacoes": 2,
+      "num_exoneracoes": 2
     }
   },
   "resumo": {
-    "num_diarios": 221,
-    "num_exoneracoes": 16,
-    "num_nomeacoes": 283
+    "num_diarios": 358,
+    "num_exoneracoes": 18,
+    "num_nomeacoes": 285
   }
 }

@@ -2,6 +2,11 @@
   "id": "colonia-leopoldina",
   "nome": "COLÔNIA LEOPOLDINA",
   "detalhe": {
+    "2020": {
+      "num_diarios": 103,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2021": {
       "num_diarios": 109,
       "num_nomeacoes": 0,
@@ -11,11 +16,16 @@
       "num_diarios": 121,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 41,
+      "num_nomeacoes": 38,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 230,
+    "num_diarios": 374,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 0
+    "num_nomeacoes": 38
   }
 }

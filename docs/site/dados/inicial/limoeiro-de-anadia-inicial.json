@@ -2,8 +2,8 @@
   "id": "limoeiro-de-anadia",
   "nome": "LIMOEIRO DE ANADIA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 134,
+    "2020": {
+      "num_diarios": 80,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +11,20 @@
       "num_diarios": 147,
       "num_nomeacoes": 30,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 134,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 47,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 281,
+    "num_diarios": 408,
     "num_exoneracoes": 0,
     "num_nomeacoes": 30
   }

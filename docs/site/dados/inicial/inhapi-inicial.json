@@ -2,20 +2,40 @@
   "id": "inhapi",
   "nome": "INHAPI",
   "detalhe": {
-    "2022": {
-      "num_diarios": 202,
-      "num_nomeacoes": 46,
-      "num_exoneracoes": 18
+    "2016": {
+      "num_diarios": 50,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 31
+    },
+    "2017": {
+      "num_diarios": 118,
+      "num_nomeacoes": 65,
+      "num_exoneracoes": 23
+    },
+    "2020": {
+      "num_diarios": 170,
+      "num_nomeacoes": 29,
+      "num_exoneracoes": 25
     },
     "2021": {
       "num_diarios": 192,
       "num_nomeacoes": 85,
       "num_exoneracoes": 20
+    },
+    "2022": {
+      "num_diarios": 202,
+      "num_nomeacoes": 46,
+      "num_exoneracoes": 18
+    },
+    "2023": {
+      "num_diarios": 61,
+      "num_nomeacoes": 10,
+      "num_exoneracoes": 6
     }
   },
   "resumo": {
-    "num_diarios": 394,
-    "num_exoneracoes": 38,
-    "num_nomeacoes": 131
+    "num_diarios": 793,
+    "num_exoneracoes": 123,
+    "num_nomeacoes": 235
   }
 }

@@ -2,20 +2,30 @@
   "id": "sao-sebastiao",
   "nome": "SÃO SEBASTIÃO",
   "detalhe": {
-    "2022": {
+    "2020": {
       "num_diarios": 120,
       "num_nomeacoes": 0,
-      "num_exoneracoes": 0
+      "num_exoneracoes": 1
     },
     "2021": {
       "num_diarios": 102,
       "num_nomeacoes": 0,
       "num_exoneracoes": 1
+    },
+    "2022": {
+      "num_diarios": 120,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 35,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 222,
-    "num_exoneracoes": 1,
+    "num_diarios": 377,
+    "num_exoneracoes": 2,
     "num_nomeacoes": 0
   }
 }

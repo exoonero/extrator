@@ -2,20 +2,35 @@
   "id": "minador-do-negrao",
   "nome": "MINADOR DO NEGRÃO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 161,
-      "num_nomeacoes": 35,
-      "num_exoneracoes": 50
+    "2017": {
+      "num_diarios": 9,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 51,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 146,
       "num_nomeacoes": 88,
       "num_exoneracoes": 8
+    },
+    "2022": {
+      "num_diarios": 161,
+      "num_nomeacoes": 35,
+      "num_exoneracoes": 50
+    },
+    "2023": {
+      "num_diarios": 47,
+      "num_nomeacoes": 5,
+      "num_exoneracoes": 11
     }
   },
   "resumo": {
-    "num_diarios": 307,
-    "num_exoneracoes": 58,
-    "num_nomeacoes": 123
+    "num_diarios": 414,
+    "num_exoneracoes": 69,
+    "num_nomeacoes": 128
   }
 }

@@ -2,20 +2,40 @@
   "id": "cacimbinhas",
   "nome": "CACIMBINHAS",
   "detalhe": {
-    "2022": {
-      "num_diarios": 147,
-      "num_nomeacoes": 3,
-      "num_exoneracoes": 3
+    "2016": {
+      "num_diarios": 42,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2017": {
+      "num_diarios": 82,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 109,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 138,
       "num_nomeacoes": 4,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 147,
+      "num_nomeacoes": 3,
+      "num_exoneracoes": 3
+    },
+    "2023": {
+      "num_diarios": 36,
+      "num_nomeacoes": 3,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 285,
+    "num_diarios": 554,
     "num_exoneracoes": 3,
-    "num_nomeacoes": 7
+    "num_nomeacoes": 10
   }
 }

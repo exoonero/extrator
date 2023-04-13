@@ -2,19 +2,34 @@
   "id": "japaratinga",
   "nome": "JAPARATINGA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 75,
-      "num_nomeacoes": 17,
-      "num_exoneracoes": 1
+    "2017": {
+      "num_diarios": 21,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 3,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     },
     "2021": {
       "num_diarios": 68,
       "num_nomeacoes": 79,
       "num_exoneracoes": 9
+    },
+    "2022": {
+      "num_diarios": 75,
+      "num_nomeacoes": 17,
+      "num_exoneracoes": 1
+    },
+    "2023": {
+      "num_diarios": 24,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 143,
+    "num_diarios": 191,
     "num_exoneracoes": 10,
     "num_nomeacoes": 96
   }

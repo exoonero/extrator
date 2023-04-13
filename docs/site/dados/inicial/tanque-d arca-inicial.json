@@ -2,8 +2,8 @@
   "id": "tanque-d arca",
   "nome": "TANQUE D´ARCA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 118,
+    "2020": {
+      "num_diarios": 28,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +11,20 @@
       "num_diarios": 84,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 118,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 24,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 202,
+    "num_diarios": 254,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

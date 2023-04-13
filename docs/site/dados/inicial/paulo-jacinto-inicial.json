@@ -2,20 +2,35 @@
   "id": "paulo-jacinto",
   "nome": "PAULO JACINTO",
   "detalhe": {
-    "2022": {
-      "num_diarios": 63,
+    "2015": {
+      "num_diarios": 7,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2020": {
+      "num_diarios": 140,
+      "num_nomeacoes": 26,
+      "num_exoneracoes": 9
     },
     "2021": {
       "num_diarios": 42,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 63,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 28,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 105,
-    "num_exoneracoes": 0,
-    "num_nomeacoes": 0
+    "num_diarios": 280,
+    "num_exoneracoes": 9,
+    "num_nomeacoes": 26
   }
 }

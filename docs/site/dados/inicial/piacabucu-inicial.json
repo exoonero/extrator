@@ -2,19 +2,24 @@
   "id": "piacabucu",
   "nome": "PIAÇABUÇU",
   "detalhe": {
+    "2021": {
+      "num_diarios": 75,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2022": {
       "num_diarios": 113,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
-    "2021": {
-      "num_diarios": 75,
+    "2023": {
+      "num_diarios": 43,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 188,
+    "num_diarios": 231,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

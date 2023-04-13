@@ -2,8 +2,8 @@
   "id": "ibateguara",
   "nome": "IBATEGUARA",
   "detalhe": {
-    "2022": {
-      "num_diarios": 137,
+    "2020": {
+      "num_diarios": 80,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +11,20 @@
       "num_diarios": 137,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 137,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 41,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 274,
+    "num_diarios": 395,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }

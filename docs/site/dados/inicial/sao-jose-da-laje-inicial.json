@@ -2,8 +2,8 @@
   "id": "sao-jose-da-laje",
   "nome": "SÃO JOSÉ DA LAJE",
   "detalhe": {
-    "2022": {
-      "num_diarios": 120,
+    "2020": {
+      "num_diarios": 77,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -11,10 +11,20 @@
       "num_diarios": 76,
       "num_nomeacoes": 4,
       "num_exoneracoes": 0
+    },
+    "2022": {
+      "num_diarios": 120,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2023": {
+      "num_diarios": 41,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 196,
+    "num_diarios": 314,
     "num_exoneracoes": 0,
     "num_nomeacoes": 4
   }

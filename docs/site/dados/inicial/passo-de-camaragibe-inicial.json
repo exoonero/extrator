@@ -1,0 +1,16 @@
+{
+  "id": "passo-de-camaragibe",
+  "nome": "PASSO DE CAMARAGIBE",
+  "detalhe": {
+    "2023": {
+      "num_diarios": 21,
+      "num_nomeacoes": 1,
+      "num_exoneracoes": 0
+    }
+  },
+  "resumo": {
+    "num_diarios": 21,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 1
+  }
+}
