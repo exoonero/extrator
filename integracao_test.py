@@ -44,6 +44,7 @@ class IntegracaoTest(unittest.TestCase):
             'test_data/diario-completo-2019-11-28-test.json',
             'test_data/diario-completo-2018-09-28-test.json',
             'test_data/diario-completo-2018-10-17-test.json',
+            'test_data/diario-completo-2018-10-03-test.json',
             'test_data/diario-completo-2018-10-02-test.json',
             'test_data/diario-completo-2018-03-02-test.json',
             'test_data/diario-completo-2017-12-28-test.json',
