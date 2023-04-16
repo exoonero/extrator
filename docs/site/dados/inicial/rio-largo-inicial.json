@@ -2,6 +2,16 @@
   "id": "rio-largo",
   "nome": "RIO LARGO",
   "detalhe": {
+    "2018": {
+      "num_diarios": 99,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2019": {
+      "num_diarios": 188,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 2
+    },
     "2020": {
       "num_diarios": 198,
       "num_nomeacoes": 19,
@@ -18,14 +28,14 @@
       "num_exoneracoes": 44
     },
     "2023": {
-      "num_diarios": 67,
+      "num_diarios": 69,
       "num_nomeacoes": 73,
       "num_exoneracoes": 8
     }
   },
   "resumo": {
-    "num_diarios": 725,
-    "num_exoneracoes": 131,
+    "num_diarios": 1014,
+    "num_exoneracoes": 133,
     "num_nomeacoes": 318
   }
 }

@@ -7,6 +7,16 @@
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
+    "2018": {
+      "num_diarios": 38,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2019": {
+      "num_diarios": 44,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2020": {
       "num_diarios": 68,
       "num_nomeacoes": 0,
@@ -29,7 +39,7 @@
     }
   },
   "resumo": {
-    "num_diarios": 285,
+    "num_diarios": 367,
     "num_exoneracoes": 1,
     "num_nomeacoes": 49
   }
