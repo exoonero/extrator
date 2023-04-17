@@ -2,6 +2,16 @@
   "id": "delmiro-gouveia",
   "nome": "DELMIRO GOUVEIA",
   "detalhe": {
+    "2018": {
+      "num_diarios": 46,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2019": {
+      "num_diarios": 157,
+      "num_nomeacoes": 8,
+      "num_exoneracoes": 1
+    },
     "2020": {
       "num_diarios": 163,
       "num_nomeacoes": 22,
@@ -18,14 +28,14 @@
       "num_exoneracoes": 107
     },
     "2023": {
-      "num_diarios": 68,
-      "num_nomeacoes": 140,
+      "num_diarios": 70,
+      "num_nomeacoes": 160,
       "num_exoneracoes": 27
     }
   },
   "resumo": {
-    "num_diarios": 668,
-    "num_exoneracoes": 149,
-    "num_nomeacoes": 621
+    "num_diarios": 873,
+    "num_exoneracoes": 150,
+    "num_nomeacoes": 649
   }
 }

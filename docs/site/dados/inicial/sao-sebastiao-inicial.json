@@ -2,6 +2,11 @@
   "id": "sao-sebastiao",
   "nome": "SÃO SEBASTIÃO",
   "detalhe": {
+    "2019": {
+      "num_diarios": 86,
+      "num_nomeacoes": 32,
+      "num_exoneracoes": 8
+    },
     "2020": {
       "num_diarios": 120,
       "num_nomeacoes": 0,
@@ -24,8 +29,8 @@
     }
   },
   "resumo": {
-    "num_diarios": 377,
-    "num_exoneracoes": 2,
-    "num_nomeacoes": 0
+    "num_diarios": 463,
+    "num_exoneracoes": 10,
+    "num_nomeacoes": 32
   }
 }

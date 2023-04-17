@@ -7,6 +7,16 @@
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
+    "2018": {
+      "num_diarios": 20,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2019": {
+      "num_diarios": 25,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
     "2020": {
       "num_diarios": 54,
       "num_nomeacoes": 3,
@@ -23,13 +33,13 @@
       "num_exoneracoes": 0
     },
     "2023": {
-      "num_diarios": 35,
+      "num_diarios": 36,
       "num_nomeacoes": 2,
       "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 342,
+    "num_diarios": 388,
     "num_exoneracoes": 2,
     "num_nomeacoes": 15
   }
