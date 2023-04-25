@@ -5,233 +5,271 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diários Oficiais Municipais de Alagoas</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous" defer></script>
 </head>
-<body>
-    <nav>
-        <h3>Diários Oficiais Municipais de Alagoas</h3>
-        <ul>
-          <li><a href="#">Explorar</a></li>
-          <li><a href="#">Sobre o projeto</a></li>
-          <li><a href="#">Querido Diário</a></li>
-        </ul>
-      </nav>
-    <select id="municipio-select">
-        <option value="geral" selected>Todos os Municípios na AMA</option>
-        <option value="agua-branca">Água Branca</option>
-        <option value="anadia">Anadia</option>
-        <option value="arapiraca">Arapiraca</option>
-        <option value="atalaia">Atalaia</option>
-        <option value="barra-de-santo-antonio">Barra de Santo Antônio</option>
-        <option value="barra-de-sao-miguel">Barra de São Miguel</option>
-        <option value="batalha">Batalha</option>
-        <option value="belem">Belém</option>
-        <option value="belo-monte">Belo Monte</option>
-        <option value="branquinha">Branquinha</option>
-        <option value="cacimbinhas">Cacimbinhas</option>
-        <option value="cajueiro">Cajueiro</option>
-        <option value="campestre">Campestre</option>
-        <option value="campo-alegre">Campo Alegre</option>
-        <option value="campo-grande">Campo Grande</option>
-        <option value="canapi">Canapi</option>
-        <option value="capela">Capela</option>
-        <option value="carneiros">Carneiros</option>
-        <option value="cha-preta">Chã Preta</option>
-        <option value="coite-do-noia">Coité do Nóia</option>
-        <option value="colonia-leopoldina">Colônia Leopoldina</option>
-        <option value="coqueiro-seco">Coqueiro Seco</option>
-        <option value="coruripe">Coruripe</option>
-        <option value="craibas">Craíbas</option>
-        <option value="delmiro-gouveia">Delmiro Gouveia</option>
-        <option value="dois-riachos">Dois Riachos</option>
-        <option value="estrela-de-alagoas">Estrela de Alagoas</option>
-        <option value="feira-grande">Feira Grande</option>
-        <option value="feliz-deserto">Feliz Deserto</option>
-        <option value="flexeiras">Flexeiras</option>
-        <option value="girau-do-ponciano">Girau do Ponciano</option>
-        <option value="ibateguara">Ibateguara</option>
-        <option value="igaci">Igaci</option>
-        <option value="igreja-nova">Igreja Nova</option>
-        <option value="inhapi">Inhapi</option>
-        <option value="jacare-dos-homens">Jacaré dos Homens</option>
-        <option value="jacuipe">Jacuípe</option>
-        <option value="japaratinga">Japaratinga</option>
-        <option value="jaramataia">Jaramataia</option>
-        <option value="jequia-da-praia">Jequiá da Praia</option>
-        <option value="joaquim-gomes">Joaguim Gomes</option>
-        <option value="jundia">Jundiá</option>
-        <option value="junqueiro">Junqueiro</option>
-        <option value="lagoa-da-canoa">Lagoa da Canoa</option>
-        <option value="limoeiro-de-anadia">Limoeiro de Anadia</option>
-        <option value="major-izidoro">Major Izidoro</option>
-        <option value="mar-vermelho">Mar Vermelho</option>
-        <option value="maragogi">Maragogi</option>
-        <option value="maravilha">Maravilha</option>
-        <option value="marechal-deodoro">Marechal Deodoro</option>
-        <option value="maribondo">Maribondo</option>
-        <option value="mata-grande">Mata Grande</option>
-        <option value="messias">Messias</option>
-        <option value="minador-do-negrao">Minador do Negrão</option>
-        <option value="monteiropolis">Monteirópolis</option>
-        <option value="murici">Murici</option>
-        <option value="novo-lino">Novo Lino</option>
-        <option value="olho-d agua-do-casado">Olho d'Água do Casado</option>
-        <option value="olho-d agua-grande">Olho d'Água Grande</option>
-        <option value="olho-d'agua-das-flores">Olho d'Água das Flores</option>
-        <option value="olivenca">Olivença</option>
-        <option value="ouro-branco">Ouro Branco</option>
-        <option value="palestina">Palestina</option>
-        <option value="pao-de-acucar">Pão de Açúcar</option>
-        <option value="pariconha">Pariconha</option>
-        <option value="paulo-jacinto">Paulo Jacinto</option>
-        <option value="piacabucu">Piaçabuçu</option>
-        <option value="pilar">Pilar</option>
-        <option value="pindoba">Pindoba</option>
-        <option value="piranhas">Piranhas</option>
-        <option value="poco-das-trincheiras">Poço das Trincheiras</option>
-        <option value="porto-calvo">Porto Calvo</option>
-        <option value="porto-de-pedras">Porto de Pedras</option>
-        <option value="porto-real-do-colegio">Porto Real do Colégio</option>
-        <option value="quebrangulo">Quebrângulo</option>
-        <option value="rio-largo">Rio Largo</option>
-        <option value="roteiro">Roteiro</option>
-        <option value="santa-luzia-do-norte">Santa Luzia do Norte</option>
-        <option value="santana-do-ipanema">Santana do Ipanema</option>
-        <option value="santana-do-mundau">Santana do Mundaú</option>
-        <option value="sao-jose-da-laje">São José da Laje</option>
-        <option value="sao-jose-da-tapera">São José da Tapera</option>
-        <option value="sao-luis-do-quitunde">São Luís do Quitunde</option>
-        <option value="sao-miguel-dos-milagres">São Miguel dos Milagres</option>
-        <option value="sao-sebastiao">São Sebastião</option>
-        <option value="satuba">Satuba</option>
-        <option value="senador-rui-palmeira">Senador Rui Palmeira</option>
-        <option value="tanque-d arca">Tanque d'Arca</option>
-        <option value="taquarana">Taquarana</option>
-        <option value="teotonio-vilela">Teotônio Vilela</option>
-        <option value="traipu">Traipú</option>
-        <option value="vicosa">Viçosa</option>
-    </select>
-    <hr>
-    <h1>2023</h1><br>
-    <div class="card" id="ano-2023">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
+<body >
+    <div class="row">
+        <div class="col-1 d-none d-md-block" style="background-color: #5AB290;"></div>
+        <div class="col-2 d-none d-md-block" style="background-color: #4AA381;"></div>
+        <main class="col pt-4" style="padding-left: 2.3rem;">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <h1 class="navbar-brand texto-brand ">Acompanhe as nomeações e exonerações<br> que aconteceram em <span>Alagoas</span></h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto m-3">
+                        <li class="nav-item w-15 mx-6 bg-white d-flex align-items-center px-3" style="border-radius: 16px; margin-right: 13px !important;">
+                            <span class="p-1 m-2">Ver no</span>
+                            <img src="imagens/cabecalho/querido-diario-logo.png" alt="Imagem" class="px-1" width="60px">
+                            
+                        </li>
+                        <li class="nav-item w-15 mx-6 bg-white d-flex align-items-center px-3" style="border-radius: 16px;">
+                            <img src="imagens/cabecalho/alagoas-flag.svg" alt="Imagem" class="mr-3" width="30px">
+                            <span class="p-1">AL</span>
+                        </li>
+                        <div class="nav-item w-15 mx-1 dropdown " >
+                            <select class="form-select p-4 mx-2" style="border: none;border-radius: 16px;" aria-label="Default select example">
+                                <option selected>Todos os anos</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2021">2020</option>
+                                <option value="2021">2019</option>
+                                <option value="2021">2018</option>
+                                <option value="2021">2017</option>
+                                <option value="2021">2016</option>
+                                <option value="2021">2015</option>
+                                <option value="2021">2014</option>
+                              </select>
+                        </div>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+            <select id="municipio-select">
+                <option value="geral" selected>Todos os Municípios na AMA</option>
+                <option value="agua-branca">Água Branca</option>
+                <option value="anadia">Anadia</option>
+                <option value="arapiraca">Arapiraca</option>
+                <option value="atalaia">Atalaia</option>
+                <option value="barra-de-santo-antonio">Barra de Santo Antônio</option>
+                <option value="barra-de-sao-miguel">Barra de São Miguel</option>
+                <option value="batalha">Batalha</option>
+                <option value="belem">Belém</option>
+                <option value="belo-monte">Belo Monte</option>
+                <option value="branquinha">Branquinha</option>
+                <option value="cacimbinhas">Cacimbinhas</option>
+                <option value="cajueiro">Cajueiro</option>
+                <option value="campestre">Campestre</option>
+                <option value="campo-alegre">Campo Alegre</option>
+                <option value="campo-grande">Campo Grande</option>
+                <option value="canapi">Canapi</option>
+                <option value="capela">Capela</option>
+                <option value="carneiros">Carneiros</option>
+                <option value="cha-preta">Chã Preta</option>
+                <option value="coite-do-noia">Coité do Nóia</option>
+                <option value="colonia-leopoldina">Colônia Leopoldina</option>
+                <option value="coqueiro-seco">Coqueiro Seco</option>
+                <option value="coruripe">Coruripe</option>
+                <option value="craibas">Craíbas</option>
+                <option value="delmiro-gouveia">Delmiro Gouveia</option>
+                <option value="dois-riachos">Dois Riachos</option>
+                <option value="estrela-de-alagoas">Estrela de Alagoas</option>
+                <option value="feira-grande">Feira Grande</option>
+                <option value="feliz-deserto">Feliz Deserto</option>
+                <option value="flexeiras">Flexeiras</option>
+                <option value="girau-do-ponciano">Girau do Ponciano</option>
+                <option value="ibateguara">Ibateguara</option>
+                <option value="igaci">Igaci</option>
+                <option value="igreja-nova">Igreja Nova</option>
+                <option value="inhapi">Inhapi</option>
+                <option value="jacare-dos-homens">Jacaré dos Homens</option>
+                <option value="jacuipe">Jacuípe</option>
+                <option value="japaratinga">Japaratinga</option>
+                <option value="jaramataia">Jaramataia</option>
+                <option value="jequia-da-praia">Jequiá da Praia</option>
+                <option value="joaquim-gomes">Joaguim Gomes</option>
+                <option value="jundia">Jundiá</option>
+                <option value="junqueiro">Junqueiro</option>
+                <option value="lagoa-da-canoa">Lagoa da Canoa</option>
+                <option value="limoeiro-de-anadia">Limoeiro de Anadia</option>
+                <option value="major-izidoro">Major Izidoro</option>
+                <option value="mar-vermelho">Mar Vermelho</option>
+                <option value="maragogi">Maragogi</option>
+                <option value="maravilha">Maravilha</option>
+                <option value="marechal-deodoro">Marechal Deodoro</option>
+                <option value="maribondo">Maribondo</option>
+                <option value="mata-grande">Mata Grande</option>
+                <option value="messias">Messias</option>
+                <option value="minador-do-negrao">Minador do Negrão</option>
+                <option value="monteiropolis">Monteirópolis</option>
+                <option value="murici">Murici</option>
+                <option value="novo-lino">Novo Lino</option>
+                <option value="olho-d agua-do-casado">Olho d'Água do Casado</option>
+                <option value="olho-d agua-grande">Olho d'Água Grande</option>
+                <option value="olho-d'agua-das-flores">Olho d'Água das Flores</option>
+                <option value="olivenca">Olivença</option>
+                <option value="ouro-branco">Ouro Branco</option>
+                <option value="palestina">Palestina</option>
+                <option value="pao-de-acucar">Pão de Açúcar</option>
+                <option value="pariconha">Pariconha</option>
+                <option value="paulo-jacinto">Paulo Jacinto</option>
+                <option value="piacabucu">Piaçabuçu</option>
+                <option value="pilar">Pilar</option>
+                <option value="pindoba">Pindoba</option>
+                <option value="piranhas">Piranhas</option>
+                <option value="poco-das-trincheiras">Poço das Trincheiras</option>
+                <option value="porto-calvo">Porto Calvo</option>
+                <option value="porto-de-pedras">Porto de Pedras</option>
+                <option value="porto-real-do-colegio">Porto Real do Colégio</option>
+                <option value="quebrangulo">Quebrângulo</option>
+                <option value="rio-largo">Rio Largo</option>
+                <option value="roteiro">Roteiro</option>
+                <option value="santa-luzia-do-norte">Santa Luzia do Norte</option>
+                <option value="santana-do-ipanema">Santana do Ipanema</option>
+                <option value="santana-do-mundau">Santana do Mundaú</option>
+                <option value="sao-jose-da-laje">São José da Laje</option>
+                <option value="sao-jose-da-tapera">São José da Tapera</option>
+                <option value="sao-luis-do-quitunde">São Luís do Quitunde</option>
+                <option value="sao-miguel-dos-milagres">São Miguel dos Milagres</option>
+                <option value="sao-sebastiao">São Sebastião</option>
+                <option value="satuba">Satuba</option>
+                <option value="senador-rui-palmeira">Senador Rui Palmeira</option>
+                <option value="tanque-d arca">Tanque d'Arca</option>
+                <option value="taquarana">Taquarana</option>
+                <option value="teotonio-vilela">Teotônio Vilela</option>
+                <option value="traipu">Traipú</option>
+                <option value="vicosa">Viçosa</option>
+            </select>
+            
+            <h1>2023</h1><br>
+            <div class="card" id="ano-2023">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+            <h1>2022</h1><br>
+            <div class="card" id="ano-2022">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+            <h1>2021</h1><br>
+            <div class="card" id="ano-2021">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+            <h1>2020</h1><br>
+            <div class="card" id="ano-2020">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+            <h1>2017</h1><br>
+            <div class="card" id="ano-2017">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+            <h1>2016</h1><br>
+            <div class="card" id="ano-2016">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+            <h1>2015</h1><br>
+            <div class="card" id="ano-2015">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+            <h1>2014</h1><br>
+            <div class="card" id="ano-2014">
+                <div>
+                    <h2>Diários</h2>
+                    <p>Número de diários: <div id="num-diarios"></div></p>
+                </div>
+                <div>
+                    <h2>Nomeações</h2>
+                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
+                </div>
+                <div>
+                    <h2>Exonerações</h2>
+                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
+                </div>
+            </div>
+        </main>
     </div>
-    <h1>2022</h1><br>
-    <div class="card" id="ano-2022">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
-    </div>
-    <h1>2021</h1><br>
-    <div class="card" id="ano-2021">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
-    </div>
-    <h1>2020</h1><br>
-    <div class="card" id="ano-2020">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
-    </div>
-    <h1>2017</h1><br>
-    <div class="card" id="ano-2017">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
-    </div>
-    <h1>2016</h1><br>
-    <div class="card" id="ano-2016">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
-    </div>
-    <h1>2015</h1><br>
-    <div class="card" id="ano-2015">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
-    </div>
-    <h1>2014</h1><br>
-    <div class="card" id="ano-2014">
-        <div>
-            <h2>Diários</h2>
-            <p>Número de diários: <div id="num-diarios"></div></p>
-        </div>
-        <div>
-            <h2>Nomeações</h2>
-            <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-        </div>
-        <div>
-            <h2>Exonerações</h2>
-            <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-        </div>
-    </div>
+    
+    
 </body>
 </html>
