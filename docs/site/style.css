@@ -19,12 +19,3 @@ main {
 .texto-brand span{
     color: #4AA381;
 }
-
-@media (min-width: 768px){
-    .texto-brand{
-        font-size: 1.7vw !important;
-        width: 100px !important;
-        overflow-wrap: break-word;
-    }
-    
-}
