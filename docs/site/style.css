@@ -19,3 +19,6 @@ main {
 .texto-brand span{
     color: #4AA381;
 }
+#chart {
+    height: 250px;
+}
