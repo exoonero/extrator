@@ -32,11 +32,11 @@ var options = {
   series: [
     {
       name: "Nomeações",
-      data: [30, 40, 45, 50, 49, 60, 70, 91]
+      data: [30, 40, 45, 50, 49, 60, 70, 91, 24, 56]
     },
     {
       name: "Exonerações",
-      data: [23, 31, 33, 42, 48, 32, 51, 36]
+      data: [23, 31, 33, 42, 48, 32, 51, 36, 30, 56]
     }
   ],
   chart: {
@@ -79,7 +79,7 @@ var options = {
     colors: ['transparent']
   },
   xaxis: {
-    categories: ['2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+    categories: ['2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
     labels: {
       style: {
           fontFamily: 'Source Sans Pro, sans-serif',
