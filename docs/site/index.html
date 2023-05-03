@@ -13,7 +13,7 @@
 </head>
 <body >
     <div class="row">
-
+        
         <main class="col pt-4" style="padding-left: 2.3rem;">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -23,6 +23,15 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto m-3">
+                        <li class="nav-item w-15 mx-6 bg-white d-flex align-items-center px-3" style="border-radius: 16px; margin-right: 13px !important;">
+                            <span class="p-1 m-2">Ver no</span>
+                            <img src="imagens/cabecalho/querido-diario-logo.png" alt="Imagem" class="px-1" width="60px">
+                            
+                        </li>
+                        <li class="nav-item w-15 mx-6 bg-white d-flex align-items-center px-3" style="border-radius: 16px;">
+                            <img src="imagens/cabecalho/alagoas-flag.svg" alt="Imagem" class="mr-3" width="30px">
+                            <span class="p-1">AL</span>
+                        </li>
                         <li class="nav-item mx-1 dropdown" >
                             <select class="form-select p-4 mx-2 pe-5" style="border: none;border-radius: 16px; width:fit-content;" aria-label="Default select example">
                                 <option selected>Todos os anos</option>
@@ -137,158 +146,9 @@
                 <option value="traipu">Traipú</option>
                 <option value="vicosa">Viçosa</option>
             </select>
-            
-            <h1>2023</h1><br>
-            <div class="card" id="ano-2023">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
+            <div class="container-sm bg-white">
+                <div id="chart"></div>
             </div>
-            <h1>2022</h1><br>
-            <div class="card" id="ano-2022">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2021</h1><br>
-            <div class="card" id="ano-2021">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2020</h1><br>
-            <div class="card" id="ano-2020">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2019</h1><br>
-            <div class="card" id="ano-2019">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2018</h1><br>
-            <div class="card" id="ano-2018">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2017</h1><br>
-            <div class="card" id="ano-2017">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2016</h1><br>
-            <div class="card" id="ano-2016">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2015</h1><br>
-            <div class="card" id="ano-2015">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <h1>2014</h1><br>
-            <div class="card" id="ano-2014">
-                <div>
-                    <h2>Diários</h2>
-                    <p>Número de diários: <div id="num-diarios"></div></p>
-                </div>
-                <div>
-                    <h2>Nomeações</h2>
-                    <p>Número de nomeações: <div id="num-nomeacoes"></div></p>
-                </div>
-                <div>
-                    <h2>Exonerações</h2>
-                    <p>Número de exoneraçoes: <div id="num-exoneracoes"></div></p>
-                </div>
-            </div>
-            <div id="chart"></div>
             <footer class="py-3 my-4">
                 <ul class="nav justify-content-center pb-3 mb-3 ">
                   <li class="nav-item d-flex">

@@ -19,6 +19,22 @@ main {
 .texto-brand span{
     color: #4AA381;
 }
+
+.container-sm {
+    width: 450px !important;
+    height: 300px !important;
+    padding: 10px;
+    border-radius: 22px;
+}
+
 #chart {
-    height: 250px;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .container-sm{
+        width: fit-content;
+    }
+    #chart {
+        width: 100%;
+    }
 }
