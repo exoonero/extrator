@@ -1,0 +1,31 @@
+{
+  "id": "mata-grande",
+  "nome": "MATA GRANDE",
+  "2023": {
+    "1": {
+      "num_diarios": 12,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2": {
+      "num_diarios": 7,
+      "num_nomeacoes": 2,
+      "num_exoneracoes": 0
+    },
+    "3": {
+      "num_diarios": 18,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    },
+    "4": {
+      "num_diarios": 12,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 1
+    },
+    "5": {
+      "num_diarios": 15,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  }
+}

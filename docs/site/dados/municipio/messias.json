@@ -1,0 +1,36 @@
+{
+  "id": "messias",
+  "nome": "MESSIAS",
+  "2023": {
+    "1": {
+      "num_diarios": 9,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2": {
+      "num_diarios": 9,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "3": {
+      "num_diarios": 15,
+      "num_nomeacoes": 2,
+      "num_exoneracoes": 0
+    },
+    "4": {
+      "num_diarios": 11,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 4
+    },
+    "5": {
+      "num_diarios": 13,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 2
+    },
+    "6": {
+      "num_diarios": 2,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  }
+}

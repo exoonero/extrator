@@ -1,0 +1,36 @@
+{
+  "id": "sao-sebastiao",
+  "nome": "SÃO SEBASTIÃO",
+  "2023": {
+    "1": {
+      "num_diarios": 6,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2": {
+      "num_diarios": 10,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "3": {
+      "num_diarios": 16,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "4": {
+      "num_diarios": 9,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "5": {
+      "num_diarios": 10,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "6": {
+      "num_diarios": 2,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  }
+}

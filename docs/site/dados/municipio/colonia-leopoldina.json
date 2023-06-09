@@ -1,0 +1,36 @@
+{
+  "id": "colonia-leopoldina",
+  "nome": "COLÔNIA LEOPOLDINA",
+  "2023": {
+    "1": {
+      "num_diarios": 9,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "2": {
+      "num_diarios": 11,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "3": {
+      "num_diarios": 17,
+      "num_nomeacoes": 38,
+      "num_exoneracoes": 0
+    },
+    "4": {
+      "num_diarios": 9,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "5": {
+      "num_diarios": 12,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "6": {
+      "num_diarios": 4,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  }
+}

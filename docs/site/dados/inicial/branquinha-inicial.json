@@ -28,13 +28,13 @@
       "num_exoneracoes": 0
     },
     "2023": {
-      "num_diarios": 57,
+      "num_diarios": 88,
       "num_nomeacoes": 1,
       "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 486,
+    "num_diarios": 517,
     "num_exoneracoes": 0,
     "num_nomeacoes": 1
   }

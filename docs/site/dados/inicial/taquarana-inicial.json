@@ -2,13 +2,13 @@
   "id": "taquarana",
   "nome": "TAQUARANA",
   "detalhe": {
-    "2015": {
-      "num_diarios": 32,
+    "2014": {
+      "num_diarios": 7,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
-    "2014": {
-      "num_diarios": 7,
+    "2015": {
+      "num_diarios": 32,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     },
@@ -48,13 +48,13 @@
       "num_exoneracoes": 2
     },
     "2023": {
-      "num_diarios": 50,
+      "num_diarios": 77,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
     }
   },
   "resumo": {
-    "num_diarios": 522,
+    "num_diarios": 549,
     "num_exoneracoes": 23,
     "num_nomeacoes": 271
   }

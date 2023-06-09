@@ -1,15 +1,15 @@
 {
   "id": "geral",
   "detalhe": {
-    "2015": {
-      "num_diarios": 357,
-      "num_nomeacoes": 176,
-      "num_exoneracoes": 107
-    },
     "2014": {
       "num_diarios": 24,
       "num_nomeacoes": 0,
       "num_exoneracoes": 0
+    },
+    "2015": {
+      "num_diarios": 357,
+      "num_nomeacoes": 304,
+      "num_exoneracoes": 187
     },
     "2016": {
       "num_diarios": 834,
@@ -47,14 +47,14 @@
       "num_exoneracoes": 50559
     },
     "2023": {
-      "num_diarios": 3716,
-      "num_nomeacoes": 46789,
-      "num_exoneracoes": 7336
+      "num_diarios": 5617,
+      "num_nomeacoes": 92559,
+      "num_exoneracoes": 15159
     }
   },
   "resumo": {
-    "num_diarios": 44285,
-    "num_exoneracoes": 152229,
-    "num_nomeacoes": 792475
+    "num_diarios": 46186,
+    "num_exoneracoes": 160132,
+    "num_nomeacoes": 838373
   }
 }

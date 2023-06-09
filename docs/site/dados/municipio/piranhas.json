@@ -1,0 +1,36 @@
+{
+  "id": "piranhas",
+  "nome": "PIRANHAS",
+  "2023": {
+    "1": {
+      "num_diarios": 17,
+      "num_nomeacoes": 5,
+      "num_exoneracoes": 4
+    },
+    "2": {
+      "num_diarios": 14,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "3": {
+      "num_diarios": 21,
+      "num_nomeacoes": 13,
+      "num_exoneracoes": 5
+    },
+    "4": {
+      "num_diarios": 12,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    },
+    "5": {
+      "num_diarios": 17,
+      "num_nomeacoes": 39,
+      "num_exoneracoes": 3
+    },
+    "6": {
+      "num_diarios": 5,
+      "num_nomeacoes": 0,
+      "num_exoneracoes": 0
+    }
+  }
+}
