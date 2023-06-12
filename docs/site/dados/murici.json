@@ -1,0 +1,19 @@
+{
+  "id": "murici",
+  "nome": "MURICI",
+  "detalhe": {
+    "2019": {
+      "1": {
+        "num_diarios": 3
+      },
+      "2": {
+        "num_diarios": 3
+      }
+    }
+  },
+  "resumo": {
+    "num_diarios": 6,
+    "num_exoneracoes": 0,
+    "num_nomeacoes": 0
+  }
+}
