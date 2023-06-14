@@ -8,6 +8,11 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 21,
+        "num_nomeacoes": 24,
+        "num_exoneracoes": 0
+      },
       "9": {
         "num_diarios": 4,
         "num_nomeacoes": 0,
@@ -32,6 +37,11 @@
     "2020": {
       "1": {
         "num_diarios": 8,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 96,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -97,6 +107,11 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 84,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
       "3": {
         "num_diarios": 6,
         "num_nomeacoes": 0,
@@ -153,6 +168,11 @@
         "num_diarios": 11,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 137,
+        "num_nomeacoes": 283,
+        "num_exoneracoes": 16
       },
       "2": {
         "num_diarios": 11,
@@ -215,6 +235,11 @@
         "num_diarios": 12,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 64,
+        "num_nomeacoes": 2,
+        "num_exoneracoes": 2
       },
       "2": {
         "num_diarios": 7,

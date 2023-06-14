@@ -6,6 +6,9 @@
       "1": {
         "num_diarios": 3
       },
+      "resumo": {
+        "num_diarios": 6
+      },
       "2": {
         "num_diarios": 3
       }

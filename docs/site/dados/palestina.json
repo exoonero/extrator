@@ -6,6 +6,11 @@
       "1": {
         "num_diarios": 3
       },
+      "resumo": {
+        "num_diarios": 23,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
       "2": {
         "num_diarios": 1,
         "num_nomeacoes": 0,
@@ -47,6 +52,11 @@
     "2017": {
       "2": {
         "num_diarios": 3,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 36,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -95,6 +105,11 @@
     "2018": {
       "1": {
         "num_diarios": 4,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 44,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -158,6 +173,11 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 44,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
       "2": {
         "num_diarios": 3,
         "num_nomeacoes": 0,
@@ -210,6 +230,11 @@
     "2020": {
       "1": {
         "num_diarios": 5,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 41,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -273,6 +298,11 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 89,
+        "num_nomeacoes": 2,
+        "num_exoneracoes": 7
+      },
       "2": {
         "num_diarios": 3,
         "num_nomeacoes": 0,
@@ -335,6 +365,11 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 95,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 2
+      },
       "2": {
         "num_diarios": 8,
         "num_nomeacoes": 0,
@@ -392,6 +427,11 @@
     "2023": {
       "1": {
         "num_diarios": 11,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 42,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
