@@ -6,6 +6,11 @@
       "3": {
         "num_diarios": 1
       },
+      "resumo": {
+        "num_diarios": 42,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
       "4": {
         "num_diarios": 9,
         "num_nomeacoes": 0,
@@ -49,6 +54,11 @@
     "2017": {
       "2": {
         "num_diarios": 4,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 82,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -106,6 +116,11 @@
     "2018": {
       "1": {
         "num_diarios": 5,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 89,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -171,6 +186,11 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 92,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 1
+      },
       "2": {
         "num_diarios": 4,
         "num_nomeacoes": 0,
@@ -230,6 +250,11 @@
     "2020": {
       "1": {
         "num_diarios": 9,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 109,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -295,6 +320,11 @@
         "num_nomeacoes": 4,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 138,
+        "num_nomeacoes": 4,
+        "num_exoneracoes": 0
+      },
       "2": {
         "num_diarios": 6,
         "num_nomeacoes": 0,
@@ -357,6 +387,11 @@
         "num_nomeacoes": 3,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 147,
+        "num_nomeacoes": 3,
+        "num_exoneracoes": 3
+      },
       "2": {
         "num_diarios": 13,
         "num_nomeacoes": 0,
@@ -416,6 +451,11 @@
     "2023": {
       "1": {
         "num_diarios": 8,
+        "num_nomeacoes": 3,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 57,
         "num_nomeacoes": 3,
         "num_exoneracoes": 0
       },

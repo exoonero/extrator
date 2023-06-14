@@ -8,6 +8,11 @@
         "num_nomeacoes": 1,
         "num_exoneracoes": 0
       },
+      "resumo": {
+        "num_diarios": 36,
+        "num_nomeacoes": 1,
+        "num_exoneracoes": 0
+      },
       "2": {
         "num_diarios": 6,
         "num_nomeacoes": 0,
