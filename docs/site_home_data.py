@@ -23,6 +23,8 @@ for path in glob.glob("./data/diarios/*-atos.json"):
             mes = int(data_quebrada[1])  # para uso futuro
             dia = int(data_quebrada[2])  # para uso futuro
 
+
+
             # Atualizando seção de detalhes do municipio
             dado_municipio = inicial.get(id_municipio, {})
             detalhe = dado_municipio.get("detalhe", {})
@@ -40,9 +42,10 @@ for path in glob.glob("./data/diarios/*-atos.json"):
                     "num_exoneracoes", 0) + len(ato["cpf_exoneracoes"])
                 detalhe_ano_mes["num_nomeacoes"] = detalhe_ano_mes.get(
                     "num_nomeacoes", 0) + len(ato["cpf_nomeacoes"])
-                
+
                 detalhe_ano_mes["num_exoneracoes"] = detalhe_ano_mes.get(
                     "num_exoneracoes", 0) + len(ato["cpf_exoneracoes"])
+                
             detalhe_ano[mes] = detalhe_ano_mes
             detalhe[ano] = detalhe_ano
             detalhe_ano["resumo"] = detalhe_ano_resumo
@@ -55,13 +58,27 @@ for path in glob.glob("./data/diarios/*-atos.json"):
 
             # Atualizando seção de detalhes geral.
             detalhe_geral = geral.get("detalhe", {})
-            detalhe_geral_ano = detalhe_geral.get(ano, {})
-            detalhe_geral_ano["num_diarios"] = detalhe_geral_ano.get(
-                "num_diarios", 0) + 1
-            detalhe_geral_ano["num_nomeacoes"] = detalhe_geral_ano.get(
-                "num_nomeacoes", 0) + detalhe_ano_resumo.get("num_nomeacoes", 0)
-            detalhe_geral_ano["num_exoneracoes"] = detalhe_geral_ano.get(
-                "num_exoneracoes", 0) + detalhe_ano_resumo.get("num_exoneracoes", 0)
+            detalhe_geral_ano = detalhe_geral.get(ano, {
+                "resumo": {
+                    "num_diarios": 0,
+                    "num_nomeacoes": 0,
+                    "num_exoneracoes": 0
+                }
+            })
+            detalhe_geral_ano_mes = detalhe_geral_ano.get(mes, {
+                "num_diarios": 0,
+                "num_nomeacoes": 0,
+                "num_exoneracoes": 0,
+            })
+
+            
+            detalhe_geral_ano_mes["num_diarios"] = detalhe_geral_ano_mes.get("num_diarios", 0) + 1
+            detalhe_geral_ano_mes["num_nomeacoes"] += detalhe_ano_mes.get("num_nomeacoes", 0)
+            detalhe_geral_ano_mes["num_exoneracoes"] += detalhe_ano_mes.get("num_exoneracoes", 0)
+            detalhe_geral_ano["resumo"]["num_diarios"] += 1
+            detalhe_geral_ano["resumo"]["num_nomeacoes"] += detalhe_ano_resumo.get("num_nomeacoes", 0)
+            detalhe_geral_ano["resumo"]["num_exoneracoes"] += detalhe_ano_resumo.get("num_exoneracoes", 0)
+            detalhe_geral_ano[mes] = detalhe_geral_ano_mes
             detalhe_geral[ano] = detalhe_geral_ano
 
             inicial["geral"] = {
@@ -74,17 +91,11 @@ for id_municipio, dado in inicial.items():
     num_diarios = 0
     num_exoneracoes = 0
     num_nomeacoes = 0
-
     for ano, detalhe in dado["detalhe"].items():
-        if id_municipio != "geral":
-            resumo = detalhe.get("resumo", {})
-            num_diarios += resumo.get("num_diarios", 0)
-            num_exoneracoes += resumo.get("num_exoneracoes", 0)
-            num_nomeacoes += resumo.get("num_nomeacoes", 0)
-        else:
-            num_diarios += detalhe.get("num_diarios", 0)
-            num_exoneracoes += detalhe.get("num_exoneracoes", 0)
-            num_nomeacoes += detalhe.get("num_nomeacoes", 0)
+        resumo = detalhe.get("resumo", {})
+        num_diarios += resumo.get("num_diarios", 0)
+        num_exoneracoes += resumo.get("num_exoneracoes", 0)
+        num_nomeacoes += resumo.get("num_nomeacoes", 0)
 
     inicial[id_municipio]["resumo"] = {
         "num_diarios": num_diarios,
