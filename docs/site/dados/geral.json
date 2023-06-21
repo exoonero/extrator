@@ -631,5 +631,33 @@
     "num_diarios": 46186,
     "num_exoneracoes": 160132,
     "num_nomeacoes": 838373
+  },
+  "ranking_nomeacoes": {
+    "1": {
+      "nome": "MARAGOGI",
+      "num_nomeacoes": 1367
+    },
+    "2": {
+      "nome": "MARECHAL DEODORO",
+      "num_nomeacoes": 783
+    },
+    "3": {
+      "nome": "DELMIRO GOUVEIA",
+      "num_nomeacoes": 717
+    }
+  },
+  "ranking_exoneracoes": {
+    "1": {
+      "nome": "MARAGOGI",
+      "num_exoneracoes": 269
+    },
+    "2": {
+      "nome": "MARECHAL DEODORO",
+      "num_exoneracoes": 266
+    },
+    "3": {
+      "nome": "DELMIRO GOUVEIA",
+      "num_exoneracoes": 158
+    }
   }
 }

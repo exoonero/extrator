@@ -1,6 +1,7 @@
 import json
 import glob
 import os
+import pandas as pd
 
 os.makedirs("./docs/site/dados", exist_ok=True)
 
@@ -8,7 +9,10 @@ os.makedirs("./docs/site/dados", exist_ok=True)
 inicial = {}
 geral = {
     "detalhe": {},
+    "ranking_nomeacoes": {},
+    "ranking_exoneracoes": {}
 }
+
 for path in glob.glob("./data/diarios/*-atos.json"):
     with open(path, encoding="utf-8") as json_file:
         diarios = json.load(json_file)
@@ -23,21 +27,21 @@ for path in glob.glob("./data/diarios/*-atos.json"):
             mes = int(data_quebrada[1])  # para uso futuro
             dia = int(data_quebrada[2])  # para uso futuro
 
-
-
             # Atualizando seção de detalhes do municipio
             dado_municipio = inicial.get(id_municipio, {})
             detalhe = dado_municipio.get("detalhe", {})
             detalhe_ano = detalhe.get(ano, {})
             detalhe_ano_resumo = detalhe_ano.get("resumo", {})
             detalhe_ano_mes = detalhe_ano.get(mes, {})
-            detalhe_ano_resumo["num_diarios"] = detalhe_ano_resumo.get("num_diarios", 0) + 1
-            detalhe_ano_mes["num_diarios"] = detalhe_ano_mes.get("num_diarios", 0) + 1
+            detalhe_ano_resumo["num_diarios"] = detalhe_ano_resumo.get(
+                "num_diarios", 0) + 1
+            detalhe_ano_mes["num_diarios"] = detalhe_ano_mes.get(
+                "num_diarios", 0) + 1
             for ato in diario["atos"]:
                 ato = json.loads(ato)
                 detalhe_ano_resumo["num_nomeacoes"] = detalhe_ano_resumo.get(
                     "num_nomeacoes", 0) + len(ato["cpf_nomeacoes"])
-                
+
                 detalhe_ano_resumo["num_exoneracoes"] = detalhe_ano_resumo.get(
                     "num_exoneracoes", 0) + len(ato["cpf_exoneracoes"])
                 detalhe_ano_mes["num_nomeacoes"] = detalhe_ano_mes.get(
@@ -45,7 +49,7 @@ for path in glob.glob("./data/diarios/*-atos.json"):
 
                 detalhe_ano_mes["num_exoneracoes"] = detalhe_ano_mes.get(
                     "num_exoneracoes", 0) + len(ato["cpf_exoneracoes"])
-                
+
             detalhe_ano[mes] = detalhe_ano_mes
             detalhe[ano] = detalhe_ano
             detalhe_ano["resumo"] = detalhe_ano_resumo
@@ -71,13 +75,17 @@ for path in glob.glob("./data/diarios/*-atos.json"):
                 "num_exoneracoes": 0,
             })
 
-            
-            detalhe_geral_ano_mes["num_diarios"] = detalhe_geral_ano_mes.get("num_diarios", 0) + 1
-            detalhe_geral_ano_mes["num_nomeacoes"] += detalhe_ano_mes.get("num_nomeacoes", 0)
-            detalhe_geral_ano_mes["num_exoneracoes"] += detalhe_ano_mes.get("num_exoneracoes", 0)
+            detalhe_geral_ano_mes["num_diarios"] = detalhe_geral_ano_mes.get(
+                "num_diarios", 0) + 1
+            detalhe_geral_ano_mes["num_nomeacoes"] += detalhe_ano_mes.get(
+                "num_nomeacoes", 0)
+            detalhe_geral_ano_mes["num_exoneracoes"] += detalhe_ano_mes.get(
+                "num_exoneracoes", 0)
             detalhe_geral_ano["resumo"]["num_diarios"] += 1
-            detalhe_geral_ano["resumo"]["num_nomeacoes"] += detalhe_ano_resumo.get("num_nomeacoes", 0)
-            detalhe_geral_ano["resumo"]["num_exoneracoes"] += detalhe_ano_resumo.get("num_exoneracoes", 0)
+            detalhe_geral_ano["resumo"]["num_nomeacoes"] += detalhe_ano_resumo.get(
+                "num_nomeacoes", 0)
+            detalhe_geral_ano["resumo"]["num_exoneracoes"] += detalhe_ano_resumo.get(
+                "num_exoneracoes", 0)
             detalhe_geral_ano[mes] = detalhe_geral_ano_mes
             detalhe_geral[ano] = detalhe_geral_ano
 
@@ -103,6 +111,28 @@ for id_municipio, dado in inicial.items():
         "num_nomeacoes": num_nomeacoes,
     }
 
+
+# Analisando municípios que mais nomearam e exoneraram
+def dadosGeraisMunicipio(arg):
+    df = pd.DataFrame.from_dict(inicial, orient='index')
+    df = df[df['id'] != 'geral']
+    df = df.sort_values(by=['resumo'], ascending=False,
+                        key=lambda x: x.str.get(arg))
+    top_3 = df.head(3)
+    contador = 1
+    ranking = {}
+    for index, row in top_3.iterrows():
+        ranking[contador] = {
+            "nome": row["nome"],
+            arg: row['resumo'][arg]
+        }
+        contador += 1
+    return ranking
+
+
+inicial['geral']['ranking_nomeacoes'] = dadosGeraisMunicipio("num_nomeacoes")
+inicial['geral']['ranking_exoneracoes'] = dadosGeraisMunicipio(
+    "num_exoneracoes")
 # Salvando dados para renderização da página inicial.
 for id_municipio, dado in inicial.items():
     with open(f"./docs/site/dados/{id_municipio}.json", "w", encoding="utf-8") as json_file:
