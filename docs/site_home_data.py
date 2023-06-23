@@ -113,25 +113,30 @@ for id_municipio, dado in inicial.items():
 
 
 # Analisando municípios que mais nomearam e exoneraram
-def dadosGeraisMunicipio(arg):
+def top5(arg):
     df = pd.DataFrame.from_dict(inicial, orient='index')
     df = df[df['id'] != 'geral']
     df = df.sort_values(by=['resumo'], ascending=False,
                         key=lambda x: x.str.get(arg))
-    top_3 = df.head(3)
-    contador = 1
+    top_4 = df.head(4)
     ranking = {}
-    for index, row in top_3.iterrows():
-        ranking[contador] = {
+    municipios = []
+    for index, (municipio, row) in enumerate(top_4.iterrows()):
+        ranking[index+1] = {
             "nome": row["nome"],
-            arg: row['resumo'][arg]
+            "num": row['resumo'][arg]
         }
-        contador += 1
+        municipios.append(municipio)
+    outros = df[4:]['resumo'].apply(lambda x: x[arg]).sum()
+    ranking[5] = {
+        "nome": "Outros",
+        "num": int(outros) 
+    }
     return ranking
 
 
-inicial['geral']['ranking_nomeacoes'] = dadosGeraisMunicipio("num_nomeacoes")
-inicial['geral']['ranking_exoneracoes'] = dadosGeraisMunicipio(
+inicial['geral']['ranking_nomeacoes'] = top5("num_nomeacoes")
+inicial['geral']['ranking_exoneracoes'] = top5(
     "num_exoneracoes")
 # Salvando dados para renderização da página inicial.
 for id_municipio, dado in inicial.items():
