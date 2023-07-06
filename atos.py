@@ -56,6 +56,7 @@ class AtoNormativo:
         # Limpeza do texto. Removemos quebras de linha, espaços, pontos e a parte final do texto.
         novo_texto = re.sub(
             r"\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
+        # 2021-01-29, ato 31EA193A, município de Jacaré dos Homens utilizou vários hífens ao invés de pontos no cpf.
         novo_texto = re.sub(r"\.|(?<=\d)-(?=\d{3}-)", "", novo_texto)
         # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
         novo_texto = novo_texto.replace("–", "-")
