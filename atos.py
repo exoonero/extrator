@@ -29,7 +29,8 @@ class AtoNormativo:
     # String: \*\*\*, município Maragogi, 15/08/2022, ato 2E57C952
     # String: –, município Pão de Açúcar, 02/01/2023, ato C7917E25
     # Erro de digitação do padrão cpf: 616.676668 – 00, município Pão de Açúcar, 02/01/2023, ato C7917E25. Solução na regex: (?:.|)
-    re_cpf = r"((?:\*{3}|\d{3})\d{3}(?:\*{3}|\d{3})-\d{2})"
+    # Erro de digitação do padrão cpf: 030-969-544-96, município Jacaré dos Homens, 29/01/2021, ato 31EA193A.
+    re_cpf = r"((?:\*{3}|\d{3}(?:-|))\d{3}(?:\*{3}|(?:-|)\d{3})-\d{2})"
 
     def __init__(self, texto: str):
         self.texto = texto
@@ -54,7 +55,9 @@ class AtoNormativo:
     def _extrai_cpf(self):
         # Limpeza do texto. Removemos quebras de linha, espaços, pontos e a parte final do texto.
         novo_texto = re.sub(
-            "\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
+            r"\n|\s|\.|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
+        # 2021-01-29, ato 31EA193A, município de Jacaré dos Homens utilizou vários hífens ao invés de pontos no cpf.
+        novo_texto = re.sub(r"\.|(?<=\d)-(?=\d{3}-)", "", novo_texto)
         # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
         novo_texto = novo_texto.replace("–", "-")
 
