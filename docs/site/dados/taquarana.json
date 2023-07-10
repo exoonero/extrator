@@ -2,29 +2,9 @@
   "id": "taquarana",
   "nome": "TAQUARANA",
   "detalhe": {
-    "2014": {
-      "10": {
-        "num_diarios": 4,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
-      },
-      "resumo": {
-        "num_diarios": 7,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
-      },
-      "11": {
-        "num_diarios": 1
-      },
-      "12": {
-        "num_diarios": 2,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
-      }
-    },
     "2015": {
-      "1": {
-        "num_diarios": 1,
+      "8": {
+        "num_diarios": 7,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -33,13 +13,8 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
-      "3": {
-        "num_diarios": 4,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
-      },
-      "4": {
-        "num_diarios": 1,
+      "7": {
+        "num_diarios": 3,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -48,13 +23,18 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
-      "7": {
-        "num_diarios": 3,
+      "4": {
+        "num_diarios": 1,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
-      "8": {
-        "num_diarios": 7,
+      "3": {
+        "num_diarios": 4,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "1": {
+        "num_diarios": 1,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -75,6 +55,26 @@
       },
       "12": {
         "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      }
+    },
+    "2014": {
+      "12": {
+        "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "resumo": {
+        "num_diarios": 7,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "11": {
+        "num_diarios": 1
+      },
+      "10": {
+        "num_diarios": 4,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       }
@@ -501,7 +501,7 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 77,
+        "num_diarios": 85,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -526,6 +526,11 @@
         "num_exoneracoes": 0
       },
       "6": {
+        "num_diarios": 8,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "7": {
         "num_diarios": 4,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
@@ -533,7 +538,7 @@
     }
   },
   "resumo": {
-    "num_diarios": 549,
+    "num_diarios": 557,
     "num_exoneracoes": 23,
     "num_nomeacoes": 271
   }

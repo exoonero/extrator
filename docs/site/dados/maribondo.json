@@ -3,8 +3,10 @@
   "nome": "MARIBONDO",
   "detalhe": {
     "2015": {
-      "5": {
-        "num_diarios": 2
+      "7": {
+        "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "resumo": {
         "num_diarios": 38,
@@ -16,10 +18,8 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
-      "7": {
-        "num_diarios": 2,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+      "5": {
+        "num_diarios": 2
       },
       "8": {
         "num_diarios": 3,
@@ -460,7 +460,7 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 43,
+        "num_diarios": 54,
         "num_nomeacoes": 7,
         "num_exoneracoes": 0
       },
@@ -485,14 +485,19 @@
         "num_exoneracoes": 0
       },
       "6": {
-        "num_diarios": 3,
+        "num_diarios": 10,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "7": {
+        "num_diarios": 4,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 491,
+    "num_diarios": 502,
     "num_exoneracoes": 2,
     "num_nomeacoes": 76
   }

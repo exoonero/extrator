@@ -3,8 +3,8 @@
   "nome": "PORTO REAL DO COLÉGIO",
   "detalhe": {
     "2015": {
-      "2": {
-        "num_diarios": 4,
+      "7": {
+        "num_diarios": 6,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -12,6 +12,16 @@
         "num_diarios": 45,
         "num_nomeacoes": 8,
         "num_exoneracoes": 5
+      },
+      "6": {
+        "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "5": {
+        "num_diarios": 3,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "3": {
         "num_diarios": 8,
@@ -21,18 +31,8 @@
       "4": {
         "num_diarios": 3
       },
-      "5": {
-        "num_diarios": 3,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
-      },
-      "6": {
-        "num_diarios": 2,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
-      },
-      "7": {
-        "num_diarios": 6,
+      "2": {
+        "num_diarios": 4,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -506,7 +506,7 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 57,
+        "num_diarios": 64,
         "num_nomeacoes": 30,
         "num_exoneracoes": 0
       },
@@ -531,14 +531,19 @@
         "num_exoneracoes": 0
       },
       "6": {
-        "num_diarios": 4,
+        "num_diarios": 10,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "7": {
+        "num_diarios": 1,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 560,
+    "num_diarios": 567,
     "num_exoneracoes": 6,
     "num_nomeacoes": 113
   }

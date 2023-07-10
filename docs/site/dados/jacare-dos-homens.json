@@ -86,17 +86,17 @@
     "2021": {
       "1": {
         "num_diarios": 3,
-        "num_nomeacoes": 3,
+        "num_nomeacoes": 4,
         "num_exoneracoes": 0
       },
       "resumo": {
         "num_diarios": 57,
-        "num_nomeacoes": 10,
+        "num_nomeacoes": 13,
         "num_exoneracoes": 0
       },
       "2": {
         "num_diarios": 8,
-        "num_nomeacoes": 7,
+        "num_nomeacoes": 9,
         "num_exoneracoes": 0
       },
       "3": {
@@ -210,7 +210,7 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 49,
+        "num_diarios": 58,
         "num_nomeacoes": 28,
         "num_exoneracoes": 0
       },
@@ -235,15 +235,18 @@
         "num_exoneracoes": 0
       },
       "6": {
-        "num_diarios": 2,
+        "num_diarios": 8,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
+      },
+      "7": {
+        "num_diarios": 3
       }
     }
   },
   "resumo": {
-    "num_diarios": 221,
+    "num_diarios": 230,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 38
+    "num_nomeacoes": 41
   }
 }
