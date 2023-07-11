@@ -308,9 +308,9 @@
                 {
                     "cod": "00D225DA",
                     "nomeacoes": 0,
-                    "exoneracoes": 0,
+                    "exoneracoes": 1,
                     "cpf_nomeacoes": [],
-                    "cpf_exoneracoes": []
+                    "cpf_exoneracoes": ["053.530.344-06"]
                 }
             ]
         },

@@ -72,12 +72,12 @@
       },
       "resumo": {
         "num_diarios": 85,
-        "num_nomeacoes": 0,
+        "num_nomeacoes": 3,
         "num_exoneracoes": 0
       },
       "2": {
         "num_diarios": 7,
-        "num_nomeacoes": 0,
+        "num_nomeacoes": 3,
         "num_exoneracoes": 0
       },
       "3": {
@@ -126,7 +126,9 @@
         "num_exoneracoes": 0
       },
       "12": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       }
     },
     "2020": {
@@ -141,7 +143,9 @@
         "num_exoneracoes": 0
       },
       "2": {
-        "num_diarios": 4
+        "num_diarios": 4,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "3": {
         "num_diarios": 7,
@@ -270,7 +274,7 @@
       "resumo": {
         "num_diarios": 126,
         "num_nomeacoes": 9,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "2": {
         "num_diarios": 12,
@@ -280,7 +284,7 @@
       "3": {
         "num_diarios": 10,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "4": {
         "num_diarios": 5,
@@ -335,8 +339,8 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 66,
-        "num_nomeacoes": 0,
+        "num_diarios": 75,
+        "num_nomeacoes": 27,
         "num_exoneracoes": 0
       },
       "2": {
@@ -346,7 +350,7 @@
       },
       "3": {
         "num_diarios": 17,
-        "num_nomeacoes": 0,
+        "num_nomeacoes": 27,
         "num_exoneracoes": 0
       },
       "4": {
@@ -360,15 +364,20 @@
         "num_exoneracoes": 0
       },
       "6": {
-        "num_diarios": 4,
+        "num_diarios": 11,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "7": {
+        "num_diarios": 2,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 536,
-    "num_exoneracoes": 0,
-    "num_nomeacoes": 9
+    "num_diarios": 545,
+    "num_exoneracoes": 1,
+    "num_nomeacoes": 39
   }
 }

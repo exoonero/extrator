@@ -10,8 +10,8 @@
                     "cod": "E3FA5324",
                     "nomeacoes": 3,
                     "exoneracoes": 0,
-                    "cpf_nomeacoes": [],
-                    "cpf_exoneracoes": ["048.250.764-08", "894.479.304-25", "030.287.844-08"]
+                    "cpf_nomeacoes": ["048.250.764-08", "894.479.304-25", "030.287.844-08"],
+                    "cpf_exoneracoes": []
                 }
             ]
         },

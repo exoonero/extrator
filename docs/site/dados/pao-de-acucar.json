@@ -4,7 +4,9 @@
   "detalhe": {
     "2014": {
       "4": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "resumo": {
         "num_diarios": 17,
@@ -27,7 +29,9 @@
         "num_exoneracoes": 0
       },
       "8": {
-        "num_diarios": 2
+        "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "9": {
         "num_diarios": 3,
@@ -35,10 +39,14 @@
         "num_exoneracoes": 0
       },
       "10": {
-        "num_diarios": 2
+        "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "11": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "12": {
         "num_diarios": 1,
@@ -58,7 +66,9 @@
         "num_exoneracoes": 0
       },
       "2": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "3": {
         "num_diarios": 8,
@@ -71,7 +81,9 @@
         "num_exoneracoes": 0
       },
       "5": {
-        "num_diarios": 3
+        "num_diarios": 3,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "6": {
         "num_diarios": 3,
@@ -79,7 +91,9 @@
         "num_exoneracoes": 0
       },
       "7": {
-        "num_diarios": 2
+        "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "8": {
         "num_diarios": 5,
@@ -134,7 +148,9 @@
         "num_exoneracoes": 0
       },
       "5": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "6": {
         "num_diarios": 3,
@@ -174,7 +190,9 @@
     },
     "2017": {
       "1": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "resumo": {
         "num_diarios": 49,
@@ -187,7 +205,9 @@
         "num_exoneracoes": 0
       },
       "3": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "4": {
         "num_diarios": 3,
@@ -195,7 +215,9 @@
         "num_exoneracoes": 0
       },
       "5": {
-        "num_diarios": 2
+        "num_diarios": 2,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "6": {
         "num_diarios": 6,
@@ -235,7 +257,9 @@
     },
     "2018": {
       "1": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       },
       "resumo": {
         "num_diarios": 62,
@@ -435,13 +459,13 @@
     "2021": {
       "1": {
         "num_diarios": 6,
-        "num_nomeacoes": 20,
+        "num_nomeacoes": 23,
         "num_exoneracoes": 0
       },
       "resumo": {
         "num_diarios": 111,
-        "num_nomeacoes": 59,
-        "num_exoneracoes": 5
+        "num_nomeacoes": 90,
+        "num_exoneracoes": 9
       },
       "2": {
         "num_diarios": 2,
@@ -451,11 +475,11 @@
       "3": {
         "num_diarios": 7,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 1
+        "num_exoneracoes": 2
       },
       "4": {
         "num_diarios": 10,
-        "num_nomeacoes": 24,
+        "num_nomeacoes": 52,
         "num_exoneracoes": 0
       },
       "5": {
@@ -481,17 +505,17 @@
       "9": {
         "num_diarios": 9,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 1
+        "num_exoneracoes": 2
       },
       "10": {
         "num_diarios": 11,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "11": {
         "num_diarios": 13,
         "num_nomeacoes": 15,
-        "num_exoneracoes": 1
+        "num_exoneracoes": 2
       },
       "12": {
         "num_diarios": 16,
@@ -507,8 +531,8 @@
       },
       "resumo": {
         "num_diarios": 147,
-        "num_nomeacoes": 60,
-        "num_exoneracoes": 16
+        "num_nomeacoes": 61,
+        "num_exoneracoes": 18
       },
       "2": {
         "num_diarios": 16,
@@ -518,7 +542,7 @@
       "3": {
         "num_diarios": 14,
         "num_nomeacoes": 15,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "4": {
         "num_diarios": 12,
@@ -527,7 +551,7 @@
       },
       "5": {
         "num_diarios": 11,
-        "num_nomeacoes": 0,
+        "num_nomeacoes": 1,
         "num_exoneracoes": 0
       },
       "6": {
@@ -553,7 +577,7 @@
       "10": {
         "num_diarios": 12,
         "num_nomeacoes": 1,
-        "num_exoneracoes": 1
+        "num_exoneracoes": 2
       },
       "11": {
         "num_diarios": 10,
@@ -569,17 +593,17 @@
     "2023": {
       "1": {
         "num_diarios": 13,
-        "num_nomeacoes": 0,
+        "num_nomeacoes": 28,
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 65,
-        "num_nomeacoes": 3,
-        "num_exoneracoes": 0
+        "num_diarios": 79,
+        "num_nomeacoes": 32,
+        "num_exoneracoes": 3
       },
       "2": {
         "num_diarios": 9,
-        "num_nomeacoes": 3,
+        "num_nomeacoes": 4,
         "num_exoneracoes": 0
       },
       "3": {
@@ -598,15 +622,20 @@
         "num_exoneracoes": 0
       },
       "6": {
+        "num_diarios": 14,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 2
+      },
+      "7": {
         "num_diarios": 3,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       }
     }
   },
   "resumo": {
-    "num_diarios": 710,
-    "num_exoneracoes": 21,
-    "num_nomeacoes": 122
+    "num_diarios": 724,
+    "num_exoneracoes": 30,
+    "num_nomeacoes": 183
   }
 }
