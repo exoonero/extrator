@@ -56,7 +56,7 @@ for path in glob.glob("./data/diarios/*-atos.json"):
 
             inicial[id_municipio] = {
                 "id": id_municipio,
-                "nome": nome_municipio,
+                "nome": nome_municipio.title(),
                 "detalhe": detalhe,
             }
 
