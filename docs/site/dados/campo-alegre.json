@@ -3,21 +3,23 @@
   "nome": "CAMPO ALEGRE",
   "detalhe": {
     "2015": {
-      "8": {
-        "num_diarios": 7,
+      "6": {
+        "num_diarios": 4,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "resumo": {
         "num_diarios": 34,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 2
       },
       "7": {
-        "num_diarios": 3
+        "num_diarios": 3,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 1
       },
-      "6": {
-        "num_diarios": 4,
+      "8": {
+        "num_diarios": 7,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -252,7 +254,7 @@
       "resumo": {
         "num_diarios": 156,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "2": {
         "num_diarios": 12,
@@ -282,7 +284,7 @@
       "7": {
         "num_diarios": 9,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "8": {
         "num_diarios": 13,
@@ -452,7 +454,7 @@
       },
       "resumo": {
         "num_diarios": 213,
-        "num_nomeacoes": 25,
+        "num_nomeacoes": 27,
         "num_exoneracoes": 0
       },
       "2": {
@@ -487,7 +489,7 @@
       },
       "8": {
         "num_diarios": 22,
-        "num_nomeacoes": 25,
+        "num_nomeacoes": 26,
         "num_exoneracoes": 0
       },
       "9": {
@@ -502,7 +504,7 @@
       },
       "11": {
         "num_diarios": 14,
-        "num_nomeacoes": 0,
+        "num_nomeacoes": 1,
         "num_exoneracoes": 0
       },
       "12": {
@@ -519,8 +521,8 @@
       },
       "resumo": {
         "num_diarios": 113,
-        "num_nomeacoes": 3,
-        "num_exoneracoes": 0
+        "num_nomeacoes": 4,
+        "num_exoneracoes": 1
       },
       "2": {
         "num_diarios": 17,
@@ -544,19 +546,19 @@
       },
       "6": {
         "num_diarios": 13,
-        "num_nomeacoes": 3,
+        "num_nomeacoes": 4,
         "num_exoneracoes": 0
       },
       "7": {
         "num_diarios": 6,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       }
     }
   },
   "resumo": {
     "num_diarios": 1176,
-    "num_exoneracoes": 0,
-    "num_nomeacoes": 53
+    "num_exoneracoes": 4,
+    "num_nomeacoes": 56
   }
 }

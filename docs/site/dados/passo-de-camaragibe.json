@@ -6,12 +6,12 @@
       "1": {
         "num_diarios": 5,
         "num_nomeacoes": 1,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "resumo": {
         "num_diarios": 42,
         "num_nomeacoes": 1,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "2": {
         "num_diarios": 6,
@@ -47,7 +47,7 @@
   },
   "resumo": {
     "num_diarios": 42,
-    "num_exoneracoes": 0,
+    "num_exoneracoes": 1,
     "num_nomeacoes": 1
   }
 }

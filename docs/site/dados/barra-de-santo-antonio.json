@@ -120,7 +120,7 @@
       "resumo": {
         "num_diarios": 58,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "2": {
         "num_diarios": 9,
@@ -145,7 +145,7 @@
       "6": {
         "num_diarios": 10,
         "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_exoneracoes": 1
       },
       "7": {
         "num_diarios": 3,
@@ -156,7 +156,7 @@
   },
   "resumo": {
     "num_diarios": 205,
-    "num_exoneracoes": 0,
+    "num_exoneracoes": 1,
     "num_nomeacoes": 0
   }
 }

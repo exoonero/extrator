@@ -34,7 +34,9 @@
         "num_exoneracoes": 0
       },
       "7": {
-        "num_diarios": 1
+        "num_diarios": 1,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       }
     }
   },
