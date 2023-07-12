@@ -53,7 +53,10 @@ for path in glob.glob("./data/diarios/*-atos.json"):
             detalhe_ano[mes] = detalhe_ano_mes
             detalhe[ano] = detalhe_ano
             detalhe_ano["resumo"] = detalhe_ano_resumo
-
+            nome_municipio = nome_municipio.title()
+            nome_municipio = nome_municipio.replace(" De ", " de ")
+            nome_municipio = nome_municipio.replace(" Da ", " da ")
+            nome_municipio = nome_municipio.replace(" Do ", " do ")
             inicial[id_municipio] = {
                 "id": id_municipio,
                 "nome": nome_municipio,
