@@ -65,6 +65,7 @@ class IntegracaoTest(unittest.TestCase):
             'test_data/diario-completo-2015-03-26-test.json',
             'test_data/diario-completo-2014-06-23-test.json',
             'test_data/diario-completo-2014-05-20-test.json',
+            'test_data/diario-completo-2021-04-23-test.json',
         )
         for case_path in cases:
             with open(case_path, 'r') as f:
