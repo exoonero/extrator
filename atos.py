@@ -30,7 +30,7 @@ class AtoNormativo:
     # String: –, município Pão de Açúcar, 02/01/2023, ato C7917E25
     # Erro de digitação do padrão cpf: 616.676668 – 00, município Pão de Açúcar, 02/01/2023, ato C7917E25. Solução na regex: (?:.|)
     # Erro de digitação do padrão cpf: 030-969-544-96, município Jacaré dos Homens, 29/01/2021, ato 31EA193A.
-    re_cpf = r"((?:\*{3}|\d{3}(?:-|))\d{3}(?:\*{3}|(?:-|)\d{3})-\d{2})"
+    re_cpf = r"((?:\*{3}|\d{3}(?:-|))(?:\d{3}|\*{3})(?:\*{3}|(?:-|)\d{3})-\d{2})"
 
     def __init__(self, texto: str):
         self.texto = texto

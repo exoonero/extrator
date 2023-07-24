@@ -21,6 +21,7 @@ class IntegracaoTest(unittest.TestCase):
             'test_data/diario-completo-2023-01-26-test.json',
             'test_data/diario-completo-2023-01-02-test.json',
             'test_data/diario-completo-2022-01-03-test.json',
+            'test_data/diario-completo-2022-03-22-test.json',
             'test_data/diario-completo-2022-08-15-test.json',
             'test_data/diario-completo-2022-08-29-test.json',
             'test_data/diario-completo-2022-07-20-test.json',
