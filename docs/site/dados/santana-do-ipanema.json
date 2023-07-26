@@ -257,9 +257,9 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 80,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_diarios": 89,
+        "num_nomeacoes": 24,
+        "num_exoneracoes": 1
       },
       "2": {
         "num_diarios": 11,
@@ -287,15 +287,15 @@
         "num_exoneracoes": 0
       },
       "7": {
-        "num_diarios": 5,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
+        "num_diarios": 14,
+        "num_nomeacoes": 24,
+        "num_exoneracoes": 1
       }
     }
   },
   "resumo": {
-    "num_diarios": 479,
-    "num_exoneracoes": 23,
-    "num_nomeacoes": 14
+    "num_diarios": 488,
+    "num_exoneracoes": 24,
+    "num_nomeacoes": 38
   }
 }

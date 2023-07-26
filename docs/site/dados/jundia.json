@@ -133,7 +133,7 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 29,
+        "num_diarios": 30,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -163,14 +163,14 @@
         "num_exoneracoes": 0
       },
       "7": {
-        "num_diarios": 1,
+        "num_diarios": 2,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 118,
+    "num_diarios": 119,
     "num_exoneracoes": 0,
     "num_nomeacoes": 0
   }
