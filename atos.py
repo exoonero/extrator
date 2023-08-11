@@ -56,7 +56,7 @@ class AtoNormativo:
         # Limpeza do texto. Removemos quebras de linha, espaços, pontos e a parte final do texto.
         novo_texto = re.sub(
             r"\n|\s|\.|\,|(Registre-se, publique-se e cumpra-se.[\s\S]*)", "", self.texto)
-        
+            
         # 2023-01-02, ato C7917E25, município Pão de Açúcar usou caracter U+2013 ("En Dash") ao invés de hifen
         novo_texto = novo_texto.replace("–", "-")
 
@@ -70,17 +70,27 @@ class AtoNormativo:
                 texto_exoneracoes += texto
             else:
                 texto_nomeacoes += texto
-
+        
         # Buscando e limpando os CPFs.
         cpf_nomeacoes = re.findall(self.re_cpf, texto_nomeacoes)
         cpf_exoneracoes = re.findall(self.re_cpf, texto_exoneracoes)
 
+        # Filtrar cpfs
+        
+        
         # Aplicando a regex para remover hifens extras nos CPFs encontrados
         regexhifen = r'(\d{3})-?(\d{3})-?(\d{3})-?(\d{2})'
         substitution = r'\1\2\3-\4'
         
+        
+        
         self.cpf_nomeacoes = [re.sub(regexhifen, substitution, cpf) for cpf in cpf_nomeacoes]
         self.cpf_exoneracoes = [re.sub(regexhifen, substitution, cpf) for cpf in cpf_exoneracoes]
+        
+        for cpf in cpf_exoneracoes:
+            if len(cpf) >= 12:
+                #print(f"cpf:{cpf}\nato:{self.cod}")
+                ...
         for i in range(len(self.cpf_nomeacoes)):
             self.cpf_nomeacoes[i] = f"{self.cpf_nomeacoes[i][0:3]}.{self.cpf_nomeacoes[i][3:6]}.{self.cpf_nomeacoes[i][6:8]}{self.cpf_nomeacoes[i][8:12]}"
         for i in range(len(self.cpf_exoneracoes)):
