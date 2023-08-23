@@ -17,6 +17,7 @@ class IntegracaoTest(unittest.TestCase):
         # Deve ser adicionado um arquivo -test.json para cada texto extraído (caso de teste)
         cases = (
             'test_data/diario-completo-2023-08-02-test.json',
+            'test_data/diario-completo-2023-07-20-test.json',
             'test_data/diario-completo-2023-03-17-test.json',
             'test_data/diario-completo-2023-03-16-test.json',
             'test_data/diario-completo-2023-01-26-test.json',
