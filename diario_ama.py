@@ -6,7 +6,7 @@ import diario_municipal
 # Exceções Notáveis
 # String: VAMOS, município Poço das Trincheiras, 06/01/2022, ato CCB3A6AB
 re_nomes_municipios = (
-    r"ESTADO DE ALAGOAS(?:| )\n{1,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}(?!VAMOS).*$)\n\s(?:\s|SECRETARIA)")
+    r"ESTADO (?:DE ALAGOAS|DO CEARÁ)(?:| )\n{1,2}PREFEITURA MUNICIPAL DE (.*\n{0,2}(?!VAMOS).*$)\n\s(?:\s|SECRETARIA)")
 
 
 def extrair_diarios_municipais(texto_diario: str):
@@ -49,7 +49,7 @@ def extrair_diarios_municipais(texto_diario: str):
     while num_linha < len(texto_diario_slice):
         linha = texto_diario_slice[num_linha].rstrip()
 
-        if linha.startswith("ESTADO DE ALAGOAS"):
+        if linha.startswith("ESTADO DE ALAGOAS") or linha.startswith("ESTADO DO CEARÁ"):
             nome = nome_municipio(texto_diario_slice, num_linha)
             if nome is not None:
                 municipio_atual = diario_municipal.Municipio(nome)
