@@ -1,136 +1,83 @@
-# IFAL - Querido Diário (OKBR)
 
-# Fluxo de Processamento
-PDF -> Tika -> Arquivo Extraído -> post_proc.py -> Arquivo(S) Proc <> Arquivo(S) Gabarito
-<br>
-O post_proc realiza o processamento do texto extraído para textos processados.
-## Manuseando Contêiner Apache Tika
+<h1 align="center">
+  <br>
+  <a href="https://exoonero.org"><img src="https://exoonero.org/favicon.ico" alt="Exoonero logo" width="200"></a>
+  <br>
+  Exoonero - Extrator
+  <br>
+</h1>
 
-Observação: Para funcionar, é necessário utilizar a versão mais recente do apache tika. A versão que está no dockerfile do Querido Diário está desatualizado. Para obter a imagem mais recente, fizemos o pull de uma imagem docker.
+<h4 align="center">Extrator das nomeações e exonerações de Alagoas e segmentador dos diários e atos do <a href="https://www.diariomunicipal.com.br/ama/" target="_blank">Diário Oficial AMA</a>.</h4>
 
-## Executando Fluxo Completo com proc.sh
+<p align="center">
+    <img src="https://img.shields.io/badge/python-%230095D5.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+</p>
 
-Para executar o script, você precisa ter docker rodando. O script vai pedir a senha de super usuário.
+<p align="center">
+  <a href="#sobre">Sobre</a> •
+  <a href="#fluxo-de-processamento">Fluxo de Processamento</a> •
+  <a href="#como-usar">Como Usar</a> •
+  <a href="#testes">Testes</a> 
+</p>
 
-O script recebe como parâmetro o diretório. Dentro deste, é esperado que exista um arquivo com o mesmo nome e extensão PDF.
+## Sobre
 
-Exemplo de execução:
-```sh
-./proc.sh diario-completo-2022-08-29
+O projeto tem como principal objetivo coletar, transformar em texto e separar em municípios os diários oficiais municipais da Associação dos Municípios Alagoanos (AMA). Além da separação do conteúdo por município, o texto do diário de cada ente estadual é separado em atos normativos. Também iremos utilizar algoritmos computacionais para classificar e extrair informações dos atos normativos dos diários de cada município. Mais especificamente, o nosso foco será em nomeações e exonerações.
+
+## Fluxo de Processamento
+
+![image](https://github.com/exoonero/extrator/assets/89322317/853fc4e4-c44c-4557-a59b-cd6152a4b825)<br>
+### Manual
 ```
-
-# Coletando e extraindo conjuntos de diários
-
-O docker precisa estar corretamente configurado e o daemon em execução (necessário para rodar o apache tika).
-
-O primeiro passo consistem em:
-
-1. Coletar os diários da [AMA]() usando o [querido diário]()
-1. Extrair o texto dos diários usando apache tika
-1. Segmentar o diário da AMA() em diversos diários municipais usando o script `extrair_diarios.py`.
-
-Por exemplo, para coletar e processar os diários entre 01/06/2022 e 31/12/2022, basta executar o seguinte comando.
-
+PDF de Diário -> Apache Tika -> Arquivo Extraído -> extrair_diarios.py -> Arquivo(s) Processados dos Diários -> extrair_atos.py -> Arquivo(s) Processados dos Atos de um Diário.
 ```
-START_DATE=2022-01-06 END_DATE=2022-12-31 ./coleta_diarios.sh
+### Automático
 ```
-
-Vale notar que um mesmo dia pode ter mais de um diário, pois existem edições extras. Isso é tratado com a adição de um número depois da data 
-
-Essa execução irá gerar um conjunto de arquivos no diretório `/data/diarios`. Listamos 2 tipos de arquivos:
-
-- `-extraido.txt`: versão texto do diário da AMA;
-- `-resumo-extracao.json`: resultado da segmentação do diário da AMA em diferentes diários municipais.
-
-Após a coleta, transformação em texto e segmentação do diário em diários, o próximo passo é dividir cada diário municipal em atos (ou ações executivas). Além disso, o script também processa o texto dos atos, por exemplo, realizando a identificação de nomeações e exonerações.
-
-O script `extrair_atos.sh` processa todos os arquivos `-resumo-extracao.json`. Ele extrairá os atos de todos os diários municipais segmentados.
-
+./coleta_diarios.sh && ./coleta_atos.sh
 ```
-./extrair_atos.sh
+> **Note**
+> Se você está usando Windows, utilize os arquivos que contenham _windows através de um Git Bash.
+
+### Sobre o Processamento (Gabarito)
+Para dar início ao processamento dos dados, foi montado um gabarito para processar o texto dos diários levando em consideração os seguintes pontos:
+- Remover linhas em branco até o cabeçalho
+- O cabeçalho (que contém a data e o nome da AMA) vir no início de cada extração de município uma vez -- deve ser repetido para cada município
+- Vamos deixar www.diariomunicipal.com.br/ama repetir como separador/marcador de página 
+- Remover tudo depois do último código identificador
+
+## Como Usar
+Ao coletar algum PDF do diário do site da [AMA](https://www.diariomunicipal.com.br/ama/) realize os seguintes passos. <br><br>
+<strong>1. Pull da Imagem do Apache Tika</strong><br>
 ```
-
-A execução desse script gerará um arquivo `-atos.json` para cada resumo de extração.
-
-### Gerando base de dados para análise
-
-Após realizar a extração dos atos dos diários municipais, basta executar:
-
-```
-python3 criar_dataset_atos.py
-```
-
-Esse script irá processar todos os arquivos `-atos.json` e gerar o arquivo `df.zip` contendo um resumo de todos os dados necessários para análise.
-
-Os arquivos de análise podem ser encontrados no diretório `analise`.
-
-## Executando o extrair_diarios.py
-
-O script recebe como parâmetro o texto extraído do PDF e gera os arquivos processados no mesmo diretório do texto extraído.
-
-Exemplo de execução:
-```sh
-python3 extrair_diarios.py diario-completo-2022-08-29/diario-completo-2022-08-29-extraido.txt
-```
-
-## Executando testes
-```sh
-python3 -m unittest integracao_test.py
-```
-
-### Executando Passo a Passo
-```sh
-# Realizar pull da imagem do apache tika
 sudo docker pull apache/tika:1.28.4
-# Rodar imagem mais recente do apache/tika
+```
+<strong>2. Rodar Imagem do Apache Tika</strong><br>
+```
 sudo docker run -d -p 9998:9998 --rm --name tika apache/tika:1.28.4
 ```
 
-### Contêiner logs
+<strong>3. Extrair Texto do PDF Usando Apache Tika</strong><br>
 
-```sh
-sudo docker logs tika
 ```
-
-### Entrando no Contêiner
-```sh
-docker exec -it tika bash
+curl -v -H "Accept: text/plain" -H "Content-Type: application/pdf" -T diario-exemplo-entrada.pdf http://localhost:9998/tika -o diario-exemplo-saida-extraido.txt
 ```
+Após o primeiro -T, colocamos o caminho do pdf que queremos extrair o texto. E depois de -o colocamos o caminho, nome e extensão do arquivo extraido.
 
-### Invocando Tika Manualmente
+## Testes
+Atualmente temos mais de 60 casos de teste, que aferem a corretude dos dados.
 
-```sh
-curl -v -H "Accept: text/plain" -H "Content-Type: application/pdf" -T diario-anadia-2022-08-29.pdf http://localhost:9998/tika
+<strong>Executar os testes</strong><br>
 ```
-### Parando Contêiner
-
-```sh
-sudo docker stop tika
+python -m unittest integracao_test.py
 ```
-### Extrair texto do pdf e o salvando em um arquivo txt (sem tags html) e html
-```sh
-#Com o apache tika rodando
-#Para txt:
-
-curl -v -H "Accept: text/plain" -H "Content-Type: application/pdf" -T diario-anadia-2022-08-29.pdf http://localhost:9998/tika -o diario-anadia-2022-08-29-extraido.txt 
-
-#Para html:
-
-curl -v -H "Accept: text/html" -H "Content-Type: application/pdf" -T diario-anadia-2022-08-29.pdf http://localhost:9998/tika -o diario-anadia-2022-08-29-extraido.html
+Ou
 ```
-
-
-### Comandos
-```sh
-# docker build - constrói uma imagem docker
-# docker pull - baixa uma imagem já existente
-# docker run - roda uma imagem
+python3 -m unittest integracao_test.py
 ```
+## Related
 
-### Como montamos o gabarito
+[Exoonero](https://exoonero.org) - Website do Projeto onde os dados aqui capturados são exibidos.
 
-- Remover linhas em branco até o cabeçalho
-- Remover preâmbulo (parte em azul no diário)
-- O cabeçalho (que contém a data e o nome da AMA) vir no início de cada extração de município **uma vez** -- deve ser repetido para cada município
-- Vamos deixar `www.diariomunicipal.com.br/ama` repetir como separador/marcador de página (só não tocar nele, já está certinho)
-- Remover tudo depois do último código identificador
+Os dados exibidos no site estão na pasta: docs/site/dados <br>
+E podem ser gerados executando o código docs/site_home_data.py <br>
+Que é responsável por gerar arquivos jsons contabilizando diários, nomeações e exonerações com base nos arquivos  gerados com a execução do <strong>Fluxo de Processamento Automático</strong>, mostrado tópicos [acima](https://github.com/exoonero/extrator/edit/main/README.md#autom%C3%A1tico).
