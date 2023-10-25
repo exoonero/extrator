@@ -3,7 +3,7 @@
   "nome": "Paulo Jacinto",
   "detalhe": {
     "2015": {
-      "2": {
+      "8": {
         "num_diarios": 2,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
@@ -13,7 +13,7 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
-      "8": {
+      "2": {
         "num_diarios": 2,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
@@ -259,7 +259,7 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 55,
+        "num_diarios": 75,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -292,11 +292,26 @@
         "num_diarios": 5,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
+      },
+      "8": {
+        "num_diarios": 9,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "9": {
+        "num_diarios": 5,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "10": {
+        "num_diarios": 6,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 345,
+    "num_diarios": 365,
     "num_exoneracoes": 10,
     "num_nomeacoes": 28
   }

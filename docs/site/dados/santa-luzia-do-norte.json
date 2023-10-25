@@ -381,8 +381,8 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 66,
-        "num_nomeacoes": 13,
+        "num_diarios": 105,
+        "num_nomeacoes": 15,
         "num_exoneracoes": 0
       },
       "2": {
@@ -411,15 +411,30 @@
         "num_exoneracoes": 0
       },
       "7": {
-        "num_diarios": 8,
+        "num_diarios": 9,
         "num_nomeacoes": 5,
+        "num_exoneracoes": 0
+      },
+      "8": {
+        "num_diarios": 19,
+        "num_nomeacoes": 1,
+        "num_exoneracoes": 0
+      },
+      "9": {
+        "num_diarios": 11,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "10": {
+        "num_diarios": 8,
+        "num_nomeacoes": 1,
         "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 608,
+    "num_diarios": 647,
     "num_exoneracoes": 0,
-    "num_nomeacoes": 366
+    "num_nomeacoes": 368
   }
 }
