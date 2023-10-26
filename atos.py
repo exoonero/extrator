@@ -16,7 +16,7 @@ class AtoNormativo:
     # String: "Ficam nomeados", município Santa Luzia do Norte, 04/01/2021, ato 8D9E57A4
     # String: "nomeação do Conselho", município Piranhas, 04/01/2021, ato F12265E5
     # String: "nomear,", município Coruripe, 15/01/2021, ato EC041157
-    re_nomeacoes = r"(Nomear|NOMEAR|nomear,|nomeação do Conselho|Ficam nomeados|CONVOCA os candidatos aprovados e nomeados|ficam nomeados os membros|APROVADO e NOMEADO|Art.1º. NOMEAÇÃO)( |,|)"
+    re_nomeacoes = r"(Nomear|NOMEAR|nomear,|nomeação do Conselho|Ficam nomeados|CONVOCA os candidatos aprovados e nomeados|APROVADO e NOMEADO|Art.1º. NOMEAÇÃO|ficam nomeados)( |,|)"
 
     # Exceções notáveis (exonerações):
     # String: "Ficam exonerados", município São José da Taoera, 02/01/2023, ato 49D56711
