@@ -3,8 +3,8 @@
   "nome": "Maribondo",
   "detalhe": {
     "2015": {
-      "5": {
-        "num_diarios": 2,
+      "8": {
+        "num_diarios": 3,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -13,18 +13,18 @@
         "num_nomeacoes": 2,
         "num_exoneracoes": 0
       },
-      "6": {
-        "num_diarios": 3,
-        "num_nomeacoes": 0,
-        "num_exoneracoes": 0
-      },
       "7": {
         "num_diarios": 2,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
-      "8": {
+      "6": {
         "num_diarios": 3,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "5": {
+        "num_diarios": 2,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -480,9 +480,9 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 62,
-        "num_nomeacoes": 10,
-        "num_exoneracoes": 1
+        "num_diarios": 95,
+        "num_nomeacoes": 14,
+        "num_exoneracoes": 2
       },
       "2": {
         "num_diarios": 8,
@@ -510,15 +510,30 @@
         "num_exoneracoes": 0
       },
       "7": {
-        "num_diarios": 12,
+        "num_diarios": 13,
         "num_nomeacoes": 1,
+        "num_exoneracoes": 0
+      },
+      "8": {
+        "num_diarios": 12,
+        "num_nomeacoes": 4,
+        "num_exoneracoes": 0
+      },
+      "9": {
+        "num_diarios": 8,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 1
+      },
+      "10": {
+        "num_diarios": 12,
+        "num_nomeacoes": 0,
         "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 510,
-    "num_exoneracoes": 8,
-    "num_nomeacoes": 109
+    "num_diarios": 543,
+    "num_exoneracoes": 9,
+    "num_nomeacoes": 113
   }
 }

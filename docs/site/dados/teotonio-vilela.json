@@ -3,8 +3,8 @@
   "nome": "Teotonio Vilela",
   "detalhe": {
     "2015": {
-      "6": {
-        "num_diarios": 2,
+      "8": {
+        "num_diarios": 7,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -18,8 +18,8 @@
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
-      "8": {
-        "num_diarios": 7,
+      "6": {
+        "num_diarios": 2,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       },
@@ -520,7 +520,7 @@
         "num_exoneracoes": 0
       },
       "resumo": {
-        "num_diarios": 133,
+        "num_diarios": 191,
         "num_nomeacoes": 90,
         "num_exoneracoes": 0
       },
@@ -550,14 +550,29 @@
         "num_exoneracoes": 0
       },
       "7": {
-        "num_diarios": 17,
+        "num_diarios": 20,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "8": {
+        "num_diarios": 23,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "9": {
+        "num_diarios": 18,
+        "num_nomeacoes": 0,
+        "num_exoneracoes": 0
+      },
+      "10": {
+        "num_diarios": 14,
         "num_nomeacoes": 0,
         "num_exoneracoes": 0
       }
     }
   },
   "resumo": {
-    "num_diarios": 1356,
+    "num_diarios": 1414,
     "num_exoneracoes": 104,
     "num_nomeacoes": 1244
   }

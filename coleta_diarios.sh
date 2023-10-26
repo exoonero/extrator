@@ -25,6 +25,9 @@ docker ps > /dev/null
 cd ${REPO_DIR} || (git clone https://github.com/okfn-brasil/querido-diario qd && cd ${REPO_DIR})
 python3 -m venv .venv
 source .venv/bin/activate
+pip install --upgrade pip
+pip install setuptools
+pip install wheel
 pip install -r ${DATA_COLLECTION_DIR}/requirements-dev.txt
 
 # Coletando diários e movendo para a pasta diários.
@@ -44,7 +47,7 @@ done
 
 # Finalizando e saindo do ambiente virtual.
 cd ${REPO_DIR}
-deactivate
+
 
 # Extraindo texto dos diários e segmentando diários.
 cd ${DOWNLOAD_DIR}
