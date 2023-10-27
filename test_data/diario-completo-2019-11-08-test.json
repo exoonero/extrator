@@ -1,0 +1,675 @@
+{
+    "desc": "diario-completo-2019-11-08-extraido.txt",
+    "path": "test_data/diario-completo-2019-11-08-extraido.txt",
+    "cabecalho": "Alagoas , 08 de Novembro de 2019   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO VII | Nº 1160 ",
+    "diarios": [
+        {
+            "municipio": "ARAPIRACA",
+            "atos": [
+                {
+                    "cod": "39BA6E21",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "C80CB95D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "DCD5CD20",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "ATALAIA",
+            "atos": [
+                {
+                    "cod": "C09AAB4D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "CACIMBINHAS",
+            "atos": [
+                {
+                    "cod": "6AC394FC",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "3F7E8BFD",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "CAMPO GRANDE",
+            "atos": [
+                {
+                    "cod": "2DB11607",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "811BF5AB",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "CAPELA",
+            "atos": [
+                {
+                    "cod": "C21A14CE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "COITÉ DO NÓIA",
+            "atos": [
+                {
+                    "cod": "DE0F7C48",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "CORURIPE",
+            "atos": [
+                {
+                    "cod": "1F1174C9",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "IGREJA NOVA",
+            "atos": [
+                {
+                    "cod": "97127FA2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "6B34DD2E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "EC153236",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "INHAPI",
+            "atos": [
+                {
+                    "cod": "7BCACD27",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "JACARÉ DOS HOMENS",
+            "atos": [
+                {
+                    "cod": "53F0753F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "74B8F8F1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "250DD321",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "MARECHAL DEODORO",
+            "atos": [
+                {
+                    "cod": "F261379F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 1,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": ["107.671.844-24"]
+                },
+                {
+                    "cod": "A1216459",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["994.715.074-72"],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "C53ECC92",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["072.530.414-61"],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "3944C78E",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["087.019.914-50"],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "4B2E3D0E",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["052.514.454-40"],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "4CD93C88",
+                    "nomeacoes": 1,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": ["113.436.144-06"],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "4664FCF6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "BC0BA51D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "0DDDE336",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "ACB01BDF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "595E7380",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "1CDE8312",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "388B6088",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "2E962FE5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "2A79E77F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E1E18C54",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "2791F01B",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E3B3E2F3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "MAR VERMELHO",
+            "atos": [
+                {
+                    "cod": "120B0BC4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D'ÁGUA DAS FLORES",
+            "atos": [
+                {
+                    "cod": "37CDDA63",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E82B9039",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "OLHO D´AGUA DO CASADO",
+            "atos": [
+                {
+                    "cod": "262E4BCA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "PÃO DE AÇÚCAR",
+            "atos": [
+                {
+                    "cod": "36E24150",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E2AA4C0A",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "DA2717A3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "77B8ED86",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "7A46C6B1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "PAULO JACINTO",
+            "atos": [
+                {
+                    "cod": "0E2C4DF6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "QUEBRANGULO",
+            "atos": [
+                {
+                    "cod": "9B0F9E33",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "B2275523",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "050655F3",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "464E2B77",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "B000E7B4",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "578D800E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "307B3A19",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "20F517A2",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "4BC5911D",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "7B017205",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "767EF7DA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "0DCE8492",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO IPANEMA",
+            "atos": [
+                {
+                    "cod": "125ED9AA",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "SANTANA DO MUNDAÚ",
+            "atos": [
+                {
+                    "cod": "79CC50C1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO JOSÉ DA LAJE",
+            "atos": [
+                {
+                    "cod": "EBDBE700",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "SÃO LUIS DO QUITUNDE",
+            "atos": [
+                {
+                    "cod": "3DF4AD4C",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E1CEE317",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "463ED0A5",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "0BF4ABD6",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "792F3DC1",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "8CD584A7",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "1811AF3F",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "0F2678C8",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E2D76E73",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "38D4BA08",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "BFCE6C4E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "TEOTONIO VILELA",
+            "atos": [
+                {
+                    "cod": "D10F39D0",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E046CCED",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "B067CEEE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "78BAAF95",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "3411A2AF",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        },
+        {
+            "municipio": "VIÇOSA",
+            "atos": [
+                {
+                    "cod": "176AFDAE",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                },
+                {
+                    "cod": "E705D92E",
+                    "nomeacoes": 0,
+                    "exoneracoes": 0,
+                    "cpf_nomeacoes": [],
+                    "cpf_exoneracoes": []
+                }
+            ]
+        }
+    ]
+}
