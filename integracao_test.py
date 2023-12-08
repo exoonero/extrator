@@ -16,6 +16,7 @@ class IntegracaoTest(unittest.TestCase):
         # Novos casos de teste devem ser adicionados na tupla abaixo.
         # Deve ser adicionado um arquivo -test.json para cada texto extraído (caso de teste)
         cases = (
+            'test_data/diario-completo-2019-09-11-test.json',
             'test_data/diario-completo-2020-08-14-test.json',
             'test_data/diario-completo-2022-10-07-test.json',
             'test_data/diario-completo-2019-11-08-test.json',
